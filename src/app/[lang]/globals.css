@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #FAF5F2;
+  --color-foreground: #0F172A;
+  
+  --color-primary: #78716C;
+  --color-primary-foreground: #FFFFFF;
+  
+  --color-secondary: #A8A29E;
+  --color-secondary-foreground: #FFFFFF;
+  
+  --color-surface: #FFFFFF;
+  --color-border: #EEEDED;
+  --color-ring: #78716C;
+  
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #FFFFFF;
+  
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+/* Base resets mapped to the app */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}

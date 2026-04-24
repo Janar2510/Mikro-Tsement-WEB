@@ -1,0 +1,938 @@
+{
+    "events": {
+    "title": "Architectural Dialogues",
+    "subtitle": "Join our studio for immersive workshops, showroom openings, and material deep-dives across Europe.",
+    "items": [
+      {
+        "date": "May 12, 2024",
+        "name": "The Alchemy of Sand",
+        "description": "A hands-on workshop focused on mineral pigment mixing and hand-trowel techniques."
+      },
+      {
+        "date": "June 05, 2024",
+        "name": "Design District Expo",
+        "description": "Showcasing our new 'Brutal Silence' collection at the International Design Fair."
+      }
+    ],
+    "workshop": {
+      "label": "Education & Training",
+      "title": "Learn Microcement Installation With Us",
+      "subtitle": "We train individuals and companies in professional microcement installation. Every graduate receives an internationally recognised certificate.",
+      "intro": "Our hands-on workshops take place in our Tallinn studio. Led by master applicators with over a decade of project experience, the programme covers surface preparation, mixing, trowel technique, colour theory, sealing, and quality control.",
+      "tiers": [
+        {
+          "type": "Individual",
+          "badge": "1 – 4 Participants",
+          "duration": "2-Day Intensive",
+          "description": "Ideal for independent contractors, designers, and renovation specialists who want to add microcement to their skill set.",
+          "includes": ["Full material kit", "Hands-on trowel practice", "Colour mixing lab", "Professional Installer Certificate"]
+        },
+        {
+          "type": "Corporate",
+          "badge": "5 – 20 Participants",
+          "duration": "3-Day Programme",
+          "description": "Tailored team training for construction firms, interior studios, and real estate developers.",
+          "includes": ["Custom curriculum", "On-site practice sessions", "Team material kit", "Professional Installer Certificates", "3-month follow-up support"]
+        }
+      ],
+      "certificate": {
+        "title": "Professional Installer Certificate",
+        "desc": "Awarded to every graduate, recognised across Estonia and the EU. Demonstrates mastery of surface preparation, mineral application, and quality sealing."
+      },
+      "cta": "Reserve Your Spot"
+    }
+  },
+  "contact": {
+    "title": "Consult with our Studio",
+    "subtitle": "Reach out to discuss your architectural vision. We provide bespoke consultation for global projects.",
+    "email": "studio@ateliermicro.com",
+    "address": "124 Mineral St, Tallinn 10115",
+    "tel": "+372 555 124 12",
+    "cta": "Send Inquiry"
+  },
+  "blog": {
+    "title": "The Journal",
+    "subtitle": "Reflections on architecture, the evolution of materiality, and the quiet luxury of the handmade.",
+    "posts": [
+      {
+        "slug": "rhythm-of-the-hand",
+        "title": "The Rhythm of the Hand",
+        "date": "April 02, 2024",
+        "image": "/assets/pages/blog/rhythm-of-the-hand.png",
+        "excerpt": "Exploring why the hand-troweled surface remains the industry gold standard for luxury interiors.",
+        "content": [
+          "Microcement is more than a mixture of minerals and polymers; it is a medium for human expression. Unlike poured floors or factory-made tiles, a hand-troweled surface carries the distinctive rhythm of the artisan who applied it.",
+          "This biological irregularity is what defines 'Quiet Luxury'. In a world moving toward automated perfection, the subtle variations in trowel pressure and motion create a landscape that is uniquely yours. It is a material that records the process of its own creation.",
+          "When we speak of the 'Rhythm of the Hand', we refer to the meditative state our artisans enter during application. It is this focus that ensures the final texture is not just seen, but felt."
+        ]
+      },
+      {
+        "slug": "mineral-tonality",
+        "title": "Exploring Mineral Tonality",
+        "date": "March 20, 2024",
+        "image": "/assets/pages/blog/mineral-tonality.png",
+        "excerpt": "How natural pigments respond to changing light conditions throughout the day.",
+        "content": [
+          "Color in a mineral surface is never static. Because KUUS DESIGN utilizes raw earthen pigments, the tonality of the surface shifts as natural light moves across the room.",
+          "A 'Bone' white might feel warm and inviting at sunset, yet crisp and architectural during the bright afternoon hours. This interaction with the environment is a core pillar of our design philosophy.",
+          "We encourage architects to view our surfaces as living canvases. By selecting specific pigment foundations, we can align the atmosphere of a space with the natural rhythms of its geographic location."
+        ]
+      },
+      {
+        "slug": "bathroom-renovation-no-demolition",
+        "title": "Bathroom Renovation Without Demolition",
+        "date": "April 15, 2024",
+        "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
+        "excerpt": "Discover how microcement allows for a complete aesthetic transformation without the noise and mess of demolition.",
+        "content": [
+          "Traditional bathroom renovations are synonymous with weeks of demolition, dust, and structural disruption. Microcement offers a sophisticated alternative: a continuous mineral skin that can be applied directly over your existing tiles.",
+          "This 'Zero Demolition' approach is possible due to the extreme adhesion properties of our specialized mineral formulas. By bypassing the removal process, we significantly reduce waste and project timelines while maintaining a monolithic, spa-like result.",
+          "The seamless nature of a microcement bathroom is not just a visual choice; it is a hygienic one. Without grout lines, moisture and mold have nowhere to hide, ensuring your sanctuary remains as pure as the day it was finished."
+        ]
+      },
+      {
+        "slug": "microcement-on-tiles-guide",
+        "title": "The Definitive Guide: Microcement on Tiles",
+        "date": "April 10, 2024",
+        "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
+        "excerpt": "Surface preparation is the foundation of longevity. Learn the professional process of covering old ceramic with microcement.",
+        "content": [
+          "Can you really apply microcement over old tiles? The answer is a definitive yes, provided the substrate is sound. The primary advantage of this technique is the ability to achieve a modern, grout-free look without raising floor levels significantly.",
+          "The process begins with diamond-grinding the tile surface to open the pores, followed by a double-layer epoxy primer reinforced with fiberglass mesh. This creates a stable, non-porous foundation that prevents 'ghosting'—the visual telegraphing of old grout lines through the new surface.",
+          "At KUUS DESIGN, we utilize specific base-mortars designed to neutralize structural movement. The resulting finish is just 3mm thick yet carries the compressive strength of high-end architectural concrete."
+        ]
+      },
+      {
+        "slug": "microcement-furniture-trends-2026",
+        "title": "Sculptural Silence: Microcement Furniture Trends 2026",
+        "date": "April 05, 2024",
+        "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
+        "excerpt": "Furniture is no longer just functional; it is an architectural object. Explore why mineral materiality is the defining trend for 2026.",
+        "content": [
+          "In 2026, the boundary between furniture and architecture continues to blur. Designers are moving away from modular assemblies in favor of monolithic objects that feel as if they were carved from the room's very foundation.",
+          "Microcement furniture—cubical coffee tables, cantilevered dining surfaces, and seamless sideboards—serves as the ultimate expression of this 'Monolithic Minimalism'. The material allows for geometric precision while providing the tactile warmth of natural stone.",
+          "The trend is shifting toward 'Brutal Elegance'—pairing heavy, mineral forms with soft, organic textiles. A microcement object doesn't just occupy space; it anchors it with a sense of permanence and architectural intent."
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "products": "Products",
+    "story": "Our Story",
+    "blog": "Blog",
+    "projects": "Client Projects",
+    "faq": "FAQ",
+    "business": "For Business",
+    "events": "Events",
+    "contact": "Contact",
+    "guide": "The Guide",
+    "colors": "Colours",
+    "surfaces": "Surfaces",
+    "philosophy": "Philosophy"
+  },
+  "products": {
+    "title": "Minimalist Collections",
+    "subtitle": "Seamless architectural finishes that redefine the boundaries between art and architecture.",
+    "items": {
+      "flooring": {
+        "name": "Polished Floors",
+        "description": "Seamless, high-traffic surfaces that offer a serene foundation for minimalist interiors.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Unrivaled Durability",
+            "desc": "Baxab® Flooring is engineered for high-traffic environments, resisting cracks and impact better than traditional concrete."
+          },
+          {
+            "icon": "droplets",
+            "title": "Seamless Hygiene",
+            "desc": "A grout-free surface means no place for bacteria to hide. Perfectly waterproof and exceptionally easy to clean."
+          },
+          {
+            "icon": "leaf",
+            "title": "Ecological Foundation",
+            "desc": "VOC-free and crafted from natural minerals. Contributing to healthier indoor air quality for your living spaces."
+          },
+          {
+            "icon": "sun",
+            "title": "UV Stable",
+            "desc": "Our unique mineral pigments remain vibrant and color-fast even under direct sunlight and high UV exposure."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/flooring-main.png",
+          "/assets/pages/products/flooring-s1.png",
+          "/assets/pages/products/flooring-s2.png",
+          "/assets/pages/products/flooring-s3.png",
+          "/assets/pages/products/flooring-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Thickness", "value": "3.0 mm" },
+            { "label": "Hardness", "value": "Shore D 82" },
+            { "label": "Curing Time", "value": "48 Hours" },
+            { "label": "Substrate", "value": "Concrete, Tiles, Screed" }
+          ],
+          "maintenance": "Weekly cleaning with pH-neutral agents. No specialized waxing required for our pro-seal finish.",
+          "philosophy": "A foundation that absorbs sound and reflects calm."
+        }
+      },
+      "walls": {
+        "name": "Textured Walls",
+        "description": "Hand-troweled depth that captures the play of light and shadow on every surface.",
+        "features": [
+          {
+            "icon": "edit",
+            "title": "Artisan Texture",
+            "desc": "Each wall is a unique work of art, hand-finished to create subtle topographic depth and mineral rhythm."
+          },
+          {
+            "icon": "wind",
+            "title": "Breathable Skin",
+            "desc": "Our mineral formula allows walls to breathe, naturally regulating humidity and preventing moisture buildup."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Light Responsive",
+            "desc": "Natural pigments respond to changing light conditions, shifting tonality from morning to dusk."
+          },
+          {
+            "icon": "zap",
+            "title": "Rapid Installation",
+            "desc": "Our specialized vertical base allows for quick application over existing drywall or masonry."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/walls-1.png",
+          "/assets/pages/products/walls-2.png",
+          "/assets/pages/products/walls-3.png",
+          "/assets/pages/products/walls-4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Thickness", "value": "2.0 mm" },
+            { "label": "Adhesion", "value": "High Vertical Stability" },
+            { "label": "Application", "value": "Multi-layer hand trowel" }
+          ],
+          "maintenance": "Dust regularly. Surfaces are stain-resistant and can be wiped with a damp microfibre cloth.",
+          "philosophy": "Defining verticality through mineral rhythm."
+        }
+      },
+      "bathrooms": {
+        "name": "Bespoke Bathrooms",
+        "description": "Waterproof, continuous surfaces for a unified and spa-like bathroom experience.",
+        "features": [
+          {
+            "icon": "droplet",
+            "title": "Total Impermeability",
+            "desc": "Our bathroom system is 100% waterproof even before the final sealers are applied. Ideal for wet rooms."
+          },
+          {
+            "icon": "layers",
+            "title": "Zero Demolition",
+            "desc": "Transform your bathroom without the noise of tile removal. We apply directly over existing ceramic surfaces."
+          },
+          {
+            "icon": "check-circle",
+            "title": "Anti-Slip Safety",
+            "desc": "Engineered with a micro-texture that provides excellent grip even when wet, without sacrificing the soft touch."
+          },
+          {
+            "icon": "heart",
+            "title": "Hygienic Purity",
+            "desc": "Seamless transitions from floor to wall mean no grout lines, preventing mold and limescale accumulation."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/bathrooms-main.png",
+          "/assets/pages/products/bathrooms-s1.png",
+          "/assets/pages/products/bathrooms-s2.png",
+          "/assets/pages/products/bathrooms-s3.png",
+          "/assets/pages/products/bathrooms-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Thickness", "value": "3.5 mm" },
+            { "label": "Slip Resistance", "value": "R10 Grade" },
+            { "label": "Waterproof", "value": "Full System Seal" }
+          ],
+          "maintenance": "Rinse with fresh water after use. Use non-abrasive limestone cleaners if necessary.",
+          "philosophy": "Monolithic serenity for private sanctuaries."
+        }
+      },
+      "furniture": {
+        "name": "Architectural Objects",
+        "description": "Sculptural microcement furniture that brings materiality to every functional element.",
+        "features": [
+          {
+            "icon": "box",
+            "title": "Monolithic Form",
+            "desc": "Achieve heavy architectural volumes with reinforced lightweight cores. Strength without the weight."
+          },
+          {
+            "icon": "thermometer",
+            "title": "Thermal Resistance",
+            "desc": "Perfect for kitchen islands and dining tables. Resists high temperatures and thermal shock."
+          },
+          {
+            "icon": "coffee",
+            "title": "Stain Protection",
+            "desc": "High-performance sealers protect against wine, coffee, and oil. Designed for functional elegance."
+          },
+          {
+            "icon": "scissors",
+            "title": "Custom Geometry",
+            "desc": "We can coat any shape—from sharp geometric edges to soft organic curves and cantilevered forms."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/furniture-main.png",
+          "/assets/pages/products/furniture-s1.png",
+          "/assets/pages/products/furniture-s2.png",
+          "/assets/pages/products/furniture-s3.png",
+          "/assets/pages/products/furniture-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Weight", "value": "Variable (Reinforced)" },
+            { "label": "Heat Resistance", "value": "Up to 140°C" },
+            { "label": "Finish", "value": "Matte Silk" }
+          ],
+          "maintenance": "Treat as high-end stone. Use coasters for hot or oily objects.",
+          "philosophy": "Functional art carved from mineral silence."
+        }
+      },
+      "baxab-eco": {
+        "name": "Baxab-Eco®",
+        "description": "The peak of sustainable performance. A VOC-free, high-durability mineral finish designed for the conscious architect.",
+        "features": [
+          { "icon": "leaf", "title": "VOC Free", "desc": "Zero volatile organic compounds. Certified for the highest indoor air quality standards." },
+          { "icon": "shield", "title": "High Resistance", "desc": "Exceptional resistance to impact, scratches, and stains despite its ecological composition." },
+          { "icon": "droplets", "title": "Stain Proof", "desc": "Nanotechnology sealers ensure that even the most stubborn liquids cannot penetrate." }
+        ],
+        "gallery": ["/assets/surfaces/baxab.png"],
+        "details": {
+          "specs": [
+            { "label": "Sustainability", "value": "100% Eco-Certified" },
+            { "label": "Thickness", "value": "3.0 mm" },
+            { "label": "Hardness", "value": "Shore D 85" }
+          ],
+          "maintenance": "Clean with biodegradable pH-neutral soaps.",
+          "philosophy": "Sustainability without compromise."
+        }
+      },
+      "ecocemento": {
+        "name": "EcoCemento®",
+        "description": "The first VOC-free microcement on the market. A versatile solution for healthy living environments.",
+        "features": [
+          { "icon": "leaf", "title": "Green Label", "desc": "Environmentally friendly mineral components sourced from local quarries." },
+          { "icon": "sparkles", "title": "Natural Texture", "desc": "Soft, mineral appearance that brings a natural warmth to modern spaces." }
+        ],
+        "gallery": ["/assets/surfaces/ecocemento.png"],
+        "details": {
+          "specs": [
+            { "label": "VOC Content", "value": "0.0 g/L" },
+            { "label": "Application", "value": "Floors & Walls" }
+          ],
+          "maintenance": "Regular damp mopping with natural cleaners.",
+          "philosophy": "Pure mineral essence."
+        }
+      },
+      "baxab": {
+        "name": "Baxab®",
+        "description": "The most advanced microcement system available. Designed for ultimate resistance in the most demanding conditions.",
+        "features": [
+          { "icon": "shield", "title": "Unbreakable", "desc": "Reinforced with high-performance polymers for extreme durability." },
+          { "icon": "zap", "title": "Commercial Grade", "desc": "Ideal for high-traffic public spaces, museums, and flagship stores." }
+        ],
+        "gallery": ["/assets/surfaces/baxab.png"],
+        "details": {
+          "specs": [
+            { "label": "Compression", "value": "High Strength" },
+            { "label": "Finish", "value": "Polished / Satin" }
+          ],
+          "maintenance": "Minimal maintenance required. Extremely easy to clean.",
+          "philosophy": "The standard for durability."
+        }
+      },
+      "microcemento": {
+        "name": "Microcemento®",
+        "description": "The classic, versatile microcement finish. Seamless continuity for any surface without the need for demolition.",
+        "features": [
+          { "icon": "layers", "title": "Ultra Thin", "desc": "Only 2-3mm thickness, perfect for renovations over existing tiles." },
+          { "icon": "edit", "title": "Hand Finished", "desc": "Applied by expert craftsmen for a unique, artisanal texture." }
+        ],
+        "gallery": ["/assets/surfaces/microcemento.png"],
+        "details": {
+          "specs": [
+            { "label": "Thickness", "value": "2.0 - 3.0 mm" },
+            { "label": "Substrates", "value": "Universal Adhesion" }
+          ],
+          "maintenance": "Periodic waxing can enhance the natural patina.",
+          "philosophy": "A continuous canvas for living."
+        }
+      },
+      "tswim": {
+        "name": "T/Swim®",
+        "description": "Specifically engineered for swimming pools and wet environments. Waterproof, chlorine-resistant, and non-slip.",
+        "features": [
+          { "icon": "droplet", "title": "Pool Specialized", "desc": "Formulated to withstand constant immersion and water pressure." },
+          { "icon": "check-circle", "title": "Safety First", "desc": "Built-in anti-slip properties for safe aquatic environments." }
+        ],
+        "gallery": ["/assets/surfaces/tswim.png"],
+        "details": {
+          "specs": [
+            { "label": "Chemical Res.", "value": "Chlorine & Salt" },
+            { "label": "Texture", "value": "Grip-Enhanced" }
+          ],
+          "maintenance": "Balanced water pH is essential for longevity.",
+          "philosophy": "Fluid continuity."
+        }
+      },
+      "summery": {
+        "name": "Summery®",
+        "description": "An innovative microcement system with integrated heating capabilities. Comfort and aesthetics in a single layer.",
+        "features": [
+          { "icon": "thermometer", "title": "Thermal Layer", "desc": "Integrates heating elements directly into the microcement build-up." },
+          { "icon": "sun", "title": "Radiant Heat", "desc": "Even, gentle heat distribution for maximum comfort in bathrooms and living areas." }
+        ],
+        "gallery": ["/assets/surfaces/summery.png"],
+        "details": {
+          "specs": [
+            { "label": "System", "value": "Radiant Integrated" },
+            { "label": "Energy Eff.", "value": "High" }
+          ],
+          "maintenance": "Standard microcement care.",
+          "philosophy": "Warmth you can feel."
+        }
+      },
+      "real-metals": {
+        "name": "Real Metals®",
+        "description": "Authentic metallic microcement containing real metal powders for a sophisticated, luxury finish.",
+        "features": [
+          { "icon": "sparkles", "title": "Genuine Metal", "desc": "Contains Bronze, Copper, or Zinc powders for a true metallic luster." },
+          { "icon": "zap", "title": "Reactive Patina", "desc": "Can be aged or polished to create an evolving, living architectural surface." }
+        ],
+        "gallery": ["/assets/surfaces/real-metals.png"],
+        "details": {
+          "specs": [
+            { "label": "Metals", "value": "Bronze, Zinc, Copper" },
+            { "label": "Effect", "value": "Oxidized / Polished" }
+          ],
+          "maintenance": "Avoid acidic cleaners that may affect the metal patina.",
+          "philosophy": "The alchemy of surfaces."
+        }
+      },
+      "silk-concrete": {
+        "name": "Silk Concrete",
+        "description": "ULTRA-SMOOTH, MATTE FINISH WITH A SOFT-TOUCH TEXTURE.",
+        "features": [
+          { "icon": "sparkles", "title": "Soft Touch", "desc": "A texture that feels like silk under the fingertips while maintaining concrete durability." },
+          { "icon": "eye", "title": "Deep Matte", "desc": "Zero reflection finish that absorbs light for a soft, atmospheric glow." }
+        ],
+        "gallery": ["/assets/pages/products/silk-concrete.png"],
+        "details": {
+          "specs": [
+            { "label": "Finish", "value": "Ultra-Matte" },
+            { "label": "Texture", "value": "Silk-Soft" }
+          ],
+          "maintenance": "Wipe with a soft damp cloth.",
+          "philosophy": "Silence you can touch."
+        }
+      },
+      "polished-stone": {
+        "name": "Polished Stone",
+        "description": "SUBTLE SHEEN WITH DEEP MINERAL DEPTH AND CRYSTALLINE REFLECTIONS.",
+        "features": [
+          { "icon": "zap", "title": "Mineral Depth", "desc": "Layered minerals create a sense of three-dimensional depth within the surface." },
+          { "icon": "sun", "title": "Crystalline Glow", "desc": "Subtle reflections that respond to natural light throughout the day." }
+        ],
+        "gallery": ["/assets/pages/products/polished-stone.png"],
+        "details": {
+          "specs": [
+            { "label": "Finish", "value": "Satin Sheen" },
+            { "label": "Effect", "value": "Mineral Depth" }
+          ],
+          "maintenance": "Regular cleaning to maintain the subtle luster.",
+          "philosophy": "The light within the stone."
+        }
+      },
+      "velvet-mineral": {
+        "name": "Velvet Mineral",
+        "description": "A DENSE, VELVETY TEXTURE THAT ABSORBS AND DIFFUSES LIGHT BEAUTIFULLY.",
+        "features": [
+          { "icon": "layers", "title": "Velvet Density", "desc": "A dense, rich texture that provides a weighted, luxury feel to any wall or floor." },
+          { "icon": "cloud", "title": "Light Diffusion", "desc": "Perfectly diffuses light to eliminate harsh shadows and create a calm environment." }
+        ],
+        "gallery": ["/assets/pages/products/velvet-mineral.png"],
+        "details": {
+          "specs": [
+            { "label": "Finish", "value": "Velvet Matte" },
+            { "label": "Density", "value": "High Mineral" }
+          ],
+          "maintenance": "Easy to maintain despite its rich texture.",
+          "philosophy": "Atmospheric weight."
+        }
+      }
+    },
+    "products_types": {
+      "title": "Types of Microcement",
+      "sustainability": "Sustainability is a key priority for us. You can renovate a space without demolition or change in floor profile using MICROCEMENTO® or BAXAB® because they can be directly applied to your existing floor or wall.",
+      "efficiency": "We know that time is a premium, that's why we developed a quick-drying resin system and an innovative installation process. Beautiful surfaces that are usable only 24hs after installation.",
+      "items": [
+        {
+          "slug": "baxab-eco",
+          "name": "Baxab-Eco®",
+          "ideal": "Interior floors, walls, furniture, and worktops.",
+          "desc": "Top-performing option for the eco-conscious. Free of VOCs, highly durable and resistant to stains, scratches, and impact."
+        },
+        {
+          "slug": "ecocemento",
+          "name": "EcoCemento®",
+          "ideal": "Interior floors, walls, furniture, and worktops.",
+          "desc": "The first VOC-free microcement on the market. Highly resistant to stains, scratches, and impact, and easy to maintain."
+        },
+        {
+          "slug": "baxab",
+          "name": "Baxab®",
+          "ideal": "Interior floors, walls, furniture, and worktops.",
+          "desc": "The most advanced microcement on the market. Highly resistant to cracks, stains and scratches. Innovative and exclusive."
+        },
+        {
+          "slug": "microcemento",
+          "name": "Microcemento®",
+          "ideal": "Interior floors, walls, furniture, and worktops.",
+          "desc": "A continuous surface solution that doesn't require demolition. Versatile and highly resistant to abrasion and impact."
+        },
+        {
+          "slug": "tswim",
+          "name": "T/Swim®",
+          "ideal": "Swimming pools.",
+          "desc": "Specifically designed for swimming pools. Waterproof, resistant to chlorine, and slip-resistant for added safety."
+        },
+        {
+          "slug": "summery",
+          "name": "Summery®",
+          "ideal": "Floors, walls, bathrooms, and kitchens.",
+          "desc": "Incorporates a heating system into the microcement. Ideal for heating floors and walls while providing durability."
+        },
+        {
+          "slug": "real-metals",
+          "name": "Real Metals®",
+          "ideal": "Interior floors, walls, furniture, and worktops.",
+          "desc": "Incorporates real metal powders to create a metallic finish. Adds a touch of elegance and sophistication with high durability."
+        }
+      ]
+    }
+  },
+  "story": {
+    "title": "A Legacy of Materiality",
+    "subtitle": "Born from the intersection of raw minerals and sculptural ambition, KUUS DESIGN was founded with a singular purpose: to craft surfaces that define the atmosphere through high-contrast materiality.",
+    "sections": {
+      "origin": {
+        "title": "The Raw Beginning",
+        "text": "Our journey began in a small industrial studio where we experimented with traditional mineral mixtures. We sought a material that carried the strength of concrete but the tactile elegance of silk. Through years of refinement, our unique microcement formula was born—a material that responds to the hand as much as it does to the architect's vision."
+      },
+      "philosophy": {
+        "title": "Handcrafting Silence",
+        "text": "In a world of mass-produced uniformity, we choose the rhythmic motion of the hand-trowel. Each layer of KUUS DESIGN is applied by an artisan, ensuring that no two surfaces are identical. This human touch creates a subtle topographic depth that catches the light and brings a sense of calm, architectural silence to any space."
+      }
+    }
+  },
+  "projects": {
+    "title": "Architectural Portfolio",
+    "subtitle": "A curation of exclusive spaces where materiality meets vision. High-contrast interiors that define the luxury of tomorrow.",
+    "items": {
+      "villa": {
+        "name": "Villa Mediterranean",
+        "location": "Tuscany, IT",
+        "year": "2023",
+        "description": "Seamless integration of indoor and outdoor microcement terraces for a timeless luxury villa.",
+        "longDescription": "Set against the rolling hills of Tuscany, this project demanded a material that could bridge the gap between ancient stone architecture and modern minimalist living. We applied over 450sqm of 'Bone' microcement across all living areas and the infinity pool terrace."
+      },
+      "boutique": {
+        "name": "Concept Store",
+        "location": "Tokyo, JP",
+        "year": "2024",
+        "description": "Minimalist retail interior utilizing grey-matte microcement pedestals and wall finishes.",
+        "longDescription": "The Tokyo project was an exercise in extreme precision. Working within the dense Ginza district, our team created custom sculptural pedestals and a high-traffic grey floor that serves as a neutral canvas for seasonal collections."
+      },
+      "spa": {
+        "name": "Aurora Spa",
+        "location": "Reykjavik, IS",
+        "year": "2022",
+        "description": "Organic, curved microcement forms creating a sanctuary of calm and reflection.",
+        "longDescription": "In response to the Icelandic landscape, we used 'Charcoal' tones to mirror volcanic basalt. The project features curved steam rooms and monolithic treatment benches, all hand-finished to a seamless mineral texture."
+      }
+    }
+  },
+  "faq": {
+    "title": "Common Inquiries",
+    "subtitle": "Understanding the technical nuances of mineral application.",
+    "items": [
+      {
+        "question": "What is the typical thickness of the application?",
+        "answer": "Our microcement system is applied in multiple layers totaling approximately 2-3mm in thickness. Despite its thin profile, it is extremely dense and durable."
+      },
+      {
+        "question": "Is microcement suitable for underfloor heating?",
+        "answer": "Yes, microcement is an excellent conductor of heat and its flexible properties make it highly compatible with modern underfloor heating systems."
+      },
+      {
+        "question": "How do I maintain the surface?",
+        "answer": "Maintenance is simple. We recommend regular cleaning with a pH-neutral cleaner. Avoid abrasive chemicals to preserve the protective seal."
+      },
+      {
+        "question": "Can it be applied over existing tiles?",
+        "answer": "Absolutely. One of the greatest advantages of microcement is its ability to be applied directly over sound substrates like old tiles, avoiding the need for demolition."
+      }
+    ]
+  },
+  "business": {
+    "title": "Commercial Partnership",
+    "subtitle": "KUUS DESIGN partners with leading architectural studios and developers to provide bespoke mineral finishes for commercial, retail, and hospitality ventures.",
+    "cta": "Request Business Portfolio"
+  },
+  "hero": {
+    "title": "The Art of Surfaces",
+    "subtitle": "Premium architectural microcement. Handcrafted with centuries-old precision and modern aesthetic purity.",
+    "cta": "View Collection"
+  },
+  "philosophy": {
+    "title": "SILENCE IS THE SOUND TIME MAKES.",
+    "text": "We believe that surfaces are not merely backgrounds, but the foundation of atmosphere. Our microcement is handcrafted, layer by layer, creating infinite variations of texture that respond beautifully to natural light. It is raw yet refined, brutal yet elegant."
+  },
+  "methodology": {
+    "title": "The Process of Purity",
+    "subtitle": "Time is the most valuable ingredient. Each application takes days of deliberate patience and artisan mastery.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Surface Preparation",
+        "text": "The foundation is everything. We meticulously prepare the substrate to ensure perfect adhesion and a long-lasting, stable finish."
+      },
+      {
+        "number": "02",
+        "title": "Hand-Troweled Base",
+        "text": "Our artisans apply the first layers by hand, establishing the unique topographic character that defines the finished surface."
+      },
+      {
+        "number": "03",
+        "title": "The Mineral Veil",
+        "text": "The final color and texture layers are applied with rhythmic precision, creating a depth of field that responds to natural light."
+      },
+      {
+        "number": "04",
+        "title": "Impregnation & Seal",
+        "text": "Advanced protective coatings are applied, making the surface waterproof and durable while preserving the raw, matte aesthetic."
+      }
+    ]
+  },
+  "surfaces_collection": {
+    "title": "The Raw Collection",
+    "subtitle": "A curated selection of mineral textures. Each surface is unique, reflecting the hand of the artisan.",
+    "items": [
+      {
+        "id": "surface-1",
+        "name": "Baxab®",
+        "description": "The most advanced microcement on the market. Highly resistant to cracks, stains and scratches."
+      },
+      {
+        "id": "surface-2",
+        "name": "EcoCemento®",
+        "description": "The first VOC-free microcement on the market. Highly resistant to stains, scratches, and impact."
+      },
+      {
+        "id": "surface-3",
+        "name": "Microcemento®",
+        "description": "A continuous surface solution that doesn't require demolition. Versatile and highly resistant."
+      },
+      {
+        "id": "surface-4",
+        "name": "T/Swim®",
+        "description": "Specifically designed for swimming pools. Waterproof, resistant to chlorine, and slip-resistant."
+      },
+      {
+        "id": "surface-5",
+        "name": "Summery®",
+        "description": "Incorporates a heating system into the microcement. Ideal for heating floors and walls."
+      },
+      {
+        "id": "surface-6",
+        "name": "Real Metals®",
+        "description": "Authentic metallic finish containing real metal powders for a sophisticated, luxury finish."
+      }
+    ]
+  },
+  "timeless_collection": {
+    "title": "The Timeless Collection",
+    "subtitle": "Smooth, high-fidelity mineral finishes for spaces that demand absolute serenity and seamless continuity.",
+    "items": [
+      {
+        "id": "timeless-1",
+        "name": "Silk Concrete",
+        "description": "ULTRA-SMOOTH, MATTE FINISH WITH A SOFT-TOUCH TEXTURE."
+      },
+      {
+        "id": "timeless-2",
+        "name": "Polished Stone",
+        "description": "SUBTLE SHEEN WITH DEEP MINERAL DEPTH AND CRYSTALLINE REFLECTIONS."
+      },
+      {
+        "id": "timeless-3",
+        "name": "Velvet Mineral",
+        "description": "A DENSE, VELVETY TEXTURE THAT ABSORBS AND DIFFUSES LIGHT BEAUTIFULLY."
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Begin the \n Transformation.",
+    "text": "Consult with our studio to bring handcrafted mineral textures to your architectural vision.",
+    "button": "Request Consultation"
+  },
+  "team": {
+    "title": "The Artisans",
+    "subtitle": "The hands behind the surfaces. Our master artisans bring decades of collective experience in mineral manipulation.",
+    "members": [
+      {
+        "name": "Erik Tamm",
+        "role": "Lead Artisan",
+        "description": "A master of the hand-trowel, Erik has spent 15 years refining the 'Brutal Silence' technique."
+      },
+      {
+        "name": "Liis Koppel",
+        "role": "Material Specialist",
+        "description": "Specializing in mineral pigment alchemy and sustainable substrate preparation."
+      }
+    ]
+  },
+  "thank_you": {
+    "title": "Thank You for Your Interest.",
+    "text": "Your vision is the starting point of our process. We look forward to creating something exceptional together."
+  },
+  "story_quote": {
+    "text": "Materials should not just occupy space; they should define the silence within it.",
+    "author": "Lead Designer, KUUS DESIGN"
+  },
+  "footer": {
+    "tagline": "Premium microcement surfaces crafted for spaces that demand quiet luxury.",
+    "categories": {
+      "studio": "Studio",
+      "collections": "Collections",
+      "connect": "Connect"
+    },
+    "rights": "All Rights Reserved."
+  },
+  "blog_ui": {
+    "featured": "Featured Journal Entry",
+    "read_story": "Read Story",
+    "continue_reading": "Continue Reading"
+  },
+  "contact_ui": {
+    "dialogue": "Start a Dialogue",
+    "name": "Full Name",
+    "email_label": "E-mail Address",
+    "vision": "Your Vision",
+    "inquiries": "Inquiries",
+    "direct_line": "Direct Line",
+    "studio": "Studio"
+  },
+  "ai_assistant": {
+    "trigger": "Ask Studio AI",
+    "title": "Studio Intelligence",
+    "subtitle": "How can I assist you with your architectural vision today?",
+    "input_placeholder": "Ask about installation, colors, or technical specs...",
+    "searching": "Consulting manuals...",
+    "empty_state": "I am trained on our technical manuals and material journals. Ask me anything about KUUS DESIGN.",
+    "error": "I encountered a minor structural error. Please try again."
+  },
+  "products_ui": {
+    "documentation": "Technical Documents",
+    "manual": "Installation Guide",
+    "maintenance": "Maintenance Manual",
+    "data_sheet": "Technical Data Sheet",
+    "order_sample": "Order Sample"
+  },
+  "guide_topcret": {
+    "title": "The Topcret Guide",
+    "subtitle": "Technical mastery of mineral surfaces.",
+    "description": "Microcement is a cutting-edge cementitious coating consisting of fine particles, polymers, and pigments. It offers a seamless finish for floors, walls, and furniture without the need for extensive construction work.",
+    "what_is": {
+      "title": "What is microcement?",
+      "paragraphs": [
+        "Microcement, often referred to as micro concrete, micro-screed, or micro-overlay, is a cutting-edge and highly versatile cementitious coating that has been revolutionizing the interior and exterior design industry in the United Kingdom. This innovative material consists of fine particles and can be seamlessly applied to a wide range of surfaces, including floors, walls, and even furniture in both residential and commercial settings.",
+        "As a leading microcement supplier in the UK, Topcret proudly brings this exceptional product to the market. What sets microcement apart is its unique combination of qualities, making it a top choice for designers, architects, and homeowners alike. Its durability ensures longevity, making it perfect for high-traffic areas without compromising on aesthetics.",
+        "One of the key reasons for microcement’s increasing popularity is its ability to provide a sleek, minimalist, and contemporary look to any space. With an extensive range of colors and finishes, customers have the freedom to unleash their creativity and achieve their desired ambiance. Whether it’s a modern office space, a trendy restaurant, or a chic residential interior, microcement is the ultimate solution to elevate the aesthetic appeal and functionality of any environment.",
+        "Not only does microcement offer stunning visual appeal, but its thin application also minimizes the impact on existing structures during renovations or new installations. This feature makes it an ideal choice for those seeking to enhance their space without extensive construction work.",
+        "Whether for renovations or new projects, microcement is the ultimate solution to elevate the aesthetic appeal and functionality of any space."
+      ]
+    },
+    "applications": {
+      "title": "Microcement applications",
+      "items": [
+        {
+          "title": "Microcement Flooring",
+          "desc": "Microcement floors are highly durable and easy to clean, making them a great option for high-traffic areas. They can be customized with a range of finishes, from smooth and polished to textured and rustic, and can be used in a variety of settings, including residential, commercial, and industrial spaces. Microcement flooring is also a cost-effective alternative to traditional flooring materials."
+        },
+        {
+          "title": "Microcement Bathrooms",
+          "desc": "Microcement is perfect for creating seamless, waterproof surfaces in your bathroom. Because it is applied in a single layer, there are no grout lines or seams to worry about, which means fewer areas for dirt and mold to accumulate. Microcement bathrooms are easy to clean, durable, and can be customized with a wide range of colors and finishes."
+        },
+        {
+          "title": "Microcement Worktops",
+          "desc": "Microcement worktops offer a sleek and durable surface that is perfect for modern kitchen design. With their customizable finishes and seamless application, microcement worktops provide a stylish and practical solution for homeowners looking to upgrade their countertops. Additionally, microcement worktops require minimal maintenance and are highly resistant to stains, making them an ideal choice for busy households."
+        },
+        {
+          "title": "Outdoor Microcement",
+          "desc": "Outdoor microcement has revolutionised the way we design and enhance our external spaces. Perfect for patios, terraces, and walkways, this innovative material offers a sleek, seamless finish that's both durable and weather-resistant. Its ability to withstand the elements, combined with its contemporary aesthetic, makes outdoor microcement a preferred choice for homeowners and designers alike. Whether you're aiming to create a chic poolside lounge or a modern garden pathway, outdoor microcement promises a blend of beauty, functionality, and longevity, elevating the appeal of any open-air setting."
+        },
+        {
+          "title": "Microcement on walls",
+          "desc": "Microcement is a versatile material that can be used to create a range of wall finishes, from smooth and sleek to textured and rustic. It can also be applied to curved or uneven surfaces, making it an excellent choice for feature walls or accent areas. Microcement walls are highly durable and resistant to cracking, making them a long-lasting and low-maintenance option for any room in your home."
+        },
+        {
+          "title": "Microcement Kitchens",
+          "desc": "Microcement surfaces are ideal for creating a modern, clean look in your kitchen. They can be used for countertops, backsplashes, and even flooring, and can be customized to match the design style of your kitchen. Microcement kitchens are highly durable and resistant to stains, making microcement an excellent choice for high-traffic areas like your kitchen."
+        },
+        {
+          "title": "Microcement Stairs",
+          "desc": "Microcement can be used to create durable, slip-resistant stair treads and risers. It can be applied to any type of stair, including concrete, wood, or metal, and can be customized to match the design of your space. Microcement stairs are easy to clean and maintain, and are highly resistant to wear and tear."
+        },
+        {
+          "title": "Microcement Showers",
+          "desc": "Microcement showers are highly resistant to water damage, making them an ideal choice for bathrooms. Their seamless and continuous surface is not only aesthetically pleasing but also easy to clean and maintain. Microcement showers can be finished in a range of styles, from modern and polished to natural and textured, offering versatility in design."
+        },
+        {
+          "title": "Microcement Furniture",
+          "desc": "Microcement can be used to create unique, modern furniture pieces. It can be applied to a wide range of materials, including wood, metal, and plastic, and can be customized to match the design style of your space. Microcement furniture is highly durable and resistant to stains and scratches, making it an excellent choice for high-traffic areas."
+        },
+        {
+          "title": "Microcement Pools",
+          "desc": "Microcement pools provide a seamless and waterproof surface that is perfect for pool construction. With their range of customizable finishes and low-maintenance requirements, microcement pools offer a stylish and cost-effective option for homeowners seeking to enhance their outdoor living space."
+        }
+      ]
+    },
+    "advantages_title": "Core Advantages",
+    "advantages": {
+      "versatility": { "title": "Versatility", "desc": "Apply to almost any surface, including curved or uneven ones." },
+      "durability": { "title": "Durability", "desc": "High resistance to daily wear, cracking, stains, and scratches." },
+      "customization": { "title": "Customization", "desc": "Vast range of colors and finishes for a unique look." },
+      "waterproof": { "title": "Waterproof", "desc": "Totally waterproof, ideal for showers and swimming pools." },
+      "thickness": { "title": "Minimal Thickness", "desc": "Thin application that doesn't add weight or height to existing structures." },
+      "flexibility": { "title": "Flexibility", "desc": "Handles minor structural movements without cracking." },
+      "eco": { "title": "Eco-friendly", "desc": "Sustainable production with low VOC emissions." },
+      "maintenance": { "title": "Low Maintenance", "desc": "Extremely easy to clean compared to traditional materials." }
+    },
+    "process_title": "Technical Process",
+    "process_steps": [
+      { "title": "Surface Preparation", "desc": "Substrate must be clean, dry, and level. Existing cracks are filled." },
+      { "title": "Primer Application", "desc": "Specialized primer ensures high-strength bonding." },
+      { "title": "Microcement Mixing", "desc": "Mixed with water and specific pigments for desired consistency." },
+      { "title": "Base Layer", "desc": "A thin first layer is applied to the surface and allowed to dry." },
+      { "title": "Texture Layer", "desc": "A second layer is applied to achieve the final texture and finish." },
+      { "title": "Sealing", "desc": "Sealer application protects against stains and adds final aesthetic effect." }
+    ],
+    "finishes_title": "Surface Finishes",
+    "finishes_intro": "The variety of finishes achievable with microcement is influenced by the chosen textures and the specific varnishes or sealants applied. Since microcement is porous, sealants are essential for water resistance and protection.",
+    "finishes_list": [
+      { "title": "Polished", "desc": "Perfect for a sleek, contemporary look on walls and floors." },
+      { "title": "Aged & Polished", "desc": "A chemical treatment before polishing for a rustic, lived-in charm." },
+      { "title": "Tinted", "desc": "Blended with raw pigments to create unique, bespoke color schemes." },
+      { "title": "Glossy", "desc": "A shiny, robust surface that is exceptionally easy to maintain." },
+      { "title": "Matt", "desc": "An understated, sophisticated finish perfect for minimalist spaces." },
+      { "title": "Satin", "desc": "The elegant middle ground. Soft feel, low maintenance, and chic." },
+      { "title": "Non-Slip Matt", "desc": "Retains the matt aesthetic while providing critical slip-resistance." }
+    ]
+  },
+  "colors": {
+    "title": "Mineral Palette",
+    "subtitle": "A curated collection of natural pigments designed to respond to light and architecture.",
+    "collections": {
+      "timeless": {
+        "title": "Timeless Collection",
+        "description": "Essential architectural tones that transcend seasonal trends.",
+        "items": [
+          { "code": "BLA-01", "name": "Blanco Roto", "hex": "#E5E4E2" },
+          { "code": "GRI-03", "name": "Gris Perla", "hex": "#B7B7B7" },
+          { "code": "GRI-05", "name": "Gris Cemento", "hex": "#9E9E9E" },
+          { "code": "NEG-01", "name": "Negro Fumo", "hex": "#3A3A3A" },
+          { "code": "AMA-02", "name": "Trigo", "hex": "#C5B358" },
+          { "code": "OLI-02", "name": "Verde Ceniza", "hex": "#7E8071" }
+        ]
+      },
+      "clay": {
+        "title": "Clay Collection",
+        "description": "Earth-born pigments reflecting the warmth of raw minerals.",
+        "items": [
+          { "code": "NUD-1", "name": "Nude Essence", "hex": "#BC9E82" },
+          { "code": "MAL-02", "name": "Mallow Earth", "hex": "#8D6E63" },
+          { "code": "PUR-03", "name": "Deep Plum", "hex": "#6D5D6E" },
+          { "code": "ROS-01", "name": "Pale Rose", "hex": "#D4B4B4" },
+          { "code": "ROJ-02", "name": "Terra Cotta", "hex": "#A0522D" }
+        ]
+      },
+      "flora": {
+        "title": "Flora Collection",
+        "description": "Botanical inspirations for serene, organic environments.",
+        "items": [
+          { "code": "ALM", "name": "Almond", "hex": "#F5E6D3" },
+          { "code": "SAG", "name": "Sage", "hex": "#D1D5C0" },
+          { "code": "BLU", "name": "Blueberry", "hex": "#A9BCD0" },
+          { "code": "LAV", "name": "Lavender", "hex": "#E0D1D1" },
+          { "code": "PEA", "name": "Peach", "hex": "#FAD5A5" }
+        ]
+      },
+      "metals": {
+        "title": "Real Metals Collection",
+        "description": "Authentic metallic finishes with genuine mineral character.",
+        "items": [
+          { "code": "ZIN", "name": "Zinc", "hex": "#8E9196" },
+          { "code": "BRA", "name": "Brass", "hex": "#B5A642" },
+          { "code": "BRO", "name": "Bronze", "hex": "#804A00" },
+          { "code": "COP", "name": "Copper", "hex": "#B87333" },
+          { "code": "COR", "name": "Corten Steel", "hex": "#8B4513" }
+        ]
+      }
+    },
+    "popular": {
+      "title": "Popular Colours",
+      "subtitle": "The most requested shades by architects and designers."
+    }
+  },
+  "custom_interior": {
+    "title": "Custom Interior Paintings & Decoration",
+    "subtitle": "Mineral artistry beyond the surface. Each decorative element is conceived, drawn, and hand-applied by our studio team.",
+    "items": [
+      {
+        "id": "fresco",
+        "name": "Fresco & Lime Wash",
+        "description": "Ancient mineral technique creating organic, breathable wall surfaces with a soft, aged patina unique to each room."
+      },
+      {
+        "id": "geometric",
+        "name": "Geometric Inlays",
+        "description": "Precision-cut mineral patterns — from Moorish latticework to strict modernist grids — embedded directly into the living surface."
+      },
+      {
+        "id": "sculptural",
+        "name": "Sculptural Relief Panels",
+        "description": "Three-dimensional decorative panels hand-formed in microcement — for accent walls, headboards, and architectural niches."
+      },
+      {
+        "id": "ombre",
+        "name": "Ombré Mineral Gradients",
+        "description": "Seamless colour transitions from floor to ceiling using raw earthen pigments, with no visible boundary or seam."
+      },
+      {
+        "id": "mural",
+        "name": "Bespoke Mineral Murals",
+        "description": "Large-scale hand-painted murals in mineral pigment — permanent, UV-stable, and entirely unique to your space."
+      },
+      {
+        "id": "accents",
+        "name": "Architectural Accents",
+        "description": "Decorative columns, archways, console tables, and fireplace surrounds finished in monolithic microcement."
+      }
+    ]
+  }
+}

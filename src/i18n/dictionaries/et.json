@@ -1,0 +1,903 @@
+{
+  "events": {
+    "title": "Arhitektuursed Dialoogid",
+    "subtitle": "Liituge meie stuudioga kaasahaaravates töötubades, showroom'ide avamistel ja materjali-uuringutel üle Euroopa.",
+    "items": [
+      {
+        "date": "12. Mai, 2024",
+        "name": "Liiva Alkeemia",
+        "description": "Praktiline töötuba, mis keskendub mineraalpigmentide segamisele ja käsitsi paigaldamise tehnikatele."
+      },
+      {
+        "date": "05. Juuni, 2024",
+        "name": "Design District Expo",
+        "description": "Meie uue 'Brutal Silence' kollektsiooni esitlus rahvusvahelisel disainimessil."
+      }
+    ],
+    "workshop": {
+      "label": "Haridus & Koolitus",
+      "title": "Õpi Mikrotsemendi Paigaldust Koos Meiega",
+      "subtitle": "Koolitame eraisikuid ja ettevõtteid professionaalse mikrotsemendi paigalduses. Iga lõpetaja saab rahvusvaheliselt tunnustatud sertifikaadi.",
+      "intro": "Meie praktiline koolitus toimub Tallinna stuudios. Seda juhivad meistrid, kellel on üle kümne aasta projektikogemust. Programm hõlmab pinna ettevalmistust, segamist, kühveltehnnikaid, värviteooriat, tihendamist ja kvaliteedi kontrolli.",
+      "tiers": [
+        {
+          "type": "Eraisik",
+          "badge": "1 – 4 Osalejat",
+          "duration": "2-Päevane Intensiivkursus",
+          "description": "Ideaalne iseseisvatele töövõtjatele, disaineritele ja renoveerimisekspertidele, kes soovivad lisada mikrotsemendi oma oskuste hulka.",
+          "includes": ["Täielik materjalikomplekt", "Praktiline kühvelharjutus", "Värvide segamise labor", "Professionaalse paigaldaja sertifikaat"]
+        },
+        {
+          "type": "Ettevõte",
+          "badge": "5 – 20 Osalejat",
+          "duration": "3-Päevane Programm",
+          "description": "Kohandatud meeskonnakoolitus ehitusfirmadele, interjööristuudiotele ja kinnisvaraarendajatele.",
+          "includes": ["Kohandatud õppekava", "Kohapealse praktika sessioonid", "Meeskonna materjalikomplekt", "Professionaalse paigaldaja sertifikaadid", "3-kuuline järeltugi"]
+        }
+      ],
+      "certificate": {
+        "title": "Professionaalse Paigaldaja Sertifikaat",
+        "desc": "Antakse igale lõpetajale, tunnustatud üle Eesti ja ELi. Tõendab oskusi pinna ettevalmistamisel, mineraalide paigaldamisel ja kvaliteetsel tihendamisel."
+      },
+      "cta": "Broneeri Koht"
+    }
+  },
+  "contact": {
+    "title": "Konsulteeri Meie Stuudioga",
+    "subtitle": "Võtke ühendust, et arutada oma arhitektuurset visiooni. Pakume eritellimusel konsultatsioone globaalsetele projektidele.",
+    "email": "studio@kuusdesign.ee",
+    "address": "Mineral tn 124, Tallinn 10115",
+    "tel": "+372 555 124 12",
+    "cta": "Saada Päring"
+  },
+  "blog": {
+    "title": "Žurnaal",
+    "subtitle": "Mõtisklused arhitektuurist, materiaalsuse evolutsioonist ja käsitöö vaiksest luksusest.",
+    "posts": [
+      {
+        "slug": "rhythm-of-the-hand",
+        "title": "Käe Rütm",
+        "date": "02. aprill 2024",
+        "image": "/assets/pages/blog/rhythm-of-the-hand.png",
+        "excerpt": "Uurime, miks käsitsi paigaldatud pind on jätkuvalt luksusinterjööride kullastandard.",
+        "content": [
+          "Mikrotsement on midagi enamat kui mineraalide ja polümeeride segu; see on vahend inimlikuks eneseväljenduseks. Erinevalt valatud põrandatest või tehases valmistatud plaatidest kannab käsitsi paigaldatud pind selle käsitöölise selget rütmi, kes seda paigaldas.",
+          "See bioloogiline ebakorrapärasus ongi see, mis määratleb 'vaikse luksuse'. Maailmas, mis liigub automatiseeritud täiuslikkuse poole, loovad peened variatsioonid kellu surves ja liikumises maastiku, mis on unikaalselt teie oma. See on materjal, mis salvestab oma loomise protsessi.",
+          "Kui räägime 'Käe Rütmist', peame silmas meditatiivset seisundit, kuhu meie käsitöölised paigaldamise ajal sisse elavad. Just see keskendumine tagab, et lõplik tekstuur ei ole lihtsalt nähtav, vaid tuntav."
+        ]
+      },
+      {
+        "slug": "mineral-tonality",
+        "title": "Mineraalne Tonaalsus",
+        "date": "20. märts 2024",
+        "image": "/assets/pages/blog/mineral-tonality.png",
+        "excerpt": "Kuidas looduslikud pigmendid reageerivad päeva jooksul muutuvale valgusele.",
+        "content": [
+          "Värv mineraalsel pinnal ei ole kunagi staatiline. Kuna KUUS DESIGN kasutab tooreid muldpigmente, nihkub pinna tonaalsus koos loodusliku valguse liikumisega ruumis.",
+          "Üks 'Bone' valge võib tunduda päikeseloojangul soe ja kutsuv, kuid karge ja arhitektuurne eredatel pärastlõunastel tundidel. See interaktsioon keskkonnaga on meie disainifilosoofia põhitala.",
+          "Julgustame arhitekte vaatama meie pindu kui elavaid lõuendeid. Valides spetsiifikate pigmentide põhjad, saame viia ruumi atmosfääri kooskõlla selle geograafilise asukoha loomulike rütmidega."
+        ]
+      },
+      {
+        "slug": "bathroom-renovation-no-demolition",
+        "title": "Vannitoa remont ilma lammutamiseta",
+        "date": "15. aprill 2024",
+        "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
+        "excerpt": "Avasta, kuidas mikrotsement võimaldab täielikku esteetilist muutust ilma lammutamise müra ja prügita.",
+        "content": [
+          "Traditsioonilised vannitoaremondid tähendavad nädalaid kestvat lammutamist, tolmu ja struktuurseid häireid. Mikrotsement pakub rafineeritud alternatiivi: pidev mineraalne kiht, mida saab paigaldada otse olemasolevatele plaatidele.",
+          "See 'lammutamisvaba' lähenemine on võimalik tänu meie spetsialiseeritud mineraalsegude suurepärastele nakkeomadustele. Lammutusprotsessi vahelejätmisega vähendame oluliselt jäätmete hulka ja projekti ajakulu, säilitades samal ajal monoliitse ja spa-laadse tulemuse.",
+          "Mikrotsemendist vannituba pole vaid visuaalne valik; see on ka hügieeniline otsus. Ilma vuugivahedeta pole niiskusel ja hallitusel kohta, kuhu peituda, tagades, et sinu erapühamu püsib sama puhtana kui esimesel päeval."
+        ]
+      },
+      {
+        "slug": "microcement-on-tiles-guide",
+        "title": "Mikrotsement plaatidele: põhjalik juhend",
+        "date": "10. aprill 2024",
+        "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
+        "excerpt": "Pinna ettevalmistus on vastupidavuse alus. Õpi tundma professionaalset protsessi vana keraamika katmiseks mikrotsemendiga.",
+        "content": [
+          "Kas mikrotsementi saab tõesti paigaldada vanadele plaatidele? Vastus on kindel jah, eeldusel, et aluspind on stabiilne. Selle tehnika suurim eelis on saavutada kaasaegne, vuugivaba välimus ilma põrandapinna taseme märgatava tõusuta.",
+          "Protsess algab plaatide teemantlihvimisega, et avada poorid, millele järgneb kahekihiline epoksiidkrunt koos klaaskiudvõrguga. See loob stabiilse ja mittepoorse vundamendi, mis hoiab ära 'kummitusefekti' ehk vanade vuugijoonte läbinähtavuse uuel pinnal.",
+          "KUUS DESIGN stuudios kasutame spetsiaalseid alussegusid, mis on loodud neutraliseerima struktuurseid liikumisi. Tulemuseks on vaid 3 mm paksune viimistlus, millel on siiski premium-klassi arhitektuurse betooni tugevus."
+        ]
+      },
+      {
+        "slug": "microcement-furniture-trends-2026",
+        "title": "Skulptuurne vaikus: Mikrotsemendist mööbli trendid 2026",
+        "date": "05. aprill 2024",
+        "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
+        "excerpt": "Mööbel ei ole enam lihtsalt funktsionaalne ese; see on arhitektuurne objekt. Uuri, miks mineraalne materiaalsus on 2026. aasta määrav trend.",
+        "content": [
+          "2026. aastal hägustub piir mööbli ja arhitektuuri vahel veelgi. Disainerid liiguvad eemale modulaarsetest lahendustest monoliitsete objektide suunas, mis tunduvad kui ruumi vundamendist välja voolitud.",
+          "Mikrotsemendist mööbel — kuubikujulised diivanilauad, konsoolsed söögilaudade pinnad ja õmblusteta kummutid — on selle 'monoliitse minimalismi' ülim väljendus. Materjal võimaldab geomeetrilist täpsust, pakkudes samas loodusliku kivi taktikalist soojust.",
+          "Trend liigub 'brutaalse elegantsi' suunas — raskete mineraalsete vormide sidumine pehmete orgaaniliste tekstiilidega. Mikrotsemendist objekt ei täida lihtsalt ruumi; see ankurdab selle püsivuse ja arhitektuurse mõõtmega."
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "products": "Tooted",
+    "story": "Meie Lugu",
+    "blog": "Blogi",
+    "projects": "Projektid",
+    "faq": "KKK",
+    "business": "Ärikliendile",
+    "events": "Sündmused",
+    "contact": "Kontakt",
+    "guide": "Juhend",
+    "colors": "Värvid",
+    "surfaces": "Pinnad",
+    "philosophy": "Filosoofia"
+  },
+  "products": {
+    "title": "Minimalistlikud Kollektsioonid",
+    "subtitle": "Õmblusteta arhitektuursed viimistlused, mis määratlevad uuesti piirid kunsti ja arhitektuuri vahel.",
+    "items": {
+      "flooring": {
+        "name": "Poleeritud Põrandad",
+        "description": "Õmblusteta ja vastupidavad pinnad, mis loovad kaine aluse minimalistlikule interjöörile.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Võrratu Vastupidavus",
+            "desc": "Baxab® põrandad on loodud suure koormusega keskkondadele, taludes pragusid ja lööke paremini kui tavaline betoon."
+          },
+          {
+            "icon": "droplets",
+            "title": "Õmblusteta Hügieen",
+            "desc": "Vuugivaba pind tähendab, et bakteritel pole kohta, kuhu peituda. Täielikult veekindel ja üli-lihtne puhastada."
+          },
+          {
+            "icon": "leaf",
+            "title": "Ökoloogiline Vundament",
+            "desc": "VOC-vaba ja valmistatud looduslikest mineraalidest. Panustades tervislikumasse siseõhu kvaliteeti."
+          },
+          {
+            "icon": "sun",
+            "title": "UV-kindel",
+            "desc": "Meie unikaalsed mineraalsed pigmendid jäävad säravaks ka otsese päikesevalguse ja kõrge UV-kiirguse käes."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/flooring-main.png",
+          "/assets/pages/products/flooring-s1.png",
+          "/assets/pages/products/flooring-s2.png",
+          "/assets/pages/products/flooring-s3.png",
+          "/assets/pages/products/flooring-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Paksus", "value": "3.0 mm" },
+            { "label": "Kõvadus", "value": "Shore D 82" },
+            { "label": "Kuivamisaeg", "value": "48 Tundi" },
+            { "label": "Aluspind", "value": "Betoon, Plaadid, Tasandussegud" }
+          ],
+          "maintenance": "Iganädalane puhastus pH-neutraalsete vahenditega.",
+          "philosophy": "Aluspõhi, mas neelab heli ja peegeldab rahu."
+        }
+      },
+      "walls": {
+        "name": "Tekstureeritud Seinad",
+        "description": "Käsitsi loodud sügavus, mis püüab valgust ja varje igal pinnal.",
+        "features": [
+          {
+            "icon": "edit",
+            "title": "Käsitööna Valminud Tekstuur",
+            "desc": "Iga sein on kordumatu kunstiteos, käsitsi viimistletud, et luua peen topograafiline sügavus ja mineraalne rütm."
+          },
+          {
+            "icon": "wind",
+            "title": "Hingav Pind",
+            "desc": "Meie mineraalne valem laseb seintel hingata, reguleerides loomulikult niiskust ja hoides ära hallituse teket."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Valgus-tundlik",
+            "desc": "Looduslikud pigmendid reageerivad muutuvale valgusele, nihutades tonaalsust hommikust õhtuni."
+          },
+          {
+            "icon": "zap",
+            "title": "Kiire Paigaldus",
+            "desc": "Meie spetsialiseeritud vertikaalne aluskiht võimaldab kiiret paigaldust kipsplaadi või müüritise peale."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/walls-1.png",
+          "/assets/pages/products/walls-2.png",
+          "/assets/pages/products/walls-3.png",
+          "/assets/pages/products/walls-4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Paksus", "value": "2.0 mm" },
+            { "label": "Nakkumine", "value": "Kõrge vertikaalne stabiilsus" },
+            { "label": "Paigaldus", "value": "Mitmekihiline käsitöö" }
+          ],
+          "maintenance": "Puhastage regulaarselt tolmust.",
+          "philosophy": "Vertikaalsuse määratlemine mineraalse rütmi kaudu."
+        }
+      },
+      "bathrooms": {
+        "name": "Eritellimus-Vannitoad",
+        "description": "Veekindlad pidevad pinnad ühtseks ja spaalaadseks vannitoakogemuseks.",
+        "features": [
+          {
+            "icon": "droplet",
+            "title": "Täielik Läbilaskmatus",
+            "desc": "Meie vannitoasüsteem on 100% veekindel juba enne lõplikku lakkimist. Ideaalne märgadesse ruumidesse."
+          },
+          {
+            "icon": "layers",
+            "title": "Lammutusvaba Remont",
+            "desc": "Uuendage oma vannituba ilma plaatide eemaldamise mürata. Paigaldame otse olemasoleva keraamika peale."
+          },
+          {
+            "icon": "check-circle",
+            "title": "Libisemisvastane Ohutus",
+            "desc": "Loodud mikro-tekstuuriga, mis tagab suurepärase haarduvuse isegi märjana, ohverdamata pehmet puudutust."
+          },
+          {
+            "icon": "heart",
+            "title": "Hügieeniline Puhtus",
+            "desc": "Sujuv üleminek põrandalt seinale tähendab vuukide puudumist, hoides ära hallituse ja katlakivi kogunemise."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/bathrooms-main.png",
+          "/assets/pages/products/bathrooms-s1.png",
+          "/assets/pages/products/bathrooms-s2.png",
+          "/assets/pages/products/bathrooms-s3.png",
+          "/assets/pages/products/bathrooms-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Paksus", "value": "3.5 mm" },
+            { "label": "Libisemiskindlus", "value": "Klass R10" },
+            { "label": "Veekindlus", "value": "Täielik süsteem" }
+          ],
+          "maintenance": "Loputage pärast kasutamist puhta veega.",
+          "philosophy": "Monoliitne seerenlus privaatsete pelgupaikade jaoks."
+        }
+      },
+      "furniture": {
+        "name": "Arhitektuursed Objektid",
+        "description": "Skulptuurne mikrotsemendist mööbel, si toob materiaalsust igasse funktsionaalsesse elementi.",
+        "features": [
+          {
+            "icon": "box",
+            "title": "Monoliitne Vorm",
+            "desc": "Saavutage rasked arhitektuursed mahud sise-tugevduse abil. Tugevus ilma liigse kaaluta."
+          },
+          {
+            "icon": "thermometer",
+            "title": "Termiline Vastupidavus",
+            "desc": "Ideaalne köögisaartele ja söögilaudadele. Talub kõrgeid temperatuure ja termilist šokki."
+          },
+          {
+            "icon": "coffee",
+            "title": "Pleki-kaitse",
+            "desc": "Võimsad lakid kaitsevad veini, kohvi ja õli eest. Loodud funktsionaalseks elegantsiks."
+          },
+          {
+            "icon": "scissors",
+            "title": "Eritellimus-geomeetria",
+            "desc": "Saame katta mis tahes kuju — teravatest servadest pehmete orgaaniliste kumerusteni."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/furniture-main.png",
+          "/assets/pages/products/furniture-s1.png",
+          "/assets/pages/products/furniture-s2.png",
+          "/assets/pages/products/furniture-s3.png",
+          "/assets/pages/products/furniture-s4.png"
+        ],
+        "details": {
+          "specs": [
+            { "label": "Kaal", "value": "Muutuv" },
+            { "label": "Kuumakindlus", "value": "Kuni 140°C" },
+            { "label": "Viimistlus", "value": "Matt Siid" }
+          ],
+          "maintenance": "Käsitsege kui premium-kivi.",
+          "philosophy": "Funktsionaalne kunst, mis on voolitud mineraalsest vaikusest."
+        }
+      },
+      "baxab-eco": {
+        "name": "Baxab-Eco®",
+        "description": "Säästliku jõudluse tipp. VOC-vaba, üli-vastupidav mineraalne viimistlus teadlikule arhitektile.",
+        "features": [
+          { "icon": "leaf", "title": "VOC-vaba", "desc": "Null lenduvat orgaanilist ühendit. Sertifitseeritud kõrgeima siseõhu kvaliteedi standardi järgi." },
+          { "icon": "shield", "title": "Kõrge Vastupidavus", "desc": "Erakordne vastupidavus löökidele ja kriimustustele vaatamata ökoloogilisele koostisele." },
+          { "icon": "droplets", "title": "Pleki-kindel", "desc": "Nanotehnoloogilised lakid tagavad, et isegi raskesti eemaldatavad vedelikud ei imbu sisse." }
+        ],
+        "gallery": ["/assets/surfaces/baxab.png"],
+        "details": {
+          "specs": [
+            { "label": "Jätkusuutlikkus", "value": "100% Öko-sertifikaat" },
+            { "label": "Paksus", "value": "3.0 mm" },
+            { "label": "Kõvadus", "value": "Shore D 85" }
+          ],
+          "maintenance": "Puhastage biolagunevate pH-neutraalsete seepidega.",
+          "philosophy": "Jätkusuutlikkus ilma kompromissideta."
+        }
+      },
+      "ecocemento": {
+        "name": "EcoCemento®",
+        "description": "Esimene VOC-vaba mikrotsement turul. Universaalne lahendus tervislike elukeskkondade loomiseks.",
+        "features": [
+          { "icon": "leaf", "title": "Roheline Märgis", "desc": "Keskkonnasõbralikud mineraalsed komponendid kohalikest karjääridest." },
+          { "icon": "sparkles", "title": "Loomulik Tekstuur", "desc": "Pehme mineraalne välimus, mis toob kaasaegsetesse ruumidesse soojust." }
+        ],
+        "gallery": ["/assets/surfaces/ecocemento.png"],
+        "details": {
+          "specs": [
+            { "label": "VOC Sisaldus", "value": "0.0 g/L" },
+            { "label": "Kasutusala", "value": "Põrandad ja Seinad" }
+          ],
+          "maintenance": "Regulaarne niiske moppimine looduslike vahenditega.",
+          "philosophy": "Puhas mineraalne essents."
+        }
+      },
+      "baxab": {
+        "name": "Baxab®",
+        "description": "Kõige arenenum saadaolev mikrotsemendi süsteem. Loodud ülima vastupidavuse tagamiseks nõudlikes tingimustes.",
+        "features": [
+          { "icon": "shield", "title": "Purunematu", "desc": "Tugevdatud kõrgjõudlusega polümeeridega ekstreemse vastupidavuse saavutamiseks." },
+          { "icon": "zap", "title": "Äriklassi Tase", "desc": "Ideaalne suure koormusega avalikesse ruumidesse, muuseumidesse ja esinduskauplustesse." }
+        ],
+        "gallery": ["/assets/surfaces/baxab.png"],
+        "details": {
+          "specs": [
+            { "label": "Survetugevus", "value": "Üli-kõrge" },
+            { "label": "Viimistlus", "value": "Poleeritud / Satiin" }
+          ],
+          "maintenance": "Vajab minimaalset hooldust. Erakordselt lihtne puhastada.",
+          "philosophy": "Vastupidavuse standard."
+        }
+      },
+      "microcemento": {
+        "name": "Microcemento®",
+        "description": "Klassikaline, mitmekülgne mikrotsemendi viimistlus. Õmblusteta jätkuvus igale pinnale ilma lammutustööde vajaduseta.",
+        "features": [
+          { "icon": "layers", "title": "Ultra-õhuke", "desc": "Vaid 2-3 mm paksus, ideaalne renoveerimiseks otse plaatide peale." },
+          { "icon": "edit", "title": "Käsitööna Viimistletud", "desc": "Paigaldatud meistrite poolt unikaalse ja autentse tekstuuri saavutamiseks." }
+        ],
+        "gallery": ["/assets/surfaces/microcemento.png"],
+        "details": {
+          "specs": [
+            { "label": "Paksus", "value": "2.0 - 3.0 mm" },
+            { "label": "Aluspinnad", "value": "Universaalne Nake" }
+          ],
+          "maintenance": "Perioodiline vahatamine võib rõhutada loomulikku patinat.",
+          "philosophy": "Lõuend sinu eluruumile."
+        }
+      },
+      "tswim": {
+        "name": "T/Swim®",
+        "description": "Spetsiaalselt basseinidele ja märgadele keskkondadele loodud. Veekindel, kloorikindel ja libisemisvastane.",
+        "features": [
+          { "icon": "droplet", "title": "Basseinide Spetsialist", "desc": "Loodud taluma pidevat vettekastmist ja veesurvet." },
+          { "icon": "check-circle", "title": "Ohutus Ennekõike", "desc": "Integreeritud libisemisvastased omadused turvalise keskkonna tagamiseks." }
+        ],
+        "gallery": ["/assets/surfaces/tswim.png"],
+        "details": {
+          "specs": [
+            { "label": "Kemikaali-kindlus", "value": "Kloor ja Sool" },
+            { "label": "Tekstuur", "value": "Haarduvust parandav" }
+          ],
+          "maintenance": "Vee pH tasakaal on pikaealisuse jaoks kriitiline.",
+          "philosophy": "Vedel jätkuvus."
+        }
+      },
+      "summery": {
+        "name": "Summery®",
+        "description": "Uuenduslik mikrotsemendi süsteem integreeritud küttevõimalusega. Mugavus ja esteetika ühes kihis.",
+        "features": [
+          { "icon": "thermometer", "title": "Termiline Kiht", "desc": "Integreerib kütteelemendid otse mikrotsemendi kihtide vahele." },
+          { "icon": "sun", "title": "Kiirgus-soojus", "desc": "Ühtlane ja mahe soojusjaotus vannitubades ja eluruumides." }
+        ],
+        "gallery": ["/assets/surfaces/summery.png"],
+        "details": {
+          "specs": [
+            { "label": "Süsteem", "value": "Integreeritud Küte" },
+            { "label": "Energiatõhusus", "value": "Kõrge" }
+          ],
+          "maintenance": "Standardne mikrotsemendi hooldus.",
+          "philosophy": "Soojus, mida on tunda."
+        }
+      },
+      "real-metals": {
+        "name": "Real Metals®",
+        "description": "Autentne metallist mikrotsement, mis sisaldab ehtsat metallipulbrit sofistikeeritud ja luksusliku viimistluse saavutamiseks.",
+        "features": [
+          { "icon": "sparkles", "title": "Ehtne Metall", "desc": "Sisaldab pronksi-, vase- või tsingipulbrit tõelise metallilise läike saavutamiseks." },
+          { "icon": "zap", "title": "Reaktiivne Patina", "desc": "Võimalik vanandada või poleerida elava arhitektuurse pinna loomiseks." }
+        ],
+        "gallery": ["/assets/surfaces/real-metals.png"],
+        "details": {
+          "specs": [
+            { "label": "Metallid", "value": "Pronks, Tsink, Vask" },
+            { "label": "Efekt", "value": "Oksüdeeritud / Poleeritud" }
+          ],
+          "maintenance": "Vältige happelisi puhastusvahendeid, mis võivad patinat kahjustada.",
+          "philosophy": "Pindade alkeemia."
+        }
+      },
+      "silk-concrete": {
+        "name": "Siidibetoon",
+        "description": "ÜLISILE, MATT VIIMISTLUS PEHME TEKSTUURIGA.",
+        "features": [
+          { "icon": "sparkles", "title": "Pehme Puudutus", "desc": "Tekstuur, mis tundub sõrmeotste all nagu siid, säilitades betooni vastupidavuse." },
+          { "icon": "eye", "title": "Sügav Matt", "desc": "Peegeldusteta viimistlus, mis neelab valgust pehme ja atmosfäärse kuma loomiseks." }
+        ],
+        "gallery": ["/assets/pages/products/silk-concrete.png"],
+        "details": {
+          "specs": [
+            { "label": "Viimistlus", "value": "Ultra-matt" },
+            { "label": "Tekstuur", "value": "Siidpehme" }
+          ],
+          "maintenance": "Pühkige pehme niiske lapiga.",
+          "philosophy": "Vaikus, mida saab katsuda."
+        }
+      },
+      "polished-stone": {
+        "name": "Poleeritud Kivi",
+        "description": "ÕRN LÄIGE SÜGAVA MINERAALSE KIHI JA KRISTALSETE PEEGELDUSTEGA.",
+        "features": [
+          { "icon": "zap", "title": "Mineraalne Sügavus", "desc": "Kihilised mineraalid loovad pinna sees kolmemõõtmelise sügavuse tunde." },
+          { "icon": "sun", "title": "Kristalne Sära", "desc": "Õrnad peegeldused, mis reageerivad loomulikule valgusele päeva jooksul." }
+        ],
+        "gallery": ["/assets/pages/products/polished-stone.png"],
+        "details": {
+          "specs": [
+            { "label": "Viimistlus", "value": "Satiinläige" },
+            { "label": "Efekt", "value": "Mineraalne Sügavus" }
+          ],
+          "maintenance": "Regulaarne puhastamine säilitab peene läike.",
+          "philosophy": "Valgus kivi sees."
+        }
+      },
+      "velvet-mineral": {
+        "name": "Sametine Mineraal",
+        "description": "TIHE SAMETINE TEKSTUUR, MIS NEELAB JA HAJUTAB VALGUST KAUNILT.",
+        "features": [
+          { "icon": "layers", "title": "Sametine Tihedus", "desc": "Tihe ja rikkalik tekstuur, mis annab igale seinale või põrandale luksusliku tunde." },
+          { "icon": "cloud", "title": "Valguse Hajutamine", "desc": "Hajutab valgust täiuslikult, eemaldades teravad varjud ja luues rahustava keskkonna." }
+        ],
+        "gallery": ["/assets/pages/products/velvet-mineral.png"],
+        "details": {
+          "specs": [
+            { "label": "Viimistlus", "value": "Sametmatt" },
+            { "label": "Tihedus", "value": "Kõrge Mineraalsus" }
+          ],
+          "maintenance": "Lihtne hooldada vaatamata rikkalikule tekstuurile.",
+          "philosophy": "Atmosfäärne kaal."
+        }
+      }
+    },
+    "products_types": {
+      "title": "Mikrotsemendi Tüübid",
+      "sustainability": "Jätkusuutlikkus on meie prioriteet. Saate ruumi uuendada ilma lammutamiseta, kasutades MICROCEMENTO® või BAXAB® materjale, kuna neid saab kanda otse olemasolevale põrandale või seinale.",
+      "efficiency": "Teame, et aeg on väärtuslik, seepärast arendasime välja kiiresti kuivava vaigusüsteemi. Kaunid pinnad, mis on kasutatavad vaid 24 tundi pärast paigaldamist.",
+      "items": [
+        {
+          "slug": "baxab-eco",
+          "name": "Baxab-Eco®",
+          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
+          "desc": "Parim valik keskkonnateadlikele. VOC-vaba, üli-vastupidav ning pleki-, kriimustus- ja löögikindel."
+        },
+        {
+          "slug": "ecocemento",
+          "name": "EcoCemento®",
+          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
+          "desc": "Esimene VOC-vaba mikrotsement turul. Kõrge vastupidavus plekkidele ja kriimustustele, lihtne hooldada."
+        },
+        {
+          "slug": "baxab",
+          "name": "Baxab®",
+          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
+          "desc": "Kõige edasijõudnum mikrotsement turul. Erakordselt vastupidav pragudele, plekkidele ja kriimustustele."
+        },
+        {
+          "slug": "microcemento",
+          "name": "Microcemento®",
+          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
+          "desc": "Pidev pinnalahendus, mis ei nõua lammutustöid. Universaalne ja väga kulumiskindel."
+        },
+        {
+          "slug": "tswim",
+          "name": "T/Swim®",
+          "ideal": "Basseinid.",
+          "desc": "Spetsiaalselt basseinidele loodud. Veekindel, kloorikindel ja libisemisvastane suurema ohutuse tagamiseks."
+        },
+        {
+          "slug": "summery",
+          "name": "Summery®",
+          "ideal": "Põrandad, seinad, vannitoad ja köögid.",
+          "desc": "Sisaldab integreeritud küttesüsteemi. Ideaalne põrandate ja seinte soojendamiseks, säilitades samas vastupidavuse."
+        },
+        {
+          "slug": "real-metals",
+          "name": "Real Metals®",
+          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
+          "desc": "Sisaldab ehtsat metallipulbrit metallist viimistluse loomiseks. Lisab elegantsi ja sofistikeeritust koos kõrge vastupidavusega."
+        }
+      ]
+    }
+  },
+  "story": {
+    "title": "Materiaalsuse Pärand",
+    "subtitle": "Sündinud toormineraalide ja skulptuurse ambitsiooni ristumiskohas, asutati KUUS DESIGN ühe eesmärgiga: luua pindu, mis määratlevad atmosfääri läbi kõrge kontrastsusega materiaalsuse.",
+    "sections": {
+      "origin": {
+        "title": "Toores Algus",
+        "text": "Meie teekond algas väikeses tööstusstuudios, kus eksperimenteerisime traditsiooniliste mineraalsegudega. Otsisime materjali, mis kannaks betooni tugevust, kuid siidi taktikalist elegantsi."
+      },
+      "philosophy": {
+        "title": "Vaikuse Käsitöö",
+        "text": "Massiliselt toodetud ühetaolisuse maailmas valime meie kätetöö rütmi. Iga kiht KUUS DESIGN materjali kantakse peale meistri poolt."
+      }
+    }
+  },
+  "projects": {
+    "title": "Arhitektuurne Portfell",
+    "subtitle": "Valik eksklusiivseid ruume, kus materiaalsus kohtub visiooniga.",
+    "items": {
+      "villa": {
+        "name": "Villa Mediterranean",
+        "location": "Toscana, IT",
+        "year": "2023",
+        "description": "Sise- ja välistingimuste mikrotsemendist terrasside sujuv integratsioon."
+      },
+      "boutique": {
+        "name": "Kontseptsioonipood",
+        "location": "Tokyo, JP",
+        "year": "2024",
+        "description": "Minimalistlik jaeinterjöör hall-matte mikrotsemendiga."
+      },
+      "spa": {
+        "name": "Aurora Spa",
+        "location": "Reykjavik, IS",
+        "year": "2022",
+        "description": "Orgaanilised kaarjad mikrotsemendist vormid."
+      }
+    }
+  },
+  "faq": {
+    "title": "Levinud Küsimused",
+    "subtitle": "Mineraalse paigalduse tehnilised nüansid ja eripärad.",
+    "items": [
+      {
+        "question": "Mis on paigalduse tüüpiline paksus?",
+        "answer": "Meie mikrotsemendi süsteem paigaldatakse mitme kihina, mille kogupaksus on umbes 2-3 mm."
+      }
+    ]
+  },
+  "business": {
+    "title": "Äripartnerlus",
+    "subtitle": "KUUS DESIGN teeb koostööd juhtivate arhitektuuribüroode ja arendajatega.",
+    "cta": "Küsi Äriportfelli"
+  },
+  "hero": {
+    "title": "Pindade Kunst",
+    "subtitle": "Premium arhitektuurne mikrotsement.",
+    "cta": "Vaata Kollektsiooni"
+  },
+  "philosophy": {
+    "title": "VAIKUS ON AEG, MIDA ME KUULEME.",
+    "text": "Usume, et pinnad ei ole pelgalt taust, vaid atmosfääri vundament."
+  },
+  "methodology": {
+    "title": "Puhtuse Protsess",
+    "subtitle": "Aeg on kõige väärtuslikum koostisosa.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Pinna Ettevalmistus",
+        "text": "Vundament on kõik."
+      }
+    ]
+  },
+  "surfaces_collection": {
+    "title": "The Raw Collection",
+    "subtitle": "Valitud valik mineraalseid tekstuure.",
+    "items": [
+      {
+        "id": "surface-1",
+        "name": "Baxab®",
+        "description": "Kõige arenenum mikrotsemendi süsteem turul. Erakordselt vastupidav pragudele, plekkidele ja kriimustustele."
+      },
+      {
+        "id": "surface-2",
+        "name": "EcoCemento®",
+        "description": "Esimene VOC-vaba mikrotsement turul. Kõrge vastupidavus plekkidele ja kriimustustele."
+      },
+      {
+        "id": "surface-3",
+        "name": "Microcemento®",
+        "description": "Pidev pinnalahendus, mis ei nõua lammutustöid. Universaalne ja väga kulumiskindel."
+      },
+      {
+        "id": "surface-4",
+        "name": "T/Swim®",
+        "description": "Spetsiaalselt basseinidele loodud. Veekindel, kloorikindel ja libisemisvastane."
+      },
+      {
+        "id": "surface-5",
+        "name": "Summery®",
+        "description": "Integreeritud küttesüsteemiga mikrotsement. Ideaalne põrandate ja seinte soojendamiseks."
+      },
+      {
+        "id": "surface-6",
+        "name": "Real Metals®",
+        "description": "Autentne metallist viimistlus, mis sisaldab ehtsat metallipulbrit luksusliku tulemuse saavutamiseks."
+      }
+    ]
+  },
+  "timeless_collection": {
+    "title": "Igavikuline Kollektsioon",
+    "subtitle": "Siledad ja peened mineraalsed viimistlused ruumidesse, mis nõuavad täielikku rahu ja katkematut järjepidevust.",
+    "items": [
+      {
+        "id": "timeless-1",
+        "name": "Siidibetoon",
+        "description": "ÜLISILE, MATT VIIMISTLUS PEHME TEKSTUURIGA."
+      },
+      {
+        "id": "timeless-2",
+        "name": "Poleeritud Kivi",
+        "description": "ÕRN LÄIGE SÜGAVA MINERAALSE KIHI JA KRISTALSETE PEEGELDUSTEGA."
+      },
+      {
+        "id": "timeless-3",
+        "name": "Sametine Mineraal",
+        "description": "TIHE SAMETINE TEKSTUUR, MIS NEELAB JA HAJUTAB VALGUST KAUNILT."
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Alusta \n Muutusega.",
+    "text": "Konsulteeri meie stuudioga, et tuua käsitööna valminud mineraalsed tekstuurid oma visiooni.",
+    "button": "Küsi Konsultatsiooni"
+  },
+  "team": {
+    "title": "Meistrid",
+    "subtitle": "Käed pindade taga.",
+    "members": [
+      {
+        "name": "Erik Tamm",
+        "role": "Peameister",
+        "description": "Käsitsi viimistlemise magister."
+      }
+    ]
+  },
+  "thank_you": {
+    "title": "Täname Huvi Eest.",
+    "text": "Teie visioon on meie protsessi alguspunkt."
+  },
+  "story_quote": {
+    "text": "Materjalid ei tohiks lihtsalt ruumi täita; nad peaksid määratlema vaikuse selle sees.",
+    "author": "Peadisainer, KUUS DESIGN"
+  },
+  "footer": {
+    "tagline": "Premium mikrotsemendi pinnad, loodud ruumidele, mis nõuavad vaikset luksust.",
+    "categories": {
+      "studio": "Stuudio",
+      "collections": "Kollektsioonid",
+      "connect": "Kontaktid"
+    },
+    "rights": "Kõik õigused kaitstud."
+  },
+  "blog_ui": {
+    "featured": "Esiletõstetud Žurnaalikanne",
+    "read_story": "Loe Lugu",
+    "continue_reading": "Jätka Lugemist"
+  },
+  "contact_ui": {
+    "dialogue": "Alusta Dialoogi",
+    "name": "Täisnimi",
+    "email_label": "E-posti Aadress",
+    "vision": "Teie Visioon",
+    "inquiries": "Päringud",
+    "direct_line": "Otseliin",
+    "studio": "Stuudio"
+  },
+  "ai_assistant": {
+    "trigger": "Küsi Stuudio AI-lt",
+    "title": "Stuudio Intelligentsus",
+    "subtitle": "Kuidas saan täna Teie arhitektuurset visiooni toetada?",
+    "input_placeholder": "Küsi paigalduse, värvide või tehniliste andmete kohta...",
+    "searching": "Konsulteerin juhenditega...",
+    "empty_state": "Olen treenitud meie tehnilistel juhenditel ja materjalipäevikutel.",
+    "error": "Tuvastasin väikese struktuurse vea. Palun proovige uuesti."
+  },
+  "products_ui": {
+    "documentation": "Tehniline Dokumentatsioon",
+    "manual": "Paigaldusjuhend",
+    "maintenance": "Hooldusmanuaal",
+    "data_sheet": "Tehniliste Andmete Leht",
+    "order_sample": "Telli Näidis"
+  },
+  "guide_topcret": {
+    "title": "Topcret Juhend",
+    "what_is": {
+      "title": "Mis on mikrotsement?",
+      "paragraphs": [
+        "Mikrotsement, mida sageli nimetatakse ka mikrobetooniks või mikrokihiks, on tipptasemel ja erakordselt mitmekülgne tsemendipõhine pinnakate, mis on revolutsiooniliselt muutnud sise- ja väliskujunduse valdkonda. See innovaatiline materjal koosneb peentest osakestest ja seda saab saumideta kanda väga erinevatele pindadele, sealhulgas põrandatele, seintele ja isegi mööblile nii elu- kui ka äripindadel.",
+        "Topcret toob selle erakordse toote turule kui juhtiv mikrotsemendi tarnija. Mikrotsementi eristab teistest materjalidest selle ainulaadne omaduste kombinatsioon, mis teeb sellest eelistatud valiku nii sisekujundajate, arhitektide kui ka koduomanike jaoks. Selle vastupidavus tagab pikaealisuse, sobides ideaalselt suure koormusega aladele, tegemata järeleandmisi esteetikas.",
+        "Mikrotsemendi kasvava populaarsuse üheks peamiseks põhjuseks on selle võime anda igale ruumile sile, minimalistlik ja kaasaegne välimus. Laia värvi- ja viimistlusvalikuga on klientidel vabadus vallandada oma loovus ja saavutada soovitud atmosfäär. Olgu tegemist kaasaegse kontoripinna, trendika restorani või stiilse eluruumiga, mikrotsement on ülim lahendus igasuguse keskkonna esteetika ja funktsionaalsuse tõstmiseks.",
+        "Lisaks silmapaistvale visuaalsele välimusele minimeerib selle õhuke kiht mõju olemasolevatele struktuuridele nii renoveerimise kui ka uute paigalduste käigus. See omadus teeb sellest ideaalse valiku neile, kes soovivad oma ruumi täiustada ilma mahukate ehitustöödeta.",
+        "Olgu tegemist renoveerimise või uute projektidega, mikrotsement on parim lahendus iga ruumi esteetika ja funktsionaalsuse parandamiseks."
+      ]
+    },
+    "applications": {
+      "title": "Mikrotsemendi kasutusvaldkonnad",
+      "items": [
+        {
+          "title": "Mikrotsemendist põrandad",
+          "desc": "Mikrotsemendist põrandad on eriti vastupidavad ja kergesti puhastatavad, olles suurepärane valik suure koormusega aladele. Neid saab kohandada erinevate viimistlustega, alates siledast ja poleeritud pinnast kuni tekstuurse ja rustikaalseni, ning neid saab kasutada nii kodu-, äri- kui ka tööstuspindadel. Mikrotsemendist põrand on ka kulutõhus alternatiiv traditsioonilistele põrandamaterjalidele."
+        },
+        {
+          "title": "Mikrotsemendist vannitoad",
+          "desc": "Mikrotsement on ideaalne saumideta ja veekindlate pindade loomiseks vannitoas. Kuna see kantakse peale ühtse kihina, puuduvad vuugid, mis tähendab vähem kohti mustuse ja hallituse kogunemiseks. Mikrotsemendist vannitoad on kergesti puhastatavad, vastupidavad ning neid saab kohandada laia värvi- ja viimistlusvalikuga."
+        },
+        {
+          "title": "Mikrotsemendist tasapinnad",
+          "desc": "Mikrotsemendist töötasapinnad pakuvad siledat ja vastupidavat pinda, mis sobib ideaalselt kaasaegsesse kööki. Kohandatava viimistluse ja saumideta paigaldusega pakuvad mikrotsemendist tasapinnad stiilset ja praktilist lahendust neile, kes soovivad oma kööki uuendada. Lisaks vajavad need minimaalset hooldust ja on plekkidele vastupidavad, olles ideaalne valik hõivatud majapidamistele."
+        },
+        {
+          "title": "Väline mikrotsement",
+          "desc": "Väline mikrotsement on muutnud viisi, kuidas me kujundame välisalasid. See innovaatiline materjal, mis sobib ideaalselt terrassidele, rõdudele ja teeradadele, pakub siledat ja saumideta viimistlust, mis on ühtaegu vastupidav ja ilmastikukindel. Võime taluda erinevaid ilmastikuolusid koos kaasaegse esteetikaga teeb välisest mikrotsemendist eelistatud valiku. Olgu eesmärgiks stiilne basseiniala või kaasaegne aiavärav, väline mikrotsement lubab ilu, funktsionaalsuse ja pikaealisuse kombinatsiooni."
+        },
+        {
+          "title": "Mikrotsement seintel",
+          "desc": "Mikrotsement on mitmekülgne materjal, millega saab luua erinevaid seinaviimistlusi, alates siledast ja läikivast kuni tekstuurse ja rustikaalseni. Seda saab kanda ka kumeratele või ebatasastele pindadele, olles suurepärane valik aktsentseinte jaoks. Mikrotsemendist seinad on väga vastupidavad ja pragunemiskindlad, pakkudes pikaajalist ja vähest hooldust vajavat lahendust igasse ruumi."
+        },
+        {
+          "title": "Mikrotsemendist köögid",
+          "desc": "Mikrotsemendist pinnad on ideaalsed kaasaegse ja puhta ilme loomiseks köögis. Neid saab kasutada töötasapindadel, tagaseintel ja isegi põrandatel ning neid saab kohandada vastavalt köögi stiilile. Mikrotsemendist köögid on väga vastupidavad ja plekkidele kindlad, olles suurepärane valik suure koormusega aladele."
+        },
+        {
+          "title": "Mikrotsemendist trepid",
+          "desc": "Mikrotsementi saab kasutada vastupidavate ja libisemiskindlate trepiastmete loomiseks. Seda saab kanda igat tüüpi treppidele, sealhulgas betoonile, puidule või metallile, ning seda saab kohandada vastavalt ruumi kujundusele. Mikrotsemendist trepid on kergesti puhastatavad ja hooldatavad ning kulumiskindlad."
+        },
+        {
+          "title": "Mikrotsemendist dušid",
+          "desc": "Mikrotsemendist dušid on väga veekindlad, olles ideaalne valik vannituppa. Nende saumideta pind pole mitte ainult esteetiliselt nauditav, vaid ka kergesti puhastatav ja hooldatav. Duširuume saab viimistleda erinevates stiilides, alates moodsast ja poleeritud pinnast kuni loodusliku ja tekstuurse ilmeni."
+        },
+        {
+          "title": "Mikrotsemendist mööbel",
+          "desc": "Mikrotsemendiga saab luua unikaalseid ja kaasaegseid mööbliesemeid. Seda saab kanda väga erinevatele materjalidele, sealhulgas puidule, metallile ja plastile, ning kohandada vastavalt ruumi stiilile. Mikrotsemendist mööbel on väga vastupidav ning pleki- ja kriimustuskindel."
+        },
+        {
+          "title": "Mikrotsemendist basseinid",
+          "desc": "Mikrotsemendist basseinid pakuvad saumideta ja veekindlat pinda, mis on ideaalne basseini ehituseks. Kohandatava viimistluse ja vähese hooldusvajadusega on need stiilne ja kulutõhus valik koduomanikele, kes soovivad täiustada oma välisruumi."
+        }
+      ]
+    },
+    "subtitle": "Mineraalpindade tehniline meistriklass.",
+    "description": "Mikrotsement on tipptasemel tsemendipõhine pinnakate.",
+    "advantages_title": "Peamised Eelised",
+    "advantages": {
+      "versatility": { "title": "Universaalsus", "desc": "Sobib peaaegu igale pinnale." },
+      "durability": { "title": "Vastupidavus", "desc": "Kõrge kulumis- ja plekkidekindlus." },
+      "customization": { "title": "Personaliseerimine", "desc": "Lai valik värve ja viimistlusi." },
+      "waterproof": { "title": "Veekindlus", "desc": "Täielikult veekindel süsteem." },
+      "thickness": { "title": "Minimaalne Paksus", "desc": "Õhuke kiht, mis ei lisa kõrgust." },
+      "flexibility": { "title": "Paindlikkus", "desc": "Talub struktuurseid liikumisi." },
+      "eco": { "title": "Keskkonnasõbralikkus", "desc": "Säästev tootmine ja madal VOC." },
+      "maintenance": { "title": "Lihtne Hooldus", "desc": "Erakordselt lihtne puhastada." }
+    },
+    "process_title": "Tehniline Protsess",
+    "process_steps": [
+      { "title": "Pinna Ettevalmistus", "desc": "Aluspind peab olema puhas ja kuiv." },
+      { "title": "Kruntimine", "desc": "Tagab ülitugeva nakke." },
+      { "title": "Segamine", "desc": "Segatakse pigmentidega soovitud värvini." },
+      { "title": "Aluskiht", "desc": "Pinnale kantakse esimene kiht." },
+      { "title": "Tekstuurikiht", "desc": "Lõpliku tekstuuri saavutamine." },
+      { "title": "Lakkimine", "desc": "Kaitseb plekkide eest." }
+    ],
+    "finishes_title": "Pinna Viimistlused",
+    "finishes_intro": "Saavutatavate viimistluste mitmekesisus sõltub valitud tekstuuridest.",
+    "finishes_list": [
+      { "title": "Poleeritud", "desc": "Ideaalne sileda ja kaasaegse välimuse saavutamiseks." },
+      { "title": "Vanandatud ja Poleeritud", "desc": "Keemiline töötlus rustikaalsema sarmi jaoks." },
+      { "title": "Toonitud", "desc": "Unikaalsed ja eritellimusel värvilahendused." },
+      { "title": "Läikiv", "desc": "Särav ja tugev pind, lihtne hooldada." },
+      { "title": "Matt", "desc": "Tagasihoidlik ja sofistikeeritud viimistlus." },
+      { "title": "Satiin", "desc": "Elegantne ja pehme tunnetus." },
+      { "title": "Libisemisvastane Matt", "desc": "Säilitab mati esteetika ja ohutuse." }
+    ]
+  },
+  "colors": {
+    "title": "Mineraalne Palett",
+    "subtitle": "Kureeritud kollektsioon looduslikest pigmentidest, mis on loodud reageerima valgusele ja arhitektuurile.",
+    "collections": {
+      "timeless": {
+        "title": "Timeless Kollektsioon",
+        "description": "Olulised arhitektuursed toonid, mis ületavad hooajalisi trende.",
+        "items": [
+          { "code": "BLA-01", "name": "Blanco Roto", "hex": "#E5E4E2" },
+          { "code": "GRI-03", "name": "Gris Perla", "hex": "#B7B7B7" },
+          { "code": "GRI-05", "name": "Gris Cemento", "hex": "#9E9E9E" },
+          { "code": "NEG-01", "name": "Negro Fumo", "hex": "#3A3A3A" },
+          { "code": "AMA-02", "name": "Trigo", "hex": "#C5B358" },
+          { "code": "OLI-02", "name": "Verde Ceniza", "hex": "#7E8071" }
+        ]
+      },
+      "clay": {
+        "title": "Clay Kollektsioon",
+        "description": "Maapõuest pärinevad pigmendid, mis peegeldavad toormineraalide soojust.",
+        "items": [
+          { "code": "NUD-1", "name": "Nude Essence", "hex": "#BC9E82" },
+          { "code": "MAL-02", "name": "Mallow Earth", "hex": "#8D6E63" },
+          { "code": "PUR-03", "name": "Deep Plum", "hex": "#6D5D6E" },
+          { "code": "ROS-01", "name": "Pale Rose", "hex": "#D4B4B4" },
+          { "code": "ROJ-02", "name": "Terra Cotta", "hex": "#A0522D" }
+        ]
+      },
+      "flora": {
+        "title": "Flora Kollektsioon",
+        "description": "Botaanilised inspiratsioonid rahustavate orgaaniliste keskkondade jaoks.",
+        "items": [
+          { "code": "ALM", "name": "Almond", "hex": "#F5E6D3" },
+          { "code": "SAG", "name": "Sage", "hex": "#D1D5C0" },
+          { "code": "BLU", "name": "Blueberry", "hex": "#A9BCD0" },
+          { "code": "LAV", "name": "Lavender", "hex": "#E0D1D1" },
+          { "code": "PEA", "name": "Peach", "hex": "#FAD5A5" }
+        ]
+      },
+      "metals": {
+        "title": "Real Metals Kollektsioon",
+        "description": "Autentsed metallist viimistlused ehtsa mineraalse iseloomuga.",
+        "items": [
+          { "code": "ZIN", "name": "Tsink", "hex": "#8E9196" },
+          { "code": "BRA", "name": "Messing", "hex": "#B5A642" },
+          { "code": "BRO", "name": "Pronks", "hex": "#804A00" },
+          { "code": "COP", "name": "Vask", "hex": "#B87333" },
+          { "code": "COR", "name": "Corten Teras", "hex": "#8B4513" }
+        ]
+      }
+    },
+    "popular": {
+      "title": "Populaarsed Värvid",
+      "subtitle": "Arhitektide ja disainerite poolt enim küsitud toonid."
+    }
+  },
+  "custom_interior": {
+    "title": "Interjöörikunst & Dekoor",
+    "subtitle": "Mineraalne meisterlikkus väljaspool pinda. Iga element on meie stuudio poolt käsitsi vormitud.",
+    "items": [
+      {
+        "id": "fresco",
+        "name": "Fresko & Lubivärv",
+        "description": "Iidne mineraaltehnika, mis loob orgaanilisi, hingavaid seinapindu pehme, vananenud patinaga, mis on unikaalne igale ruumile."
+      },
+      {
+        "id": "geometric",
+        "name": "Geomeetrilised Inkrusteeringud",
+        "description": "Täpselt lõigatud mineraalmustrid — Muuristiili võrgustikust rangete modernistlike võredeni — otse elavasse pinnasse põimitud."
+      },
+      {
+        "id": "sculptural",
+        "name": "Skulpturaalsed Reljeefpaneelid",
+        "description": "Kolmemõõtmelised dekoratiivsed paneelid, käsitsi vormitud mikrotsemendist — aktsentseinäde, peatsete ja arhitektuursete niššide jaoks."
+      },
+      {
+        "id": "ombre",
+        "name": "Ombré Mineraalgradiendid",
+        "description": "Sujuvad värvüleminekud põrandalt laeni tooreid savipigmente kasutades, ilma nähtava piiri või õmbluseta."
+      },
+      {
+        "id": "mural",
+        "name": "Kohandatud Mineraalmuraalid",
+        "description": "Suuremahulised käsitsimaalitud muraalid mineraalpigmendis — püsivad, UV-stabiilsed ja täiesti ainulaadsed teie ruumile."
+      },
+      {
+        "id": "accents",
+        "name": "Arhitektuursed Aktsendid",
+        "description": "Dekoratiivsed sambad, kaared, konsoolilauad ja kaminad, viimistletud monoliitse mikrotsemendiga."
+      }
+    ]
+  }
+}
