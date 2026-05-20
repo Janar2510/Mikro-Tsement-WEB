@@ -10,9 +10,10 @@ interface ProductCardProps {
   image: string;
   href: string;
   idx: number;
+  exploreLabel?: string;
 }
 
-export function ProductCard({ name, description, image, href, idx }: ProductCardProps) {
+export function ProductCard({ name, description, image, href, idx, exploreLabel }: ProductCardProps) {
   return (
     <motion.div
       className="group relative flex flex-col space-y-6"
@@ -33,15 +34,15 @@ export function ProductCard({ name, description, image, href, idx }: ProductCard
 
       <div className="space-y-2">
         <h3 className="font-serif text-2xl uppercase tracking-widest">{name}</h3>
-        <p className="text-sm text-foreground/60 font-sans tracking-wide leading-relaxed max-w-sm">
+        <p className="text-sm text-foreground/70 font-sans tracking-wide leading-relaxed max-w-sm">
           {description}
         </p>
         <div className="pt-4">
           <Link 
             href={href} 
-            className="text-[10px] uppercase font-bold tracking-[0.2em] border-b border-foreground/20 pb-1 hover:border-foreground transition-colors"
+            className="text-[10px] uppercase font-bold tracking-[0.2em] border-b border-foreground/30 pb-1 hover:border-foreground transition-colors"
           >
-            Explore Collection
+            {exploreLabel || "Explore Collection"}
           </Link>
         </div>
       </div>

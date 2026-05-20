@@ -1,9 +1,27 @@
+import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
 import Link from "next/link";
 import Image from "next/image";
+
+const BASE_URL = "https://kuusdesign.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  return {
+    title: dict.blog.title,
+    description: dict.blog.subtitle,
+    alternates: {
+      canonical: `${BASE_URL}/${lang}/blog`,
+      languages: Object.fromEntries(LOCALES.map((l) => [l, `${BASE_URL}/${l}/blog`])),
+    },
+    openGraph: { title: dict.blog.title, description: dict.blog.subtitle, url: `${BASE_URL}/${lang}/blog` },
+  };
+}
 
 export default async function BlogPage({
   params,

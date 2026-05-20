@@ -1,8 +1,26 @@
+import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
 import Image from "next/image";
+
+const BASE_URL = "https://kuusdesign.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  return {
+    title: dict.business?.title ?? "Business",
+    description: dict.business?.subtitle ?? "",
+    alternates: {
+      canonical: `${BASE_URL}/${lang}/business`,
+      languages: Object.fromEntries(LOCALES.map((l) => [l, `${BASE_URL}/${l}/business`])),
+    },
+    openGraph: { title: dict.business?.title, description: dict.business?.subtitle, url: `${BASE_URL}/${lang}/business` },
+  };
+}
 
 export default async function BusinessPage({
   params,
@@ -28,7 +46,7 @@ export default async function BusinessPage({
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           <div className="relative w-full aspect-[21/9] mb-20 overflow-hidden">
              <Image 
-               src="/assets/pages/projects/commercial.png" 
+               src="/assets/pages/projects/commercial.jpg" 
                alt={dict.business.title} 
                fill 
                className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"

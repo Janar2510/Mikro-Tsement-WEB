@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Check, Leaf, Zap, Shield, Droplets, Thermometer, Box } from "lucide-react";
+import { Check, Leaf, Zap, Shield, Droplets, Thermometer, Box, Sparkles } from "lucide-react";
 
 interface ProductTypesProps {
   dict: any;
@@ -11,12 +11,13 @@ interface ProductTypesProps {
 
 const icons: Record<number, any> = {
   0: Leaf, // Baxab-Eco
-  1: Leaf, // EcoCemento
-  2: Shield, // Baxab
-  3: Box, // Microcemento
-  4: Droplets, // T/Swim
-  5: Thermometer, // Summery
-  6: Zap, // Real Metals
+  1: Sparkles, // Deco Walls
+  2: Leaf, // EcoCemento
+  3: Shield, // Baxab
+  4: Box, // Microcemento
+  5: Droplets, // T/Swim
+  6: Thermometer, // Summery
+  7: Zap, // Real Metals
 };
 
 export function ProductTypes({ dict, lang }: ProductTypesProps) {

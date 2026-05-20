@@ -45,13 +45,13 @@ export function Philosophy({ dict }: PhilosophyProps) {
                </motion.span>
              ))}
            </motion.h2>
-           <motion.div 
-             className="w-12 h-[1px] bg-foreground/20"
+           <motion.div
+             className="w-12 h-[1px] bg-foreground/30"
              variants={{ hidden: { scaleX: 0 }, visible: { scaleX: 1 } }}
              transition={{ duration: 1, delay: 0.5 }}
            />
            <motion.p 
-             className="font-sans text-sm md:text-base text-foreground/70 leading-relaxed max-w-md"
+             className="font-sans text-sm md:text-base text-foreground/75 leading-relaxed max-w-md"
              variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
              transition={{ duration: 0.8, delay: 0.6 }}
            >
@@ -67,9 +67,10 @@ export function Philosophy({ dict }: PhilosophyProps) {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <Image 
-            src="/detail.png" 
-            alt="Microcement Texture Detail" 
-            fill 
+            src="/detail.png"
+            alt="Microcement Texture Detail"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover object-center grayscale-[0.2]"
           />
         </motion.div>

@@ -1,11 +1,14 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 
 export function TimelessCollection({ dict }: { dict: any }) {
   const heroRef = useRef<HTMLElement>(null);
+
+
+
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start start", "end start"],
@@ -15,9 +18,9 @@ export function TimelessCollection({ dict }: { dict: any }) {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
 
   const images: Record<string, string> = {
-    "timeless-1": "/assets/pages/products/silk-concrete.png",
-    "timeless-2": "/assets/pages/products/polished-stone.png",
-    "timeless-3": "/assets/pages/products/velvet-mineral.png",
+    "timeless-1": "/assets/pages/products/basebeton-originale-1.png",
+    "timeless-2": "/assets/pages/products/OXIDESTUC10.webp",
+    "timeless-3": "/assets/pages/products/stuccopuro-1.png",
   };
 
   return (
@@ -30,18 +33,20 @@ export function TimelessCollection({ dict }: { dict: any }) {
         <motion.div
           className="absolute inset-0 z-0"
           style={{ y: videoY }}
-        >
+          dangerouslySetInnerHTML={{ __html: `
           <video
-            autoPlay
+            autoplay
             loop
             muted
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover brightness-[0.95] scale-110"
-          >
-            <source src="/assets/pages/products/Product videos.mp4" type="video/mp4" />
-          </video>
-          <div className="absolute inset-0 bg-black/20" />
-        </motion.div>
+            playsinline
+            preload="auto"
+            src="/assets/pages/products/product-videos.mp4?v=2"
+            poster="/assets/pages/products/product-videos-poster.jpg"
+            class="absolute inset-0 w-full h-full object-cover brightness-[0.95] scale-110"
+          ></video>
+          <div class="absolute inset-0 bg-black/20"></div>
+          `}}
+        />
 
         <motion.div
           className="relative z-10 text-center flex flex-col items-center max-w-5xl px-4"

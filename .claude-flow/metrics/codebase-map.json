@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-05-17T16:50:15.739Z",
+  "projectRoot": "/Users/janarkuusk/Microcement. web",
+  "structure": {
+    "hasPackageJson": true,
+    "hasTsConfig": true,
+    "hasClaudeConfig": true,
+    "hasClaudeFlow": true
+  },
+  "scannedAt": 1779036615739
+}

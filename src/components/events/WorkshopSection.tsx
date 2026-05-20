@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Award, CheckCircle } from "lucide-react";
@@ -37,6 +37,8 @@ export function WorkshopSection({ dict, lang }: WorkshopSectionProps) {
   const videoY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
 
+
+
   return (
     <>
       {/* Parallax Hero */}
@@ -44,18 +46,23 @@ export function WorkshopSection({ dict, lang }: WorkshopSectionProps) {
         ref={heroRef}
         className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden"
       >
-        <motion.div className="absolute inset-0 z-0" style={{ y: videoY }}>
+        <motion.div 
+          className="absolute inset-0 z-0" 
+          style={{ y: videoY }}
+          dangerouslySetInnerHTML={{ __html: `
           <video
-            autoPlay
+            autoplay
             loop
             muted
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover brightness-[0.9] scale-110"
-          >
-            <source src="/assets/pages/products/Product videos.mp4" type="video/mp4" />
-          </video>
-          <div className="absolute inset-0 bg-black/25" />
-        </motion.div>
+            playsinline
+            preload="auto"
+            src="/assets/pages/products/product-videos.mp4?v=2"
+            poster="/assets/pages/products/product-videos-poster.jpg"
+            class="absolute inset-0 w-full h-full object-cover brightness-[0.9] scale-110"
+          ></video>
+          <div class="absolute inset-0 bg-black/25"></div>
+          `}}
+        />
 
         <motion.div
           className="relative z-10 text-center flex flex-col items-center max-w-4xl px-4"

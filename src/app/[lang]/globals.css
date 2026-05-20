@@ -26,3 +26,11 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes breath {
+  0%   { font-variation-settings: "wght" var(--breath-min, 100); }
+  100% { font-variation-settings: "wght" var(--breath-max, 800); }
+}

@@ -14,16 +14,22 @@ export default async function ProjectsPage({
 
   const projects = [
     {
-      id: "villa",
-      image: "/assets/pages/projects/residential.png",
-      href: `/${lang}/projects/villa`,
-      ...dict.projects.items.villa
-    },
-    {
       id: "boutique",
-      image: "/assets/pages/projects/commercial.png",
+      image: "/assets/pages/projects/commercial.jpg",
       href: `/${lang}/projects/boutique`,
       ...dict.projects.items.boutique
+    },
+    {
+      id: "eramu",
+      image: "/assets/pages/projects/residential.png",
+      href: `/${lang}/projects/eramu`,
+      ...dict.projects.items.eramu
+    },
+    {
+      id: "lino",
+      image: "/assets/pages/projects/lino-bathroom.png",
+      href: `/${lang}/projects/lino`,
+      ...dict.projects.items.lino
     },
     {
       id: "spa",
@@ -43,6 +49,8 @@ export default async function ProjectsPage({
       <SectionHero 
         title={dict.projects.title} 
         subtitle={dict.projects.subtitle}
+        backgroundVideo="/assets/pages/projects/projects-hero.mp4?v=2"
+        fullHeight={true}
       />
       
       <section className="py-24 bg-background border-b border-border/50">
@@ -57,6 +65,7 @@ export default async function ProjectsPage({
                 image={project.image}
                 href={project.href}
                 idx={idx}
+                labels={dict.projects.labels}
               />
             ))}
           </div>

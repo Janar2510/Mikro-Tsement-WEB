@@ -24,7 +24,8 @@ import {
   ChevronLeft,
   ChevronRight,
   FileText,
-  Download
+  Download,
+  ArrowLeft,
 } from "lucide-react";
 
 interface ProductDetailsUIProps {
@@ -63,7 +64,10 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
     `/assets/pages/products/${slug}.png`
   ];
 
-  const popularColors = dict.colors.collections.timeless.items.slice(0, 6);
+  // Use product's own palette; fall back to first available collection
+  const productColors: any[] = product.productColors?.length
+    ? product.productColors.slice(0, 10)
+    : (Object.values(dict.colors.collections)[0] as any)?.items?.slice(0, 10) ?? [];
 
   const nextImage = () => setActiveImageIdx((prev) => (prev + 1) % gallery.length);
   const prevImage = () => setActiveImageIdx((prev) => (prev - 1 + gallery.length) % gallery.length);
@@ -71,13 +75,25 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
   return (
     <section className="pt-[156px] pb-24 bg-[#F5F5F3] px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
-        {/* ... (existing content) ... */}
+        <motion.div 
+          className="mb-12"
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+        >
+          <Link 
+            href={`/${lang}/products`}
+            className="group flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:text-foreground transition-colors"
+          >
+            <ArrowLeft className="w-3 h-3 transition-transform group-hover:-translate-x-1" />
+            {dict.products_ui.back_to_products}
+          </Link>
+        </motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           {/* Left Column */}
-          <div className="lg:col-span-5 space-y-12">
+          <div className="lg:col-span-6 space-y-12">
             <header className="space-y-6">
               <motion.h1 
-                className="font-serif text-6xl md:text-7xl uppercase tracking-tighter italic leading-none"
+                className="font-serif text-4xl sm:text-6xl lg:text-7xl uppercase tracking-tighter italic leading-[0.9] break-words"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
               >
@@ -129,17 +145,17 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
-              <Link 
+              <Link
                 href={`/${lang}/contact`}
                 className="inline-block w-full md:w-auto bg-black text-white px-16 py-5 uppercase tracking-[0.2em] text-[10px] font-bold hover:bg-black/80 transition-all text-center"
               >
-                Get a Quote
+                {dict.products_ui.get_quote}
               </Link>
             </motion.div>
           </div>
 
           {/* Right Column: Gallery */}
-          <div className="lg:col-span-7 flex flex-col md:flex-row gap-4">
+          <div className="lg:col-span-6 flex flex-col md:flex-row gap-4">
             <div className="relative flex-1 aspect-[4/5] bg-foreground/5 overflow-hidden group">
               <AnimatePresence mode="wait">
                 <motion.div
@@ -178,74 +194,105 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
             <div className="hidden md:flex flex-col gap-4 w-24">
               {gallery.map((img: string, i: number) => (
                 <button key={i} onClick={() => setActiveImageIdx(i)} className={`relative aspect-square w-full overflow-hidden transition-all duration-500 ${i === activeImageIdx ? 'ring-1 ring-foreground ring-offset-2 opacity-100' : 'opacity-40 grayscale hover:opacity-100'}`}>
-                  <Image src={img} alt={`Thumbnail ${i + 1}`} fill className="object-cover" />
+                  <Image src={img} alt={`Thumbnail ${i + 1}`} fill sizes="96px" className="object-cover" />
                 </button>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Popular Colours Section */}
-        <div className="mt-40 space-y-12">
-          <div className="flex items-end justify-between border-b border-foreground/10 pb-8">
-            <div className="space-y-2">
-              <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.colors.popular.title}</h3>
-              <p className="font-serif text-3xl italic tracking-tight">{dict.colors.popular.subtitle}</p>
+        {/* Product Colour Palette */}
+        {productColors.length > 0 && (
+          <div className="mt-40 space-y-12">
+            <div className="flex items-end justify-between border-b border-foreground/10 pb-8">
+              <div className="space-y-2">
+                <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.colors.popular?.title ?? "Available Colours"}</h3>
+                <p className="font-serif text-3xl italic tracking-tight">{product.name} Palette</p>
+              </div>
+              <Link href={`/${lang}/colors/${slug}`} className="text-[10px] uppercase tracking-[0.2em] font-bold hover:opacity-50 transition-opacity">
+                View All {product.productColors?.length ?? ""} Colours →
+              </Link>
             </div>
-            <Link href={`/${lang}/colors`} className="text-[10px] uppercase tracking-[0.2em] font-bold hover:opacity-50 transition-opacity">View All Colours —</Link>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+              {productColors.map((color: any, i: number) => {
+                const noiseSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4" stitchTiles="stitch"/></filter><rect width="200" height="200" filter="url(#n)"/></svg>`;
+                const noiseBg = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(noiseSvg)}`;
+                return (
+                  <motion.div
+                    key={color.code}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.05 }}
+                    className="group cursor-pointer"
+                    onClick={() => setSelectedColor(color)}
+                  >
+                    <div className="relative aspect-[4/3] overflow-hidden" style={{ backgroundColor: color.hex }}>
+                      <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: `url("${noiseBg}")`, backgroundSize: "200px 200px", opacity: 0.12, mixBlendMode: "overlay" }} />
+                      <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(128deg,rgba(255,255,255,0.18) 0%,rgba(255,255,255,0.03) 40%,rgba(0,0,0,0.05) 65%,rgba(0,0,0,0.2) 100%)" }} />
+                      <div className="absolute inset-0 pointer-events-none" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.22)" }} />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500 pointer-events-none" />
+                      <div className="absolute bottom-0 left-0 p-2.5">
+                        <p className="text-[7px] uppercase tracking-[0.15em] text-white/55 font-medium leading-none mb-0.5">{color.code}</p>
+                        <p className="font-serif text-xs italic text-white leading-tight drop-shadow-sm">{color.name}</p>
+                      </div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {popularColors.map((color: any, i: number) => (
+        )}
+
+        {/* Technical Section */}
+        <div className="mt-40 border-t border-foreground/10 pt-20">
+          <div className="space-y-12">
+            <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-foreground/10 pb-8 gap-6">
+              <div className="space-y-2">
+                <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.products_ui.documentation}</h3>
+                <p className="font-serif text-3xl italic tracking-tight">{dict.products_ui.data_sheet}</p>
+              </div>
+              {product.datasheet && (
+                <a
+                  href={`/assets/datasheets/${product.datasheet}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center gap-3 bg-black text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-black/80 transition-all w-full md:w-auto"
+                >
+                  <Download className="w-4 h-4" />
+                  {dict.products_ui.data_sheet} (PDF)
+                </a>
+              )}
+            </div>
+
+            {product.datasheet && (
               <motion.div
-                key={color.code}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="group cursor-pointer space-y-4"
-                onClick={() => setSelectedColor(color)}
+                className="bg-white border border-foreground/5 shadow-sm p-8 md:p-12 flex flex-col md:flex-row items-center gap-8"
               >
-                <div className="aspect-square relative overflow-hidden bg-muted transition-transform duration-700 group-hover:scale-[1.02]" style={{ backgroundColor: color.hex }}>
-                  <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/p6-mini.png')]" />
+                <div className="w-16 h-16 flex items-center justify-center border border-foreground/10 shrink-0">
+                  <FileText className="w-8 h-8 text-foreground/40" />
                 </div>
-                <div className="space-y-1">
-                  <p className="text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40">{color.code}</p>
-                  <p className="font-serif text-lg italic tracking-tight">{color.name}</p>
+                <div className="flex-1 space-y-2 text-center md:text-left">
+                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/30">Basebeton</p>
+                  <h4 className="font-serif text-2xl italic tracking-tight">{product.name} — Technical Datasheet</h4>
+                  <p className="text-sm text-foreground/50 font-sans">
+                    Official installation manual, technical specifications and substrate preparation guidelines.
+                  </p>
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-
-        {/* Technical Section */}
-        <div className="mt-40 grid grid-cols-1 md:grid-cols-2 gap-20 border-t border-foreground/10 pt-20">
-          <div className="space-y-8">
-            <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.products_ui.documentation}</h3>
-            <div className="grid grid-cols-1 gap-4">
-              {[
-                { label: dict.products_ui.manual, path: "/docs/manuals/installation.pdf" },
-                { label: dict.products_ui.data_sheet, path: "/docs/technical/data-sheet.pdf" }
-              ].map((doc, i) => (
-                <a key={i} href={doc.path} className="flex items-center justify-between p-6 bg-white border border-foreground/5 hover:border-foreground/20 transition-all group">
-                  <div className="flex items-center gap-4">
-                    <FileText className="w-4 h-4 text-foreground/30" />
-                    <span className="font-sans text-[10px] uppercase tracking-widest font-bold group-hover:italic transition-all">{doc.label}</span>
-                  </div>
-                  <Download className="w-4 h-4 text-foreground/20 group-hover:text-foreground transition-colors" />
+                <a
+                  href={`/assets/datasheets/${product.datasheet}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-black text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-black/80 transition-all shrink-0"
+                >
+                  <Download className="w-4 h-4" />
+                  Download PDF
                 </a>
-              ))}
-            </div>
-          </div>
-          <div className="space-y-8">
-            <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— Technical Specifications</h3>
-            <div className="grid grid-cols-1 gap-y-4">
-              {product.details?.specs.map((spec: any, idx: number) => (
-                <div key={idx} className="flex justify-between items-baseline border-b border-foreground/5 pb-2">
-                  <span className="font-sans text-[10px] uppercase tracking-widest text-foreground/40">{spec.label}</span>
-                  <span className="font-serif text-lg italic">{spec.value}</span>
-                </div>
-              ))}
-            </div>
+              </motion.div>
+            )}
           </div>
         </div>
       </div>

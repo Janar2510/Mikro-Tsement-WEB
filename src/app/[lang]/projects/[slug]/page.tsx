@@ -26,6 +26,7 @@ export default async function ProjectDetailPage({
         project={project} 
         lang={lang} 
         slug={slug} 
+        labels={dict.projects.labels}
       />
 
       <Footer lang={lang} navDict={dict.navigation} footerDict={dict.footer} />

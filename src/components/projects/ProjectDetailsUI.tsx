@@ -8,13 +8,16 @@ interface ProjectDetailsUIProps {
   project: any;
   lang: string;
   slug: string;
+  labels: any;
 }
 
-export function ProjectDetailsUI({ project, lang, slug }: ProjectDetailsUIProps) {
+export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetailsUIProps) {
   const images: Record<string, string> = {
     villa: "/assets/pages/projects/residential.png",
-    boutique: "/assets/pages/projects/commercial.png",
+    boutique: "/assets/pages/projects/commercial.jpg",
     spa: "/assets/pages/projects/hospitality.png",
+    eramu: "/assets/pages/projects/residential.png",
+    lino: "/assets/pages/projects/lino-bathroom.png",
   };
 
   return (
@@ -43,7 +46,7 @@ export function ProjectDetailsUI({ project, lang, slug }: ProjectDetailsUIProps)
               animate={{ opacity: 0.6, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              Case Study — {project.location}
+              {labels?.case_study || "Case Study"} — {project.location}
             </motion.span>
             <motion.h1 
               className="font-serif text-5xl md:text-8xl lg:text-9xl uppercase tracking-tighter italic leading-none"
@@ -64,10 +67,10 @@ export function ProjectDetailsUI({ project, lang, slug }: ProjectDetailsUIProps)
              <div className="space-y-16 lg:sticky lg:top-32">
                 <div className="grid grid-cols-2 gap-8 border-y border-border/50 py-12">
                    {[
-                     { label: "Year", value: project.year || "2023" },
-                     { label: "Architect", value: "KUUS DESIGN Studio" },
-                     { label: "Surface Area", value: "450 m²" },
-                     { label: "Tone", value: "Mineral Bone" }
+                     { label: labels?.year || "Year", value: project.year || "2026" },
+                     { label: labels?.architect || "Architect", value: "KUUS DESIGN Studio" },
+                     { label: labels?.surface_area || "Surface Area", value: slug === 'boutique' ? "25 m²" : (project.area || "450 m²") },
+                     { label: labels?.tone || "Tone", value: slug === 'boutique' ? "Marfil Rustik" : (project.tone || "Lino") }
                    ].map((item, i) => (
                      <motion.div 
                        key={item.label} 
@@ -88,7 +91,7 @@ export function ProjectDetailsUI({ project, lang, slug }: ProjectDetailsUIProps)
                     href={`/${lang}/projects`}
                     className="text-[10px] uppercase font-bold tracking-[0.3em] text-foreground/40 hover:text-foreground transition-colors py-4 inline-block"
                   >
-                    ← Back to Portfolio
+                    ← {labels?.back || "Back to Portfolio"}
                   </Link>
                 </div>
              </div>

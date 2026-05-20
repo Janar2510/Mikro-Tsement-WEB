@@ -50,9 +50,9 @@ export function TopcretGuideUI({ dict, lang }: TopcretGuideUIProps) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2 }}
           >
-            <Image 
-              src="https://topcret.com/wp-content/uploads/2023/03/foto001.webp"
-              alt="Topcret Minimalistic Interior"
+            <Image
+              src="/assets/pages/products/bathrooms-main.png"
+              alt="Basebeton Minimalistic Interior"
               fill
               className="object-cover"
             />
@@ -298,7 +298,7 @@ export function TopcretGuideUI({ dict, lang }: TopcretGuideUIProps) {
               transition={{ delay: 0.6 }}
             >
                <Image 
-                src="/assets/pages/products/flooring-main.png"
+                src="/assets/products/flooring/flooring.png"
                 alt="Microcement Flooring"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"

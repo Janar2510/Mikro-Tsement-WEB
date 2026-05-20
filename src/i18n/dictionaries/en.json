@@ -1,5 +1,54 @@
 {
-    "events": {
+  "seo": {
+    "global": {
+      "title": "KUUS DESIGN | Premium Basebeton Microcement – Tartu, Estonia",
+      "description": "Premium Basebeton microcement surfaces for luxury interiors. Seamless floors, waterproof bathrooms, decorative walls. Zero-demolition renovation. Tartu & Estonia.",
+      "keywords": "microcement, basebeton, microcement estonia, microcement tartu, microcement installation, microcement bathroom, microcement floor, seamless floor, waterproof wall, decorative wall, zero demolition renovation, mineral surface, basebeton originale, premium microcement"
+    },
+    "pages": {
+      "home": {
+        "title": "KUUS DESIGN | Basebeton Microcement – Seamless Surfaces Estonia",
+        "description": "Transform your space with monolithic Basebeton microcement. Seamless, waterproof, zero-demolition surfaces for floors, walls and bathrooms. Premium studio in Tartu, Estonia."
+      },
+      "products": {
+        "title": "Basebeton Products | 11 Microcement Systems – KUUS DESIGN",
+        "description": "Basebeton Originale, Beton Ciré, Oxidestuc, Natureplast, Sichtbeton and more. 11 professional ready-to-use microcement systems. EC1 Plus certified. 366 colours."
+      },
+      "projects": {
+        "title": "Microcement Projects Portfolio | KUUS DESIGN",
+        "description": "Browse completed Basebeton microcement projects — floors, bathrooms, walls and furniture across Estonia. Residential and commercial case studies."
+      },
+      "blog": {
+        "title": "Microcement Journal | Design & Installation Insights – KUUS DESIGN",
+        "description": "Expert insights into Basebeton microcement, mineral surfaces, installation techniques and interior design trends."
+      },
+      "colors": {
+        "title": "Microcement Colour Collections | 366 Colours – KUUS DESIGN",
+        "description": "366 Basebeton microcement colours across 11 product palettes. Specify by code for exact factory colour matching. Basebeton Originale, Beton Ciré, Stuccopuro and more."
+      },
+      "story": {
+        "title": "Our Story | KUUS DESIGN Microcement Studio Tartu",
+        "description": "KUUS DESIGN is a premium microcement studio based in Tartu, Estonia. We work with Basebeton by Stone Age — EC1 Plus certified, professional-grade microcement systems."
+      },
+      "contact": {
+        "title": "Contact | KUUS DESIGN Microcement Studio – Tartu",
+        "description": "Contact KUUS DESIGN for microcement consultations, project quotes and Basebeton product enquiries. Studio in Tartu, Estonia. studio@kuusdesign.ee"
+      },
+      "events": {
+        "title": "Microcement Training Workshops | KUUS DESIGN Tartu",
+        "description": "Professional Basebeton microcement installation training in Tartu. 2-day and 3-day programmes. Internationally recognised installer certificate."
+      },
+      "faq": {
+        "title": "Microcement FAQ | Common Questions – KUUS DESIGN",
+        "description": "Answers to the most common questions about Basebeton microcement: installation, maintenance, waterproofing, colours, costs and substrate compatibility."
+      },
+      "guide": {
+        "title": "Basebeton Microcement Guide | Installation & Applications – KUUS DESIGN",
+        "description": "Complete guide to Basebeton microcement: what it is, where it can be applied, the technical installation process and surface finishes."
+      }
+    }
+  },
+  "events": {
     "title": "Architectural Dialogues",
     "subtitle": "Join our studio for immersive workshops, showroom openings, and material deep-dives across Europe.",
     "items": [
@@ -18,21 +67,32 @@
       "label": "Education & Training",
       "title": "Learn Microcement Installation With Us",
       "subtitle": "We train individuals and companies in professional microcement installation. Every graduate receives an internationally recognised certificate.",
-      "intro": "Our hands-on workshops take place in our Tallinn studio. Led by master applicators with over a decade of project experience, the programme covers surface preparation, mixing, trowel technique, colour theory, sealing, and quality control.",
+      "intro": "Our hands-on workshops take place in our Tartu studio. Led by master applicators with over a decade of project experience, the programme covers surface preparation, mixing, trowel technique, colour theory, sealing, and quality control.",
       "tiers": [
         {
           "type": "Individual",
           "badge": "1 – 4 Participants",
           "duration": "2-Day Intensive",
           "description": "Ideal for independent contractors, designers, and renovation specialists who want to add microcement to their skill set.",
-          "includes": ["Full material kit", "Hands-on trowel practice", "Colour mixing lab", "Professional Installer Certificate"]
+          "includes": [
+            "Full material kit",
+            "Hands-on trowel practice",
+            "Colour mixing lab",
+            "Professional Installer Certificate"
+          ]
         },
         {
           "type": "Corporate",
           "badge": "5 – 20 Participants",
           "duration": "3-Day Programme",
           "description": "Tailored team training for construction firms, interior studios, and real estate developers.",
-          "includes": ["Custom curriculum", "On-site practice sessions", "Team material kit", "Professional Installer Certificates", "3-month follow-up support"]
+          "includes": [
+            "Custom curriculum",
+            "On-site practice sessions",
+            "Team material kit",
+            "Professional Installer Certificates",
+            "3-month follow-up support"
+          ]
         }
       ],
       "certificate": {
@@ -43,12 +103,12 @@
     }
   },
   "contact": {
-    "title": "Consult with our Studio",
-    "subtitle": "Reach out to discuss your architectural vision. We provide bespoke consultation for global projects.",
+    "title": "Get in touch",
+    "subtitle": "Tell us about the project — room type, size, what you're going for. We'll come back with honest advice.",
     "email": "studio@ateliermicro.com",
-    "address": "124 Mineral St, Tallinn 10115",
+    "address": "124 Mineral St, Tartu 51003",
     "tel": "+372 555 124 12",
-    "cta": "Send Inquiry"
+    "cta": "Send message"
   },
   "blog": {
     "title": "The Journal",
@@ -59,10 +119,10 @@
         "title": "The Rhythm of the Hand",
         "date": "April 02, 2024",
         "image": "/assets/pages/blog/rhythm-of-the-hand.png",
-        "excerpt": "Exploring why the hand-troweled surface remains the industry gold standard for luxury interiors.",
+        "excerpt": "Why hand-troweled surfaces look different from machine-finished ones, and whether it matters.",
         "content": [
           "Microcement is more than a mixture of minerals and polymers; it is a medium for human expression. Unlike poured floors or factory-made tiles, a hand-troweled surface carries the distinctive rhythm of the artisan who applied it.",
-          "This biological irregularity is what defines 'Quiet Luxury'. In a world moving toward automated perfection, the subtle variations in trowel pressure and motion create a landscape that is uniquely yours. It is a material that records the process of its own creation.",
+          "This biological irregularity is what defines 'Quiet Luxury'. As architecture leans further into automated perfection, the subtle variations in trowel pressure and motion create a landscape that is uniquely yours. It is a material that records the process of its own creation.",
           "When we speak of the 'Rhythm of the Hand', we refer to the meditative state our artisans enter during application. It is this focus that ensures the final texture is not just seen, but felt."
         ]
       },
@@ -71,7 +131,7 @@
         "title": "Exploring Mineral Tonality",
         "date": "March 20, 2024",
         "image": "/assets/pages/blog/mineral-tonality.png",
-        "excerpt": "How natural pigments respond to changing light conditions throughout the day.",
+        "excerpt": "The same mineral surface looks warmer at dusk than at noon. Here's why.",
         "content": [
           "Color in a mineral surface is never static. Because KUUS DESIGN utilizes raw earthen pigments, the tonality of the surface shifts as natural light moves across the room.",
           "A 'Bone' white might feel warm and inviting at sunset, yet crisp and architectural during the bright afternoon hours. This interaction with the environment is a core pillar of our design philosophy.",
@@ -83,10 +143,10 @@
         "title": "Bathroom Renovation Without Demolition",
         "date": "April 15, 2024",
         "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
-        "excerpt": "Discover how microcement allows for a complete aesthetic transformation without the noise and mess of demolition.",
+        "excerpt": "How to redo a bathroom without removing a single tile using Topcret technology.",
         "content": [
           "Traditional bathroom renovations are synonymous with weeks of demolition, dust, and structural disruption. Microcement offers a sophisticated alternative: a continuous mineral skin that can be applied directly over your existing tiles.",
-          "This 'Zero Demolition' approach is possible due to the extreme adhesion properties of our specialized mineral formulas. By bypassing the removal process, we significantly reduce waste and project timelines while maintaining a monolithic, spa-like result.",
+          "This 'Zero Demolition' approach is possible due to the extreme adhesion properties of Topcret Microcemento®. By bypassing the removal process, we significantly reduce waste and project timelines while maintaining a monolithic, spa-like result.",
           "The seamless nature of a microcement bathroom is not just a visual choice; it is a hygienic one. Without grout lines, moisture and mold have nowhere to hide, ensuring your sanctuary remains as pure as the day it was finished."
         ]
       },
@@ -95,7 +155,7 @@
         "title": "The Definitive Guide: Microcement on Tiles",
         "date": "April 10, 2024",
         "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
-        "excerpt": "Surface preparation is the foundation of longevity. Learn the professional process of covering old ceramic with microcement.",
+        "excerpt": "Applying microcement over existing tiles takes more prep than most people expect. This is what we do.",
         "content": [
           "Can you really apply microcement over old tiles? The answer is a definitive yes, provided the substrate is sound. The primary advantage of this technique is the ability to achieve a modern, grout-free look without raising floor levels significantly.",
           "The process begins with diamond-grinding the tile surface to open the pores, followed by a double-layer epoxy primer reinforced with fiberglass mesh. This creates a stable, non-porous foundation that prevents 'ghosting'—the visual telegraphing of old grout lines through the new surface.",
@@ -107,7 +167,7 @@
         "title": "Sculptural Silence: Microcement Furniture Trends 2026",
         "date": "April 05, 2024",
         "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
-        "excerpt": "Furniture is no longer just functional; it is an architectural object. Explore why mineral materiality is the defining trend for 2026.",
+        "excerpt": "More furniture is being specified in mineral materials this year. Some reasons why that's happening.",
         "content": [
           "In 2026, the boundary between furniture and architecture continues to blur. Designers are moving away from modular assemblies in favor of monolithic objects that feel as if they were carved from the room's very foundation.",
           "Microcement furniture—cubical coffee tables, cantilevered dining surfaces, and seamless sideboards—serves as the ultimate expression of this 'Monolithic Minimalism'. The material allows for geometric precision while providing the tactile warmth of natural stone.",
@@ -117,6 +177,7 @@
     ]
   },
   "navigation": {
+    "home": "Home",
     "products": "Products",
     "story": "Our Story",
     "blog": "Blog",
@@ -128,351 +189,2524 @@
     "guide": "The Guide",
     "colors": "Colours",
     "surfaces": "Surfaces",
-    "philosophy": "Philosophy"
+    "philosophy": "Philosophy",
+    "products_items": {
+      "flooring": {
+        "name": "Flooring"
+      },
+      "bathrooms": {
+        "name": "Bathrooms"
+      },
+      "furniture": {
+        "name": "Furniture"
+      }
+    }
   },
   "products": {
-    "title": "Minimalist Collections",
-    "subtitle": "Seamless architectural finishes that redefine the boundaries between art and architecture.",
+    "title": "Basebeton Collection",
+    "subtitle": "Premium ready-to-use microcement systems. EC1 Plus certified. Available in 75+ colours.",
     "items": {
-      "flooring": {
-        "name": "Polished Floors",
-        "description": "Seamless, high-traffic surfaces that offer a serene foundation for minimalist interiors.",
+      "basebeton-originale": {
+        "name": "Basebeton Originale",
+        "tagline": "The ready-to-use all-rounder",
+        "description": "Basebeton Originale is a ready-to-use microcement paste with micronized quartz for walls, floors, furniture and worktops. Available in 75 standard colours and custom RAL / NCS colours. EC1 Plus certified — very low emissions.",
         "features": [
           {
-            "icon": "shield",
-            "title": "Unrivaled Durability",
-            "desc": "Baxab® Flooring is engineered for high-traffic environments, resisting cracks and impact better than traditional concrete."
+            "icon": "layers",
+            "title": "Two-Layer System",
+            "desc": "Applied in two distinct layers (Basa + Sense) for optimal depth, texture and durability on any vertical or horizontal surface."
           },
           {
             "icon": "droplets",
-            "title": "Seamless Hygiene",
-            "desc": "A grout-free surface means no place for bacteria to hide. Perfectly waterproof and exceptionally easy to clean."
+            "title": "Fully Waterproof",
+            "desc": "Waterproof by nature — no additional sealers required. Ideal for bathrooms, wet rooms and kitchen worktops."
           },
           {
             "icon": "leaf",
-            "title": "Ecological Foundation",
-            "desc": "VOC-free and crafted from natural minerals. Contributing to healthier indoor air quality for your living spaces."
+            "title": "EC1 Plus Certified",
+            "desc": "Very low volatile organic compound emissions. Certified safe for all interior spaces including bedrooms and nurseries."
           },
           {
             "icon": "sun",
-            "title": "UV Stable",
-            "desc": "Our unique mineral pigments remain vibrant and color-fast even under direct sunlight and high UV exposure."
+            "title": "75 Standard Colours",
+            "desc": "Available in 75 Basebeton Originale colours plus custom RAL and NCS matching for precise architectural specification."
           }
         ],
         "gallery": [
-          "/assets/pages/products/flooring-main.png",
-          "/assets/pages/products/flooring-s1.png",
-          "/assets/pages/products/flooring-s2.png",
-          "/assets/pages/products/flooring-s3.png",
-          "/assets/pages/products/flooring-s4.png"
+          "/assets/pages/products/basebeton-originale.png",
+          "/assets/pages/products/basebeton-originale-1.png",
+          "/assets/pages/products/basebeton-originale-2.png"
         ],
         "details": {
           "specs": [
-            { "label": "Thickness", "value": "3.0 mm" },
-            { "label": "Hardness", "value": "Shore D 82" },
-            { "label": "Curing Time", "value": "48 Hours" },
-            { "label": "Substrate", "value": "Concrete, Tiles, Screed" }
+            {
+              "label": "System",
+              "value": "2-Layer (Basa + Sense)"
+            },
+            {
+              "label": "Thickness",
+              "value": "1.0 – 2.0 mm"
+            },
+            {
+              "label": "Coverage",
+              "value": "1.5 kg/m² per layer"
+            },
+            {
+              "label": "Application",
+              "value": "Stainless steel trowel"
+            },
+            {
+              "label": "Substrate",
+              "value": "Walls, floors, furniture"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor only"
+            }
           ],
-          "maintenance": "Weekly cleaning with pH-neutral agents. No specialized waxing required for our pro-seal finish.",
-          "philosophy": "A foundation that absorbs sound and reflects calm."
-        }
+          "maintenance": "Clean with pH-neutral detergent. Avoid abrasive cleaners. Sealed surface requires no specialist maintenance.",
+          "philosophy": "The definitive ready-to-use microcement — where simplicity meets architectural quality."
+        },
+        "datasheet": "Basebeton-Originale-User-Manual-Technical-Datasheet-2024.07-1.pdf",
+        "productColors": [
+          {
+            "code": "10-1",
+            "name": "Dutch Grey",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-2",
+            "name": "Mouse",
+            "hex": "#B1AFAA"
+          },
+          {
+            "code": "10-3",
+            "name": "Stone",
+            "hex": "#9F9D97"
+          },
+          {
+            "code": "10-4",
+            "name": "Pebble",
+            "hex": "#8D8A85"
+          },
+          {
+            "code": "10-6",
+            "name": "Mauwe",
+            "hex": "#82837F"
+          },
+          {
+            "code": "10-8",
+            "name": "Mud",
+            "hex": "#797672"
+          },
+          {
+            "code": "10-9",
+            "name": "Persian",
+            "hex": "#63605C"
+          },
+          {
+            "code": "10-10",
+            "name": "Pitch Black",
+            "hex": "#616161"
+          },
+          {
+            "code": "10-13",
+            "name": "Berry",
+            "hex": "#9C9088"
+          },
+          {
+            "code": "10-14",
+            "name": "Clay",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-15",
+            "name": "Duhe",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-16",
+            "name": "Dawn",
+            "hex": "#C5C2BF"
+          },
+          {
+            "code": "10-17",
+            "name": "Buff",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-18",
+            "name": "Wheat",
+            "hex": "#DED2C7"
+          },
+          {
+            "code": "10-19",
+            "name": "Daw",
+            "hex": "#ECD8AD"
+          },
+          {
+            "code": "10-20",
+            "name": "Olive",
+            "hex": "#C0B39C"
+          },
+          {
+            "code": "10-21",
+            "name": "Moss",
+            "hex": "#7A7772"
+          },
+          {
+            "code": "10-22",
+            "name": "Cord",
+            "hex": "#E4CEAC"
+          },
+          {
+            "code": "10-23",
+            "name": "Mocca",
+            "hex": "#9E897D"
+          },
+          {
+            "code": "10-24",
+            "name": "Past Yellow",
+            "hex": "#D2C3AC"
+          },
+          {
+            "code": "10-26",
+            "name": "Rose Red",
+            "hex": "#C78F7B"
+          },
+          {
+            "code": "10-27",
+            "name": "Truffel",
+            "hex": "#B58F78"
+          },
+          {
+            "code": "10-28",
+            "name": "Blossom",
+            "hex": "#CAD3B9"
+          },
+          {
+            "code": "10-29",
+            "name": "Sage",
+            "hex": "#B6B5A1"
+          },
+          {
+            "code": "10-30",
+            "name": "Artichok",
+            "hex": "#A6A597"
+          },
+          {
+            "code": "10-31",
+            "name": "Brown",
+            "hex": "#897E70"
+          },
+          {
+            "code": "10-32",
+            "name": "Putty",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-33",
+            "name": "Grime",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-34",
+            "name": "Canvas",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-35",
+            "name": "Steel Black",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-37",
+            "name": "Tender",
+            "hex": "#98837E"
+          },
+          {
+            "code": "10-38",
+            "name": "Rose White",
+            "hex": "#D8D5CF"
+          },
+          {
+            "code": "10-41",
+            "name": "Lice Taupe",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-42",
+            "name": "Mey Red",
+            "hex": "#B28A7B"
+          },
+          {
+            "code": "10-43",
+            "name": "Deep Brown",
+            "hex": "#89716A"
+          },
+          {
+            "code": "10-45",
+            "name": "Knosse",
+            "hex": "#89716B"
+          },
+          {
+            "code": "10-47",
+            "name": "Raum Red",
+            "hex": "#8B6154"
+          },
+          {
+            "code": "10-48",
+            "name": "Sinc",
+            "hex": "#B3AFAC"
+          },
+          {
+            "code": "10-49",
+            "name": "Smoke",
+            "hex": "#9D9E9C"
+          },
+          {
+            "code": "10-50",
+            "name": "Ice",
+            "hex": "#CECAC4"
+          },
+          {
+            "code": "10-51",
+            "name": "Lava",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-52",
+            "name": "Ash",
+            "hex": "#C2C3BF"
+          },
+          {
+            "code": "10-53",
+            "name": "Lin",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-54",
+            "name": "Deep",
+            "hex": "#9D9D9B"
+          },
+          {
+            "code": "10-55",
+            "name": "Elephant",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-56",
+            "name": "Hippo",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "10-57",
+            "name": "Wolf",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-58",
+            "name": "Whale",
+            "hex": "#959595"
+          },
+          {
+            "code": "10-59",
+            "name": "Grizzle",
+            "hex": "#A6A7A4"
+          },
+          {
+            "code": "10-60",
+            "name": "Rock",
+            "hex": "#8D8E8A"
+          },
+          {
+            "code": "10-61",
+            "name": "Flake",
+            "hex": "#BFB19C"
+          },
+          {
+            "code": "10-62",
+            "name": "Sisal",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-63",
+            "name": "Gentle",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-64",
+            "name": "Grain",
+            "hex": "#C3B19C"
+          },
+          {
+            "code": "10-65",
+            "name": "Oat",
+            "hex": "#D2C8BB"
+          },
+          {
+            "code": "10-66",
+            "name": "Loam",
+            "hex": "#BEB3A6"
+          },
+          {
+            "code": "10-67",
+            "name": "Dust",
+            "hex": "#D3C7B9"
+          },
+          {
+            "code": "10-68",
+            "name": "Savanne",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-69",
+            "name": "Caramel",
+            "hex": "#9C8B74"
+          },
+          {
+            "code": "10-70",
+            "name": "Tierra",
+            "hex": "#9E847A"
+          },
+          {
+            "code": "10-71",
+            "name": "Indian",
+            "hex": "#9E7E5D"
+          },
+          {
+            "code": "10-72",
+            "name": "Brownie",
+            "hex": "#89706A"
+          },
+          {
+            "code": "10-73",
+            "name": "Choco",
+            "hex": "#5A4D46"
+          },
+          {
+            "code": "10-74",
+            "name": "Blush",
+            "hex": "#C57B71"
+          },
+          {
+            "code": "10-75",
+            "name": "Bright",
+            "hex": "#E6E2E0"
+          },
+          {
+            "code": "10-76",
+            "name": "Shell",
+            "hex": "#BCBAAE"
+          },
+          {
+            "code": "10-77",
+            "name": "Cotton",
+            "hex": "#C4C1B9"
+          },
+          {
+            "code": "10-78",
+            "name": "Sand",
+            "hex": "#CDCAC4"
+          },
+          {
+            "code": "10-79",
+            "name": "Pigeon",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-80",
+            "name": "Noce",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-81",
+            "name": "Khaki",
+            "hex": "#A8A28C"
+          },
+          {
+            "code": "10-82",
+            "name": "Delta",
+            "hex": "#837C6B"
+          },
+          {
+            "code": "10-83",
+            "name": "Dove",
+            "hex": "#8E9180"
+          },
+          {
+            "code": "10-84",
+            "name": "Lagoon",
+            "hex": "#A8B8B2"
+          },
+          {
+            "code": "10-85",
+            "name": "Lychee",
+            "hex": "#C5AFA2"
+          }
+        ]
       },
-      "walls": {
-        "name": "Textured Walls",
-        "description": "Hand-troweled depth that captures the play of light and shadow on every surface.",
+      "beton-cire": {
+        "name": "Beton Ciré Originale",
+        "tagline": "Authentic elegant concrete look",
+        "description": "Beton Ciré Originale is a cementitious two-layer filler with micronized quartz for walls, floors, furniture and kitchen worktops. Refined, flexible, highly durable with an authentic concrete aesthetic.",
         "features": [
-          {
-            "icon": "edit",
-            "title": "Artisan Texture",
-            "desc": "Each wall is a unique work of art, hand-finished to create subtle topographic depth and mineral rhythm."
-          },
-          {
-            "icon": "wind",
-            "title": "Breathable Skin",
-            "desc": "Our mineral formula allows walls to breathe, naturally regulating humidity and preventing moisture buildup."
-          },
           {
             "icon": "sparkles",
-            "title": "Light Responsive",
-            "desc": "Natural pigments respond to changing light conditions, shifting tonality from morning to dusk."
+            "title": "Authentic Concrete Aesthetic",
+            "desc": "Creates a refined, authentic concrete look with subtle depth and variation — no two installations are identical."
           },
           {
-            "icon": "zap",
-            "title": "Rapid Installation",
-            "desc": "Our specialized vertical base allows for quick application over existing drywall or masonry."
-          }
-        ],
-        "gallery": [
-          "/assets/pages/products/walls-1.png",
-          "/assets/pages/products/walls-2.png",
-          "/assets/pages/products/walls-3.png",
-          "/assets/pages/products/walls-4.png"
-        ],
-        "details": {
-          "specs": [
-            { "label": "Thickness", "value": "2.0 mm" },
-            { "label": "Adhesion", "value": "High Vertical Stability" },
-            { "label": "Application", "value": "Multi-layer hand trowel" }
-          ],
-          "maintenance": "Dust regularly. Surfaces are stain-resistant and can be wiped with a damp microfibre cloth.",
-          "philosophy": "Defining verticality through mineral rhythm."
-        }
-      },
-      "bathrooms": {
-        "name": "Bespoke Bathrooms",
-        "description": "Waterproof, continuous surfaces for a unified and spa-like bathroom experience.",
-        "features": [
+            "icon": "droplets",
+            "title": "Suitable for Wet Areas",
+            "desc": "Can be applied in bathrooms and on kitchen worktops. Waterproof system suitable for all residential wet areas."
+          },
           {
-            "icon": "droplet",
-            "title": "Total Impermeability",
-            "desc": "Our bathroom system is 100% waterproof even before the final sealers are applied. Ideal for wet rooms."
+            "icon": "edit",
+            "title": "Flexible Application",
+            "desc": "Flexible cementitious formula reduces the risk of cracking on substrates subject to minor movement."
           },
           {
             "icon": "layers",
-            "title": "Zero Demolition",
-            "desc": "Transform your bathroom without the noise of tile removal. We apply directly over existing ceramic surfaces."
+            "title": "Two-Component System",
+            "desc": "Two-layer application system ensures consistent colour depth and superior adhesion on any prepared substrate."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/beton-cire.png",
+          "/assets/pages/products/beton-cire-1.png",
+          "/assets/pages/products/beton-cire-2.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "System",
+              "value": "2-Layer cementitious"
+            },
+            {
+              "label": "Application",
+              "value": "Walls, floors, furniture"
+            },
+            {
+              "label": "Flexibility",
+              "value": "High (crack-resistant)"
+            },
+            {
+              "label": "Substrate moisture",
+              "value": "< 4%"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor only"
+            }
+          ],
+          "maintenance": "Wipe with damp cloth. Use pH-neutral cleaners. Re-seal every 3–5 years depending on traffic.",
+          "philosophy": "Refined concrete aesthetics with the flexibility and durability professionals demand."
+        },
+        "datasheet": "Beton-Ciré-Originale-Use-Manual-Technical-Data-Sheet.pdf",
+        "productColors": [
+          {
+            "code": "ST 701",
+            "name": "Wide",
+            "hex": "#B7B4A5"
           },
           {
-            "icon": "check-circle",
-            "title": "Anti-Slip Safety",
-            "desc": "Engineered with a micro-texture that provides excellent grip even when wet, without sacrificing the soft touch."
+            "code": "ST 702",
+            "name": "Grime",
+            "hex": "#65615F"
+          },
+          {
+            "code": "ST 703",
+            "name": "Putty",
+            "hex": "#6F6B6C"
+          },
+          {
+            "code": "ST 704",
+            "name": "Doleriet",
+            "hex": "#84817E"
+          },
+          {
+            "code": "ST 705",
+            "name": "Gabbro",
+            "hex": "#6F6B65"
+          },
+          {
+            "code": "ST 706",
+            "name": "Wool",
+            "hex": "#86827E"
+          },
+          {
+            "code": "ST 707",
+            "name": "Levant",
+            "hex": "#8E8A89"
+          },
+          {
+            "code": "ST 708",
+            "name": "Cella",
+            "hex": "#837F79"
+          },
+          {
+            "code": "ST 709",
+            "name": "Celadon",
+            "hex": "#9F9C9D"
+          },
+          {
+            "code": "ST 710",
+            "name": "Vincenza",
+            "hex": "#C0BCB9"
+          },
+          {
+            "code": "ST 711",
+            "name": "Fumus",
+            "hex": "#AAABA6"
+          },
+          {
+            "code": "ST 712",
+            "name": "Jute",
+            "hex": "#C0C5BF"
+          },
+          {
+            "code": "ST 713",
+            "name": "Enamel",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 714",
+            "name": "Campania",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 715",
+            "name": "Grisette",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 720",
+            "name": "Aura",
+            "hex": "#91837B"
+          },
+          {
+            "code": "ST 721",
+            "name": "Khorsabad",
+            "hex": "#92776D"
+          },
+          {
+            "code": "ST 722",
+            "name": "Lascaux",
+            "hex": "#80675A"
+          },
+          {
+            "code": "ST 723",
+            "name": "Cueva",
+            "hex": "#AE806C"
+          },
+          {
+            "code": "ST 725",
+            "name": "Assyria",
+            "hex": "#AA8F86"
+          },
+          {
+            "code": "ST 726",
+            "name": "Phaistos",
+            "hex": "#AC9586"
+          },
+          {
+            "code": "ST 727",
+            "name": "Veneto",
+            "hex": "#B9A991"
+          },
+          {
+            "code": "ST 728",
+            "name": "Mist",
+            "hex": "#BFA695"
+          },
+          {
+            "code": "ST 729",
+            "name": "Parchment",
+            "hex": "#BDA38F"
+          },
+          {
+            "code": "ST 730",
+            "name": "Chendré",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 731",
+            "name": "Auburn",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 732",
+            "name": "Dawn",
+            "hex": "#D3B8A2"
+          },
+          {
+            "code": "ST 733",
+            "name": "Flame",
+            "hex": "#D3B7A9"
+          },
+          {
+            "code": "ST 734",
+            "name": "Damson",
+            "hex": "#B9A990"
+          },
+          {
+            "code": "ST 735",
+            "name": "Sydney",
+            "hex": "#B9AC9D"
+          },
+          {
+            "code": "ST 736",
+            "name": "Rogany",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 737",
+            "name": "Agra",
+            "hex": "#E2C5B1"
+          },
+          {
+            "code": "ST 738",
+            "name": "Savanne",
+            "hex": "#DBCEBE"
+          },
+          {
+            "code": "ST 739",
+            "name": "Calamine",
+            "hex": "#E1DDD3"
+          },
+          {
+            "code": "ST 740",
+            "name": "Middleton",
+            "hex": "#EAE6D7"
+          },
+          {
+            "code": "ST 741",
+            "name": "Natura",
+            "hex": "#F0EDE5"
+          },
+          {
+            "code": "ST 762",
+            "name": "Nova",
+            "hex": "#4FB0D4"
+          },
+          {
+            "code": "ST 765",
+            "name": "Matala",
+            "hex": "#67A0A7"
+          },
+          {
+            "code": "ST 766",
+            "name": "Paulitlus",
+            "hex": "#85A794"
+          },
+          {
+            "code": "ST 767",
+            "name": "Thermae",
+            "hex": "#92AA95"
+          },
+          {
+            "code": "ST 768",
+            "name": "Ceylon",
+            "hex": "#99A98A"
+          }
+        ]
+      },
+      "oxidestuc": {
+        "name": "Oxidestuc",
+        "tagline": "Metallic shimmer for interiors",
+        "description": "Oxidestuc is an easy-to-apply, ready-to-use paste with micronized quartz that gives walls, furniture and worktops a stunning metallic effect. Available in Gold, Bronze, Copper, Aluminium, Rust and Steel.",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "6 Metallic Colours",
+            "desc": "Gold, Bronze, Copper, Aluminium, Rust and Steel — each with a unique gloss level controlled by the degree of sanding."
+          },
+          {
+            "icon": "sun",
+            "title": "Variable Gloss Level",
+            "desc": "The metallic sheen intensity is fully controlled during the finishing process — from subtle satin to high-gloss polish."
+          },
+          {
+            "icon": "shield",
+            "title": "Strong Adhesion",
+            "desc": "Bonds directly to walls, furniture, shelves and worktops. No specialist primer required on prepared surfaces."
+          },
+          {
+            "icon": "zap",
+            "title": "Ready to Use",
+            "desc": "Supplied as a ready-to-use paste — open and apply. No on-site mixing required."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/OXIDESTUC9.jpeg",
+          "/assets/pages/products/OXIDESTUC10.webp",
+          "/assets/pages/products/oxidestuc-project-2.webp",
+          "/assets/pages/products/oxidestuc-wall.webp",
+          "/assets/pages/products/oxidestuc-rust.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Colours",
+              "value": "Gold, Bronze, Copper, Aluminium, Rust, Steel"
+            },
+            {
+              "label": "Coverage",
+              "value": "Layer 1: ~400 g/m² · Layer 2: ~250 g/m²"
+            },
+            {
+              "label": "System",
+              "value": "2-Layer paste + polishing"
+            },
+            {
+              "label": "Application",
+              "value": "Putty knife or spack knife"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor only"
+            }
+          ],
+          "maintenance": "Polish with soft cloth to restore sheen. Avoid abrasive products. Seal with recommended top coat.",
+          "philosophy": "Glamour and industrial craft — the only metallic concrete finish that improves with polishing."
+        },
+        "datasheet": "Oxidestuc-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "Aluminium",
+            "name": "Aluminium",
+            "hex": "#DCD9D4"
+          },
+          {
+            "code": "Bronze",
+            "name": "Bronze",
+            "hex": "#9F9483"
+          },
+          {
+            "code": "Copper",
+            "name": "Copper",
+            "hex": "#D3A38B"
+          },
+          {
+            "code": "Gold",
+            "name": "Gold",
+            "hex": "#E3CB8C"
+          },
+          {
+            "code": "Rust",
+            "name": "Rust",
+            "hex": "#BA8B67"
+          },
+          {
+            "code": "Steel",
+            "name": "Steel",
+            "hex": "#7F7F7F"
+          }
+        ]
+      },
+      "natureplast": {
+        "name": "Natureplast",
+        "tagline": "Natural clay plaster for healthy interiors",
+        "description": "Natureplast is a natural decorative clay plaster for walls in dry rooms. Free of toxic substances, fully vapour-permeable and available in a range of mineral pigment colours. Supports a healthy indoor climate.",
+        "features": [
+          {
+            "icon": "leaf",
+            "title": "100% Natural Formula",
+            "desc": "Free of toxic substances — made from natural loam clay with mineral pigments. Safe for allergic and sensitive occupants."
+          },
+          {
+            "icon": "wind",
+            "title": "Fully Vapour-Permeable",
+            "desc": "Breathes naturally with the wall, regulating humidity and preventing moisture accumulation. No condensation problems."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Unique Cloud Texture",
+            "desc": "Distinctive soft cloud-like swirl texture created during the second layer application — each wall is unique."
           },
           {
             "icon": "heart",
-            "title": "Hygienic Purity",
-            "desc": "Seamless transitions from floor to wall mean no grout lines, preventing mold and limescale accumulation."
+            "title": "Healthy Indoor Climate",
+            "desc": "Actively contributes to indoor air quality by regulating humidity. Recommended for bedrooms, nurseries and wellness spaces."
           }
         ],
         "gallery": [
-          "/assets/pages/products/bathrooms-main.png",
-          "/assets/pages/products/bathrooms-s1.png",
-          "/assets/pages/products/bathrooms-s2.png",
-          "/assets/pages/products/bathrooms-s3.png",
-          "/assets/pages/products/bathrooms-s4.png"
+          "/assets/pages/products/natureplast.png",
+          "/assets/pages/products/natureplast-1.png"
         ],
         "details": {
           "specs": [
-            { "label": "Thickness", "value": "3.5 mm" },
-            { "label": "Slip Resistance", "value": "R10 Grade" },
-            { "label": "Waterproof", "value": "Full System Seal" }
+            {
+              "label": "Base",
+              "value": "Natural clay / loam"
+            },
+            {
+              "label": "Thickness",
+              "value": "0.5 – 1.0 mm per layer"
+            },
+            {
+              "label": "Coverage",
+              "value": "Layer 1: ~750 g/m² · Layer 2: ~650 g/m²"
+            },
+            {
+              "label": "Mixing",
+              "value": "11–12.5L water per 25 kg bag"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor dry rooms only"
+            }
           ],
-          "maintenance": "Rinse with fresh water after use. Use non-abrasive limestone cleaners if necessary.",
-          "philosophy": "Monolithic serenity for private sanctuaries."
-        }
+          "maintenance": "Dry dusting only. Spot clean with barely damp cloth. Avoid excessive moisture.",
+          "philosophy": "Where architecture meets wellness — a living wall finish that breathes with you."
+        },
+        "datasheet": "Natureplast-User-Manual-Technical-Datasheet-2024.10.pdf",
+        "productColors": [
+          {
+            "code": "NP-01",
+            "name": "Tusk",
+            "hex": "#C4C2C2"
+          },
+          {
+            "code": "NP-02",
+            "name": "Marigold",
+            "hex": "#C1BEBB"
+          },
+          {
+            "code": "NP-03",
+            "name": "Sienna",
+            "hex": "#BBB6AF"
+          },
+          {
+            "code": "NP-04",
+            "name": "Mirage",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "NP-05",
+            "name": "Twilight",
+            "hex": "#ACACAA"
+          },
+          {
+            "code": "NP-06",
+            "name": "Celestial",
+            "hex": "#B9B8B9"
+          },
+          {
+            "code": "NP-07",
+            "name": "Whisper",
+            "hex": "#BDBBB4"
+          },
+          {
+            "code": "NP-08",
+            "name": "Moon",
+            "hex": "#B2ACAA"
+          },
+          {
+            "code": "NP-09",
+            "name": "Oasis",
+            "hex": "#C1CCB9"
+          },
+          {
+            "code": "NP-10",
+            "name": "Ochre",
+            "hex": "#D6C5AF"
+          },
+          {
+            "code": "NP-11",
+            "name": "Allure",
+            "hex": "#D3C3BC"
+          },
+          {
+            "code": "NP-12",
+            "name": "Mahogany",
+            "hex": "#B4A59A"
+          },
+          {
+            "code": "NP-13",
+            "name": "Canyon",
+            "hex": "#B38968"
+          },
+          {
+            "code": "NP-14",
+            "name": "Emerald",
+            "hex": "#C8CCB3"
+          },
+          {
+            "code": "NP-15",
+            "name": "Tangerine",
+            "hex": "#B59E8D"
+          },
+          {
+            "code": "NP-16",
+            "name": "Midnight",
+            "hex": "#575657"
+          }
+        ]
       },
-      "furniture": {
-        "name": "Architectural Objects",
-        "description": "Sculptural microcement furniture that brings materiality to every functional element.",
+      "sichtbeton": {
+        "name": "Sichtbeton",
+        "tagline": "Authentic raw concrete look",
+        "description": "Sichtbeton (literally 'sight concrete') is a high-quality cement-based coating with a special film-sheet technique that creates an authentic freshly-poured concrete appearance. Available in 3 modern grey shades.",
         "features": [
           {
-            "icon": "box",
-            "title": "Monolithic Form",
-            "desc": "Achieve heavy architectural volumes with reinforced lightweight cores. Strength without the weight."
+            "icon": "layers",
+            "title": "Film-Sheet Technique",
+            "desc": "Unique plastic film sheets are pressed into the wet cement to create authentic concrete texture, formwork marks and subtle variations."
+          },
+          {
+            "icon": "edit",
+            "title": "3 Grey Shades",
+            "desc": "Three carefully selected shades of grey — each matching the tonal range of architectural exposed concrete."
+          },
+          {
+            "icon": "shield",
+            "title": "Tension-Free & Diffusion-Open",
+            "desc": "Dried material remains tension-free, diffusion-open and crack-resistant — ideal for large-format wall installations."
+          },
+          {
+            "icon": "zap",
+            "title": "Segment-Based Application",
+            "desc": "Designed for segment-by-segment application with laser-level accuracy, allowing precise large-scale installations."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/sichtbeton.png",
+          "/assets/pages/products/sichtbeton-1.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Colours",
+              "value": "3 Grey Shades"
+            },
+            {
+              "label": "Base",
+              "value": "Cement + selected additives"
+            },
+            {
+              "label": "Mix ratio",
+              "value": "20 kg cement + 4–4.8L water"
+            },
+            {
+              "label": "Technique",
+              "value": "Plastic film sheet impression"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor only"
+            }
+          ],
+          "maintenance": "Wipe with dry or lightly damp cloth. Apply recommended sealer annually in high-traffic areas.",
+          "philosophy": "The industrial concrete look — engineered to look genuinely poured, not applied."
+        },
+        "datasheet": "Sichtbeton-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "SB-L",
+            "name": "Light Grey",
+            "hex": "#DDDAD6"
+          },
+          {
+            "code": "SB-M",
+            "name": "Mid Grey",
+            "hex": "#CECBC7"
+          },
+          {
+            "code": "SB-D",
+            "name": "Dark Grey",
+            "hex": "#B9B9B9"
+          }
+        ]
+      },
+      "basebeton-paint": {
+        "name": "Basebeton Paint",
+        "tagline": "Ready-to-use sustainable concrete paint",
+        "description": "Basebeton Paint is a ready-to-use sustainable paint that creates a warm, industrial appearance on walls and various surfaces. Available in 40 unique colours. Applied with a block brush for a characteristic concrete-look effect.",
+        "features": [
+          {
+            "icon": "edit",
+            "title": "Brush-Applied Texture",
+            "desc": "Applied with a block brush using diagonal rainbow motions — creates a unique, characteristic concrete-paint texture."
+          },
+          {
+            "icon": "sun",
+            "title": "40 Colours",
+            "desc": "40 carefully selected colours spanning from warm off-whites to deep charcoals — all with an industrial, warm undertone."
+          },
+          {
+            "icon": "leaf",
+            "title": "Sustainable Formula",
+            "desc": "Formulated with sustainability at its core. Low VOC, EC1 Plus certified for use in all interior spaces."
+          },
+          {
+            "icon": "zap",
+            "title": "Easy to Apply",
+            "desc": "No specialist tools required. Apply with a standard block brush. Suitable for DIY and professional application alike."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/basebeton-paint-1.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Colours",
+              "value": "40 standard colours"
+            },
+            {
+              "label": "Application",
+              "value": "Block brush 3×14 cm"
+            },
+            {
+              "label": "Layers",
+              "value": "2 layers required"
+            },
+            {
+              "label": "Drying time",
+              "value": "12 hours between layers"
+            },
+            {
+              "label": "Use",
+              "value": "Primarily walls, indoor"
+            }
+          ],
+          "maintenance": "Clean with damp cloth. Avoid harsh chemicals. Touch-up as required with same batch colour.",
+          "philosophy": "Industrial concrete warmth — in paint form, without compromise."
+        },
+        "datasheet": "Basebeton-Paint-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "BBP-001",
+            "name": "Dutch Grey",
+            "hex": "#A7A29D"
+          },
+          {
+            "code": "BBP-009",
+            "name": "Persian",
+            "hex": "#6F6A66"
+          },
+          {
+            "code": "BBP-020",
+            "name": "Olive",
+            "hex": "#C2B39A"
+          },
+          {
+            "code": "BBP-029",
+            "name": "Sage",
+            "hex": "#C2C4B7"
+          },
+          {
+            "code": "BBP-030",
+            "name": "Artichok",
+            "hex": "#9D9785"
+          },
+          {
+            "code": "BBP-038",
+            "name": "Rose White",
+            "hex": "#D9D6CB"
+          },
+          {
+            "code": "BBP-051",
+            "name": "Lava",
+            "hex": "#555D60"
+          },
+          {
+            "code": "BBP-052",
+            "name": "Ash",
+            "hex": "#A2A4A3"
+          },
+          {
+            "code": "BBP-062",
+            "name": "Sisal",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "BBP-064",
+            "name": "Grain",
+            "hex": "#E2D6BB"
+          },
+          {
+            "code": "BBP-070",
+            "name": "Tierra",
+            "hex": "#A88F83"
+          },
+          {
+            "code": "BBP-075",
+            "name": "Bright",
+            "hex": "#DCDCDA"
+          },
+          {
+            "code": "BBP-077",
+            "name": "Cotton",
+            "hex": "#B5AA9A"
+          },
+          {
+            "code": "BBP-078",
+            "name": "Sand",
+            "hex": "#C9C6BF"
+          },
+          {
+            "code": "BBP-079",
+            "name": "Pigeon",
+            "hex": "#C2BEB5"
+          },
+          {
+            "code": "BBP-082",
+            "name": "Delta",
+            "hex": "#8D836B"
+          },
+          {
+            "code": "BBP-085",
+            "name": "Lychee",
+            "hex": "#B69F94"
+          },
+          {
+            "code": "BBP-101",
+            "name": "Boracite",
+            "hex": "#D1D0C3"
+          },
+          {
+            "code": "BBP-102",
+            "name": "Rutile",
+            "hex": "#515255"
+          },
+          {
+            "code": "BBP-103",
+            "name": "Corundum",
+            "hex": "#858B7C"
+          },
+          {
+            "code": "BBP-104",
+            "name": "Dolomite",
+            "hex": "#EFEEEB"
+          },
+          {
+            "code": "BBP-105",
+            "name": "Cerussite",
+            "hex": "#ECE9E5"
+          },
+          {
+            "code": "BBP-106",
+            "name": "Garnet",
+            "hex": "#B6B8B5"
+          },
+          {
+            "code": "BBP-107",
+            "name": "Diopside",
+            "hex": "#646A68"
+          },
+          {
+            "code": "BBP-108",
+            "name": "Calcite",
+            "hex": "#BEBAB1"
+          },
+          {
+            "code": "BBP-109",
+            "name": "Anatase",
+            "hex": "#848678"
+          },
+          {
+            "code": "BBP-110",
+            "name": "Proteus",
+            "hex": "#806F5B"
+          },
+          {
+            "code": "BBP-111",
+            "name": "Almandine",
+            "hex": "#CAAFA5"
+          },
+          {
+            "code": "BBP-112",
+            "name": "Adamite",
+            "hex": "#85856C"
+          },
+          {
+            "code": "BBP-113",
+            "name": "Mali Garnet",
+            "hex": "#EFE9DF"
+          },
+          {
+            "code": "BBP-114",
+            "name": "Anglesite",
+            "hex": "#EDEAE3"
+          },
+          {
+            "code": "BBP-115",
+            "name": "Brookite",
+            "hex": "#D9CDB3"
+          },
+          {
+            "code": "BBP-116",
+            "name": "Gypsum",
+            "hex": "#D1D2CD"
+          },
+          {
+            "code": "BBP-117",
+            "name": "Cuprite",
+            "hex": "#C9A67D"
+          },
+          {
+            "code": "BBP-118",
+            "name": "Sapphire",
+            "hex": "#CAD8E0"
+          },
+          {
+            "code": "BBP-119",
+            "name": "Cinnabar",
+            "hex": "#A87C76"
+          },
+          {
+            "code": "BBP-120",
+            "name": "Hessonite",
+            "hex": "#8B795A"
+          },
+          {
+            "code": "BBP-121",
+            "name": "Andradite",
+            "hex": "#F1D4C8"
+          },
+          {
+            "code": "BBP-122",
+            "name": "Powellite",
+            "hex": "#908F74"
+          },
+          {
+            "code": "BBP-123",
+            "name": "Agate",
+            "hex": "#B5C3B9"
+          }
+        ]
+      },
+      "basebeton-plus": {
+        "name": "Basebeton Plus",
+        "tagline": "The convenient one-pot system",
+        "description": "Basebeton Plus is a ready-to-use microcement paste with micronized quartz for walls, floors, furniture and worktops. The convenient single-component system is available in 64 standard colours plus RAL / NCS custom matching.",
+        "features": [
+          {
+            "icon": "layers",
+            "title": "One-Pot Convenience",
+            "desc": "Single-component ready-to-use system — no on-site mixing of multiple components. Open, stir, apply."
+          },
+          {
+            "icon": "droplets",
+            "title": "Waterproof System",
+            "desc": "Suitable for bathrooms, kitchen worktops and wet-room floors. Fully waterproof when properly sealed."
+          },
+          {
+            "icon": "sun",
+            "title": "64 Standard Colours",
+            "desc": "Available in 64 standard Basebeton colours plus custom RAL and NCS colour matching for specification projects."
+          },
+          {
+            "icon": "shield",
+            "title": "Strong Adhesion",
+            "desc": "Bonds directly to existing tiles, concrete, cement screeds and most prepared substrates without specialist primer."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/basebeton-plus.png",
+          "/assets/pages/products/basebeton-plus-1.png",
+          "/assets/pages/products/basebeton-plus-2.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "System",
+              "value": "2-Layer (Basa + Sense)"
+            },
+            {
+              "label": "Thickness",
+              "value": "1.0 – 2.0 mm"
+            },
+            {
+              "label": "Coverage",
+              "value": "~1.5 kg/m² per layer"
+            },
+            {
+              "label": "Colours",
+              "value": "64 standard + RAL/NCS"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor only"
+            }
+          ],
+          "maintenance": "pH-neutral cleaners only. Reseal as required depending on use intensity.",
+          "philosophy": "The professional's shortcut — all the quality of Basebeton, with none of the complexity."
+        },
+        "datasheet": "Basebeton-Plus-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "Plus-01",
+            "name": "Icles",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus-02",
+            "name": "Drapeau",
+            "hex": "#B5B0AC"
+          },
+          {
+            "code": "Plus-03",
+            "name": "Curry",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus-04",
+            "name": "Pays",
+            "hex": "#8F8A86"
+          },
+          {
+            "code": "Plus-05",
+            "name": "Brique",
+            "hex": "#8D8982"
+          },
+          {
+            "code": "Plus-06",
+            "name": "Bois",
+            "hex": "#78736E"
+          },
+          {
+            "code": "Plus-07",
+            "name": "Ciel",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus-08",
+            "name": "Patine",
+            "hex": "#5F5B58"
+          },
+          {
+            "code": "Plus-09",
+            "name": "Calda",
+            "hex": "#9A8F7F"
+          },
+          {
+            "code": "Plus-10",
+            "name": "Rocher",
+            "hex": "#BCAEA4"
+          },
+          {
+            "code": "Plus-11",
+            "name": "Chypre",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus-12",
+            "name": "Caput",
+            "hex": "#CAC5C1"
+          },
+          {
+            "code": "Plus-13",
+            "name": "Mortier",
+            "hex": "#C1AD97"
+          },
+          {
+            "code": "Plus-14",
+            "name": "Carbone",
+            "hex": "#DED2C2"
+          },
+          {
+            "code": "Plus-15",
+            "name": "Roches",
+            "hex": "#F1D094"
+          },
+          {
+            "code": "Plus-16",
+            "name": "Rues",
+            "hex": "#BFB19A"
+          },
+          {
+            "code": "Plus-17",
+            "name": "Montagne",
+            "hex": "#85796A"
+          },
+          {
+            "code": "Plus-18",
+            "name": "Galets",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus-19",
+            "name": "Vase",
+            "hex": "#B38973"
+          },
+          {
+            "code": "Plus-20",
+            "name": "Jarre",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus 21",
+            "name": "Ville",
+            "hex": "#C37B63"
+          },
+          {
+            "code": "Plus 22",
+            "name": "Parc",
+            "hex": "#C89075"
+          },
+          {
+            "code": "Plus 23",
+            "name": "Voiture",
+            "hex": "#B9C4A2"
+          },
+          {
+            "code": "Plus 24",
+            "name": "Enfant",
+            "hex": "#B5B59F"
+          },
+          {
+            "code": "Plus 25",
+            "name": "École",
+            "hex": "#A3A193"
+          },
+          {
+            "code": "Plus 26",
+            "name": "Porte",
+            "hex": "#77726C"
+          },
+          {
+            "code": "Plus 27",
+            "name": "Jardin",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 28",
+            "name": "Bassin",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 29",
+            "name": "Suite",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 30",
+            "name": "Maison",
+            "hex": "#76726A"
+          },
+          {
+            "code": "Plus 31",
+            "name": "Patron",
+            "hex": "#977F7B"
+          },
+          {
+            "code": "Plus 32",
+            "name": "Beau",
+            "hex": "#ECEDE9"
+          },
+          {
+            "code": "Plus 33",
+            "name": "Chargé",
+            "hex": "#B0ACA6"
+          },
+          {
+            "code": "Plus 34",
+            "name": "Grand",
+            "hex": "#AF8777"
+          },
+          {
+            "code": "Plus 35",
+            "name": "Petit",
+            "hex": "#9F7460"
+          },
+          {
+            "code": "Plus 36",
+            "name": "Poubelle",
+            "hex": "#865852"
+          },
+          {
+            "code": "Plus 37",
+            "name": "Image",
+            "hex": "#AD7369"
+          },
+          {
+            "code": "Plus 38",
+            "name": "Vélo",
+            "hex": "#A7A3A4"
+          },
+          {
+            "code": "Plus 39",
+            "name": "Etage",
+            "hex": "#8D8A87"
+          },
+          {
+            "code": "Plus 40",
+            "name": "Robe",
+            "hex": "#CAC7C1"
+          },
+          {
+            "code": "Plus 41",
+            "name": "Veste",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus 42",
+            "name": "Parti",
+            "hex": "#C4C9C3"
+          },
+          {
+            "code": "Plus 43",
+            "name": "Feuille",
+            "hex": "#BBB7B4"
+          },
+          {
+            "code": "Plus 44",
+            "name": "Fiche",
+            "hex": "#B0ADA6"
+          },
+          {
+            "code": "Plus 45",
+            "name": "Linge",
+            "hex": "#C3BFB6"
+          },
+          {
+            "code": "Plus 46",
+            "name": "Livre",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus 47",
+            "name": "Salin",
+            "hex": "#A7ABAA"
+          },
+          {
+            "code": "Plus 48",
+            "name": "Sabot",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus 49",
+            "name": "Couper",
+            "hex": "#979B9A"
+          },
+          {
+            "code": "Plus 50",
+            "name": "Label",
+            "hex": "#8B877F"
+          },
+          {
+            "code": "Plus 51",
+            "name": "Roue",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 52",
+            "name": "Tour",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 53",
+            "name": "Moudre",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 54",
+            "name": "Broyé",
+            "hex": "#CFC2A9"
+          },
+          {
+            "code": "Plus 55",
+            "name": "Sentir",
+            "hex": "#D3C7BA"
+          },
+          {
+            "code": "Plus 56",
+            "name": "Odeur",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus 57",
+            "name": "Parfum",
+            "hex": "#DED1C7"
+          },
+          {
+            "code": "Plus 58",
+            "name": "Trottoir",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 59",
+            "name": "Tabac",
+            "hex": "#B48C75"
+          },
+          {
+            "code": "Plus 60",
+            "name": "Fossé",
+            "hex": "#9F785C"
+          },
+          {
+            "code": "Plus 61",
+            "name": "Verre",
+            "hex": "#997846"
+          },
+          {
+            "code": "Plus 62",
+            "name": "Boirre",
+            "hex": "#A0805D"
+          },
+          {
+            "code": "Plus 63",
+            "name": "Avion",
+            "hex": "#6B5A5A"
+          },
+          {
+            "code": "Plus 64",
+            "name": "Bouge",
+            "hex": "#D47670"
+          }
+        ]
+      },
+      "basebeton-xtreme": {
+        "name": "Basebeton Xtreme",
+        "tagline": "The industrial epoxy floor finish",
+        "description": "Basebeton Xtreme is a heavy-duty, epoxy-based microcement system with micronized quartz, applied in three layers (TechStone 2K + Basa + Sense). Available in 64 standard colours. Designed for the most demanding floor applications.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Epoxy-Based Durability",
+            "desc": "TechStone 2K epoxy base layer provides extreme impact, abrasion and chemical resistance — engineered for commercial floors."
+          },
+          {
+            "icon": "layers",
+            "title": "Three-Layer System",
+            "desc": "TechStone 2K base + Basa + Sense. Three distinct layers build exceptional thickness, strength and surface quality."
           },
           {
             "icon": "thermometer",
-            "title": "Thermal Resistance",
-            "desc": "Perfect for kitchen islands and dining tables. Resists high temperatures and thermal shock."
+            "title": "Radiant Heating Compatible",
+            "desc": "Approved for use over radiant floor heating systems when installed according to approved safety specifications."
           },
           {
-            "icon": "coffee",
-            "title": "Stain Protection",
-            "desc": "High-performance sealers protect against wine, coffee, and oil. Designed for functional elegance."
-          },
-          {
-            "icon": "scissors",
-            "title": "Custom Geometry",
-            "desc": "We can coat any shape—from sharp geometric edges to soft organic curves and cantilevered forms."
+            "icon": "sun",
+            "title": "64 Standard Colours",
+            "desc": "Available in the full 64-colour Basebeton palette plus custom RAL and NCS matching."
           }
         ],
         "gallery": [
-          "/assets/pages/products/furniture-main.png",
-          "/assets/pages/products/furniture-s1.png",
-          "/assets/pages/products/furniture-s2.png",
-          "/assets/pages/products/furniture-s3.png",
-          "/assets/pages/products/furniture-s4.png"
+          "/assets/pages/products/basebeton-xtreme-luxury.png",
+          "/assets/pages/products/basebeton-xtreme-1.png",
+          "/assets/pages/products/basebeton-xtreme-2.png"
         ],
         "details": {
           "specs": [
-            { "label": "Weight", "value": "Variable (Reinforced)" },
-            { "label": "Heat Resistance", "value": "Up to 140°C" },
-            { "label": "Finish", "value": "Matte Silk" }
+            {
+              "label": "System",
+              "value": "3-Layer (TechStone + Basa + Sense)"
+            },
+            {
+              "label": "Base",
+              "value": "Epoxy 2K (TechStone)"
+            },
+            {
+              "label": "Mix ratio",
+              "value": "19:1 (A:B component)"
+            },
+            {
+              "label": "TechStone coverage",
+              "value": "800–1000 g/m²"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor floors only"
+            }
           ],
-          "maintenance": "Treat as high-end stone. Use coasters for hot or oily objects.",
-          "philosophy": "Functional art carved from mineral silence."
-        }
+          "maintenance": "Industrial pH-neutral cleaners. Highly resistant to staining. No specialist sealing required.",
+          "philosophy": "Where floors meet industrial rigour — the floor finish that handles everything you can throw at it."
+        },
+        "datasheet": "Basebeton-Xtreme-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "XT-01",
+            "name": "Candle",
+            "hex": "#E3DFD7"
+          },
+          {
+            "code": "XT-03",
+            "name": "Mountain",
+            "hex": "#828689"
+          },
+          {
+            "code": "XT-05",
+            "name": "Field",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "XT-07",
+            "name": "Evening",
+            "hex": "#777374"
+          },
+          {
+            "code": "XT-09",
+            "name": "Willow",
+            "hex": "#A29E96"
+          },
+          {
+            "code": "XT-11",
+            "name": "Storm",
+            "hex": "#B1ADA7"
+          },
+          {
+            "code": "XT-13",
+            "name": "Village",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "XT-15",
+            "name": "Bottle",
+            "hex": "#C5C1BE"
+          },
+          {
+            "code": "XT-17",
+            "name": "Sharp",
+            "hex": "#CDC9C2"
+          },
+          {
+            "code": "XT-19",
+            "name": "Biscuit",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "XT-21",
+            "name": "Silver",
+            "hex": "#B0B9BC"
+          },
+          {
+            "code": "XT-23",
+            "name": "Roof",
+            "hex": "#D47771"
+          },
+          {
+            "code": "XT-25",
+            "name": "Elegance",
+            "hex": "#CEC9C2"
+          },
+          {
+            "code": "XT-27",
+            "name": "Shadow",
+            "hex": "#C4C0B7"
+          },
+          {
+            "code": "XT-29",
+            "name": "Brick",
+            "hex": "#C5AD9D"
+          },
+          {
+            "code": "XT-31",
+            "name": "Walnut",
+            "hex": "#B29D90"
+          },
+          {
+            "code": "XT-33",
+            "name": "Muddy",
+            "hex": "#6B5B5B"
+          },
+          {
+            "code": "XT-35",
+            "name": "Slow",
+            "hex": "#C7C9BE"
+          },
+          {
+            "code": "XT-37",
+            "name": "Cliff",
+            "hex": "#A8A4A1"
+          },
+          {
+            "code": "XT-39",
+            "name": "Dune",
+            "hex": "#DED2C3"
+          }
+        ]
       },
-      "baxab-eco": {
-        "name": "Baxab-Eco®",
-        "description": "The peak of sustainable performance. A VOC-free, high-durability mineral finish designed for the conscious architect.",
+      "basebeton-solid": {
+        "name": "Basebeton Solid",
+        "tagline": "The strongest concrete floor plaster",
+        "description": "Basebeton Solid is an epoxy-based concrete plaster with micronized quartz for floors, furniture and walls. The strongest concrete plaster in its field. Available in 22 own colours and the full 64-colour Basebeton range.",
         "features": [
-          { "icon": "leaf", "title": "VOC Free", "desc": "Zero volatile organic compounds. Certified for the highest indoor air quality standards." },
-          { "icon": "shield", "title": "High Resistance", "desc": "Exceptional resistance to impact, scratches, and stains despite its ecological composition." },
-          { "icon": "droplets", "title": "Stain Proof", "desc": "Nanotechnology sealers ensure that even the most stubborn liquids cannot penetrate." }
+          {
+            "icon": "shield",
+            "title": "Maximum Strength",
+            "desc": "Epoxy-based formula makes Basebeton Solid the strongest concrete plaster available — for the most demanding floor surfaces."
+          },
+          {
+            "icon": "droplets",
+            "title": "Wet Room Approved",
+            "desc": "Fully suitable for wet areas including bathrooms, shower floors and pool surrounds when properly sealed."
+          },
+          {
+            "icon": "layers",
+            "title": "Three-Layer Build",
+            "desc": "TechStone 2K base + Solid Basa + Solid Sense — three layers build extraordinary structural integrity."
+          },
+          {
+            "icon": "thermometer",
+            "title": "Heated Floor Compatible",
+            "desc": "Safe for use over radiant floor heating systems when installed per approved specifications."
+          }
         ],
-        "gallery": ["/assets/surfaces/baxab.png"],
+        "gallery": [
+          "/assets/pages/products/basebeton-solid-luxury.png",
+          "/assets/pages/products/basebeton-solid-1.png",
+          "/assets/pages/products/basebeton-solid-2.png"
+        ],
         "details": {
           "specs": [
-            { "label": "Sustainability", "value": "100% Eco-Certified" },
-            { "label": "Thickness", "value": "3.0 mm" },
-            { "label": "Hardness", "value": "Shore D 85" }
+            {
+              "label": "System",
+              "value": "3-Layer epoxy"
+            },
+            {
+              "label": "Colours",
+              "value": "22 own + 64 Basebeton standard"
+            },
+            {
+              "label": "Base layer",
+              "value": "TechStone 2K epoxy"
+            },
+            {
+              "label": "Substrate flatness",
+              "value": "Class 2 or higher"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor (floors, walls, furniture)"
+            }
           ],
-          "maintenance": "Clean with biodegradable pH-neutral soaps.",
-          "philosophy": "Sustainability without compromise."
-        }
+          "maintenance": "Wipe with damp cloth. Commercial cleaners safe. No periodic sealing required.",
+          "philosophy": "Strength without compromise — the epoxy concrete finish that never backs down."
+        },
+        "datasheet": "Basebeton-Solid-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "BBS-01",
+            "name": "Morning",
+            "hex": "#D1CDCA"
+          },
+          {
+            "code": "BBS-02",
+            "name": "Gravel",
+            "hex": "#999184"
+          },
+          {
+            "code": "BBS-03",
+            "name": "Elegance",
+            "hex": "#8C7F7F"
+          },
+          {
+            "code": "BBS-04",
+            "name": "Marble",
+            "hex": "#9B9084"
+          },
+          {
+            "code": "BBS-10",
+            "name": "Phantom",
+            "hex": "#95918E"
+          },
+          {
+            "code": "BBS-16",
+            "name": "Chalk",
+            "hex": "#B7B4A9"
+          },
+          {
+            "code": "BBS-18",
+            "name": "Creme",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "BBS-27",
+            "name": "Show",
+            "hex": "#BE855B"
+          },
+          {
+            "code": "BBS-30",
+            "name": "Leaves",
+            "hex": "#96947C"
+          },
+          {
+            "code": "BBS-32",
+            "name": "Dolphin",
+            "hex": "#908070"
+          },
+          {
+            "code": "BBS-34",
+            "name": "Plain",
+            "hex": "#A08E80"
+          },
+          {
+            "code": "BBS-38",
+            "name": "Sugar",
+            "hex": "#D2CFC7"
+          },
+          {
+            "code": "BBS-48",
+            "name": "Pelt",
+            "hex": "#A5A29F"
+          },
+          {
+            "code": "BBS-50",
+            "name": "Early",
+            "hex": "#C6C1BA"
+          },
+          {
+            "code": "BBS-52",
+            "name": "Mamut",
+            "hex": "#B9BAB5"
+          },
+          {
+            "code": "BBS-54",
+            "name": "Frost",
+            "hex": "#A9A4A1"
+          },
+          {
+            "code": "BBS-55",
+            "name": "Block",
+            "hex": "#B0B1AC"
+          },
+          {
+            "code": "BBS-58",
+            "name": "Salted",
+            "hex": "#A4A09D"
+          },
+          {
+            "code": "BBS-60",
+            "name": "Trunk",
+            "hex": "#7C7D79"
+          },
+          {
+            "code": "BBS-64",
+            "name": "Scones",
+            "hex": "#BAA17E"
+          },
+          {
+            "code": "BBS-66",
+            "name": "Dale",
+            "hex": "#AFA292"
+          }
+        ]
       },
-      "ecocemento": {
-        "name": "EcoCemento®",
-        "description": "The first VOC-free microcement on the market. A versatile solution for healthy living environments.",
+      "basebeton-grit": {
+        "name": "Basebeton Grit",
+        "tagline": "Sustainable concrete plaster floor",
+        "description": "Basebeton Grit is a highly durable two-component concrete stucco with micronized quartz for heavy-duty floors. Creates a sleek, seamless finish with an authentic concrete look. Available in 20 standard colours.",
         "features": [
-          { "icon": "leaf", "title": "Green Label", "desc": "Environmentally friendly mineral components sourced from local quarries." },
-          { "icon": "sparkles", "title": "Natural Texture", "desc": "Soft, mineral appearance that brings a natural warmth to modern spaces." }
+          {
+            "icon": "shield",
+            "title": "Heavy-Duty Floor System",
+            "desc": "Designed specifically for heavy-duty floor applications — extreme durability and abrasion resistance in commercial and residential settings."
+          },
+          {
+            "icon": "edit",
+            "title": "Authentic Grit Texture",
+            "desc": "Distinctive textured surface with natural concrete grain — seamless, contemporary and architecturally refined."
+          },
+          {
+            "icon": "droplets",
+            "title": "Wet Room Ready",
+            "desc": "Apply SA AquaStop seal before Basebeton Grit for full wet room waterproofing in shower areas and bathrooms."
+          },
+          {
+            "icon": "leaf",
+            "title": "Sustainable Concrete Aesthetic",
+            "desc": "Low-embodied-carbon concrete plaster. EC1 Plus certified. Designed with longevity and sustainability in mind."
+          }
         ],
-        "gallery": ["/assets/surfaces/ecocemento.png"],
+        "gallery": [
+          "/assets/pages/products/basebeton-grit-luxury.png",
+          "/assets/pages/products/basebeton-grit-1.png",
+          "/assets/pages/products/basebeton-grit-2.png"
+        ],
         "details": {
           "specs": [
-            { "label": "VOC Content", "value": "0.0 g/L" },
-            { "label": "Application", "value": "Floors & Walls" }
+            {
+              "label": "System",
+              "value": "2K (TechStone + Grit Basa)"
+            },
+            {
+              "label": "Colours",
+              "value": "20 standard colours"
+            },
+            {
+              "label": "TechStone coverage",
+              "value": "800–1000 g/m²"
+            },
+            {
+              "label": "Application",
+              "value": "Stainless steel trowel"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor floors only"
+            }
           ],
-          "maintenance": "Regular damp mopping with natural cleaners.",
-          "philosophy": "Pure mineral essence."
-        }
+          "maintenance": "pH-neutral cleaners. Resistant to staining and impact. Minimal maintenance required.",
+          "philosophy": "Industrial strength, refined texture — the heavy-duty floor that makes no visual concessions."
+        },
+        "datasheet": "Basebeton-Grit-User-Manual-Technical-Datasheet-2024.08.pdf",
+        "productColors": [
+          {
+            "code": "BBG-101",
+            "name": "Dun Briste",
+            "hex": "#7E7976"
+          },
+          {
+            "code": "BBG-102",
+            "name": "Camps Bay",
+            "hex": "#B0A999"
+          },
+          {
+            "code": "BBG-104",
+            "name": "Cliffton",
+            "hex": "#9F988A"
+          },
+          {
+            "code": "BBG-105",
+            "name": "Navagio Beach",
+            "hex": "#D7CBBD"
+          },
+          {
+            "code": "BBG-107",
+            "name": "Cocoa Island",
+            "hex": "#7F7B7C"
+          },
+          {
+            "code": "BBG-108",
+            "name": "Stivina",
+            "hex": "#CCBEAF"
+          },
+          {
+            "code": "BBG-109",
+            "name": "Pinksand Beach",
+            "hex": "#B79E90"
+          },
+          {
+            "code": "BBG-112",
+            "name": "Baga",
+            "hex": "#737374"
+          },
+          {
+            "code": "BBG-113",
+            "name": "Blacksand Beach",
+            "hex": "#5A5B5B"
+          },
+          {
+            "code": "BBG-114",
+            "name": "Tayrona",
+            "hex": "#8F9090"
+          },
+          {
+            "code": "BBG-115",
+            "name": "Seagrass Bay",
+            "hex": "#BBB9AF"
+          },
+          {
+            "code": "BBG-121",
+            "name": "Astola",
+            "hex": "#A39F96"
+          },
+          {
+            "code": "BBG-122",
+            "name": "Varadero",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-125",
+            "name": "Calabar",
+            "hex": "#9F9587"
+          },
+          {
+            "code": "BBG-127",
+            "name": "Nissi",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-130",
+            "name": "Agando",
+            "hex": "#9F9588"
+          },
+          {
+            "code": "BBG-131",
+            "name": "Cappadocia",
+            "hex": "#BDBAB2"
+          },
+          {
+            "code": "BBG-133",
+            "name": "White Desert",
+            "hex": "#A49F97"
+          },
+          {
+            "code": "BBG-134",
+            "name": "Chimney",
+            "hex": "#C9C2B3"
+          },
+          {
+            "code": "BBG-138",
+            "name": "Diani",
+            "hex": "#CCBEAF"
+          }
+        ]
       },
-      "baxab": {
-        "name": "Baxab®",
-        "description": "The most advanced microcement system available. Designed for ultimate resistance in the most demanding conditions.",
+      "stuccopuro": {
+        "name": "Stuccopuro",
+        "tagline": "Decorative concrete-look wall finish",
+        "description": "Stuccopuro is a mineral and plastic-bonded decorative interior plaster with a matte concrete look. Ready to use. Available in 60 unique colours plus custom RAL / NCS. For walls in dry areas.",
         "features": [
-          { "icon": "shield", "title": "Unbreakable", "desc": "Reinforced with high-performance polymers for extreme durability." },
-          { "icon": "zap", "title": "Commercial Grade", "desc": "Ideal for high-traffic public spaces, museums, and flagship stores." }
+          {
+            "icon": "sparkles",
+            "title": "Matte Concrete Aesthetic",
+            "desc": "Delivers a sophisticated matte concrete look — softer and warmer than standard microcement, ideal for living rooms and hotel spaces."
+          },
+          {
+            "icon": "layers",
+            "title": "Two-Layer Application",
+            "desc": "First layer determines the final appearance and texture. Second layer is scraped over as thin as 0.1–0.5 mm for depth."
+          },
+          {
+            "icon": "sun",
+            "title": "60 Unique Colours",
+            "desc": "60 carefully curated colours plus custom RAL and NCS matching for precise interior design specifications."
+          },
+          {
+            "icon": "shield",
+            "title": "Mineral & Plastic Bonded",
+            "desc": "Hybrid mineral and plastic bond provides flexibility, adhesion and durability superior to purely mineral-based plasters."
+          }
         ],
-        "gallery": ["/assets/surfaces/baxab.png"],
+        "gallery": [
+          "/assets/pages/products/stuccopuro-luxury.png",
+          "/assets/pages/products/stuccopuro-1.png"
+        ],
         "details": {
           "specs": [
-            { "label": "Compression", "value": "High Strength" },
-            { "label": "Finish", "value": "Polished / Satin" }
+            {
+              "label": "Colours",
+              "value": "60 unique + RAL/NCS"
+            },
+            {
+              "label": "System",
+              "value": "2-Layer decorative plaster"
+            },
+            {
+              "label": "Second layer thickness",
+              "value": "0.1–0.5 mm"
+            },
+            {
+              "label": "Application",
+              "value": "Stainless steel trowel"
+            },
+            {
+              "label": "Use",
+              "value": "Indoor dry areas only"
+            }
           ],
-          "maintenance": "Minimal maintenance required. Extremely easy to clean.",
-          "philosophy": "The standard for durability."
-        }
-      },
-      "microcemento": {
-        "name": "Microcemento®",
-        "description": "The classic, versatile microcement finish. Seamless continuity for any surface without the need for demolition.",
-        "features": [
-          { "icon": "layers", "title": "Ultra Thin", "desc": "Only 2-3mm thickness, perfect for renovations over existing tiles." },
-          { "icon": "edit", "title": "Hand Finished", "desc": "Applied by expert craftsmen for a unique, artisanal texture." }
-        ],
-        "gallery": ["/assets/surfaces/microcemento.png"],
-        "details": {
-          "specs": [
-            { "label": "Thickness", "value": "2.0 - 3.0 mm" },
-            { "label": "Substrates", "value": "Universal Adhesion" }
-          ],
-          "maintenance": "Periodic waxing can enhance the natural patina.",
-          "philosophy": "A continuous canvas for living."
-        }
-      },
-      "tswim": {
-        "name": "T/Swim®",
-        "description": "Specifically engineered for swimming pools and wet environments. Waterproof, chlorine-resistant, and non-slip.",
-        "features": [
-          { "icon": "droplet", "title": "Pool Specialized", "desc": "Formulated to withstand constant immersion and water pressure." },
-          { "icon": "check-circle", "title": "Safety First", "desc": "Built-in anti-slip properties for safe aquatic environments." }
-        ],
-        "gallery": ["/assets/surfaces/tswim.png"],
-        "details": {
-          "specs": [
-            { "label": "Chemical Res.", "value": "Chlorine & Salt" },
-            { "label": "Texture", "value": "Grip-Enhanced" }
-          ],
-          "maintenance": "Balanced water pH is essential for longevity.",
-          "philosophy": "Fluid continuity."
-        }
-      },
-      "summery": {
-        "name": "Summery®",
-        "description": "An innovative microcement system with integrated heating capabilities. Comfort and aesthetics in a single layer.",
-        "features": [
-          { "icon": "thermometer", "title": "Thermal Layer", "desc": "Integrates heating elements directly into the microcement build-up." },
-          { "icon": "sun", "title": "Radiant Heat", "desc": "Even, gentle heat distribution for maximum comfort in bathrooms and living areas." }
-        ],
-        "gallery": ["/assets/surfaces/summery.png"],
-        "details": {
-          "specs": [
-            { "label": "System", "value": "Radiant Integrated" },
-            { "label": "Energy Eff.", "value": "High" }
-          ],
-          "maintenance": "Standard microcement care.",
-          "philosophy": "Warmth you can feel."
-        }
-      },
-      "real-metals": {
-        "name": "Real Metals®",
-        "description": "Authentic metallic microcement containing real metal powders for a sophisticated, luxury finish.",
-        "features": [
-          { "icon": "sparkles", "title": "Genuine Metal", "desc": "Contains Bronze, Copper, or Zinc powders for a true metallic luster." },
-          { "icon": "zap", "title": "Reactive Patina", "desc": "Can be aged or polished to create an evolving, living architectural surface." }
-        ],
-        "gallery": ["/assets/surfaces/real-metals.png"],
-        "details": {
-          "specs": [
-            { "label": "Metals", "value": "Bronze, Zinc, Copper" },
-            { "label": "Effect", "value": "Oxidized / Polished" }
-          ],
-          "maintenance": "Avoid acidic cleaners that may affect the metal patina.",
-          "philosophy": "The alchemy of surfaces."
-        }
-      },
-      "silk-concrete": {
-        "name": "Silk Concrete",
-        "description": "ULTRA-SMOOTH, MATTE FINISH WITH A SOFT-TOUCH TEXTURE.",
-        "features": [
-          { "icon": "sparkles", "title": "Soft Touch", "desc": "A texture that feels like silk under the fingertips while maintaining concrete durability." },
-          { "icon": "eye", "title": "Deep Matte", "desc": "Zero reflection finish that absorbs light for a soft, atmospheric glow." }
-        ],
-        "gallery": ["/assets/pages/products/silk-concrete.png"],
-        "details": {
-          "specs": [
-            { "label": "Finish", "value": "Ultra-Matte" },
-            { "label": "Texture", "value": "Silk-Soft" }
-          ],
-          "maintenance": "Wipe with a soft damp cloth.",
-          "philosophy": "Silence you can touch."
-        }
-      },
-      "polished-stone": {
-        "name": "Polished Stone",
-        "description": "SUBTLE SHEEN WITH DEEP MINERAL DEPTH AND CRYSTALLINE REFLECTIONS.",
-        "features": [
-          { "icon": "zap", "title": "Mineral Depth", "desc": "Layered minerals create a sense of three-dimensional depth within the surface." },
-          { "icon": "sun", "title": "Crystalline Glow", "desc": "Subtle reflections that respond to natural light throughout the day." }
-        ],
-        "gallery": ["/assets/pages/products/polished-stone.png"],
-        "details": {
-          "specs": [
-            { "label": "Finish", "value": "Satin Sheen" },
-            { "label": "Effect", "value": "Mineral Depth" }
-          ],
-          "maintenance": "Regular cleaning to maintain the subtle luster.",
-          "philosophy": "The light within the stone."
-        }
-      },
-      "velvet-mineral": {
-        "name": "Velvet Mineral",
-        "description": "A DENSE, VELVETY TEXTURE THAT ABSORBS AND DIFFUSES LIGHT BEAUTIFULLY.",
-        "features": [
-          { "icon": "layers", "title": "Velvet Density", "desc": "A dense, rich texture that provides a weighted, luxury feel to any wall or floor." },
-          { "icon": "cloud", "title": "Light Diffusion", "desc": "Perfectly diffuses light to eliminate harsh shadows and create a calm environment." }
-        ],
-        "gallery": ["/assets/pages/products/velvet-mineral.png"],
-        "details": {
-          "specs": [
-            { "label": "Finish", "value": "Velvet Matte" },
-            { "label": "Density", "value": "High Mineral" }
-          ],
-          "maintenance": "Easy to maintain despite its rich texture.",
-          "philosophy": "Atmospheric weight."
-        }
+          "maintenance": "Dry dust or very lightly damp cloth. Not suitable for wet cleaning. For dry areas only.",
+          "philosophy": "The art of restraint — matte concrete elegance without the weight."
+        },
+        "datasheet": "Stuccopuro-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "SP 01",
+            "name": "Senape",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 02",
+            "name": "Olio",
+            "hex": "#7F826E"
+          },
+          {
+            "code": "SP 03",
+            "name": "Foresta",
+            "hex": "#827C67"
+          },
+          {
+            "code": "SP 04",
+            "name": "Alto",
+            "hex": "#A1967D"
+          },
+          {
+            "code": "SP 05",
+            "name": "Sedona",
+            "hex": "#887C65"
+          },
+          {
+            "code": "SP 06",
+            "name": "Lido",
+            "hex": "#706349"
+          },
+          {
+            "code": "SP 07",
+            "name": "Ficre",
+            "hex": "#DBE2CE"
+          },
+          {
+            "code": "SP 08",
+            "name": "Amaro",
+            "hex": "#B1BEAD"
+          },
+          {
+            "code": "SP 09",
+            "name": "Sabbina",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 10",
+            "name": "Mela",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 11",
+            "name": "Cotta",
+            "hex": "#D3A696"
+          },
+          {
+            "code": "SP 12",
+            "name": "Panna",
+            "hex": "#C8BBAA"
+          },
+          {
+            "code": "SP 13",
+            "name": "Caramello",
+            "hex": "#A05D4F"
+          },
+          {
+            "code": "SP 14",
+            "name": "Sole",
+            "hex": "#BA9F71"
+          },
+          {
+            "code": "SP 15",
+            "name": "Riso",
+            "hex": "#CED3CD"
+          },
+          {
+            "code": "SP 16",
+            "name": "Mare",
+            "hex": "#A9AB9F"
+          },
+          {
+            "code": "SP 17",
+            "name": "Sardina",
+            "hex": "#D1CCB7"
+          },
+          {
+            "code": "SP 18",
+            "name": "Uno",
+            "hex": "#A3AEAA"
+          },
+          {
+            "code": "SP 19",
+            "name": "Vico",
+            "hex": "#959F9B"
+          },
+          {
+            "code": "SP 20",
+            "name": "Timo",
+            "hex": "#BEC0B2"
+          },
+          {
+            "code": "SP 21",
+            "name": "Salvia",
+            "hex": "#D8D9D3"
+          },
+          {
+            "code": "SP 22",
+            "name": "Mora",
+            "hex": "#927360"
+          },
+          {
+            "code": "SP 23",
+            "name": "Putta",
+            "hex": "#ECE0CE"
+          },
+          {
+            "code": "SP 24",
+            "name": "Sabbia",
+            "hex": "#A1865A"
+          },
+          {
+            "code": "SP 25",
+            "name": "Cossa",
+            "hex": "#DEDEDE"
+          },
+          {
+            "code": "SP 26",
+            "name": "Porto",
+            "hex": "#7A99A7"
+          },
+          {
+            "code": "SP 27",
+            "name": "Menta",
+            "hex": "#7AA0A6"
+          },
+          {
+            "code": "SP 28",
+            "name": "Pianto",
+            "hex": "#958A93"
+          },
+          {
+            "code": "SP 29",
+            "name": "Arla",
+            "hex": "#9B9597"
+          },
+          {
+            "code": "SP 30",
+            "name": "Scuro",
+            "hex": "#595959"
+          },
+          {
+            "code": "SP 31",
+            "name": "Salsa",
+            "hex": "#36312E"
+          },
+          {
+            "code": "SP 32",
+            "name": "Strada",
+            "hex": "#4D4946"
+          },
+          {
+            "code": "SP 33",
+            "name": "Salto",
+            "hex": "#A9AB9E"
+          },
+          {
+            "code": "SP 34",
+            "name": "Brista",
+            "hex": "#DFCCB0"
+          },
+          {
+            "code": "SP 35",
+            "name": "Porso",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 36",
+            "name": "Pepe",
+            "hex": "#68797E"
+          },
+          {
+            "code": "SP 37",
+            "name": "Oliva",
+            "hex": "#687A7E"
+          },
+          {
+            "code": "SP 38",
+            "name": "Erba",
+            "hex": "#645F5C"
+          },
+          {
+            "code": "SP 39",
+            "name": "Isola",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 40",
+            "name": "Tropi",
+            "hex": "#B4B5B1"
+          },
+          {
+            "code": "SP 41",
+            "name": "Cabo",
+            "hex": "#F3EFDD"
+          },
+          {
+            "code": "SP 42",
+            "name": "Gelato",
+            "hex": "#E7E4D2"
+          },
+          {
+            "code": "SP 43",
+            "name": "Dolce",
+            "hex": "#F3EBE0"
+          },
+          {
+            "code": "SP 44",
+            "name": "Pietra",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 45",
+            "name": "Torta",
+            "hex": "#C1C0A5"
+          },
+          {
+            "code": "SP 46",
+            "name": "Puri",
+            "hex": "#DED1B4"
+          },
+          {
+            "code": "SP 47",
+            "name": "Torno",
+            "hex": "#8D8D8D"
+          },
+          {
+            "code": "SP 48",
+            "name": "Uovo",
+            "hex": "#E6DED6"
+          },
+          {
+            "code": "SP 49",
+            "name": "Albero",
+            "hex": "#D0C8BE"
+          },
+          {
+            "code": "SP 50",
+            "name": "Mucca",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 51",
+            "name": "Parco",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 52",
+            "name": "Secco",
+            "hex": "#8A8372"
+          },
+          {
+            "code": "SP 53",
+            "name": "Burra",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 54",
+            "name": "Mandurla",
+            "hex": "#BBB5AD"
+          },
+          {
+            "code": "SP 55",
+            "name": "Verdura",
+            "hex": "#697D7C"
+          },
+          {
+            "code": "SP 56",
+            "name": "Lana",
+            "hex": "#859494"
+          },
+          {
+            "code": "SP 57",
+            "name": "Rivero",
+            "hex": "#939E9A"
+          },
+          {
+            "code": "SP 58",
+            "name": "Sea",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 59",
+            "name": "Oceano",
+            "hex": "#B4BEBB"
+          },
+          {
+            "code": "SP 60",
+            "name": "Casse",
+            "hex": "#BD9375"
+          }
+        ]
       }
     },
     "products_types": {
@@ -481,247 +2715,306 @@
       "efficiency": "We know that time is a premium, that's why we developed a quick-drying resin system and an innovative installation process. Beautiful surfaces that are usable only 24hs after installation.",
       "items": [
         {
+          "name": "Baxab® Eco",
           "slug": "baxab-eco",
-          "name": "Baxab-Eco®",
-          "ideal": "Interior floors, walls, furniture, and worktops.",
-          "desc": "Top-performing option for the eco-conscious. Free of VOCs, highly durable and resistant to stains, scratches, and impact."
+          "ideal": "High-traffic commercial, kitchens, public spaces.",
+          "desc": "The industry's most resilient microcement, now formulated without VOCs. Uncompromising structural strength meets ecological responsibility."
+        },
+        {
+          "name": "Interior Art & Decor",
+          "slug": "deco-walls",
+          "ideal": "Accent walls, luxury residential, bespoke furniture.",
+          "desc": "Bespoke mineral installations, hand-molded reliefs, and sculptural surface art. Where architectural form meets the quiet luxury of the handmade."
         },
         {
           "slug": "ecocemento",
           "name": "EcoCemento®",
           "ideal": "Interior floors, walls, furniture, and worktops.",
-          "desc": "The first VOC-free microcement on the market. Highly resistant to stains, scratches, and impact, and easy to maintain."
+          "desc": "A revolutionary VOC-free system for healthy living environments. Exceptional resistance to daily wear with a soft, natural mineral aesthetic."
         },
         {
           "slug": "baxab",
           "name": "Baxab®",
           "ideal": "Interior floors, walls, furniture, and worktops.",
-          "desc": "The most advanced microcement on the market. Highly resistant to cracks, stains and scratches. Innovative and exclusive."
+          "desc": "The global benchmark for high-performance microcement. Engineered for extreme durability against cracks, impacts, and heavy traffic."
         },
         {
           "slug": "microcemento",
           "name": "Microcemento®",
           "ideal": "Interior floors, walls, furniture, and worktops.",
-          "desc": "A continuous surface solution that doesn't require demolition. Versatile and highly resistant to abrasion and impact."
+          "desc": "The original seamless surface solution. Versatile, thin-profile application that eliminates the need for demolition while providing superior abrasion resistance."
         },
         {
           "slug": "tswim",
           "name": "T/Swim®",
           "ideal": "Swimming pools.",
-          "desc": "Specifically designed for swimming pools. Waterproof, resistant to chlorine, and slip-resistant for added safety."
+          "desc": "Specialized waterproof technology for aquatic environments. Chlorine-resistant and slip-certified for safe, monolithic pool surfaces."
         },
         {
           "slug": "summery",
           "name": "Summery®",
           "ideal": "Floors, walls, bathrooms, and kitchens.",
-          "desc": "Incorporates a heating system into the microcement. Ideal for heating floors and walls while providing durability."
+          "desc": "Intelligent thermal integration. A high-durability mineral finish that houses an advanced heating system for floors and walls."
         },
         {
           "slug": "real-metals",
           "name": "Real Metals®",
           "ideal": "Interior floors, walls, furniture, and worktops.",
-          "desc": "Incorporates real metal powders to create a metallic finish. Adds a touch of elegance and sophistication with high durability."
+          "desc": "Authentic metallic depth. Real metal powders suspended in a mineral matrix for a living, sophisticated finish that evolves with time."
         }
       ]
     }
   },
   "story": {
-    "title": "A Legacy of Materiality",
-    "subtitle": "Born from the intersection of raw minerals and sculptural ambition, KUUS DESIGN was founded with a singular purpose: to craft surfaces that define the atmosphere through high-contrast materiality.",
+    "title": "The Essence of Materiality",
+    "subtitle": "KUUS DESIGN was founded with a singular vision: to create microcement surfaces that possess the permanence and weight of architectural heritage.",
     "sections": {
       "origin": {
-        "title": "The Raw Beginning",
-        "text": "Our journey began in a small industrial studio where we experimented with traditional mineral mixtures. We sought a material that carried the strength of concrete but the tactile elegance of silk. Through years of refinement, our unique microcement formula was born—a material that responds to the hand as much as it does to the architect's vision."
+        "title": "Artisanal Origins",
+        "text": "Our journey began in a dedicated studio, refining mineral compositions until we achieved the perfect tactile balance. We sought a medium that exists between raw concrete and fine plaster—exceptionally durable, yet possessing a natural warmth. Years of technical application have perfected our signature high-performance formula."
       },
       "philosophy": {
-        "title": "Handcrafting Silence",
-        "text": "In a world of mass-produced uniformity, we choose the rhythmic motion of the hand-trowel. Each layer of KUUS DESIGN is applied by an artisan, ensuring that no two surfaces are identical. This human touch creates a subtle topographic depth that catches the light and brings a sense of calm, architectural silence to any space."
+        "title": "The Rhythm of the Hand",
+        "text": "Every surface is an original work, hand-troweled to create a subtle topography that machine processes cannot replicate. This artisanal rhythm ensures that light interacts with the mineral layers in a way that feels organic and alive, bringing a unique soul to every interior."
       }
     }
   },
   "projects": {
     "title": "Architectural Portfolio",
     "subtitle": "A curation of exclusive spaces where materiality meets vision. High-contrast interiors that define the luxury of tomorrow.",
+    "labels": {
+      "year": "Year",
+      "architect": "Architect",
+      "surface_area": "Surface Area",
+      "tone": "Tone",
+      "case_study": "Case Study",
+      "location": "Location",
+      "explore": "Explore Case Study",
+      "back": "Back to Portfolio"
+    },
     "items": {
-      "villa": {
-        "name": "Villa Mediterranean",
-        "location": "Tuscany, IT",
-        "year": "2023",
-        "description": "Seamless integration of indoor and outdoor microcement terraces for a timeless luxury villa.",
-        "longDescription": "Set against the rolling hills of Tuscany, this project demanded a material that could bridge the gap between ancient stone architecture and modern minimalist living. We applied over 450sqm of 'Bone' microcement across all living areas and the infinity pool terrace."
-      },
       "boutique": {
-        "name": "Concept Store",
-        "location": "Tokyo, JP",
+        "name": "TARTU LUXURY RESIDENCE",
+        "location": "Tartu, EE",
         "year": "2024",
-        "description": "Minimalist retail interior utilizing grey-matte microcement pedestals and wall finishes.",
-        "longDescription": "The Tokyo project was an exercise in extreme precision. Working within the dense Ginza district, our team created custom sculptural pedestals and a high-traffic grey floor that serves as a neutral canvas for seasonal collections."
+        "description": "Luxurious interior featuring EcoCemento® mineral depth.",
+        "longDescription": "A study in VOC-free materiality. EcoCemento® was selected for its natural mineral depth and healthy living profile. The 'Marfil' tonality provides a soft, light-diffusing foundation that evolves with the movement of the sun."
+      },
+      "eramu": {
+        "name": "Private House Tartu 2026",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "description": "Extreme durability meets high-end design with Baxab®.",
+        "longDescription": "Defining the future of residential resilience. Topcret Baxab® was specified throughout to provide high-traffic endurance without compromising the monolithic design intent. Sculptural staircases and seamless living zones anchor the home's architectural soul."
+      },
+      "lino": {
+        "name": "TARTU LUXURY BATH",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "description": "Monolithic wetroom aesthetics with T/Swim® technology.",
+        "longDescription": "Raw minerality meets functional luxury. Utilizing T/Swim® technology, we created a fully waterproof, slip-certified sanctuary where the absence of grout lines enhances the rhythmic texture left by the artisan's trowel."
       },
       "spa": {
-        "name": "Aurora Spa",
-        "location": "Reykjavik, IS",
-        "year": "2022",
-        "description": "Organic, curved microcement forms creating a sanctuary of calm and reflection.",
-        "longDescription": "In response to the Icelandic landscape, we used 'Charcoal' tones to mirror volcanic basalt. The project features curved steam rooms and monolithic treatment benches, all hand-finished to a seamless mineral texture."
+        "name": "TALLINN RESIDENCE",
+        "location": "Tallinn, EE",
+        "year": "2025",
+        "description": "Modern residence featuring seamless microcement walls and floors.",
+        "longDescription": "In this Tallinn private residence, we applied seamless microcement throughout the floors and walls, creating a calm, flowing, and light-filled Nordic environment that harmonizes perfectly with wood and raw concrete."
       }
     }
   },
   "faq": {
-    "title": "Common Inquiries",
-    "subtitle": "Understanding the technical nuances of mineral application.",
+    "abbr": "Technical Inquiry",
+    "title": "Architectural Specification FAQ",
+    "subtitle": "Technical insights into the performance and application of our mineral systems.",
     "items": [
       {
-        "question": "What is the typical thickness of the application?",
-        "answer": "Our microcement system is applied in multiple layers totaling approximately 2-3mm in thickness. Despite its thin profile, it is extremely dense and durable."
+        "question": "What is the typical thickness of a Topcret application?",
+        "answer": "Our systems are applied in multiple calibrated layers, reaching a total thickness of 2-3mm. This ensures extreme structural density without altering existing floor levels or architectural profiles."
       },
       {
-        "question": "Is microcement suitable for underfloor heating?",
-        "answer": "Yes, microcement is an excellent conductor of heat and its flexible properties make it highly compatible with modern underfloor heating systems."
+        "question": "Is microcement compatible with advanced heating systems?",
+        "answer": "Absolutely. Microcement possesses excellent thermal conductivity, making it an ideal surface for both hydronic and electric underfloor heating, ensuring efficient and even heat distribution."
       },
       {
-        "question": "How do I maintain the surface?",
-        "answer": "Maintenance is simple. We recommend regular cleaning with a pH-neutral cleaner. Avoid abrasive chemicals to preserve the protective seal."
+        "question": "What are the long-term maintenance requirements?",
+        "answer": "The surface should be cleaned with pH-neutral agents to preserve the integrity of the seal. Regular maintenance ensures the patina develops gracefully while maintaining its protective properties."
       },
       {
-        "question": "Can it be applied over existing tiles?",
-        "answer": "Absolutely. One of the greatest advantages of microcement is its ability to be applied directly over sound substrates like old tiles, avoiding the need for demolition."
+        "question": "Can it be applied over existing substrates like ceramic tiles?",
+        "answer": "Yes. Our systems are engineered for universal adhesion. We prepare the existing substrate through mechanical grinding and high-performance priming, eliminating the need for costly and disruptive demolition."
       }
     ]
   },
   "business": {
-    "title": "Commercial Partnership",
-    "subtitle": "KUUS DESIGN partners with leading architectural studios and developers to provide bespoke mineral finishes for commercial, retail, and hospitality ventures.",
-    "cta": "Request Business Portfolio"
+    "title": "Working with studios and developers",
+    "subtitle": "We work with architects, interior studios, and developers on commercial projects. Hotels, retail spaces, restaurant fit-outs — if it needs a durable mineral surface, we can help.",
+    "cta": "Get in touch"
   },
   "hero": {
-    "title": "The Art of Surfaces",
-    "subtitle": "Premium architectural microcement. Handcrafted with centuries-old precision and modern aesthetic purity.",
-    "cta": "View Collection"
+    "title": "Monolithic Architectural Surfaces",
+    "subtitle": "Artisanal microcement systems in Estonia. Seamless mineral skins designed for architectural endurance.",
+    "cta": "Explore the Collection"
   },
   "philosophy": {
-    "title": "SILENCE IS THE SOUND TIME MAKES.",
-    "text": "We believe that surfaces are not merely backgrounds, but the foundation of atmosphere. Our microcement is handcrafted, layer by layer, creating infinite variations of texture that respond beautifully to natural light. It is raw yet refined, brutal yet elegant."
+    "title": "Materiality Defines the Atmosphere",
+    "text": "We believe surfaces should not just fill space—they should define the quiet within it. Each layer is hand-troweled, capturing a unique topography of light and shadow that evolves with the day. It is architectural precision, delivered with an artisanal soul."
   },
   "methodology": {
-    "title": "The Process of Purity",
-    "subtitle": "Time is the most valuable ingredient. Each application takes days of deliberate patience and artisan mastery.",
+    "title": "Craftsmanship & Technology",
+    "subtitle": "Precision in every layer. Our multi-stage application process ensures structural integrity and visual depth.",
     "steps": [
       {
         "number": "01",
-        "title": "Surface Preparation",
-        "text": "The foundation is everything. We meticulously prepare the substrate to ensure perfect adhesion and a long-lasting, stable finish."
+        "title": "Substrate Engineering",
+        "text": "The foundation of a flawless finish. We perform rigorous surface preparation—grinding, priming, and structural reinforcement—to ensure absolute adhesion and long-term stability."
       },
       {
         "number": "02",
-        "title": "Hand-Troweled Base",
-        "text": "Our artisans apply the first layers by hand, establishing the unique topographic character that defines the finished surface."
+        "title": "Artisanal Application",
+        "text": "The core mineral layers are hand-troweled by our master artisans. This manual process captures the unique rhythm of the applicator, creating a subtle topography that machine processes cannot replicate."
       },
       {
         "number": "03",
-        "title": "The Mineral Veil",
-        "text": "The final color and texture layers are applied with rhythmic precision, creating a depth of field that responds to natural light."
+        "title": "Mineral Saturation",
+        "text": "The final aesthetic layers are applied with meticulous care, allowing each to cure naturally. This results in a dense mineral veil that responds dynamically to shifting light conditions."
       },
       {
         "number": "04",
-        "title": "Impregnation & Seal",
-        "text": "Advanced protective coatings are applied, making the surface waterproof and durable while preserving the raw, matte aesthetic."
+        "title": "Molecular Impregnation",
+        "text": "We seal the surface with high-performance, matte topcoats. This creates a waterproof, scratch-resistant barrier that preserves the raw aesthetic while ensuring architectural endurance."
       }
     ]
   },
   "surfaces_collection": {
-    "title": "The Raw Collection",
-    "subtitle": "A curated selection of mineral textures. Each surface is unique, reflecting the hand of the artisan.",
+    "title": "Basebeton Systems",
+    "subtitle": "11 professional ready-to-use microcement systems for every application.",
     "items": [
       {
         "id": "surface-1",
-        "name": "Baxab®",
-        "description": "The most advanced microcement on the market. Highly resistant to cracks, stains and scratches."
+        "name": "Basebeton Originale",
+        "description": "Ready-to-use microcement. Floors, walls, furniture. 75 colours."
       },
       {
         "id": "surface-2",
-        "name": "EcoCemento®",
-        "description": "The first VOC-free microcement on the market. Highly resistant to stains, scratches, and impact."
+        "name": "Beton Ciré",
+        "description": "Authentic elegant concrete. 41 architectural tones."
       },
       {
         "id": "surface-3",
-        "name": "Microcemento®",
-        "description": "A continuous surface solution that doesn't require demolition. Versatile and highly resistant."
+        "name": "Oxidestuc",
+        "description": "Metallic wall finish. Gold, Bronze, Copper, Aluminium, Rust, Steel."
       },
       {
         "id": "surface-4",
-        "name": "T/Swim®",
-        "description": "Specifically designed for swimming pools. Waterproof, resistant to chlorine, and slip-resistant."
+        "name": "Basebeton Solid",
+        "description": "Strongest epoxy floor plaster. 22 own + 64 Basebeton colours."
       },
       {
         "id": "surface-5",
-        "name": "Summery®",
-        "description": "Incorporates a heating system into the microcement. Ideal for heating floors and walls."
+        "name": "Stuccopuro",
+        "description": "Decorative matte concrete-look wall plaster. 60 unique colours."
       },
       {
         "id": "surface-6",
-        "name": "Real Metals®",
-        "description": "Authentic metallic finish containing real metal powders for a sophisticated, luxury finish."
+        "name": "Basebeton Grit",
+        "description": "Heavy-duty textured floor. 20 beach-inspired colours."
       }
     ]
   },
   "timeless_collection": {
-    "title": "The Timeless Collection",
-    "subtitle": "Smooth, high-fidelity mineral finishes for spaces that demand absolute serenity and seamless continuity.",
+    "title": "Basebeton Collection",
+    "subtitle": "Three systems. Three distinct aesthetics. One design philosophy.",
     "items": [
       {
         "id": "timeless-1",
-        "name": "Silk Concrete",
-        "description": "ULTRA-SMOOTH, MATTE FINISH WITH A SOFT-TOUCH TEXTURE."
+        "name": "Basebeton Originale",
+        "description": "READY-TO-USE MICROCEMENT PASTE. 75 COLOURS. FLOORS, WALLS AND FURNITURE."
       },
       {
         "id": "timeless-2",
-        "name": "Polished Stone",
-        "description": "SUBTLE SHEEN WITH DEEP MINERAL DEPTH AND CRYSTALLINE REFLECTIONS."
+        "name": "Oxidestuc",
+        "description": "METALLIC WALL FINISH. GOLD, BRONZE, COPPER, ALUMINIUM, RUST AND STEEL."
       },
       {
         "id": "timeless-3",
-        "name": "Velvet Mineral",
-        "description": "A DENSE, VELVETY TEXTURE THAT ABSORBS AND DIFFUSES LIGHT BEAUTIFULLY."
+        "name": "Stuccopuro",
+        "description": "DECORATIVE MATTE CONCRETE-LOOK WALL PLASTER. 60 UNIQUE COLOURS."
+      }
+    ]
+  },
+  "deco_walls_collection": {
+    "title": "Interior Art & Decor",
+    "subtitle": "Wall elements made by hand in our studio — stone carvings, mineral reliefs, textured panels.",
+    "collection_label": "From the studio",
+    "decorative_title": "Wall pieces",
+    "items": [
+      {
+        "id": "deco-1",
+        "name": "Mineral on Canvas",
+        "tag": "Painting"
+      },
+      {
+        "id": "deco-2",
+        "name": "Charcoal and Bone",
+        "tag": "Painting"
+      },
+      {
+        "id": "deco-4",
+        "name": "Stone Mirror, Backlit",
+        "tag": "Object"
+      },
+      {
+        "id": "deco-5",
+        "name": "Sand Dunes Relief",
+        "tag": "Wall"
+      },
+      {
+        "id": "deco-6",
+        "name": "Carved Stone Arch",
+        "tag": "Installation"
       }
     ]
   },
   "cta_section": {
-    "title": "Begin the \n Transformation.",
-    "text": "Consult with our studio to bring handcrafted mineral textures to your architectural vision.",
-    "button": "Request Consultation"
+    "title": "Envision Your Space",
+    "text": "Share your architectural vision, and let our studio bring it to life with monolithic precision.",
+    "button": "Request a Consultation"
   },
   "team": {
-    "title": "The Artisans",
-    "subtitle": "The hands behind the surfaces. Our master artisans bring decades of collective experience in mineral manipulation.",
+    "title": "The Master Artisans",
+    "subtitle": "A collective of technical mastery and artistic vision.",
     "members": [
       {
         "name": "Erik Tamm",
         "role": "Lead Artisan",
-        "description": "A master of the hand-trowel, Erik has spent 15 years refining the 'Brutal Silence' technique."
+        "description": "With over 15 years of technical application, Erik's mastery of the trowel defines our signature topography. His rhythmic approach ensures every surface is a unique architectural statement."
       },
       {
         "name": "Liis Koppel",
-        "role": "Material Specialist",
-        "description": "Specializing in mineral pigment alchemy and sustainable substrate preparation."
+        "role": "Mineral Specialist",
+        "description": "Liis oversees pigment integration and substrate engineering. Her deep understanding of mineral chemistry ensures that each finish responds perfectly to its unique environment and lighting conditions."
       }
     ]
   },
   "thank_you": {
-    "title": "Thank You for Your Interest.",
-    "text": "Your vision is the starting point of our process. We look forward to creating something exceptional together."
+    "title": "Thanks for reaching out.",
+    "text": "We'll look at what you've shared and get back to you within a day or two."
   },
   "story_quote": {
-    "text": "Materials should not just occupy space; they should define the silence within it.",
-    "author": "Lead Designer, KUUS DESIGN"
+    "text": "Surfaces should not merely fill a room; they must define the quiet within it.",
+    "author": "Creative Director, KUUS DESIGN"
   },
   "footer": {
-    "tagline": "Premium microcement surfaces crafted for spaces that demand quiet luxury.",
+    "tagline": "Microcement surfaces, made by hand in Tartu.",
     "categories": {
       "studio": "Studio",
       "collections": "Collections",
       "connect": "Connect"
     },
-    "rights": "All Rights Reserved."
+    "rights": "All Rights Reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy"
   },
   "blog_ui": {
     "featured": "Featured Journal Entry",
@@ -729,11 +3022,11 @@
     "continue_reading": "Continue Reading"
   },
   "contact_ui": {
-    "dialogue": "Start a Dialogue",
-    "name": "Full Name",
-    "email_label": "E-mail Address",
-    "vision": "Your Vision",
-    "inquiries": "Inquiries",
+    "dialogue": "Project Dialogue",
+    "name": "Your Identity",
+    "email_label": "Digital Address",
+    "vision": "Project Vision",
+    "inquiries": "Studio Inquiries",
     "direct_line": "Direct Line",
     "studio": "Studio"
   },
@@ -751,20 +3044,24 @@
     "manual": "Installation Guide",
     "maintenance": "Maintenance Manual",
     "data_sheet": "Technical Data Sheet",
-    "order_sample": "Order Sample"
+    "order_sample": "Order Sample",
+    "get_quote": "Get a Quote",
+    "specs": "Technical Specifications",
+    "back_to_products": "Back to products",
+    "explore": "Explore Collection"
   },
   "guide_topcret": {
-    "title": "The Topcret Guide",
+    "title": "The Guide",
     "subtitle": "Technical mastery of mineral surfaces.",
-    "description": "Microcement is a cutting-edge cementitious coating consisting of fine particles, polymers, and pigments. It offers a seamless finish for floors, walls, and furniture without the need for extensive construction work.",
+    "description": "Basebeton is a ready-to-use cementitious coating with micronized quartz, polymers and pigments. It delivers a seamless finish for floors, walls and furniture — without extensive construction work.",
     "what_is": {
       "title": "What is microcement?",
       "paragraphs": [
-        "Microcement, often referred to as micro concrete, micro-screed, or micro-overlay, is a cutting-edge and highly versatile cementitious coating that has been revolutionizing the interior and exterior design industry in the United Kingdom. This innovative material consists of fine particles and can be seamlessly applied to a wide range of surfaces, including floors, walls, and even furniture in both residential and commercial settings.",
-        "As a leading microcement supplier in the UK, Topcret proudly brings this exceptional product to the market. What sets microcement apart is its unique combination of qualities, making it a top choice for designers, architects, and homeowners alike. Its durability ensures longevity, making it perfect for high-traffic areas without compromising on aesthetics.",
-        "One of the key reasons for microcement’s increasing popularity is its ability to provide a sleek, minimalist, and contemporary look to any space. With an extensive range of colors and finishes, customers have the freedom to unleash their creativity and achieve their desired ambiance. Whether it’s a modern office space, a trendy restaurant, or a chic residential interior, microcement is the ultimate solution to elevate the aesthetic appeal and functionality of any environment.",
-        "Not only does microcement offer stunning visual appeal, but its thin application also minimizes the impact on existing structures during renovations or new installations. This feature makes it an ideal choice for those seeking to enhance their space without extensive construction work.",
-        "Whether for renovations or new projects, microcement is the ultimate solution to elevate the aesthetic appeal and functionality of any space."
+        "Microcement — also called micro-concrete, micro-screed or micro-overlay — is a highly versatile polymer-modified cementitious coating that has been transforming interior and exterior design. Applied just 1–3mm thin, it bonds directly over existing tiles, concrete, wood and most rigid surfaces, creating a seamless and grout-free result.",
+        "Basebeton by Stone Age is a premium ready-to-use microcement paste. Each product in the Basebeton range is pre-coloured, pre-mixed and factory-calibrated for consistent results. It is EC1 Plus certified — meaning very low volatile organic compound emissions, safe for every interior environment including bedrooms and schools.",
+        "One of the key reasons for microcement's increasing popularity is its ability to deliver a sleek, minimalist and contemporary look to any space. With 366 colours and finishes across 11 product collections, Basebeton gives designers, architects and homeowners full creative freedom — from raw industrial concrete to refined metallic surfaces.",
+        "Basebeton's thin application minimises the impact on existing structures during renovation. No demolition, no raised floor levels, no construction noise — microcement is applied directly over what is already there.",
+        "Whether for renovation or new-build, Basebeton is the professional solution that elevates the aesthetic and functionality of any surface."
       ]
     },
     "applications": {
@@ -772,125 +3069,2019 @@
       "items": [
         {
           "title": "Microcement Flooring",
-          "desc": "Microcement floors are highly durable and easy to clean, making them a great option for high-traffic areas. They can be customized with a range of finishes, from smooth and polished to textured and rustic, and can be used in a variety of settings, including residential, commercial, and industrial spaces. Microcement flooring is also a cost-effective alternative to traditional flooring materials."
+          "desc": "Basebeton Originale, Plus, Xtreme, Solid and Grit are all engineered for floor use. Highly durable, compatible with underfloor heating, and available in dozens of colours. Suitable for residential, commercial and high-traffic industrial spaces."
         },
         {
           "title": "Microcement Bathrooms",
-          "desc": "Microcement is perfect for creating seamless, waterproof surfaces in your bathroom. Because it is applied in a single layer, there are no grout lines or seams to worry about, which means fewer areas for dirt and mold to accumulate. Microcement bathrooms are easy to clean, durable, and can be customized with a wide range of colors and finishes."
+          "desc": "Basebeton creates seamless, fully waterproof bathroom surfaces with no grout lines. Applied directly over existing tiles — no demolition required. The zero-demolition bathroom is our most requested application."
         },
         {
           "title": "Microcement Worktops",
-          "desc": "Microcement worktops offer a sleek and durable surface that is perfect for modern kitchen design. With their customizable finishes and seamless application, microcement worktops provide a stylish and practical solution for homeowners looking to upgrade their countertops. Additionally, microcement worktops require minimal maintenance and are highly resistant to stains, making them an ideal choice for busy households."
+          "desc": "Basebeton Originale and Beton Ciré are ideal for kitchen worktops. Heat-resistant when sealed, food-safe, and available in 75–41 colours respectively. Provides a clean, seamless surface that is easy to maintain."
         },
         {
           "title": "Outdoor Microcement",
-          "desc": "Outdoor microcement has revolutionised the way we design and enhance our external spaces. Perfect for patios, terraces, and walkways, this innovative material offers a sleek, seamless finish that's both durable and weather-resistant. Its ability to withstand the elements, combined with its contemporary aesthetic, makes outdoor microcement a preferred choice for homeowners and designers alike. Whether you're aiming to create a chic poolside lounge or a modern garden pathway, outdoor microcement promises a blend of beauty, functionality, and longevity, elevating the appeal of any open-air setting."
+          "desc": "Selected Basebeton systems can be applied to patios, terraces and walkways. UV-stable, weather-resistant and slip-resistant finishes are available. Specify outdoor use at the consultation stage for the correct product selection."
         },
         {
-          "title": "Microcement on walls",
-          "desc": "Microcement is a versatile material that can be used to create a range of wall finishes, from smooth and sleek to textured and rustic. It can also be applied to curved or uneven surfaces, making it an excellent choice for feature walls or accent areas. Microcement walls are highly durable and resistant to cracking, making them a long-lasting and low-maintenance option for any room in your home."
+          "title": "Microcement Walls",
+          "desc": "Basebeton Originale, Stuccopuro, Sichtbeton, Natureplast and Oxidestuc all work for walls, each with a distinct character — from raw industrial to natural clay or metallic shimmer. Applied to create architectural continuity between floor and wall."
         },
         {
           "title": "Microcement Kitchens",
-          "desc": "Microcement surfaces are ideal for creating a modern, clean look in your kitchen. They can be used for countertops, backsplashes, and even flooring, and can be customized to match the design style of your kitchen. Microcement kitchens are highly durable and resistant to stains, making microcement an excellent choice for high-traffic areas like your kitchen."
+          "desc": "Seamless microcement surfaces work across kitchen countertops, backsplashes and floors. Basebeton is highly stain-resistant when properly sealed, and easy to clean with pH-neutral products. Custom colours ensure a perfect match to any kitchen design."
         },
         {
           "title": "Microcement Stairs",
-          "desc": "Microcement can be used to create durable, slip-resistant stair treads and risers. It can be applied to any type of stair, including concrete, wood, or metal, and can be customized to match the design of your space. Microcement stairs are easy to clean and maintain, and are highly resistant to wear and tear."
+          "desc": "Continuous microcement stair surfaces eliminate edge strips and transition profiles. Non-slip finishes are available. Applied over concrete, wood or metal stairs — bonds directly to any prepared substrate."
         },
         {
           "title": "Microcement Showers",
-          "desc": "Microcement showers are highly resistant to water damage, making them an ideal choice for bathrooms. Their seamless and continuous surface is not only aesthetically pleasing but also easy to clean and maintain. Microcement showers can be finished in a range of styles, from modern and polished to natural and textured, offering versatility in design."
+          "desc": "Basebeton Originale and Beton Ciré are both approved for shower enclosures and wet rooms. Fully waterproof when sealed, seamless, and available in a wide range of colours. Easy to clean — no grout lines where mould can accumulate."
         },
         {
           "title": "Microcement Furniture",
-          "desc": "Microcement can be used to create unique, modern furniture pieces. It can be applied to a wide range of materials, including wood, metal, and plastic, and can be customized to match the design style of your space. Microcement furniture is highly durable and resistant to stains and scratches, making it an excellent choice for high-traffic areas."
+          "desc": "Basebeton can be applied to dressers, tables, sinks, bathtubs and custom objects. Weight increase is minimal. Creates a unique mineral surface that is durable, stain-resistant and unlike any painted or veneered finish."
         },
         {
           "title": "Microcement Pools",
-          "desc": "Microcement pools provide a seamless and waterproof surface that is perfect for pool construction. With their range of customizable finishes and low-maintenance requirements, microcement pools offer a stylish and cost-effective option for homeowners seeking to enhance their outdoor living space."
+          "desc": "Basebeton Grit and Basebeton Solid offer waterproof, durable surfaces for pool surrounds and wet zones. Applied directly over existing pool tiles. Custom colours are available to complement the water and surrounding architecture."
         }
       ]
     },
     "advantages_title": "Core Advantages",
     "advantages": {
-      "versatility": { "title": "Versatility", "desc": "Apply to almost any surface, including curved or uneven ones." },
-      "durability": { "title": "Durability", "desc": "High resistance to daily wear, cracking, stains, and scratches." },
-      "customization": { "title": "Customization", "desc": "Vast range of colors and finishes for a unique look." },
-      "waterproof": { "title": "Waterproof", "desc": "Totally waterproof, ideal for showers and swimming pools." },
-      "thickness": { "title": "Minimal Thickness", "desc": "Thin application that doesn't add weight or height to existing structures." },
-      "flexibility": { "title": "Flexibility", "desc": "Handles minor structural movements without cracking." },
-      "eco": { "title": "Eco-friendly", "desc": "Sustainable production with low VOC emissions." },
-      "maintenance": { "title": "Low Maintenance", "desc": "Extremely easy to clean compared to traditional materials." }
+      "versatility": {
+        "title": "Versatility",
+        "desc": "Apply to almost any surface — floors, walls, furniture, stairs and pools — including curved or uneven substrates."
+      },
+      "durability": {
+        "title": "Durability",
+        "desc": "High resistance to daily wear, impact, stains and scratches. EC1 Plus certified for long-term indoor air quality."
+      },
+      "customization": {
+        "title": "366 Colours",
+        "desc": "11 product-specific colour palettes totalling 366 curated shades. Custom RAL and NCS matching available."
+      },
+      "waterproof": {
+        "title": "Waterproof",
+        "desc": "Waterproof by nature when sealed — ideal for bathrooms, showers, pool surrounds and kitchen worktops."
+      },
+      "thickness": {
+        "title": "Minimal Thickness",
+        "desc": "1–3mm total application. No significant floor level change. No structural impact on the building."
+      },
+      "flexibility": {
+        "title": "Ready-to-Use",
+        "desc": "Pre-mixed, pre-coloured factory paste. No complex on-site mixing — opens and applies directly."
+      },
+      "eco": {
+        "title": "EC1 Plus Certified",
+        "desc": "All Basebeton products meet the strictest European health and environmental standards. Very low VOC emissions."
+      },
+      "maintenance": {
+        "title": "Low Maintenance",
+        "desc": "Clean with pH-neutral detergents. Re-seal every 3–5 years. No specialist products required."
+      }
     },
     "process_title": "Technical Process",
     "process_steps": [
-      { "title": "Surface Preparation", "desc": "Substrate must be clean, dry, and level. Existing cracks are filled." },
-      { "title": "Primer Application", "desc": "Specialized primer ensures high-strength bonding." },
-      { "title": "Microcement Mixing", "desc": "Mixed with water and specific pigments for desired consistency." },
-      { "title": "Base Layer", "desc": "A thin first layer is applied to the surface and allowed to dry." },
-      { "title": "Texture Layer", "desc": "A second layer is applied to achieve the final texture and finish." },
-      { "title": "Sealing", "desc": "Sealer application protects against stains and adds final aesthetic effect." }
+      {
+        "title": "Surface Preparation",
+        "desc": "The substrate must be clean, dry, load-bearing and level. Any cracks are filled and movement joints addressed. Diamond grinding opens the surface pores for optimal adhesion. This is the most critical step — it determines the longevity of the finish."
+      },
+      {
+        "title": "Primer Application (MCG / Ecohecht)",
+        "desc": "A specialist primer — MCG for absorbent surfaces, Ecohecht for non-absorbent — is applied in one or two thin coats. On absorbent substrates it is diluted 1:1 with water. Drying time approximately 1 hour per coat. Optional fibreglass mesh reinforcement for added crack resistance."
+      },
+      {
+        "title": "Base Layer — Basebeton Basa",
+        "desc": "The first microcement layer is applied with a stainless-steel plasterer's knife, spread evenly across the surface at approximately 1.5 kg/m². This layer builds structure and depth. Trowel marks at this stage create the topographic character of the finished surface."
+      },
+      {
+        "title": "Finish Layer — Basebeton Sense",
+        "desc": "The second and final layer is applied over the dried base. It determines the final colour, texture and smoothness. Applied thin (approx. 1.5 kg/m²) with precise, rhythmic trowel strokes. This layer responds to light and gives each installation its unique mineral character."
+      },
+      {
+        "title": "Impregnation & Sealing",
+        "desc": "A penetrating impregnator is applied first to stabilise the surface, followed by a polyurethane or water-based topcoat sealer. Available in matt, satin or gloss finish. Creates full waterproofing and long-term durability. Surface usable 24–48h after sealing."
+      }
     ],
     "finishes_title": "Surface Finishes",
-    "finishes_intro": "The variety of finishes achievable with microcement is influenced by the chosen textures and the specific varnishes or sealants applied. Since microcement is porous, sealants are essential for water resistance and protection.",
+    "finishes_intro": "Basebeton products are available in three standard seal finishes. The choice of finish affects the final appearance, sheen level and maintenance requirements of the surface.",
     "finishes_list": [
-      { "title": "Polished", "desc": "Perfect for a sleek, contemporary look on walls and floors." },
-      { "title": "Aged & Polished", "desc": "A chemical treatment before polishing for a rustic, lived-in charm." },
-      { "title": "Tinted", "desc": "Blended with raw pigments to create unique, bespoke color schemes." },
-      { "title": "Glossy", "desc": "A shiny, robust surface that is exceptionally easy to maintain." },
-      { "title": "Matt", "desc": "An understated, sophisticated finish perfect for minimalist spaces." },
-      { "title": "Satin", "desc": "The elegant middle ground. Soft feel, low maintenance, and chic." },
-      { "title": "Non-Slip Matt", "desc": "Retains the matt aesthetic while providing critical slip-resistance." }
+      {
+        "title": "Matt",
+        "desc": "The most popular finish for luxury interiors. Flat, light-absorbing surface that emphasises texture and colour depth. Conceals minor marks. Ideal for walls, feature surfaces and residential floors."
+      },
+      {
+        "title": "Satin",
+        "desc": "A soft mid-sheen that adds warmth and subtle luminosity. Enhances colour richness without appearing glossy. The most versatile finish — suitable for floors, walls and worktops in both residential and commercial settings."
+      },
+      {
+        "title": "Gloss",
+        "desc": "High reflectivity that creates a bold, contemporary statement. Makes colours appear deeper and more saturated. Best suited for feature walls, reception areas and hospitality spaces where maximum visual impact is desired."
+      }
     ]
   },
   "colors": {
-    "title": "Mineral Palette",
-    "subtitle": "A curated collection of natural pigments designed to respond to light and architecture.",
+    "title": "Product Colour Collections",
+    "subtitle": "Every Basebeton product has its own curated colour palette. Browse by product or use the code for exact factory specification.",
     "collections": {
-      "timeless": {
-        "title": "Timeless Collection",
-        "description": "Essential architectural tones that transcend seasonal trends.",
+      "basebeton-originale": {
+        "title": "Basebeton Originale",
+        "description": "75 mineral pigment colours. Available in standard, RAL and NCS.",
         "items": [
-          { "code": "BLA-01", "name": "Blanco Roto", "hex": "#E5E4E2" },
-          { "code": "GRI-03", "name": "Gris Perla", "hex": "#B7B7B7" },
-          { "code": "GRI-05", "name": "Gris Cemento", "hex": "#9E9E9E" },
-          { "code": "NEG-01", "name": "Negro Fumo", "hex": "#3A3A3A" },
-          { "code": "AMA-02", "name": "Trigo", "hex": "#C5B358" },
-          { "code": "OLI-02", "name": "Verde Ceniza", "hex": "#7E8071" }
+          {
+            "code": "10-1",
+            "name": "Dutch Grey",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-2",
+            "name": "Mouse",
+            "hex": "#B1AFAA"
+          },
+          {
+            "code": "10-3",
+            "name": "Stone",
+            "hex": "#9F9D97"
+          },
+          {
+            "code": "10-4",
+            "name": "Pebble",
+            "hex": "#8D8A85"
+          },
+          {
+            "code": "10-6",
+            "name": "Mauwe",
+            "hex": "#82837F"
+          },
+          {
+            "code": "10-8",
+            "name": "Mud",
+            "hex": "#797672"
+          },
+          {
+            "code": "10-9",
+            "name": "Persian",
+            "hex": "#63605C"
+          },
+          {
+            "code": "10-10",
+            "name": "Pitch Black",
+            "hex": "#616161"
+          },
+          {
+            "code": "10-13",
+            "name": "Berry",
+            "hex": "#9C9088"
+          },
+          {
+            "code": "10-14",
+            "name": "Clay",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-15",
+            "name": "Duhe",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-16",
+            "name": "Dawn",
+            "hex": "#C5C2BF"
+          },
+          {
+            "code": "10-17",
+            "name": "Buff",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-18",
+            "name": "Wheat",
+            "hex": "#DED2C7"
+          },
+          {
+            "code": "10-19",
+            "name": "Daw",
+            "hex": "#ECD8AD"
+          },
+          {
+            "code": "10-20",
+            "name": "Olive",
+            "hex": "#C0B39C"
+          },
+          {
+            "code": "10-21",
+            "name": "Moss",
+            "hex": "#7A7772"
+          },
+          {
+            "code": "10-22",
+            "name": "Cord",
+            "hex": "#E4CEAC"
+          },
+          {
+            "code": "10-23",
+            "name": "Mocca",
+            "hex": "#9E897D"
+          },
+          {
+            "code": "10-24",
+            "name": "Past Yellow",
+            "hex": "#D2C3AC"
+          },
+          {
+            "code": "10-26",
+            "name": "Rose Red",
+            "hex": "#C78F7B"
+          },
+          {
+            "code": "10-27",
+            "name": "Truffel",
+            "hex": "#B58F78"
+          },
+          {
+            "code": "10-28",
+            "name": "Blossom",
+            "hex": "#CAD3B9"
+          },
+          {
+            "code": "10-29",
+            "name": "Sage",
+            "hex": "#B6B5A1"
+          },
+          {
+            "code": "10-30",
+            "name": "Artichok",
+            "hex": "#A6A597"
+          },
+          {
+            "code": "10-31",
+            "name": "Brown",
+            "hex": "#897E70"
+          },
+          {
+            "code": "10-32",
+            "name": "Putty",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-33",
+            "name": "Grime",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-34",
+            "name": "Canvas",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-35",
+            "name": "Steel Black",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-37",
+            "name": "Tender",
+            "hex": "#98837E"
+          },
+          {
+            "code": "10-38",
+            "name": "Rose White",
+            "hex": "#D8D5CF"
+          },
+          {
+            "code": "10-41",
+            "name": "Lice Taupe",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-42",
+            "name": "Mey Red",
+            "hex": "#B28A7B"
+          },
+          {
+            "code": "10-43",
+            "name": "Deep Brown",
+            "hex": "#89716A"
+          },
+          {
+            "code": "10-45",
+            "name": "Knosse",
+            "hex": "#89716B"
+          },
+          {
+            "code": "10-47",
+            "name": "Raum Red",
+            "hex": "#8B6154"
+          },
+          {
+            "code": "10-48",
+            "name": "Sinc",
+            "hex": "#B3AFAC"
+          },
+          {
+            "code": "10-49",
+            "name": "Smoke",
+            "hex": "#9D9E9C"
+          },
+          {
+            "code": "10-50",
+            "name": "Ice",
+            "hex": "#CECAC4"
+          },
+          {
+            "code": "10-51",
+            "name": "Lava",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-52",
+            "name": "Ash",
+            "hex": "#C2C3BF"
+          },
+          {
+            "code": "10-53",
+            "name": "Lin",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-54",
+            "name": "Deep",
+            "hex": "#9D9D9B"
+          },
+          {
+            "code": "10-55",
+            "name": "Elephant",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-56",
+            "name": "Hippo",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "10-57",
+            "name": "Wolf",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-58",
+            "name": "Whale",
+            "hex": "#959595"
+          },
+          {
+            "code": "10-59",
+            "name": "Grizzle",
+            "hex": "#A6A7A4"
+          },
+          {
+            "code": "10-60",
+            "name": "Rock",
+            "hex": "#8D8E8A"
+          },
+          {
+            "code": "10-61",
+            "name": "Flake",
+            "hex": "#BFB19C"
+          },
+          {
+            "code": "10-62",
+            "name": "Sisal",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-63",
+            "name": "Gentle",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-64",
+            "name": "Grain",
+            "hex": "#C3B19C"
+          },
+          {
+            "code": "10-65",
+            "name": "Oat",
+            "hex": "#D2C8BB"
+          },
+          {
+            "code": "10-66",
+            "name": "Loam",
+            "hex": "#BEB3A6"
+          },
+          {
+            "code": "10-67",
+            "name": "Dust",
+            "hex": "#D3C7B9"
+          },
+          {
+            "code": "10-68",
+            "name": "Savanne",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-69",
+            "name": "Caramel",
+            "hex": "#9C8B74"
+          },
+          {
+            "code": "10-70",
+            "name": "Tierra",
+            "hex": "#9E847A"
+          },
+          {
+            "code": "10-71",
+            "name": "Indian",
+            "hex": "#9E7E5D"
+          },
+          {
+            "code": "10-72",
+            "name": "Brownie",
+            "hex": "#89706A"
+          },
+          {
+            "code": "10-73",
+            "name": "Choco",
+            "hex": "#5A4D46"
+          },
+          {
+            "code": "10-74",
+            "name": "Blush",
+            "hex": "#C57B71"
+          },
+          {
+            "code": "10-75",
+            "name": "Bright",
+            "hex": "#E6E2E0"
+          },
+          {
+            "code": "10-76",
+            "name": "Shell",
+            "hex": "#BCBAAE"
+          },
+          {
+            "code": "10-77",
+            "name": "Cotton",
+            "hex": "#C4C1B9"
+          },
+          {
+            "code": "10-78",
+            "name": "Sand",
+            "hex": "#CDCAC4"
+          },
+          {
+            "code": "10-79",
+            "name": "Pigeon",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-80",
+            "name": "Noce",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-81",
+            "name": "Khaki",
+            "hex": "#A8A28C"
+          },
+          {
+            "code": "10-82",
+            "name": "Delta",
+            "hex": "#837C6B"
+          },
+          {
+            "code": "10-83",
+            "name": "Dove",
+            "hex": "#8E9180"
+          },
+          {
+            "code": "10-84",
+            "name": "Lagoon",
+            "hex": "#A8B8B2"
+          },
+          {
+            "code": "10-85",
+            "name": "Lychee",
+            "hex": "#C5AFA2"
+          }
         ]
       },
-      "clay": {
-        "title": "Clay Collection",
-        "description": "Earth-born pigments reflecting the warmth of raw minerals.",
+      "beton-cire": {
+        "title": "Beton Ciré",
+        "description": "41 refined concrete tones from Stone Age's architectural palette.",
         "items": [
-          { "code": "NUD-1", "name": "Nude Essence", "hex": "#BC9E82" },
-          { "code": "MAL-02", "name": "Mallow Earth", "hex": "#8D6E63" },
-          { "code": "PUR-03", "name": "Deep Plum", "hex": "#6D5D6E" },
-          { "code": "ROS-01", "name": "Pale Rose", "hex": "#D4B4B4" },
-          { "code": "ROJ-02", "name": "Terra Cotta", "hex": "#A0522D" }
+          {
+            "code": "ST 701",
+            "name": "Wide",
+            "hex": "#B7B4A5"
+          },
+          {
+            "code": "ST 702",
+            "name": "Grime",
+            "hex": "#65615F"
+          },
+          {
+            "code": "ST 703",
+            "name": "Putty",
+            "hex": "#6F6B6C"
+          },
+          {
+            "code": "ST 704",
+            "name": "Doleriet",
+            "hex": "#84817E"
+          },
+          {
+            "code": "ST 705",
+            "name": "Gabbro",
+            "hex": "#6F6B65"
+          },
+          {
+            "code": "ST 706",
+            "name": "Wool",
+            "hex": "#86827E"
+          },
+          {
+            "code": "ST 707",
+            "name": "Levant",
+            "hex": "#8E8A89"
+          },
+          {
+            "code": "ST 708",
+            "name": "Cella",
+            "hex": "#837F79"
+          },
+          {
+            "code": "ST 709",
+            "name": "Celadon",
+            "hex": "#9F9C9D"
+          },
+          {
+            "code": "ST 710",
+            "name": "Vincenza",
+            "hex": "#C0BCB9"
+          },
+          {
+            "code": "ST 711",
+            "name": "Fumus",
+            "hex": "#AAABA6"
+          },
+          {
+            "code": "ST 712",
+            "name": "Jute",
+            "hex": "#C0C5BF"
+          },
+          {
+            "code": "ST 713",
+            "name": "Enamel",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 714",
+            "name": "Campania",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 715",
+            "name": "Grisette",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 720",
+            "name": "Aura",
+            "hex": "#91837B"
+          },
+          {
+            "code": "ST 721",
+            "name": "Khorsabad",
+            "hex": "#92776D"
+          },
+          {
+            "code": "ST 722",
+            "name": "Lascaux",
+            "hex": "#80675A"
+          },
+          {
+            "code": "ST 723",
+            "name": "Cueva",
+            "hex": "#AE806C"
+          },
+          {
+            "code": "ST 725",
+            "name": "Assyria",
+            "hex": "#AA8F86"
+          },
+          {
+            "code": "ST 726",
+            "name": "Phaistos",
+            "hex": "#AC9586"
+          },
+          {
+            "code": "ST 727",
+            "name": "Veneto",
+            "hex": "#B9A991"
+          },
+          {
+            "code": "ST 728",
+            "name": "Mist",
+            "hex": "#BFA695"
+          },
+          {
+            "code": "ST 729",
+            "name": "Parchment",
+            "hex": "#BDA38F"
+          },
+          {
+            "code": "ST 730",
+            "name": "Chendré",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 731",
+            "name": "Auburn",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 732",
+            "name": "Dawn",
+            "hex": "#D3B8A2"
+          },
+          {
+            "code": "ST 733",
+            "name": "Flame",
+            "hex": "#D3B7A9"
+          },
+          {
+            "code": "ST 734",
+            "name": "Damson",
+            "hex": "#B9A990"
+          },
+          {
+            "code": "ST 735",
+            "name": "Sydney",
+            "hex": "#B9AC9D"
+          },
+          {
+            "code": "ST 736",
+            "name": "Rogany",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 737",
+            "name": "Agra",
+            "hex": "#E2C5B1"
+          },
+          {
+            "code": "ST 738",
+            "name": "Savanne",
+            "hex": "#DBCEBE"
+          },
+          {
+            "code": "ST 739",
+            "name": "Calamine",
+            "hex": "#E1DDD3"
+          },
+          {
+            "code": "ST 740",
+            "name": "Middleton",
+            "hex": "#EAE6D7"
+          },
+          {
+            "code": "ST 741",
+            "name": "Natura",
+            "hex": "#F0EDE5"
+          },
+          {
+            "code": "ST 762",
+            "name": "Nova",
+            "hex": "#4FB0D4"
+          },
+          {
+            "code": "ST 765",
+            "name": "Matala",
+            "hex": "#67A0A7"
+          },
+          {
+            "code": "ST 766",
+            "name": "Paulitlus",
+            "hex": "#85A794"
+          },
+          {
+            "code": "ST 767",
+            "name": "Thermae",
+            "hex": "#92AA95"
+          },
+          {
+            "code": "ST 768",
+            "name": "Ceylon",
+            "hex": "#99A98A"
+          }
         ]
       },
-      "flora": {
-        "title": "Flora Collection",
-        "description": "Botanical inspirations for serene, organic environments.",
+      "oxidestuc": {
+        "title": "Oxidestuc",
+        "description": "6 metallic finishes: Aluminium, Bronze, Copper, Gold, Rust and Steel.",
         "items": [
-          { "code": "ALM", "name": "Almond", "hex": "#F5E6D3" },
-          { "code": "SAG", "name": "Sage", "hex": "#D1D5C0" },
-          { "code": "BLU", "name": "Blueberry", "hex": "#A9BCD0" },
-          { "code": "LAV", "name": "Lavender", "hex": "#E0D1D1" },
-          { "code": "PEA", "name": "Peach", "hex": "#FAD5A5" }
+          {
+            "code": "Aluminium",
+            "name": "Aluminium",
+            "hex": "#DCD9D4"
+          },
+          {
+            "code": "Bronze",
+            "name": "Bronze",
+            "hex": "#9F9483"
+          },
+          {
+            "code": "Copper",
+            "name": "Copper",
+            "hex": "#D3A38B"
+          },
+          {
+            "code": "Gold",
+            "name": "Gold",
+            "hex": "#E3CB8C"
+          },
+          {
+            "code": "Rust",
+            "name": "Rust",
+            "hex": "#BA8B67"
+          },
+          {
+            "code": "Steel",
+            "name": "Steel",
+            "hex": "#7F7F7F"
+          }
         ]
       },
-      "metals": {
-        "title": "Real Metals Collection",
-        "description": "Authentic metallic finishes with genuine mineral character.",
+      "natureplast": {
+        "title": "Natureplast",
+        "description": "16 natural clay pigment colours for organic, breathable interiors.",
         "items": [
-          { "code": "ZIN", "name": "Zinc", "hex": "#8E9196" },
-          { "code": "BRA", "name": "Brass", "hex": "#B5A642" },
-          { "code": "BRO", "name": "Bronze", "hex": "#804A00" },
-          { "code": "COP", "name": "Copper", "hex": "#B87333" },
-          { "code": "COR", "name": "Corten Steel", "hex": "#8B4513" }
+          {
+            "code": "NP-01",
+            "name": "Tusk",
+            "hex": "#C4C2C2"
+          },
+          {
+            "code": "NP-02",
+            "name": "Marigold",
+            "hex": "#C1BEBB"
+          },
+          {
+            "code": "NP-03",
+            "name": "Sienna",
+            "hex": "#BBB6AF"
+          },
+          {
+            "code": "NP-04",
+            "name": "Mirage",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "NP-05",
+            "name": "Twilight",
+            "hex": "#ACACAA"
+          },
+          {
+            "code": "NP-06",
+            "name": "Celestial",
+            "hex": "#B9B8B9"
+          },
+          {
+            "code": "NP-07",
+            "name": "Whisper",
+            "hex": "#BDBBB4"
+          },
+          {
+            "code": "NP-08",
+            "name": "Moon",
+            "hex": "#B2ACAA"
+          },
+          {
+            "code": "NP-09",
+            "name": "Oasis",
+            "hex": "#C1CCB9"
+          },
+          {
+            "code": "NP-10",
+            "name": "Ochre",
+            "hex": "#D6C5AF"
+          },
+          {
+            "code": "NP-11",
+            "name": "Allure",
+            "hex": "#D3C3BC"
+          },
+          {
+            "code": "NP-12",
+            "name": "Mahogany",
+            "hex": "#B4A59A"
+          },
+          {
+            "code": "NP-13",
+            "name": "Canyon",
+            "hex": "#B38968"
+          },
+          {
+            "code": "NP-14",
+            "name": "Emerald",
+            "hex": "#C8CCB3"
+          },
+          {
+            "code": "NP-15",
+            "name": "Tangerine",
+            "hex": "#B59E8D"
+          },
+          {
+            "code": "NP-16",
+            "name": "Midnight",
+            "hex": "#575657"
+          }
+        ]
+      },
+      "sichtbeton": {
+        "title": "Sichtbeton",
+        "description": "3 architectural grey shades of raw exposed concrete.",
+        "items": [
+          {
+            "code": "SB-L",
+            "name": "Light Grey",
+            "hex": "#DDDAD6"
+          },
+          {
+            "code": "SB-M",
+            "name": "Mid Grey",
+            "hex": "#CECBC7"
+          },
+          {
+            "code": "SB-D",
+            "name": "Dark Grey",
+            "hex": "#B9B9B9"
+          }
+        ]
+      },
+      "basebeton-paint": {
+        "title": "Basebeton Paint",
+        "description": "40 mineral-named colours for warm industrial wall finishes.",
+        "items": [
+          {
+            "code": "BBP-001",
+            "name": "Dutch Grey",
+            "hex": "#A7A29D"
+          },
+          {
+            "code": "BBP-009",
+            "name": "Persian",
+            "hex": "#6F6A66"
+          },
+          {
+            "code": "BBP-020",
+            "name": "Olive",
+            "hex": "#C2B39A"
+          },
+          {
+            "code": "BBP-029",
+            "name": "Sage",
+            "hex": "#C2C4B7"
+          },
+          {
+            "code": "BBP-030",
+            "name": "Artichok",
+            "hex": "#9D9785"
+          },
+          {
+            "code": "BBP-038",
+            "name": "Rose White",
+            "hex": "#D9D6CB"
+          },
+          {
+            "code": "BBP-051",
+            "name": "Lava",
+            "hex": "#555D60"
+          },
+          {
+            "code": "BBP-052",
+            "name": "Ash",
+            "hex": "#A2A4A3"
+          },
+          {
+            "code": "BBP-062",
+            "name": "Sisal",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "BBP-064",
+            "name": "Grain",
+            "hex": "#E2D6BB"
+          },
+          {
+            "code": "BBP-070",
+            "name": "Tierra",
+            "hex": "#A88F83"
+          },
+          {
+            "code": "BBP-075",
+            "name": "Bright",
+            "hex": "#DCDCDA"
+          },
+          {
+            "code": "BBP-077",
+            "name": "Cotton",
+            "hex": "#B5AA9A"
+          },
+          {
+            "code": "BBP-078",
+            "name": "Sand",
+            "hex": "#C9C6BF"
+          },
+          {
+            "code": "BBP-079",
+            "name": "Pigeon",
+            "hex": "#C2BEB5"
+          },
+          {
+            "code": "BBP-082",
+            "name": "Delta",
+            "hex": "#8D836B"
+          },
+          {
+            "code": "BBP-085",
+            "name": "Lychee",
+            "hex": "#B69F94"
+          },
+          {
+            "code": "BBP-101",
+            "name": "Boracite",
+            "hex": "#D1D0C3"
+          },
+          {
+            "code": "BBP-102",
+            "name": "Rutile",
+            "hex": "#515255"
+          },
+          {
+            "code": "BBP-103",
+            "name": "Corundum",
+            "hex": "#858B7C"
+          },
+          {
+            "code": "BBP-104",
+            "name": "Dolomite",
+            "hex": "#EFEEEB"
+          },
+          {
+            "code": "BBP-105",
+            "name": "Cerussite",
+            "hex": "#ECE9E5"
+          },
+          {
+            "code": "BBP-106",
+            "name": "Garnet",
+            "hex": "#B6B8B5"
+          },
+          {
+            "code": "BBP-107",
+            "name": "Diopside",
+            "hex": "#646A68"
+          },
+          {
+            "code": "BBP-108",
+            "name": "Calcite",
+            "hex": "#BEBAB1"
+          },
+          {
+            "code": "BBP-109",
+            "name": "Anatase",
+            "hex": "#848678"
+          },
+          {
+            "code": "BBP-110",
+            "name": "Proteus",
+            "hex": "#806F5B"
+          },
+          {
+            "code": "BBP-111",
+            "name": "Almandine",
+            "hex": "#CAAFA5"
+          },
+          {
+            "code": "BBP-112",
+            "name": "Adamite",
+            "hex": "#85856C"
+          },
+          {
+            "code": "BBP-113",
+            "name": "Mali Garnet",
+            "hex": "#EFE9DF"
+          },
+          {
+            "code": "BBP-114",
+            "name": "Anglesite",
+            "hex": "#EDEAE3"
+          },
+          {
+            "code": "BBP-115",
+            "name": "Brookite",
+            "hex": "#D9CDB3"
+          },
+          {
+            "code": "BBP-116",
+            "name": "Gypsum",
+            "hex": "#D1D2CD"
+          },
+          {
+            "code": "BBP-117",
+            "name": "Cuprite",
+            "hex": "#C9A67D"
+          },
+          {
+            "code": "BBP-118",
+            "name": "Sapphire",
+            "hex": "#CAD8E0"
+          },
+          {
+            "code": "BBP-119",
+            "name": "Cinnabar",
+            "hex": "#A87C76"
+          },
+          {
+            "code": "BBP-120",
+            "name": "Hessonite",
+            "hex": "#8B795A"
+          },
+          {
+            "code": "BBP-121",
+            "name": "Andradite",
+            "hex": "#F1D4C8"
+          },
+          {
+            "code": "BBP-122",
+            "name": "Powellite",
+            "hex": "#908F74"
+          },
+          {
+            "code": "BBP-123",
+            "name": "Agate",
+            "hex": "#B5C3B9"
+          }
+        ]
+      },
+      "basebeton-plus": {
+        "title": "Basebeton Plus",
+        "description": "64 colours named after the rhythms of French everyday life.",
+        "items": [
+          {
+            "code": "Plus-01",
+            "name": "Icles",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus-02",
+            "name": "Drapeau",
+            "hex": "#B5B0AC"
+          },
+          {
+            "code": "Plus-03",
+            "name": "Curry",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus-04",
+            "name": "Pays",
+            "hex": "#8F8A86"
+          },
+          {
+            "code": "Plus-05",
+            "name": "Brique",
+            "hex": "#8D8982"
+          },
+          {
+            "code": "Plus-06",
+            "name": "Bois",
+            "hex": "#78736E"
+          },
+          {
+            "code": "Plus-07",
+            "name": "Ciel",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus-08",
+            "name": "Patine",
+            "hex": "#5F5B58"
+          },
+          {
+            "code": "Plus-09",
+            "name": "Calda",
+            "hex": "#9A8F7F"
+          },
+          {
+            "code": "Plus-10",
+            "name": "Rocher",
+            "hex": "#BCAEA4"
+          },
+          {
+            "code": "Plus-11",
+            "name": "Chypre",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus-12",
+            "name": "Caput",
+            "hex": "#CAC5C1"
+          },
+          {
+            "code": "Plus-13",
+            "name": "Mortier",
+            "hex": "#C1AD97"
+          },
+          {
+            "code": "Plus-14",
+            "name": "Carbone",
+            "hex": "#DED2C2"
+          },
+          {
+            "code": "Plus-15",
+            "name": "Roches",
+            "hex": "#F1D094"
+          },
+          {
+            "code": "Plus-16",
+            "name": "Rues",
+            "hex": "#BFB19A"
+          },
+          {
+            "code": "Plus-17",
+            "name": "Montagne",
+            "hex": "#85796A"
+          },
+          {
+            "code": "Plus-18",
+            "name": "Galets",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus-19",
+            "name": "Vase",
+            "hex": "#B38973"
+          },
+          {
+            "code": "Plus-20",
+            "name": "Jarre",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus 21",
+            "name": "Ville",
+            "hex": "#C37B63"
+          },
+          {
+            "code": "Plus 22",
+            "name": "Parc",
+            "hex": "#C89075"
+          },
+          {
+            "code": "Plus 23",
+            "name": "Voiture",
+            "hex": "#B9C4A2"
+          },
+          {
+            "code": "Plus 24",
+            "name": "Enfant",
+            "hex": "#B5B59F"
+          },
+          {
+            "code": "Plus 25",
+            "name": "École",
+            "hex": "#A3A193"
+          },
+          {
+            "code": "Plus 26",
+            "name": "Porte",
+            "hex": "#77726C"
+          },
+          {
+            "code": "Plus 27",
+            "name": "Jardin",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 28",
+            "name": "Bassin",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 29",
+            "name": "Suite",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 30",
+            "name": "Maison",
+            "hex": "#76726A"
+          },
+          {
+            "code": "Plus 31",
+            "name": "Patron",
+            "hex": "#977F7B"
+          },
+          {
+            "code": "Plus 32",
+            "name": "Beau",
+            "hex": "#ECEDE9"
+          },
+          {
+            "code": "Plus 33",
+            "name": "Chargé",
+            "hex": "#B0ACA6"
+          },
+          {
+            "code": "Plus 34",
+            "name": "Grand",
+            "hex": "#AF8777"
+          },
+          {
+            "code": "Plus 35",
+            "name": "Petit",
+            "hex": "#9F7460"
+          },
+          {
+            "code": "Plus 36",
+            "name": "Poubelle",
+            "hex": "#865852"
+          },
+          {
+            "code": "Plus 37",
+            "name": "Image",
+            "hex": "#AD7369"
+          },
+          {
+            "code": "Plus 38",
+            "name": "Vélo",
+            "hex": "#A7A3A4"
+          },
+          {
+            "code": "Plus 39",
+            "name": "Etage",
+            "hex": "#8D8A87"
+          },
+          {
+            "code": "Plus 40",
+            "name": "Robe",
+            "hex": "#CAC7C1"
+          },
+          {
+            "code": "Plus 41",
+            "name": "Veste",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus 42",
+            "name": "Parti",
+            "hex": "#C4C9C3"
+          },
+          {
+            "code": "Plus 43",
+            "name": "Feuille",
+            "hex": "#BBB7B4"
+          },
+          {
+            "code": "Plus 44",
+            "name": "Fiche",
+            "hex": "#B0ADA6"
+          },
+          {
+            "code": "Plus 45",
+            "name": "Linge",
+            "hex": "#C3BFB6"
+          },
+          {
+            "code": "Plus 46",
+            "name": "Livre",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus 47",
+            "name": "Salin",
+            "hex": "#A7ABAA"
+          },
+          {
+            "code": "Plus 48",
+            "name": "Sabot",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus 49",
+            "name": "Couper",
+            "hex": "#979B9A"
+          },
+          {
+            "code": "Plus 50",
+            "name": "Label",
+            "hex": "#8B877F"
+          },
+          {
+            "code": "Plus 51",
+            "name": "Roue",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 52",
+            "name": "Tour",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 53",
+            "name": "Moudre",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 54",
+            "name": "Broyé",
+            "hex": "#CFC2A9"
+          },
+          {
+            "code": "Plus 55",
+            "name": "Sentir",
+            "hex": "#D3C7BA"
+          },
+          {
+            "code": "Plus 56",
+            "name": "Odeur",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus 57",
+            "name": "Parfum",
+            "hex": "#DED1C7"
+          },
+          {
+            "code": "Plus 58",
+            "name": "Trottoir",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 59",
+            "name": "Tabac",
+            "hex": "#B48C75"
+          },
+          {
+            "code": "Plus 60",
+            "name": "Fossé",
+            "hex": "#9F785C"
+          },
+          {
+            "code": "Plus 61",
+            "name": "Verre",
+            "hex": "#997846"
+          },
+          {
+            "code": "Plus 62",
+            "name": "Boirre",
+            "hex": "#A0805D"
+          },
+          {
+            "code": "Plus 63",
+            "name": "Avion",
+            "hex": "#6B5A5A"
+          },
+          {
+            "code": "Plus 64",
+            "name": "Bouge",
+            "hex": "#D47670"
+          }
+        ]
+      },
+      "basebeton-xtreme": {
+        "title": "Basebeton Xtreme",
+        "description": "20 nature-inspired colours for heavy-duty epoxy floor systems.",
+        "items": [
+          {
+            "code": "XT-01",
+            "name": "Candle",
+            "hex": "#E3DFD7"
+          },
+          {
+            "code": "XT-03",
+            "name": "Mountain",
+            "hex": "#828689"
+          },
+          {
+            "code": "XT-05",
+            "name": "Field",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "XT-07",
+            "name": "Evening",
+            "hex": "#777374"
+          },
+          {
+            "code": "XT-09",
+            "name": "Willow",
+            "hex": "#A29E96"
+          },
+          {
+            "code": "XT-11",
+            "name": "Storm",
+            "hex": "#B1ADA7"
+          },
+          {
+            "code": "XT-13",
+            "name": "Village",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "XT-15",
+            "name": "Bottle",
+            "hex": "#C5C1BE"
+          },
+          {
+            "code": "XT-17",
+            "name": "Sharp",
+            "hex": "#CDC9C2"
+          },
+          {
+            "code": "XT-19",
+            "name": "Biscuit",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "XT-21",
+            "name": "Silver",
+            "hex": "#B0B9BC"
+          },
+          {
+            "code": "XT-23",
+            "name": "Roof",
+            "hex": "#D47771"
+          },
+          {
+            "code": "XT-25",
+            "name": "Elegance",
+            "hex": "#CEC9C2"
+          },
+          {
+            "code": "XT-27",
+            "name": "Shadow",
+            "hex": "#C4C0B7"
+          },
+          {
+            "code": "XT-29",
+            "name": "Brick",
+            "hex": "#C5AD9D"
+          },
+          {
+            "code": "XT-31",
+            "name": "Walnut",
+            "hex": "#B29D90"
+          },
+          {
+            "code": "XT-33",
+            "name": "Muddy",
+            "hex": "#6B5B5B"
+          },
+          {
+            "code": "XT-35",
+            "name": "Slow",
+            "hex": "#C7C9BE"
+          },
+          {
+            "code": "XT-37",
+            "name": "Cliff",
+            "hex": "#A8A4A1"
+          },
+          {
+            "code": "XT-39",
+            "name": "Dune",
+            "hex": "#DED2C3"
+          }
+        ]
+      },
+      "basebeton-solid": {
+        "title": "Basebeton Solid",
+        "description": "21 refined tones for the strongest concrete floor plaster.",
+        "items": [
+          {
+            "code": "BBS-01",
+            "name": "Morning",
+            "hex": "#D1CDCA"
+          },
+          {
+            "code": "BBS-02",
+            "name": "Gravel",
+            "hex": "#999184"
+          },
+          {
+            "code": "BBS-03",
+            "name": "Elegance",
+            "hex": "#8C7F7F"
+          },
+          {
+            "code": "BBS-04",
+            "name": "Marble",
+            "hex": "#9B9084"
+          },
+          {
+            "code": "BBS-10",
+            "name": "Phantom",
+            "hex": "#95918E"
+          },
+          {
+            "code": "BBS-16",
+            "name": "Chalk",
+            "hex": "#B7B4A9"
+          },
+          {
+            "code": "BBS-18",
+            "name": "Creme",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "BBS-27",
+            "name": "Show",
+            "hex": "#BE855B"
+          },
+          {
+            "code": "BBS-30",
+            "name": "Leaves",
+            "hex": "#96947C"
+          },
+          {
+            "code": "BBS-32",
+            "name": "Dolphin",
+            "hex": "#908070"
+          },
+          {
+            "code": "BBS-34",
+            "name": "Plain",
+            "hex": "#A08E80"
+          },
+          {
+            "code": "BBS-38",
+            "name": "Sugar",
+            "hex": "#D2CFC7"
+          },
+          {
+            "code": "BBS-48",
+            "name": "Pelt",
+            "hex": "#A5A29F"
+          },
+          {
+            "code": "BBS-50",
+            "name": "Early",
+            "hex": "#C6C1BA"
+          },
+          {
+            "code": "BBS-52",
+            "name": "Mamut",
+            "hex": "#B9BAB5"
+          },
+          {
+            "code": "BBS-54",
+            "name": "Frost",
+            "hex": "#A9A4A1"
+          },
+          {
+            "code": "BBS-55",
+            "name": "Block",
+            "hex": "#B0B1AC"
+          },
+          {
+            "code": "BBS-58",
+            "name": "Salted",
+            "hex": "#A4A09D"
+          },
+          {
+            "code": "BBS-60",
+            "name": "Trunk",
+            "hex": "#7C7D79"
+          },
+          {
+            "code": "BBS-64",
+            "name": "Scones",
+            "hex": "#BAA17E"
+          },
+          {
+            "code": "BBS-66",
+            "name": "Dale",
+            "hex": "#AFA292"
+          }
+        ]
+      },
+      "basebeton-grit": {
+        "title": "Basebeton Grit",
+        "description": "20 beach and landscape-inspired colours for grit floor systems.",
+        "items": [
+          {
+            "code": "BBG-101",
+            "name": "Dun Briste",
+            "hex": "#7E7976"
+          },
+          {
+            "code": "BBG-102",
+            "name": "Camps Bay",
+            "hex": "#B0A999"
+          },
+          {
+            "code": "BBG-104",
+            "name": "Cliffton",
+            "hex": "#9F988A"
+          },
+          {
+            "code": "BBG-105",
+            "name": "Navagio Beach",
+            "hex": "#D7CBBD"
+          },
+          {
+            "code": "BBG-107",
+            "name": "Cocoa Island",
+            "hex": "#7F7B7C"
+          },
+          {
+            "code": "BBG-108",
+            "name": "Stivina",
+            "hex": "#CCBEAF"
+          },
+          {
+            "code": "BBG-109",
+            "name": "Pinksand Beach",
+            "hex": "#B79E90"
+          },
+          {
+            "code": "BBG-112",
+            "name": "Baga",
+            "hex": "#737374"
+          },
+          {
+            "code": "BBG-113",
+            "name": "Blacksand Beach",
+            "hex": "#5A5B5B"
+          },
+          {
+            "code": "BBG-114",
+            "name": "Tayrona",
+            "hex": "#8F9090"
+          },
+          {
+            "code": "BBG-115",
+            "name": "Seagrass Bay",
+            "hex": "#BBB9AF"
+          },
+          {
+            "code": "BBG-121",
+            "name": "Astola",
+            "hex": "#A39F96"
+          },
+          {
+            "code": "BBG-122",
+            "name": "Varadero",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-125",
+            "name": "Calabar",
+            "hex": "#9F9587"
+          },
+          {
+            "code": "BBG-127",
+            "name": "Nissi",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-130",
+            "name": "Agando",
+            "hex": "#9F9588"
+          },
+          {
+            "code": "BBG-131",
+            "name": "Cappadocia",
+            "hex": "#BDBAB2"
+          },
+          {
+            "code": "BBG-133",
+            "name": "White Desert",
+            "hex": "#A49F97"
+          },
+          {
+            "code": "BBG-134",
+            "name": "Chimney",
+            "hex": "#C9C2B3"
+          },
+          {
+            "code": "BBG-138",
+            "name": "Diani",
+            "hex": "#CCBEAF"
+          }
+        ]
+      },
+      "stuccopuro": {
+        "title": "Stuccopuro",
+        "description": "60 Italian-named colours for decorative concrete-look wall plaster.",
+        "items": [
+          {
+            "code": "SP 01",
+            "name": "Senape",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 02",
+            "name": "Olio",
+            "hex": "#7F826E"
+          },
+          {
+            "code": "SP 03",
+            "name": "Foresta",
+            "hex": "#827C67"
+          },
+          {
+            "code": "SP 04",
+            "name": "Alto",
+            "hex": "#A1967D"
+          },
+          {
+            "code": "SP 05",
+            "name": "Sedona",
+            "hex": "#887C65"
+          },
+          {
+            "code": "SP 06",
+            "name": "Lido",
+            "hex": "#706349"
+          },
+          {
+            "code": "SP 07",
+            "name": "Ficre",
+            "hex": "#DBE2CE"
+          },
+          {
+            "code": "SP 08",
+            "name": "Amaro",
+            "hex": "#B1BEAD"
+          },
+          {
+            "code": "SP 09",
+            "name": "Sabbina",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 10",
+            "name": "Mela",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 11",
+            "name": "Cotta",
+            "hex": "#D3A696"
+          },
+          {
+            "code": "SP 12",
+            "name": "Panna",
+            "hex": "#C8BBAA"
+          },
+          {
+            "code": "SP 13",
+            "name": "Caramello",
+            "hex": "#A05D4F"
+          },
+          {
+            "code": "SP 14",
+            "name": "Sole",
+            "hex": "#BA9F71"
+          },
+          {
+            "code": "SP 15",
+            "name": "Riso",
+            "hex": "#CED3CD"
+          },
+          {
+            "code": "SP 16",
+            "name": "Mare",
+            "hex": "#A9AB9F"
+          },
+          {
+            "code": "SP 17",
+            "name": "Sardina",
+            "hex": "#D1CCB7"
+          },
+          {
+            "code": "SP 18",
+            "name": "Uno",
+            "hex": "#A3AEAA"
+          },
+          {
+            "code": "SP 19",
+            "name": "Vico",
+            "hex": "#959F9B"
+          },
+          {
+            "code": "SP 20",
+            "name": "Timo",
+            "hex": "#BEC0B2"
+          },
+          {
+            "code": "SP 21",
+            "name": "Salvia",
+            "hex": "#D8D9D3"
+          },
+          {
+            "code": "SP 22",
+            "name": "Mora",
+            "hex": "#927360"
+          },
+          {
+            "code": "SP 23",
+            "name": "Putta",
+            "hex": "#ECE0CE"
+          },
+          {
+            "code": "SP 24",
+            "name": "Sabbia",
+            "hex": "#A1865A"
+          },
+          {
+            "code": "SP 25",
+            "name": "Cossa",
+            "hex": "#DEDEDE"
+          },
+          {
+            "code": "SP 26",
+            "name": "Porto",
+            "hex": "#7A99A7"
+          },
+          {
+            "code": "SP 27",
+            "name": "Menta",
+            "hex": "#7AA0A6"
+          },
+          {
+            "code": "SP 28",
+            "name": "Pianto",
+            "hex": "#958A93"
+          },
+          {
+            "code": "SP 29",
+            "name": "Arla",
+            "hex": "#9B9597"
+          },
+          {
+            "code": "SP 30",
+            "name": "Scuro",
+            "hex": "#595959"
+          },
+          {
+            "code": "SP 31",
+            "name": "Salsa",
+            "hex": "#36312E"
+          },
+          {
+            "code": "SP 32",
+            "name": "Strada",
+            "hex": "#4D4946"
+          },
+          {
+            "code": "SP 33",
+            "name": "Salto",
+            "hex": "#A9AB9E"
+          },
+          {
+            "code": "SP 34",
+            "name": "Brista",
+            "hex": "#DFCCB0"
+          },
+          {
+            "code": "SP 35",
+            "name": "Porso",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 36",
+            "name": "Pepe",
+            "hex": "#68797E"
+          },
+          {
+            "code": "SP 37",
+            "name": "Oliva",
+            "hex": "#687A7E"
+          },
+          {
+            "code": "SP 38",
+            "name": "Erba",
+            "hex": "#645F5C"
+          },
+          {
+            "code": "SP 39",
+            "name": "Isola",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 40",
+            "name": "Tropi",
+            "hex": "#B4B5B1"
+          },
+          {
+            "code": "SP 41",
+            "name": "Cabo",
+            "hex": "#F3EFDD"
+          },
+          {
+            "code": "SP 42",
+            "name": "Gelato",
+            "hex": "#E7E4D2"
+          },
+          {
+            "code": "SP 43",
+            "name": "Dolce",
+            "hex": "#F3EBE0"
+          },
+          {
+            "code": "SP 44",
+            "name": "Pietra",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 45",
+            "name": "Torta",
+            "hex": "#C1C0A5"
+          },
+          {
+            "code": "SP 46",
+            "name": "Puri",
+            "hex": "#DED1B4"
+          },
+          {
+            "code": "SP 47",
+            "name": "Torno",
+            "hex": "#8D8D8D"
+          },
+          {
+            "code": "SP 48",
+            "name": "Uovo",
+            "hex": "#E6DED6"
+          },
+          {
+            "code": "SP 49",
+            "name": "Albero",
+            "hex": "#D0C8BE"
+          },
+          {
+            "code": "SP 50",
+            "name": "Mucca",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 51",
+            "name": "Parco",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 52",
+            "name": "Secco",
+            "hex": "#8A8372"
+          },
+          {
+            "code": "SP 53",
+            "name": "Burra",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 54",
+            "name": "Mandurla",
+            "hex": "#BBB5AD"
+          },
+          {
+            "code": "SP 55",
+            "name": "Verdura",
+            "hex": "#697D7C"
+          },
+          {
+            "code": "SP 56",
+            "name": "Lana",
+            "hex": "#859494"
+          },
+          {
+            "code": "SP 57",
+            "name": "Rivero",
+            "hex": "#939E9A"
+          },
+          {
+            "code": "SP 58",
+            "name": "Sea",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 59",
+            "name": "Oceano",
+            "hex": "#B4BEBB"
+          },
+          {
+            "code": "SP 60",
+            "name": "Casse",
+            "hex": "#BD9375"
+          }
         ]
       }
     },
@@ -900,39 +5091,103 @@
     }
   },
   "custom_interior": {
-    "title": "Custom Interior Paintings & Decoration",
-    "subtitle": "Mineral artistry beyond the surface. Each decorative element is conceived, drawn, and hand-applied by our studio team.",
+    "title": "Interior Art & Decor",
+    "subtitle": "Mineral artistry beyond the surface. Each element is hand-molded by our studio.",
     "items": [
       {
         "id": "fresco",
         "name": "Fresco & Lime Wash",
-        "description": "Ancient mineral technique creating organic, breathable wall surfaces with a soft, aged patina unique to each room."
+        "description": "Ancient mineral techniques creating organic, breathable wall surfaces with a soft, aged patina unique to every space.",
+        "image": "/assets/pages/deco-walls/wave-wall.png"
       },
       {
         "id": "geometric",
         "name": "Geometric Inlays",
-        "description": "Precision-cut mineral patterns — from Moorish latticework to strict modernist grids — embedded directly into the living surface."
+        "description": "Precision-cut mineral patterns — from Muuristiili grids to strict modernist lattices — embedded directly into the living surface.",
+        "image": "/assets/pages/deco-walls/charcoal-abstract.png"
       },
       {
         "id": "sculptural",
         "name": "Sculptural Relief Panels",
-        "description": "Three-dimensional decorative panels hand-formed in microcement — for accent walls, headboards, and architectural niches."
+        "description": "Three-dimensional decorative panels, hand-molded in microcement — for feature walls, headboards, and architectural niches.",
+        "image": "/assets/pages/deco-walls/red-white-relief.png"
       },
       {
         "id": "ombre",
         "name": "Ombré Mineral Gradients",
-        "description": "Seamless colour transitions from floor to ceiling using raw earthen pigments, with no visible boundary or seam."
+        "description": "Seamless color transitions from floor to ceiling using raw clay pigments, without visible borders or seams.",
+        "image": "/assets/pages/deco-walls/hero.png"
       },
       {
         "id": "mural",
-        "name": "Bespoke Mineral Murals",
-        "description": "Large-scale hand-painted murals in mineral pigment — permanent, UV-stable, and entirely unique to your space."
+        "name": "Custom Mineral Murals",
+        "description": "Large-scale hand-painted murals in mineral pigment — permanent, UV-stable, and entirely unique to your space.",
+        "image": "/assets/pages/deco-walls/sculpture-painting.png"
       },
       {
         "id": "accents",
-        "name": "Architectural Accents",
-        "description": "Decorative columns, archways, console tables, and fireplace surrounds finished in monolithic microcement."
+        "name": "Furniture Details",
+        "description": "Decorative columns, arches, console tables, and fireplaces finished in monolithic microcement.",
+        "image": "/assets/pages/deco-walls/backlit-mirror.png"
+      },
+      {
+        "id": "relief-walls",
+        "name": "Sculptural Relief Walls",
+        "description": "Deeply textured diagonal and organic reliefs that transform a standard wall into a dynamic architectural statement.",
+        "image": "/assets/pages/deco-walls/diagonal-relief.png"
       }
     ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Guidelines for using Kuus Design studio services and website.",
+    "last_updated": "Last updated: April 28, 2026",
+    "sections": [
+      {
+        "title": "1. General Provisions",
+        "content": "These terms of service govern the use of the Kuus Design website and services. By using the website, you accept these terms in full."
+      },
+      {
+        "title": "2. Services",
+        "content": "Kuus Design offers premium microcement installation and decorative surface treatments. Each project is unique craftsmanship, and the final result may vary according to material properties."
+      },
+      {
+        "title": "3. Intellectual Property",
+        "content": "All content on the website, including photos, texts, and design elements, belongs to Kuus Design or is licensed to us. Copying content without permission is prohibited."
+      },
+      {
+        "title": "4. Limitation of Liability",
+        "content": "We do our best to ensure the accuracy of info, but we are not responsible for possible technical errors or consequences resulting from the interpretation of information."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your data security and privacy are our priority.",
+    "last_updated": "Last updated: April 28, 2026",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect personal data (name, email, phone) that you voluntarily provide to us via the inquiry form so that we can offer you a personalized service."
+      },
+      {
+        "title": "2. Data Use",
+        "content": "We use your data only to respond to inquiries, plan projects, and communicate with you. We do not sell or share your data with third parties for marketing purposes."
+      },
+      {
+        "title": "3. Cookies",
+        "content": "We use cookies on the website to analyze traffic and improve user experience. You have the right to opt-out of cookies in your browser settings."
+      },
+      {
+        "title": "4. Your Rights",
+        "content": "You have the right at any time to access your data, request its correction or deletion by contacting us via email."
+      }
+    ]
+  },
+  "visualize_cta": {
+    "badge": "Studio Tool",
+    "title": "See it in your space",
+    "desc": "Upload a photo of your room, tap any wall, instantly preview Basebeton finishes with realistic texture and lighting.",
+    "button": "Try Visualiser"
   }
 }

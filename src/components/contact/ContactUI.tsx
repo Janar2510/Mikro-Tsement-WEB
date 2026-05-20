@@ -2,13 +2,14 @@
 
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { CustomSelect } from "@/components/ui/CustomSelect";
 
 interface ContactUIProps {
   dict: any;
   lang: string;
 }
 
-export function ContactUI({ dict }: ContactUIProps) {
+export function ContactUI({ dict, lang }: ContactUIProps) {
   return (
     <section className="py-24 bg-background px-6">
       <div className="max-w-7xl mx-auto">
@@ -75,14 +76,43 @@ export function ContactUI({ dict }: ContactUIProps) {
                    <label className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold block mb-2 transition-colors group-focus-within:text-foreground">
                       {dict.contact_ui.vision}
                    </label>
-                   <textarea 
+                   <textarea
                      rows={4}
                      className="w-full bg-transparent border-b border-foreground/10 py-2 outline-none focus:border-foreground transition-colors font-sans text-sm uppercase tracking-wider resize-none px-0"
                      required
                    />
                 </div>
+                <CustomSelect
+                  label={dict.contact_ui.project_type ?? (lang === "et" ? "Projekti tüüp" : "Project Type")}
+                  placeholder={lang === "et" ? "Vali..." : "Select..."}
+                  options={lang === "et"
+                    ? ["Põrand", "Vannituba", "Seinad", "Köök", "Mööbel", "Dekoratiivne", "Bassein", "Muu"]
+                    : ["Flooring", "Bathroom", "Walls", "Kitchen", "Furniture", "Decorative", "Pool", "Other"]
+                  }
+                />
+                <div className="grid grid-cols-2 gap-8">
+                   <div className="group relative">
+                      <label className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold block mb-2 transition-colors group-focus-within:text-foreground">
+                         {dict.contact_ui.area ?? (lang === "et" ? "Pindala (m²)" : "Area (m²)")}
+                      </label>
+                      <input
+                        type="number"
+                        min="1"
+                        placeholder="m²"
+                        className="w-full bg-transparent border-b border-foreground/10 py-2 outline-none focus:border-foreground transition-colors font-sans text-sm uppercase tracking-wider"
+                      />
+                   </div>
+                   <CustomSelect
+                     label={dict.contact_ui.timeline ?? (lang === "et" ? "Ajakava" : "Timeline")}
+                     placeholder={lang === "et" ? "Vali..." : "Select..."}
+                     options={lang === "et"
+                       ? ["Kiire (< 1 kuu)", "1–3 kuud", "3–6 kuud", "Planeerin", "Pole kindel"]
+                       : ["Urgent (< 1 month)", "1–3 months", "3–6 months", "Planning ahead", "Not sure"]
+                     }
+                   />
+                </div>
              </div>
-             <button 
+             <button
                type="submit"
                className="bg-foreground text-background py-5 uppercase tracking-[0.2em] text-[10px] font-bold hover:bg-foreground/80 transition-all active:scale-95"
              >

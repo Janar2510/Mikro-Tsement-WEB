@@ -1,4 +1,53 @@
 {
+  "seo": {
+    "global": {
+      "title": "KUUS DESIGN | Premium Basebeton Mikrotsement – Tartu, Eesti",
+      "description": "Premium Basebeton mikrotsemendi pinnad luksusinterjööridele. Vuugivabad põrandad, veekindlad vannitoad, dekoratiivseinad. Ilma lammutamiseta renoveerimine. Tartu ja Eesti.",
+      "keywords": "mikrotsement, basebeton, mikrotsement Eesti, mikrotsement Tartu, mikrotsemendi paigaldus, mikrotsemendi vannituba, mikrotsemendi põrand, vuugivaba põrand, veekindel sein, dekoratiivsein, ilma lammutamiseta renoveerimine, mineraalviimistlus, basebeton originale, premium mikrotsement"
+    },
+    "pages": {
+      "home": {
+        "title": "KUUS DESIGN | Basebeton Mikrotsement – Vuugivabad Pinnad Eestis",
+        "description": "Muuda oma ruum monoliitse Basebeton mikrotsemendiga. Vuugivabad, veekindlad, lammutamisvabad pinnad põrandatele, seintele ja vannitubadesse. Premium stuudio Tartus."
+      },
+      "products": {
+        "title": "Basebetoni Tooted | 11 Mikrotsemendi Süsteemi – KUUS DESIGN",
+        "description": "Basebeton Originale, Beton Ciré, Oxidestuc, Natureplast, Sichtbeton jt. 11 professionaalset valmiskasutatavat mikrotsemendisüsteemi. EC1 Plus sertifitseeritud. 366 värvi."
+      },
+      "projects": {
+        "title": "Mikrotsemendi Projektide Portfoolio | KUUS DESIGN",
+        "description": "Sirvi lõpetatud Basebeton mikrotsemendiprojekte — põrandad, vannitoad, seinad ja mööbel üle Eesti. Elamu- ja äriruumide näited."
+      },
+      "blog": {
+        "title": "Mikrotsemendi Ajakiri | Kujundus ja Paigaldus – KUUS DESIGN",
+        "description": "Ekspertartiklid Basebeton mikrotsemendi, mineraalpindade, paigaldustehnikate ja interjööritrendide kohta."
+      },
+      "colors": {
+        "title": "Mikrotsemendi Värvikogumid | 366 Värvi – KUUS DESIGN",
+        "description": "366 Basebetoni mikrotsemendivärvi 11 tootepakettis. Täpseks tehasesobitamiseks kasuta värvikoodi. Basebeton Originale, Beton Ciré, Stuccopuro jt."
+      },
+      "story": {
+        "title": "Meie Lugu | KUUS DESIGN Mikrotsemendi Stuudio Tartus",
+        "description": "KUUS DESIGN on premium mikrotsemendi stuudio Tartus, Eestis. Töötame Basebeton by Stone Age toodetega — EC1 Plus sertifitseeritud professionaalne mikrotsement."
+      },
+      "contact": {
+        "title": "Kontakt | KUUS DESIGN Mikrotsemendi Stuudio – Tartu",
+        "description": "Võta ühendust KUUS DESIGNiga mikrotsemendi konsultatsioonide, projektipakkumiste ja Basebetoni toodete päringute jaoks. Stuudio Tartus. studio@kuusdesign.ee"
+      },
+      "events": {
+        "title": "Mikrotsemendi Koolitusel | KUUS DESIGN Tartu",
+        "description": "Professionaalne Basebeton mikrotsemendi paigalduskoolitus Tartus. 2-päevased ja 3-päevased programmid. Rahvusvaheliselt tunnustatud paigaldajasertifikaat."
+      },
+      "faq": {
+        "title": "Mikrotsemendi KKK | Sagedased Küsimused – KUUS DESIGN",
+        "description": "Vastused kõige sagedasematele küsimustele Basebeton mikrotsemendi kohta: paigaldus, hooldus, veekindlus, värvid ja aluspind."
+      },
+      "guide": {
+        "title": "Basebetoni Mikrotsemendi Juhend | Paigaldus ja Rakendused – KUUS DESIGN",
+        "description": "Täielik juhend Basebeton mikrotsemendi kohta: mis see on, kuhu saab paigaldada, tehniline protsess ja pinnaviimistlused."
+      }
+    }
+  },
   "events": {
     "title": "Arhitektuursed Dialoogid",
     "subtitle": "Liituge meie stuudioga kaasahaaravates töötubades, showroom'ide avamistel ja materjali-uuringutel üle Euroopa.",
@@ -18,21 +67,32 @@
       "label": "Haridus & Koolitus",
       "title": "Õpi Mikrotsemendi Paigaldust Koos Meiega",
       "subtitle": "Koolitame eraisikuid ja ettevõtteid professionaalse mikrotsemendi paigalduses. Iga lõpetaja saab rahvusvaheliselt tunnustatud sertifikaadi.",
-      "intro": "Meie praktiline koolitus toimub Tallinna stuudios. Seda juhivad meistrid, kellel on üle kümne aasta projektikogemust. Programm hõlmab pinna ettevalmistust, segamist, kühveltehnnikaid, värviteooriat, tihendamist ja kvaliteedi kontrolli.",
+      "intro": "Meie praktiline koolitus toimub Tartu stuudios. Seda juhivad meistrid, kellel on üle kümne aasta projektikogemust. Programm hõlmab pinna ettevalmistust, segamist, paigaldustehnikaid, värviteooriat, tihendamist ja kvaliteedi kontrolli.",
       "tiers": [
         {
           "type": "Eraisik",
           "badge": "1 – 4 Osalejat",
           "duration": "2-Päevane Intensiivkursus",
           "description": "Ideaalne iseseisvatele töövõtjatele, disaineritele ja renoveerimisekspertidele, kes soovivad lisada mikrotsemendi oma oskuste hulka.",
-          "includes": ["Täielik materjalikomplekt", "Praktiline kühvelharjutus", "Värvide segamise labor", "Professionaalse paigaldaja sertifikaat"]
+          "includes": [
+            "Täielik materjalikomplekt",
+            "Praktiline paigaldusharjutus",
+            "Värvide segamise labor",
+            "Professionaalse paigaldaja sertifikaat"
+          ]
         },
         {
           "type": "Ettevõte",
           "badge": "5 – 20 Osalejat",
           "duration": "3-Päevane Programm",
           "description": "Kohandatud meeskonnakoolitus ehitusfirmadele, interjööristuudiotele ja kinnisvaraarendajatele.",
-          "includes": ["Kohandatud õppekava", "Kohapealse praktika sessioonid", "Meeskonna materjalikomplekt", "Professionaalse paigaldaja sertifikaadid", "3-kuuline järeltugi"]
+          "includes": [
+            "Kohandatud õppekava",
+            "Kohapealse praktika sessioonid",
+            "Meeskonna materjalikomplekt",
+            "Professionaalse paigaldaja sertifikaadid",
+            "3-kuuline järeltugi"
+          ]
         }
       ],
       "certificate": {
@@ -43,12 +103,12 @@
     }
   },
   "contact": {
-    "title": "Konsulteeri Meie Stuudioga",
-    "subtitle": "Võtke ühendust, et arutada oma arhitektuurset visiooni. Pakume eritellimusel konsultatsioone globaalsetele projektidele.",
+    "title": "Võta ühendust",
+    "subtitle": "Räägi projektist — ruumi tüüp, suurus, mida otsid. Anname ausat nõu.",
     "email": "studio@kuusdesign.ee",
-    "address": "Mineral tn 124, Tallinn 10115",
+    "address": "Mineral tn 124, Tartu 51003",
     "tel": "+372 555 124 12",
-    "cta": "Saada Päring"
+    "cta": "Saada sõnum"
   },
   "blog": {
     "title": "Žurnaal",
@@ -59,11 +119,11 @@
         "title": "Käe Rütm",
         "date": "02. aprill 2024",
         "image": "/assets/pages/blog/rhythm-of-the-hand.png",
-        "excerpt": "Uurime, miks käsitsi paigaldatud pind on jätkuvalt luksusinterjööride kullastandard.",
+        "excerpt": "Miks käsitsi paigaldatud pinnad näevad teistsugused välja kui masintöötlus ja kas see on oluline.",
         "content": [
-          "Mikrotsement on midagi enamat kui mineraalide ja polümeeride segu; see on vahend inimlikuks eneseväljenduseks. Erinevalt valatud põrandatest või tehases valmistatud plaatidest kannab käsitsi paigaldatud pind selle käsitöölise selget rütmi, kes seda paigaldas.",
-          "See bioloogiline ebakorrapärasus ongi see, mis määratleb 'vaikse luksuse'. Maailmas, mis liigub automatiseeritud täiuslikkuse poole, loovad peened variatsioonid kellu surves ja liikumises maastiku, mis on unikaalselt teie oma. See on materjal, mis salvestab oma loomise protsessi.",
-          "Kui räägime 'Käe Rütmist', peame silmas meditatiivset seisundit, kuhu meie käsitöölised paigaldamise ajal sisse elavad. Just see keskendumine tagab, et lõplik tekstuur ei ole lihtsalt nähtav, vaid tuntav."
+          "Mikrotsement on enamat kui mineraalide ja polümeeride segu; see on inimliku väljenduse meedium. Erinevalt isevalguvatest põrandatest või tehases toodetud plaatidest kannab käsitsi paigaldatud pind endas selle loonud käsitöölise kordumatut rütmi.",
+          "See 'bioloogiline ebakorrapärasus' defineeribki vaikset luksust. Kuna arhitektuur kaldub üha enam automatiseeritud täiuslikkuse poole, loovad kühvli surve ja liikumise peened variatsioonid maastiku, mis on unikaalselt teie oma. See on materjal, mis salvestab oma loomisprotsessi.",
+          "Kui räägime 'käe rütmist', peame silmas meditatiivset seisundit, kuhu meie meistrid paigalduse ajal sisenevad. Just see keskendumine tagab, et lõplik tekstuur pole lihtsalt nähtav, vaid ka tuntav."
         ]
       },
       {
@@ -71,7 +131,7 @@
         "title": "Mineraalne Tonaalsus",
         "date": "20. märts 2024",
         "image": "/assets/pages/blog/mineral-tonality.png",
-        "excerpt": "Kuidas looduslikud pigmendid reageerivad päeva jooksul muutuvale valgusele.",
+        "excerpt": "Sama mineraalpind näeb õhtuvalguses soojem välja kui lõunal. Siin on põhjus.",
         "content": [
           "Värv mineraalsel pinnal ei ole kunagi staatiline. Kuna KUUS DESIGN kasutab tooreid muldpigmente, nihkub pinna tonaalsus koos loodusliku valguse liikumisega ruumis.",
           "Üks 'Bone' valge võib tunduda päikeseloojangul soe ja kutsuv, kuid karge ja arhitektuurne eredatel pärastlõunastel tundidel. See interaktsioon keskkonnaga on meie disainifilosoofia põhitala.",
@@ -83,10 +143,10 @@
         "title": "Vannitoa remont ilma lammutamiseta",
         "date": "15. aprill 2024",
         "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
-        "excerpt": "Avasta, kuidas mikrotsement võimaldab täielikku esteetilist muutust ilma lammutamise müra ja prügita.",
+        "excerpt": "Kuidas vannituba ümber teha ilma ühtegi plaati eemaldamata, kasutades Topcret tehnoloogiat.",
         "content": [
           "Traditsioonilised vannitoaremondid tähendavad nädalaid kestvat lammutamist, tolmu ja struktuurseid häireid. Mikrotsement pakub rafineeritud alternatiivi: pidev mineraalne kiht, mida saab paigaldada otse olemasolevatele plaatidele.",
-          "See 'lammutamisvaba' lähenemine on võimalik tänu meie spetsialiseeritud mineraalsegude suurepärastele nakkeomadustele. Lammutusprotsessi vahelejätmisega vähendame oluliselt jäätmete hulka ja projekti ajakulu, säilitades samal ajal monoliitse ja spa-laadse tulemuse.",
+          "See 'lammutamisvaba' lähenemine on võimalik tänu Topcret Microcemento® suurepärastele nakkeomadustele. Lammutusprotsessi vahelejätmisega vähendame oluliselt jäätmete hulka ja projekti ajakulu, säilitades samal ajal monoliitse ja spa-laadse tulemuse.",
           "Mikrotsemendist vannituba pole vaid visuaalne valik; see on ka hügieeniline otsus. Ilma vuugivahedeta pole niiskusel ja hallitusel kohta, kuhu peituda, tagades, et sinu erapühamu püsib sama puhtana kui esimesel päeval."
         ]
       },
@@ -95,7 +155,7 @@
         "title": "Mikrotsement plaatidele: põhjalik juhend",
         "date": "10. aprill 2024",
         "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
-        "excerpt": "Pinna ettevalmistus on vastupidavuse alus. Õpi tundma professionaalset protsessi vana keraamika katmiseks mikrotsemendiga.",
+        "excerpt": "Mikrotsemendi kandmine olemasolevate plaatide peale nõuab rohkem ettevalmistust kui enamik inimesi arvab. Siin on see, mida teeme.",
         "content": [
           "Kas mikrotsementi saab tõesti paigaldada vanadele plaatidele? Vastus on kindel jah, eeldusel, et aluspind on stabiilne. Selle tehnika suurim eelis on saavutada kaasaegne, vuugivaba välimus ilma põrandapinna taseme märgatava tõusuta.",
           "Protsess algab plaatide teemantlihvimisega, et avada poorid, millele järgneb kahekihiline epoksiidkrunt koos klaaskiudvõrguga. See loob stabiilse ja mittepoorse vundamendi, mis hoiab ära 'kummitusefekti' ehk vanade vuugijoonte läbinähtavuse uuel pinnal.",
@@ -107,7 +167,7 @@
         "title": "Skulptuurne vaikus: Mikrotsemendist mööbli trendid 2026",
         "date": "05. aprill 2024",
         "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
-        "excerpt": "Mööbel ei ole enam lihtsalt funktsionaalne ese; see on arhitektuurne objekt. Uuri, miks mineraalne materiaalsus on 2026. aasta määrav trend.",
+        "excerpt": "Üha rohkem mööblit täpsustatakse sel aastal mineraalsetest materjalidest. Mõned põhjused, miks see juhtub.",
         "content": [
           "2026. aastal hägustub piir mööbli ja arhitektuuri vahel veelgi. Disainerid liiguvad eemale modulaarsetest lahendustest monoliitsete objektide suunas, mis tunduvad kui ruumi vundamendist välja voolitud.",
           "Mikrotsemendist mööbel — kuubikujulised diivanilauad, konsoolsed söögilaudade pinnad ja õmblusteta kummutid — on selle 'monoliitse minimalismi' ülim väljendus. Materjal võimaldab geomeetrilist täpsust, pakkudes samas loodusliku kivi taktikalist soojust.",
@@ -117,6 +177,7 @@
     ]
   },
   "navigation": {
+    "home": "Avaleht",
     "products": "Tooted",
     "story": "Meie Lugu",
     "blog": "Blogi",
@@ -128,351 +189,2524 @@
     "guide": "Juhend",
     "colors": "Värvid",
     "surfaces": "Pinnad",
-    "philosophy": "Filosoofia"
+    "philosophy": "Filosoofia",
+    "products_items": {
+      "flooring": {
+        "name": "Põrandad"
+      },
+      "bathrooms": {
+        "name": "Vannitoad"
+      },
+      "furniture": {
+        "name": "Mööbel"
+      }
+    }
   },
   "products": {
-    "title": "Minimalistlikud Kollektsioonid",
-    "subtitle": "Õmblusteta arhitektuursed viimistlused, mis määratlevad uuesti piirid kunsti ja arhitektuuri vahel.",
+    "title": "Basebetoni Kollektsioon",
+    "subtitle": "Premium valmiskasutatavad mikrotsemendisüsteemid. EC1 Plus sertifitseeritud. Saadaval 75+ värvis.",
     "items": {
-      "flooring": {
-        "name": "Poleeritud Põrandad",
-        "description": "Õmblusteta ja vastupidavad pinnad, mis loovad kaine aluse minimalistlikule interjöörile.",
+      "basebeton-originale": {
+        "name": "Basebeton Originale",
+        "tagline": "Valmis kasutamiseks — kõikjal kasutatav",
+        "description": "Basebeton Originale on valmiskasutamiseks mõeldud mikrotseмendipasta mikroniseeritud kvartsi sisaldusega — seintele, põrandatele, mööblile ja töötasapindadele. Saadaval 75 standardvärvis ja kohandatud RAL/NCS värvidena. EC1 Plus sertifitseeritud.",
         "features": [
           {
-            "icon": "shield",
-            "title": "Võrratu Vastupidavus",
-            "desc": "Baxab® põrandad on loodud suure koormusega keskkondadele, taludes pragusid ja lööke paremini kui tavaline betoon."
+            "icon": "layers",
+            "title": "Kahe kihiga süsteem",
+            "desc": "Kaks kihti (Basa + Sense) tagavad optimaalse sügavuse, tekstuuri ja vastupidavuse igal pinnal."
           },
           {
             "icon": "droplets",
-            "title": "Õmblusteta Hügieen",
-            "desc": "Vuugivaba pind tähendab, et bakteritel pole kohta, kuhu peituda. Täielikult veekindel ja üli-lihtne puhastada."
+            "title": "Täielikult veekindel",
+            "desc": "Veekindel oma olemuselt — täiendavaid tihendeid ei ole vaja. Sobib vannitubadesse, märgaladele ja köögitasapindadele."
           },
           {
             "icon": "leaf",
-            "title": "Ökoloogiline Vundament",
-            "desc": "VOC-vaba ja valmistatud looduslikest mineraalidest. Panustades tervislikumasse siseõhu kvaliteeti."
+            "title": "EC1 Plus sertifikaat",
+            "desc": "Väga madal lenduvate orgaaniliste ühendite emissioon. Sertifitseeritud kõikide siseruumide jaoks."
           },
           {
             "icon": "sun",
-            "title": "UV-kindel",
-            "desc": "Meie unikaalsed mineraalsed pigmendid jäävad säravaks ka otsese päikesevalguse ja kõrge UV-kiirguse käes."
+            "title": "75 standardvärvi",
+            "desc": "Saadaval 75 Basebeton Originale värvitoonis ning kohandatud RAL ja NCS värvide sobitamisega."
           }
         ],
         "gallery": [
-          "/assets/pages/products/flooring-main.png",
-          "/assets/pages/products/flooring-s1.png",
-          "/assets/pages/products/flooring-s2.png",
-          "/assets/pages/products/flooring-s3.png",
-          "/assets/pages/products/flooring-s4.png"
+          "/assets/pages/products/basebeton-originale.png",
+          "/assets/pages/products/basebeton-originale-1.png",
+          "/assets/pages/products/basebeton-originale-2.png"
         ],
         "details": {
           "specs": [
-            { "label": "Paksus", "value": "3.0 mm" },
-            { "label": "Kõvadus", "value": "Shore D 82" },
-            { "label": "Kuivamisaeg", "value": "48 Tundi" },
-            { "label": "Aluspind", "value": "Betoon, Plaadid, Tasandussegud" }
+            {
+              "label": "Süsteem",
+              "value": "2 kihti (Basa + Sense)"
+            },
+            {
+              "label": "Paksus",
+              "value": "1,0 – 2,0 mm"
+            },
+            {
+              "label": "Kulu",
+              "value": "1,5 kg/m² kihi kohta"
+            },
+            {
+              "label": "Töövahend",
+              "value": "Roostevaba teraspahtlid"
+            },
+            {
+              "label": "Aluspind",
+              "value": "Seinad, põrandad, mööbel"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult siseruumides"
+            }
           ],
-          "maintenance": "Iganädalane puhastus pH-neutraalsete vahenditega.",
-          "philosophy": "Aluspõhi, mas neelab heli ja peegeldab rahu."
-        }
+          "maintenance": "Puhastage pH-neutraalse vahendiga. Vältige abrasiivseid puhastusvahendeid.",
+          "philosophy": "Valmismikrotsement arhitektuurilise kvaliteediga — lihtsus kohtub professionaalse tulemusega."
+        },
+        "datasheet": "Basebeton-Originale-User-Manual-Technical-Datasheet-2024.07-1.pdf",
+        "productColors": [
+          {
+            "code": "10-1",
+            "name": "Dutch Grey",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-2",
+            "name": "Mouse",
+            "hex": "#B1AFAA"
+          },
+          {
+            "code": "10-3",
+            "name": "Stone",
+            "hex": "#9F9D97"
+          },
+          {
+            "code": "10-4",
+            "name": "Pebble",
+            "hex": "#8D8A85"
+          },
+          {
+            "code": "10-6",
+            "name": "Mauwe",
+            "hex": "#82837F"
+          },
+          {
+            "code": "10-8",
+            "name": "Mud",
+            "hex": "#797672"
+          },
+          {
+            "code": "10-9",
+            "name": "Persian",
+            "hex": "#63605C"
+          },
+          {
+            "code": "10-10",
+            "name": "Pitch Black",
+            "hex": "#616161"
+          },
+          {
+            "code": "10-13",
+            "name": "Berry",
+            "hex": "#9C9088"
+          },
+          {
+            "code": "10-14",
+            "name": "Clay",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-15",
+            "name": "Duhe",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-16",
+            "name": "Dawn",
+            "hex": "#C5C2BF"
+          },
+          {
+            "code": "10-17",
+            "name": "Buff",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-18",
+            "name": "Wheat",
+            "hex": "#DED2C7"
+          },
+          {
+            "code": "10-19",
+            "name": "Daw",
+            "hex": "#ECD8AD"
+          },
+          {
+            "code": "10-20",
+            "name": "Olive",
+            "hex": "#C0B39C"
+          },
+          {
+            "code": "10-21",
+            "name": "Moss",
+            "hex": "#7A7772"
+          },
+          {
+            "code": "10-22",
+            "name": "Cord",
+            "hex": "#E4CEAC"
+          },
+          {
+            "code": "10-23",
+            "name": "Mocca",
+            "hex": "#9E897D"
+          },
+          {
+            "code": "10-24",
+            "name": "Past Yellow",
+            "hex": "#D2C3AC"
+          },
+          {
+            "code": "10-26",
+            "name": "Rose Red",
+            "hex": "#C78F7B"
+          },
+          {
+            "code": "10-27",
+            "name": "Truffel",
+            "hex": "#B58F78"
+          },
+          {
+            "code": "10-28",
+            "name": "Blossom",
+            "hex": "#CAD3B9"
+          },
+          {
+            "code": "10-29",
+            "name": "Sage",
+            "hex": "#B6B5A1"
+          },
+          {
+            "code": "10-30",
+            "name": "Artichok",
+            "hex": "#A6A597"
+          },
+          {
+            "code": "10-31",
+            "name": "Brown",
+            "hex": "#897E70"
+          },
+          {
+            "code": "10-32",
+            "name": "Putty",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-33",
+            "name": "Grime",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-34",
+            "name": "Canvas",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-35",
+            "name": "Steel Black",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-37",
+            "name": "Tender",
+            "hex": "#98837E"
+          },
+          {
+            "code": "10-38",
+            "name": "Rose White",
+            "hex": "#D8D5CF"
+          },
+          {
+            "code": "10-41",
+            "name": "Lice Taupe",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-42",
+            "name": "Mey Red",
+            "hex": "#B28A7B"
+          },
+          {
+            "code": "10-43",
+            "name": "Deep Brown",
+            "hex": "#89716A"
+          },
+          {
+            "code": "10-45",
+            "name": "Knosse",
+            "hex": "#89716B"
+          },
+          {
+            "code": "10-47",
+            "name": "Raum Red",
+            "hex": "#8B6154"
+          },
+          {
+            "code": "10-48",
+            "name": "Sinc",
+            "hex": "#B3AFAC"
+          },
+          {
+            "code": "10-49",
+            "name": "Smoke",
+            "hex": "#9D9E9C"
+          },
+          {
+            "code": "10-50",
+            "name": "Ice",
+            "hex": "#CECAC4"
+          },
+          {
+            "code": "10-51",
+            "name": "Lava",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-52",
+            "name": "Ash",
+            "hex": "#C2C3BF"
+          },
+          {
+            "code": "10-53",
+            "name": "Lin",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-54",
+            "name": "Deep",
+            "hex": "#9D9D9B"
+          },
+          {
+            "code": "10-55",
+            "name": "Elephant",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-56",
+            "name": "Hippo",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "10-57",
+            "name": "Wolf",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-58",
+            "name": "Whale",
+            "hex": "#959595"
+          },
+          {
+            "code": "10-59",
+            "name": "Grizzle",
+            "hex": "#A6A7A4"
+          },
+          {
+            "code": "10-60",
+            "name": "Rock",
+            "hex": "#8D8E8A"
+          },
+          {
+            "code": "10-61",
+            "name": "Flake",
+            "hex": "#BFB19C"
+          },
+          {
+            "code": "10-62",
+            "name": "Sisal",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-63",
+            "name": "Gentle",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-64",
+            "name": "Grain",
+            "hex": "#C3B19C"
+          },
+          {
+            "code": "10-65",
+            "name": "Oat",
+            "hex": "#D2C8BB"
+          },
+          {
+            "code": "10-66",
+            "name": "Loam",
+            "hex": "#BEB3A6"
+          },
+          {
+            "code": "10-67",
+            "name": "Dust",
+            "hex": "#D3C7B9"
+          },
+          {
+            "code": "10-68",
+            "name": "Savanne",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-69",
+            "name": "Caramel",
+            "hex": "#9C8B74"
+          },
+          {
+            "code": "10-70",
+            "name": "Tierra",
+            "hex": "#9E847A"
+          },
+          {
+            "code": "10-71",
+            "name": "Indian",
+            "hex": "#9E7E5D"
+          },
+          {
+            "code": "10-72",
+            "name": "Brownie",
+            "hex": "#89706A"
+          },
+          {
+            "code": "10-73",
+            "name": "Choco",
+            "hex": "#5A4D46"
+          },
+          {
+            "code": "10-74",
+            "name": "Blush",
+            "hex": "#C57B71"
+          },
+          {
+            "code": "10-75",
+            "name": "Bright",
+            "hex": "#E6E2E0"
+          },
+          {
+            "code": "10-76",
+            "name": "Shell",
+            "hex": "#BCBAAE"
+          },
+          {
+            "code": "10-77",
+            "name": "Cotton",
+            "hex": "#C4C1B9"
+          },
+          {
+            "code": "10-78",
+            "name": "Sand",
+            "hex": "#CDCAC4"
+          },
+          {
+            "code": "10-79",
+            "name": "Pigeon",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-80",
+            "name": "Noce",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-81",
+            "name": "Khaki",
+            "hex": "#A8A28C"
+          },
+          {
+            "code": "10-82",
+            "name": "Delta",
+            "hex": "#837C6B"
+          },
+          {
+            "code": "10-83",
+            "name": "Dove",
+            "hex": "#8E9180"
+          },
+          {
+            "code": "10-84",
+            "name": "Lagoon",
+            "hex": "#A8B8B2"
+          },
+          {
+            "code": "10-85",
+            "name": "Lychee",
+            "hex": "#C5AFA2"
+          }
+        ]
       },
-      "walls": {
-        "name": "Tekstureeritud Seinad",
-        "description": "Käsitsi loodud sügavus, mis püüab valgust ja varje igal pinnal.",
+      "beton-cire": {
+        "name": "Beton Ciré Originale",
+        "tagline": "Autentne ja elegantne betoonilook",
+        "description": "Beton Ciré Originale on kahe kihiga tsemendibaasil täiteaine mikroniseeritud kvartsiga — seintele, põrandatele, mööblile ja köögitasapindadele. Peen, painduv, vastupidav ja autentse betoonilook.",
         "features": [
-          {
-            "icon": "edit",
-            "title": "Käsitööna Valminud Tekstuur",
-            "desc": "Iga sein on kordumatu kunstiteos, käsitsi viimistletud, et luua peen topograafiline sügavus ja mineraalne rütm."
-          },
-          {
-            "icon": "wind",
-            "title": "Hingav Pind",
-            "desc": "Meie mineraalne valem laseb seintel hingata, reguleerides loomulikult niiskust ja hoides ära hallituse teket."
-          },
           {
             "icon": "sparkles",
-            "title": "Valgus-tundlik",
-            "desc": "Looduslikud pigmendid reageerivad muutuvale valgusele, nihutades tonaalsust hommikust õhtuni."
+            "title": "Autentne betoonilook",
+            "desc": "Loob peen, autentne betoonilook subtiiilse sügavuse ja variatsiooniga — iga paigaldus on ainulaadne."
           },
           {
-            "icon": "zap",
-            "title": "Kiire Paigaldus",
-            "desc": "Meie spetsialiseeritud vertikaalne aluskiht võimaldab kiiret paigaldust kipsplaadi või müüritise peale."
-          }
-        ],
-        "gallery": [
-          "/assets/pages/products/walls-1.png",
-          "/assets/pages/products/walls-2.png",
-          "/assets/pages/products/walls-3.png",
-          "/assets/pages/products/walls-4.png"
-        ],
-        "details": {
-          "specs": [
-            { "label": "Paksus", "value": "2.0 mm" },
-            { "label": "Nakkumine", "value": "Kõrge vertikaalne stabiilsus" },
-            { "label": "Paigaldus", "value": "Mitmekihiline käsitöö" }
-          ],
-          "maintenance": "Puhastage regulaarselt tolmust.",
-          "philosophy": "Vertikaalsuse määratlemine mineraalse rütmi kaudu."
-        }
-      },
-      "bathrooms": {
-        "name": "Eritellimus-Vannitoad",
-        "description": "Veekindlad pidevad pinnad ühtseks ja spaalaadseks vannitoakogemuseks.",
-        "features": [
+            "icon": "droplets",
+            "title": "Sobib märgaladele",
+            "desc": "Sobib vannitubadesse ja köögitasapindadele. Veekindel süsteem kõikide elamumärjalade jaoks."
+          },
           {
-            "icon": "droplet",
-            "title": "Täielik Läbilaskmatus",
-            "desc": "Meie vannitoasüsteem on 100% veekindel juba enne lõplikku lakkimist. Ideaalne märgadesse ruumidesse."
+            "icon": "edit",
+            "title": "Painduv pealekandmine",
+            "desc": "Painduv tsemendivalem vähendab pragunemisohtu kerge liikumisega aluspindadel."
           },
           {
             "icon": "layers",
-            "title": "Lammutusvaba Remont",
-            "desc": "Uuendage oma vannituba ilma plaatide eemaldamise mürata. Paigaldame otse olemasoleva keraamika peale."
+            "title": "Kahe kihiga süsteem",
+            "desc": "Tagab ühtlase värvusügavuse ja ülima adhesiooni igal ettevalmistatud aluspinnal."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/beton-cire.png",
+          "/assets/pages/products/beton-cire-1.png",
+          "/assets/pages/products/beton-cire-2.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Süsteem",
+              "value": "2 kihti tsemendibaasil"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Seinad, põrandad, mööbel"
+            },
+            {
+              "label": "Paindlikkus",
+              "value": "Kõrge (pragusidekindel)"
+            },
+            {
+              "label": "Aluspinna niiskus",
+              "value": "< 4%"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult siseruumides"
+            }
+          ],
+          "maintenance": "Pühkige niiske lapiga. Kasutage pH-neutraalseid puhastusvahendeid.",
+          "philosophy": "Peen betoonesteetika paindlikkuse ja vastupidavusega."
+        },
+        "datasheet": "Beton-Ciré-Originale-Use-Manual-Technical-Data-Sheet.pdf",
+        "productColors": [
+          {
+            "code": "ST 701",
+            "name": "Wide",
+            "hex": "#B7B4A5"
           },
           {
-            "icon": "check-circle",
-            "title": "Libisemisvastane Ohutus",
-            "desc": "Loodud mikro-tekstuuriga, mis tagab suurepärase haarduvuse isegi märjana, ohverdamata pehmet puudutust."
+            "code": "ST 702",
+            "name": "Grime",
+            "hex": "#65615F"
+          },
+          {
+            "code": "ST 703",
+            "name": "Putty",
+            "hex": "#6F6B6C"
+          },
+          {
+            "code": "ST 704",
+            "name": "Doleriet",
+            "hex": "#84817E"
+          },
+          {
+            "code": "ST 705",
+            "name": "Gabbro",
+            "hex": "#6F6B65"
+          },
+          {
+            "code": "ST 706",
+            "name": "Wool",
+            "hex": "#86827E"
+          },
+          {
+            "code": "ST 707",
+            "name": "Levant",
+            "hex": "#8E8A89"
+          },
+          {
+            "code": "ST 708",
+            "name": "Cella",
+            "hex": "#837F79"
+          },
+          {
+            "code": "ST 709",
+            "name": "Celadon",
+            "hex": "#9F9C9D"
+          },
+          {
+            "code": "ST 710",
+            "name": "Vincenza",
+            "hex": "#C0BCB9"
+          },
+          {
+            "code": "ST 711",
+            "name": "Fumus",
+            "hex": "#AAABA6"
+          },
+          {
+            "code": "ST 712",
+            "name": "Jute",
+            "hex": "#C0C5BF"
+          },
+          {
+            "code": "ST 713",
+            "name": "Enamel",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 714",
+            "name": "Campania",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 715",
+            "name": "Grisette",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 720",
+            "name": "Aura",
+            "hex": "#91837B"
+          },
+          {
+            "code": "ST 721",
+            "name": "Khorsabad",
+            "hex": "#92776D"
+          },
+          {
+            "code": "ST 722",
+            "name": "Lascaux",
+            "hex": "#80675A"
+          },
+          {
+            "code": "ST 723",
+            "name": "Cueva",
+            "hex": "#AE806C"
+          },
+          {
+            "code": "ST 725",
+            "name": "Assyria",
+            "hex": "#AA8F86"
+          },
+          {
+            "code": "ST 726",
+            "name": "Phaistos",
+            "hex": "#AC9586"
+          },
+          {
+            "code": "ST 727",
+            "name": "Veneto",
+            "hex": "#B9A991"
+          },
+          {
+            "code": "ST 728",
+            "name": "Mist",
+            "hex": "#BFA695"
+          },
+          {
+            "code": "ST 729",
+            "name": "Parchment",
+            "hex": "#BDA38F"
+          },
+          {
+            "code": "ST 730",
+            "name": "Chendré",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 731",
+            "name": "Auburn",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 732",
+            "name": "Dawn",
+            "hex": "#D3B8A2"
+          },
+          {
+            "code": "ST 733",
+            "name": "Flame",
+            "hex": "#D3B7A9"
+          },
+          {
+            "code": "ST 734",
+            "name": "Damson",
+            "hex": "#B9A990"
+          },
+          {
+            "code": "ST 735",
+            "name": "Sydney",
+            "hex": "#B9AC9D"
+          },
+          {
+            "code": "ST 736",
+            "name": "Rogany",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 737",
+            "name": "Agra",
+            "hex": "#E2C5B1"
+          },
+          {
+            "code": "ST 738",
+            "name": "Savanne",
+            "hex": "#DBCEBE"
+          },
+          {
+            "code": "ST 739",
+            "name": "Calamine",
+            "hex": "#E1DDD3"
+          },
+          {
+            "code": "ST 740",
+            "name": "Middleton",
+            "hex": "#EAE6D7"
+          },
+          {
+            "code": "ST 741",
+            "name": "Natura",
+            "hex": "#F0EDE5"
+          },
+          {
+            "code": "ST 762",
+            "name": "Nova",
+            "hex": "#4FB0D4"
+          },
+          {
+            "code": "ST 765",
+            "name": "Matala",
+            "hex": "#67A0A7"
+          },
+          {
+            "code": "ST 766",
+            "name": "Paulitlus",
+            "hex": "#85A794"
+          },
+          {
+            "code": "ST 767",
+            "name": "Thermae",
+            "hex": "#92AA95"
+          },
+          {
+            "code": "ST 768",
+            "name": "Ceylon",
+            "hex": "#99A98A"
+          }
+        ]
+      },
+      "oxidestuc": {
+        "name": "Oxidestuc",
+        "tagline": "Metalliline sära siseruumidesse",
+        "description": "Oxidestuc on valmiskasutamiseks pasta mikroniseeritud kvartsiga, mis annab seintele, mööblile ja tööpindadele vapustava metallilise efekti. Saadaval: Kuld, Pronks, Vask, Alumiinium, Rooste ja Teras.",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "6 metallillist tooni",
+            "desc": "Kuld, Pronks, Vask, Alumiinium, Rooste ja Teras — igaüks ainulaadse läikeastmega."
+          },
+          {
+            "icon": "sun",
+            "title": "Reguleeritav läige",
+            "desc": "Metallilise sära intensiivsust juhib lihvimisaste — matt satiin kuni kõrglakk."
+          },
+          {
+            "icon": "shield",
+            "title": "Tugev adhesioon",
+            "desc": "Kleepub otse seintele, mööblile ja töötasapindadele."
+          },
+          {
+            "icon": "zap",
+            "title": "Valmis kasutamiseks",
+            "desc": "Valmispasta — avage ja kandke pealekandes. Kohapeal segamist ei vaja."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/OXIDESTUC9.jpeg",
+          "/assets/pages/products/OXIDESTUC10.webp",
+          "/assets/pages/products/oxidestuc-project-2.webp",
+          "/assets/pages/products/oxidestuc-wall.webp",
+          "/assets/pages/products/oxidestuc-rust.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Värvid",
+              "value": "Kuld, Pronks, Vask, Alumiinium, Rooste, Teras"
+            },
+            {
+              "label": "Kulu",
+              "value": "1. kiht ~400 g/m² · 2. kiht ~250 g/m²"
+            },
+            {
+              "label": "Süsteem",
+              "value": "2 kihti + lihvimine"
+            },
+            {
+              "label": "Töövahend",
+              "value": "Pahtlid"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult siseruumides"
+            }
+          ],
+          "maintenance": "Pühkige pehme lapiga. Vältige abrasiivseid tooteid.",
+          "philosophy": "Glamuur ja tööstuslik käsitöö — ainus metalliline betoonviimistlus, mis paraneb lihvimisega."
+        },
+        "datasheet": "Oxidestuc-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "Aluminium",
+            "name": "Aluminium",
+            "hex": "#DCD9D4"
+          },
+          {
+            "code": "Bronze",
+            "name": "Bronze",
+            "hex": "#9F9483"
+          },
+          {
+            "code": "Copper",
+            "name": "Copper",
+            "hex": "#D3A38B"
+          },
+          {
+            "code": "Gold",
+            "name": "Gold",
+            "hex": "#E3CB8C"
+          },
+          {
+            "code": "Rust",
+            "name": "Rust",
+            "hex": "#BA8B67"
+          },
+          {
+            "code": "Steel",
+            "name": "Steel",
+            "hex": "#7F7F7F"
+          }
+        ]
+      },
+      "natureplast": {
+        "name": "Natureplast",
+        "tagline": "Looduslik savimaaling tervetes siseruumides",
+        "description": "Natureplast on looduslik dekoratiivne savimaaling seintele kuivades ruumides. Mürgiainetest vaba, täielikult auruläbilaskev ning aitab hoida tervislikku sisekliimat.",
+        "features": [
+          {
+            "icon": "leaf",
+            "title": "100% looduslik",
+            "desc": "Mürgiainetest vaba — looduslikust savimullast mineraalpigmentidega. Ohutu allergilistele ja tundlikele kasutajatele."
+          },
+          {
+            "icon": "wind",
+            "title": "Täielikult auruläbilaskev",
+            "desc": "Hingab loomulikult koos seinaga, reguleerides niiskust ja ennetades kondensatsiooni."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Ainulaadne pilvestruktuur",
+            "desc": "Iseloomulik pehme pilvetekstuura, mis tekib teise kihi pealekandmisel — iga sein on ainulaadne."
           },
           {
             "icon": "heart",
-            "title": "Hügieeniline Puhtus",
-            "desc": "Sujuv üleminek põrandalt seinale tähendab vuukide puudumist, hoides ära hallituse ja katlakivi kogunemise."
+            "title": "Tervislik sisekliima",
+            "desc": "Aktiivselt parandab siseõhu kvaliteeti. Soovitatav magamistubadesse, lastetubadesse ja heaoluruumidesse."
           }
         ],
         "gallery": [
-          "/assets/pages/products/bathrooms-main.png",
-          "/assets/pages/products/bathrooms-s1.png",
-          "/assets/pages/products/bathrooms-s2.png",
-          "/assets/pages/products/bathrooms-s3.png",
-          "/assets/pages/products/bathrooms-s4.png"
+          "/assets/pages/products/natureplast.png",
+          "/assets/pages/products/natureplast-1.png"
         ],
         "details": {
           "specs": [
-            { "label": "Paksus", "value": "3.5 mm" },
-            { "label": "Libisemiskindlus", "value": "Klass R10" },
-            { "label": "Veekindlus", "value": "Täielik süsteem" }
+            {
+              "label": "Baas",
+              "value": "Looduslik savi/lutt"
+            },
+            {
+              "label": "Paksus",
+              "value": "0,5–1,0 mm kihi kohta"
+            },
+            {
+              "label": "Kulu",
+              "value": "1. kiht ~750 g/m² · 2. kiht ~650 g/m²"
+            },
+            {
+              "label": "Segu",
+              "value": "11–12,5 L vett 25 kg kohta"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult sisekuivades ruumides"
+            }
           ],
-          "maintenance": "Loputage pärast kasutamist puhta veega.",
-          "philosophy": "Monoliitne seerenlus privaatsete pelgupaikade jaoks."
-        }
+          "maintenance": "Ainult kuivpuhastus. Plekid pühkige niiske lapiga. Vältige liigset niiskust.",
+          "philosophy": "Kus arhitektuur kohtub heaoluga — elav seinaviimistlus, mis hingab koos teiega."
+        },
+        "datasheet": "Natureplast-User-Manual-Technical-Datasheet-2024.10.pdf",
+        "productColors": [
+          {
+            "code": "NP-01",
+            "name": "Tusk",
+            "hex": "#C4C2C2"
+          },
+          {
+            "code": "NP-02",
+            "name": "Marigold",
+            "hex": "#C1BEBB"
+          },
+          {
+            "code": "NP-03",
+            "name": "Sienna",
+            "hex": "#BBB6AF"
+          },
+          {
+            "code": "NP-04",
+            "name": "Mirage",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "NP-05",
+            "name": "Twilight",
+            "hex": "#ACACAA"
+          },
+          {
+            "code": "NP-06",
+            "name": "Celestial",
+            "hex": "#B9B8B9"
+          },
+          {
+            "code": "NP-07",
+            "name": "Whisper",
+            "hex": "#BDBBB4"
+          },
+          {
+            "code": "NP-08",
+            "name": "Moon",
+            "hex": "#B2ACAA"
+          },
+          {
+            "code": "NP-09",
+            "name": "Oasis",
+            "hex": "#C1CCB9"
+          },
+          {
+            "code": "NP-10",
+            "name": "Ochre",
+            "hex": "#D6C5AF"
+          },
+          {
+            "code": "NP-11",
+            "name": "Allure",
+            "hex": "#D3C3BC"
+          },
+          {
+            "code": "NP-12",
+            "name": "Mahogany",
+            "hex": "#B4A59A"
+          },
+          {
+            "code": "NP-13",
+            "name": "Canyon",
+            "hex": "#B38968"
+          },
+          {
+            "code": "NP-14",
+            "name": "Emerald",
+            "hex": "#C8CCB3"
+          },
+          {
+            "code": "NP-15",
+            "name": "Tangerine",
+            "hex": "#B59E8D"
+          },
+          {
+            "code": "NP-16",
+            "name": "Midnight",
+            "hex": "#575657"
+          }
+        ]
       },
-      "furniture": {
-        "name": "Arhitektuursed Objektid",
-        "description": "Skulptuurne mikrotsemendist mööbel, si toob materiaalsust igasse funktsionaalsesse elementi.",
+      "sichtbeton": {
+        "name": "Sichtbeton",
+        "tagline": "Autentne toorbetoon-look",
+        "description": "Sichtbeton on kõrgkvaliteetsed tsemendibaasil kattevärv, mis loob erikiletehnoloogiaga autentse valatava betooni välimuse. Saadaval 3 kaasaegses halltoonis.",
         "features": [
           {
-            "icon": "box",
-            "title": "Monoliitne Vorm",
-            "desc": "Saavutage rasked arhitektuursed mahud sise-tugevduse abil. Tugevus ilma liigse kaaluta."
+            "icon": "layers",
+            "title": "Kiletehnoloogia",
+            "desc": "Ainulaadne plastkile surutakse märja tsemendi sisse, luues autentse betoontekstuuri, vormimarke ja subtiiilsed variatsioonid."
+          },
+          {
+            "icon": "edit",
+            "title": "3 halli tooni",
+            "desc": "Kolm hoolikalt valitud halli tooni — vastavad arhitektuurse ekspositsioonbetooni toonivahemikule."
+          },
+          {
+            "icon": "shield",
+            "title": "Pingevaba ja difusioonav",
+            "desc": "Kuivanud materjal jääb pingevabaks, difusioonlahtiseks ja pragusidekindlaks."
+          },
+          {
+            "icon": "zap",
+            "title": "Segmentpõhine paigaldus",
+            "desc": "Mõeldud segmentide kaupa täpseks paigalduseks lasernivelliriga."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/sichtbeton.png",
+          "/assets/pages/products/sichtbeton-1.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Värvid",
+              "value": "3 halli tooni"
+            },
+            {
+              "label": "Baas",
+              "value": "Tsement + lisained"
+            },
+            {
+              "label": "Segamissuhe",
+              "value": "20 kg tsementi + 4–4,8 L vett"
+            },
+            {
+              "label": "Tehnika",
+              "value": "Plastkile surumine"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult siseruumides"
+            }
+          ],
+          "maintenance": "Pühkige kuiva või kergelt niiske lapiga. Kandke soovitatud tihend peale kord aastas.",
+          "philosophy": "Tööstuslik betoonilook — disainitud nägema tõeliselt valatuna, mitte peale kantuna."
+        },
+        "datasheet": "Sichtbeton-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "SB-L",
+            "name": "Light Grey",
+            "hex": "#DDDAD6"
+          },
+          {
+            "code": "SB-M",
+            "name": "Mid Grey",
+            "hex": "#CECBC7"
+          },
+          {
+            "code": "SB-D",
+            "name": "Dark Grey",
+            "hex": "#B9B9B9"
+          }
+        ]
+      },
+      "basebeton-paint": {
+        "name": "Basebeton Paint",
+        "tagline": "Jätkusuutlik valmismikretsementivärv",
+        "description": "Basebeton Paint on valmiskasutamiseks jätkusuutlik värv, mis loob sooja ja tööstusliku välimuse seintele. Saadaval 40 kordumatut värvi. Kantakse peale plokipintsliga.",
+        "features": [
+          {
+            "icon": "edit",
+            "title": "Pintslitekstuura",
+            "desc": "Kantakse plokipintsliga diagonaalsete vikerkaar-liigutustega — loob ainulaadse betoonivärvi tekstuuri."
+          },
+          {
+            "icon": "sun",
+            "title": "40 värvi",
+            "desc": "40 hoolikalt valitud värvi soojadest kreemidest sügavate söe toonideni."
+          },
+          {
+            "icon": "leaf",
+            "title": "Jätkusuutlik valem",
+            "desc": "Väike VOC sisaldus, EC1 Plus sertifitseeritud kõikidele siseruumidele."
+          },
+          {
+            "icon": "zap",
+            "title": "Lihtne kanda",
+            "desc": "Eritööriistu ei ole vaja. Kantakse peale tavalise plokipintsliga."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/basebeton-paint-1.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Värvid",
+              "value": "40 standardvärvi"
+            },
+            {
+              "label": "Töövahend",
+              "value": "Plokipintsel 3×14 cm"
+            },
+            {
+              "label": "Kihid",
+              "value": "2 kihti"
+            },
+            {
+              "label": "Kuivamisaeg",
+              "value": "12 tundi kihtide vahel"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Peamiselt seinad, siseruumides"
+            }
+          ],
+          "maintenance": "Puhastage niiske lapiga. Vältige kemikaale. Retušeerige sama partii värviga.",
+          "philosophy": "Tööstuslik betoonisoojus — värvina, ilma kompromissideta."
+        },
+        "datasheet": "Basebeton-Paint-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "BBP-001",
+            "name": "Dutch Grey",
+            "hex": "#A7A29D"
+          },
+          {
+            "code": "BBP-009",
+            "name": "Persian",
+            "hex": "#6F6A66"
+          },
+          {
+            "code": "BBP-020",
+            "name": "Olive",
+            "hex": "#C2B39A"
+          },
+          {
+            "code": "BBP-029",
+            "name": "Sage",
+            "hex": "#C2C4B7"
+          },
+          {
+            "code": "BBP-030",
+            "name": "Artichok",
+            "hex": "#9D9785"
+          },
+          {
+            "code": "BBP-038",
+            "name": "Rose White",
+            "hex": "#D9D6CB"
+          },
+          {
+            "code": "BBP-051",
+            "name": "Lava",
+            "hex": "#555D60"
+          },
+          {
+            "code": "BBP-052",
+            "name": "Ash",
+            "hex": "#A2A4A3"
+          },
+          {
+            "code": "BBP-062",
+            "name": "Sisal",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "BBP-064",
+            "name": "Grain",
+            "hex": "#E2D6BB"
+          },
+          {
+            "code": "BBP-070",
+            "name": "Tierra",
+            "hex": "#A88F83"
+          },
+          {
+            "code": "BBP-075",
+            "name": "Bright",
+            "hex": "#DCDCDA"
+          },
+          {
+            "code": "BBP-077",
+            "name": "Cotton",
+            "hex": "#B5AA9A"
+          },
+          {
+            "code": "BBP-078",
+            "name": "Sand",
+            "hex": "#C9C6BF"
+          },
+          {
+            "code": "BBP-079",
+            "name": "Pigeon",
+            "hex": "#C2BEB5"
+          },
+          {
+            "code": "BBP-082",
+            "name": "Delta",
+            "hex": "#8D836B"
+          },
+          {
+            "code": "BBP-085",
+            "name": "Lychee",
+            "hex": "#B69F94"
+          },
+          {
+            "code": "BBP-101",
+            "name": "Boracite",
+            "hex": "#D1D0C3"
+          },
+          {
+            "code": "BBP-102",
+            "name": "Rutile",
+            "hex": "#515255"
+          },
+          {
+            "code": "BBP-103",
+            "name": "Corundum",
+            "hex": "#858B7C"
+          },
+          {
+            "code": "BBP-104",
+            "name": "Dolomite",
+            "hex": "#EFEEEB"
+          },
+          {
+            "code": "BBP-105",
+            "name": "Cerussite",
+            "hex": "#ECE9E5"
+          },
+          {
+            "code": "BBP-106",
+            "name": "Garnet",
+            "hex": "#B6B8B5"
+          },
+          {
+            "code": "BBP-107",
+            "name": "Diopside",
+            "hex": "#646A68"
+          },
+          {
+            "code": "BBP-108",
+            "name": "Calcite",
+            "hex": "#BEBAB1"
+          },
+          {
+            "code": "BBP-109",
+            "name": "Anatase",
+            "hex": "#848678"
+          },
+          {
+            "code": "BBP-110",
+            "name": "Proteus",
+            "hex": "#806F5B"
+          },
+          {
+            "code": "BBP-111",
+            "name": "Almandine",
+            "hex": "#CAAFA5"
+          },
+          {
+            "code": "BBP-112",
+            "name": "Adamite",
+            "hex": "#85856C"
+          },
+          {
+            "code": "BBP-113",
+            "name": "Mali Garnet",
+            "hex": "#EFE9DF"
+          },
+          {
+            "code": "BBP-114",
+            "name": "Anglesite",
+            "hex": "#EDEAE3"
+          },
+          {
+            "code": "BBP-115",
+            "name": "Brookite",
+            "hex": "#D9CDB3"
+          },
+          {
+            "code": "BBP-116",
+            "name": "Gypsum",
+            "hex": "#D1D2CD"
+          },
+          {
+            "code": "BBP-117",
+            "name": "Cuprite",
+            "hex": "#C9A67D"
+          },
+          {
+            "code": "BBP-118",
+            "name": "Sapphire",
+            "hex": "#CAD8E0"
+          },
+          {
+            "code": "BBP-119",
+            "name": "Cinnabar",
+            "hex": "#A87C76"
+          },
+          {
+            "code": "BBP-120",
+            "name": "Hessonite",
+            "hex": "#8B795A"
+          },
+          {
+            "code": "BBP-121",
+            "name": "Andradite",
+            "hex": "#F1D4C8"
+          },
+          {
+            "code": "BBP-122",
+            "name": "Powellite",
+            "hex": "#908F74"
+          },
+          {
+            "code": "BBP-123",
+            "name": "Agate",
+            "hex": "#B5C3B9"
+          }
+        ]
+      },
+      "basebeton-plus": {
+        "name": "Basebeton Plus",
+        "tagline": "Mugav ühekomponentne süsteem",
+        "description": "Basebeton Plus on valmismikrotsemendipasta mikroniseeritud kvartsiga — seintele, põrandatele, mööblile ja töötasapindadele. Mugav ühekomponentne süsteem 64 standardvärviga.",
+        "features": [
+          {
+            "icon": "layers",
+            "title": "Ühekomponentne mugavus",
+            "desc": "Ühekomponentne valmissüsteem — kohapeal ei segata mitut komponenti. Ava, sega, kanna peale."
+          },
+          {
+            "icon": "droplets",
+            "title": "Veekindel süsteem",
+            "desc": "Sobib vannitubadesse, köögitasapindadele ja märgaladele. Täielikult veekindel."
+          },
+          {
+            "icon": "sun",
+            "title": "64 standardvärvi",
+            "desc": "Saadaval 64 standardvärvis ning kohandatud RAL ja NCS värvide sobitamisega."
+          },
+          {
+            "icon": "shield",
+            "title": "Tugev adhesioon",
+            "desc": "Kinnitub otse olemasolevale plaadile, betoonile ja tsemendikrundile."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/basebeton-plus.png",
+          "/assets/pages/products/basebeton-plus-1.png",
+          "/assets/pages/products/basebeton-plus-2.png"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Süsteem",
+              "value": "2 kihti (Basa + Sense)"
+            },
+            {
+              "label": "Paksus",
+              "value": "1,0 – 2,0 mm"
+            },
+            {
+              "label": "Kulu",
+              "value": "~1,5 kg/m² kihi kohta"
+            },
+            {
+              "label": "Värvid",
+              "value": "64 standardvärvi + RAL/NCS"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult siseruumides"
+            }
+          ],
+          "maintenance": "Ainult pH-neutraalsed puhastusvahendid. Tihendage vastavalt kasutusintensiivsusele.",
+          "philosophy": "Professionaali lühitee — kogu Basebetoni kvaliteet, ilma keerukuseta."
+        },
+        "datasheet": "Basebeton-Plus-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "Plus-01",
+            "name": "Icles",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus-02",
+            "name": "Drapeau",
+            "hex": "#B5B0AC"
+          },
+          {
+            "code": "Plus-03",
+            "name": "Curry",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus-04",
+            "name": "Pays",
+            "hex": "#8F8A86"
+          },
+          {
+            "code": "Plus-05",
+            "name": "Brique",
+            "hex": "#8D8982"
+          },
+          {
+            "code": "Plus-06",
+            "name": "Bois",
+            "hex": "#78736E"
+          },
+          {
+            "code": "Plus-07",
+            "name": "Ciel",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus-08",
+            "name": "Patine",
+            "hex": "#5F5B58"
+          },
+          {
+            "code": "Plus-09",
+            "name": "Calda",
+            "hex": "#9A8F7F"
+          },
+          {
+            "code": "Plus-10",
+            "name": "Rocher",
+            "hex": "#BCAEA4"
+          },
+          {
+            "code": "Plus-11",
+            "name": "Chypre",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus-12",
+            "name": "Caput",
+            "hex": "#CAC5C1"
+          },
+          {
+            "code": "Plus-13",
+            "name": "Mortier",
+            "hex": "#C1AD97"
+          },
+          {
+            "code": "Plus-14",
+            "name": "Carbone",
+            "hex": "#DED2C2"
+          },
+          {
+            "code": "Plus-15",
+            "name": "Roches",
+            "hex": "#F1D094"
+          },
+          {
+            "code": "Plus-16",
+            "name": "Rues",
+            "hex": "#BFB19A"
+          },
+          {
+            "code": "Plus-17",
+            "name": "Montagne",
+            "hex": "#85796A"
+          },
+          {
+            "code": "Plus-18",
+            "name": "Galets",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus-19",
+            "name": "Vase",
+            "hex": "#B38973"
+          },
+          {
+            "code": "Plus-20",
+            "name": "Jarre",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus 21",
+            "name": "Ville",
+            "hex": "#C37B63"
+          },
+          {
+            "code": "Plus 22",
+            "name": "Parc",
+            "hex": "#C89075"
+          },
+          {
+            "code": "Plus 23",
+            "name": "Voiture",
+            "hex": "#B9C4A2"
+          },
+          {
+            "code": "Plus 24",
+            "name": "Enfant",
+            "hex": "#B5B59F"
+          },
+          {
+            "code": "Plus 25",
+            "name": "École",
+            "hex": "#A3A193"
+          },
+          {
+            "code": "Plus 26",
+            "name": "Porte",
+            "hex": "#77726C"
+          },
+          {
+            "code": "Plus 27",
+            "name": "Jardin",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 28",
+            "name": "Bassin",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 29",
+            "name": "Suite",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 30",
+            "name": "Maison",
+            "hex": "#76726A"
+          },
+          {
+            "code": "Plus 31",
+            "name": "Patron",
+            "hex": "#977F7B"
+          },
+          {
+            "code": "Plus 32",
+            "name": "Beau",
+            "hex": "#ECEDE9"
+          },
+          {
+            "code": "Plus 33",
+            "name": "Chargé",
+            "hex": "#B0ACA6"
+          },
+          {
+            "code": "Plus 34",
+            "name": "Grand",
+            "hex": "#AF8777"
+          },
+          {
+            "code": "Plus 35",
+            "name": "Petit",
+            "hex": "#9F7460"
+          },
+          {
+            "code": "Plus 36",
+            "name": "Poubelle",
+            "hex": "#865852"
+          },
+          {
+            "code": "Plus 37",
+            "name": "Image",
+            "hex": "#AD7369"
+          },
+          {
+            "code": "Plus 38",
+            "name": "Vélo",
+            "hex": "#A7A3A4"
+          },
+          {
+            "code": "Plus 39",
+            "name": "Etage",
+            "hex": "#8D8A87"
+          },
+          {
+            "code": "Plus 40",
+            "name": "Robe",
+            "hex": "#CAC7C1"
+          },
+          {
+            "code": "Plus 41",
+            "name": "Veste",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus 42",
+            "name": "Parti",
+            "hex": "#C4C9C3"
+          },
+          {
+            "code": "Plus 43",
+            "name": "Feuille",
+            "hex": "#BBB7B4"
+          },
+          {
+            "code": "Plus 44",
+            "name": "Fiche",
+            "hex": "#B0ADA6"
+          },
+          {
+            "code": "Plus 45",
+            "name": "Linge",
+            "hex": "#C3BFB6"
+          },
+          {
+            "code": "Plus 46",
+            "name": "Livre",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus 47",
+            "name": "Salin",
+            "hex": "#A7ABAA"
+          },
+          {
+            "code": "Plus 48",
+            "name": "Sabot",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus 49",
+            "name": "Couper",
+            "hex": "#979B9A"
+          },
+          {
+            "code": "Plus 50",
+            "name": "Label",
+            "hex": "#8B877F"
+          },
+          {
+            "code": "Plus 51",
+            "name": "Roue",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 52",
+            "name": "Tour",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 53",
+            "name": "Moudre",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 54",
+            "name": "Broyé",
+            "hex": "#CFC2A9"
+          },
+          {
+            "code": "Plus 55",
+            "name": "Sentir",
+            "hex": "#D3C7BA"
+          },
+          {
+            "code": "Plus 56",
+            "name": "Odeur",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus 57",
+            "name": "Parfum",
+            "hex": "#DED1C7"
+          },
+          {
+            "code": "Plus 58",
+            "name": "Trottoir",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 59",
+            "name": "Tabac",
+            "hex": "#B48C75"
+          },
+          {
+            "code": "Plus 60",
+            "name": "Fossé",
+            "hex": "#9F785C"
+          },
+          {
+            "code": "Plus 61",
+            "name": "Verre",
+            "hex": "#997846"
+          },
+          {
+            "code": "Plus 62",
+            "name": "Boirre",
+            "hex": "#A0805D"
+          },
+          {
+            "code": "Plus 63",
+            "name": "Avion",
+            "hex": "#6B5A5A"
+          },
+          {
+            "code": "Plus 64",
+            "name": "Bouge",
+            "hex": "#D47670"
+          }
+        ]
+      },
+      "basebeton-xtreme": {
+        "name": "Basebeton Xtreme",
+        "tagline": "Tööstuslik epoksüpõranda viimistlus",
+        "description": "Basebeton Xtreme on kolme kihiga raskekoormuslik epoksübaasil mikrotsemendisüsteem (TechStone 2K + Basa + Sense). 64 standardvärvi. Mõeldud kõige nõudlikumatele põrandarakendustele.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Epoksüpõhine vastupidavus",
+            "desc": "TechStone 2K epoksübaas tagab äärmusliku löögikindluse, abrasiivsuskindluse ja keemiakindluse."
+          },
+          {
+            "icon": "layers",
+            "title": "Kolme kihiga süsteem",
+            "desc": "TechStone 2K baas + Basa + Sense. Kolm kihti tagavad erakorralise tugevuse ja pinnakvaliteedi."
           },
           {
             "icon": "thermometer",
-            "title": "Termiline Vastupidavus",
-            "desc": "Ideaalne köögisaartele ja söögilaudadele. Talub kõrgeid temperatuure ja termilist šokki."
+            "title": "Sobib põrandaküttega",
+            "desc": "Heaks kiidetud kasutamiseks põrandaküttesüsteemide peale, kui paigaldatud nõuetekohaselt."
           },
           {
-            "icon": "coffee",
-            "title": "Pleki-kaitse",
-            "desc": "Võimsad lakid kaitsevad veini, kohvi ja õli eest. Loodud funktsionaalseks elegantsiks."
-          },
-          {
-            "icon": "scissors",
-            "title": "Eritellimus-geomeetria",
-            "desc": "Saame katta mis tahes kuju — teravatest servadest pehmete orgaaniliste kumerusteni."
+            "icon": "sun",
+            "title": "64 standardvärvi",
+            "desc": "Saadaval täielikus 64-värviliises Basebetoni paletis ning kohandatud RAL/NCS sobitamisega."
           }
         ],
         "gallery": [
-          "/assets/pages/products/furniture-main.png",
-          "/assets/pages/products/furniture-s1.png",
-          "/assets/pages/products/furniture-s2.png",
-          "/assets/pages/products/furniture-s3.png",
-          "/assets/pages/products/furniture-s4.png"
+          "/assets/pages/products/basebeton-xtreme-luxury.png",
+          "/assets/pages/products/basebeton-xtreme-1.png",
+          "/assets/pages/products/basebeton-xtreme-2.png"
         ],
         "details": {
           "specs": [
-            { "label": "Kaal", "value": "Muutuv" },
-            { "label": "Kuumakindlus", "value": "Kuni 140°C" },
-            { "label": "Viimistlus", "value": "Matt Siid" }
+            {
+              "label": "Süsteem",
+              "value": "3 kihti (TechStone + Basa + Sense)"
+            },
+            {
+              "label": "Baas",
+              "value": "Epoksi 2K (TechStone)"
+            },
+            {
+              "label": "Segamissuhe",
+              "value": "19:1 (A:B komponent)"
+            },
+            {
+              "label": "TechStone kulu",
+              "value": "800–1000 g/m²"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult sisepõrandad"
+            }
           ],
-          "maintenance": "Käsitsege kui premium-kivi.",
-          "philosophy": "Funktsionaalne kunst, mis on voolitud mineraalsest vaikusest."
-        }
+          "maintenance": "Tööstuslikud pH-neutraalsed puhastusvahendid. Väga tahrastuskindel.",
+          "philosophy": "Kus põrandad kohtavad tööstuslike nõudmistega — põrandaviimistlus, mis talub kõike."
+        },
+        "datasheet": "Basebeton-Xtreme-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "XT-01",
+            "name": "Candle",
+            "hex": "#E3DFD7"
+          },
+          {
+            "code": "XT-03",
+            "name": "Mountain",
+            "hex": "#828689"
+          },
+          {
+            "code": "XT-05",
+            "name": "Field",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "XT-07",
+            "name": "Evening",
+            "hex": "#777374"
+          },
+          {
+            "code": "XT-09",
+            "name": "Willow",
+            "hex": "#A29E96"
+          },
+          {
+            "code": "XT-11",
+            "name": "Storm",
+            "hex": "#B1ADA7"
+          },
+          {
+            "code": "XT-13",
+            "name": "Village",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "XT-15",
+            "name": "Bottle",
+            "hex": "#C5C1BE"
+          },
+          {
+            "code": "XT-17",
+            "name": "Sharp",
+            "hex": "#CDC9C2"
+          },
+          {
+            "code": "XT-19",
+            "name": "Biscuit",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "XT-21",
+            "name": "Silver",
+            "hex": "#B0B9BC"
+          },
+          {
+            "code": "XT-23",
+            "name": "Roof",
+            "hex": "#D47771"
+          },
+          {
+            "code": "XT-25",
+            "name": "Elegance",
+            "hex": "#CEC9C2"
+          },
+          {
+            "code": "XT-27",
+            "name": "Shadow",
+            "hex": "#C4C0B7"
+          },
+          {
+            "code": "XT-29",
+            "name": "Brick",
+            "hex": "#C5AD9D"
+          },
+          {
+            "code": "XT-31",
+            "name": "Walnut",
+            "hex": "#B29D90"
+          },
+          {
+            "code": "XT-33",
+            "name": "Muddy",
+            "hex": "#6B5B5B"
+          },
+          {
+            "code": "XT-35",
+            "name": "Slow",
+            "hex": "#C7C9BE"
+          },
+          {
+            "code": "XT-37",
+            "name": "Cliff",
+            "hex": "#A8A4A1"
+          },
+          {
+            "code": "XT-39",
+            "name": "Dune",
+            "hex": "#DED2C3"
+          }
+        ]
       },
-      "baxab-eco": {
-        "name": "Baxab-Eco®",
-        "description": "Säästliku jõudluse tipp. VOC-vaba, üli-vastupidav mineraalne viimistlus teadlikule arhitektile.",
+      "basebeton-solid": {
+        "name": "Basebeton Solid",
+        "tagline": "Tugevaim betoonipõranda krohv",
+        "description": "Basebeton Solid on epoksübaasil betoonimaaling mikroniseeritud kvartsiga — põrandatele, mööblile ja seintele. Tugevaim betoonimaaling oma valdkonnas. 22 omavärvi ja täielik 64-värviline Basebetoni valik.",
         "features": [
-          { "icon": "leaf", "title": "VOC-vaba", "desc": "Null lenduvat orgaanilist ühendit. Sertifitseeritud kõrgeima siseõhu kvaliteedi standardi järgi." },
-          { "icon": "shield", "title": "Kõrge Vastupidavus", "desc": "Erakordne vastupidavus löökidele ja kriimustustele vaatamata ökoloogilisele koostisele." },
-          { "icon": "droplets", "title": "Pleki-kindel", "desc": "Nanotehnoloogilised lakid tagavad, et isegi raskesti eemaldatavad vedelikud ei imbu sisse." }
+          {
+            "icon": "shield",
+            "title": "Maksimaalne tugevus",
+            "desc": "Epoksüvalem muudab Basebeton Solidi tugevaimate betoonmaalingute hulka — nõudlikemate põrandapindade jaoks."
+          },
+          {
+            "icon": "droplets",
+            "title": "Kinnitatud märgaladele",
+            "desc": "Täielikult sobib märgaladesse, sh vannitubadesse, duširuumidesse ja basseiniäärsetele aladele."
+          },
+          {
+            "icon": "layers",
+            "title": "Kolme kihiga konstruktsioon",
+            "desc": "TechStone 2K baas + Solid Basa + Solid Sense — erakordne struktuuriline terviklikkus."
+          },
+          {
+            "icon": "thermometer",
+            "title": "Põrandaküttega ühilduv",
+            "desc": "Ohutu kasutada põrandaküttesüsteemide peale nõuetekohase paigalduse korral."
+          }
         ],
-        "gallery": ["/assets/surfaces/baxab.png"],
+        "gallery": [
+          "/assets/pages/products/basebeton-solid-luxury.png",
+          "/assets/pages/products/basebeton-solid-1.png",
+          "/assets/pages/products/basebeton-solid-2.png"
+        ],
         "details": {
           "specs": [
-            { "label": "Jätkusuutlikkus", "value": "100% Öko-sertifikaat" },
-            { "label": "Paksus", "value": "3.0 mm" },
-            { "label": "Kõvadus", "value": "Shore D 85" }
+            {
+              "label": "Süsteem",
+              "value": "3 kihti epoksi"
+            },
+            {
+              "label": "Värvid",
+              "value": "22 omavärvi + 64 Basebetoni standardvärvi"
+            },
+            {
+              "label": "Baaskiht",
+              "value": "TechStone 2K epoksi"
+            },
+            {
+              "label": "Aluspinna tasasus",
+              "value": "Klass 2 või kõrgem"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Siseruumides (põrandad, seinad, mööbel)"
+            }
           ],
-          "maintenance": "Puhastage biolagunevate pH-neutraalsete seepidega.",
-          "philosophy": "Jätkusuutlikkus ilma kompromissideta."
-        }
+          "maintenance": "Pühkige niiske lapiga. Kommertspuhastusvahendid on ohutud. Perioodilist tihendamist ei nõuta.",
+          "philosophy": "Tugevus ilma kompromissideta — epoksübetoon, mis ei tagane kunagi."
+        },
+        "datasheet": "Basebeton-Solid-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "BBS-01",
+            "name": "Morning",
+            "hex": "#D1CDCA"
+          },
+          {
+            "code": "BBS-02",
+            "name": "Gravel",
+            "hex": "#999184"
+          },
+          {
+            "code": "BBS-03",
+            "name": "Elegance",
+            "hex": "#8C7F7F"
+          },
+          {
+            "code": "BBS-04",
+            "name": "Marble",
+            "hex": "#9B9084"
+          },
+          {
+            "code": "BBS-10",
+            "name": "Phantom",
+            "hex": "#95918E"
+          },
+          {
+            "code": "BBS-16",
+            "name": "Chalk",
+            "hex": "#B7B4A9"
+          },
+          {
+            "code": "BBS-18",
+            "name": "Creme",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "BBS-27",
+            "name": "Show",
+            "hex": "#BE855B"
+          },
+          {
+            "code": "BBS-30",
+            "name": "Leaves",
+            "hex": "#96947C"
+          },
+          {
+            "code": "BBS-32",
+            "name": "Dolphin",
+            "hex": "#908070"
+          },
+          {
+            "code": "BBS-34",
+            "name": "Plain",
+            "hex": "#A08E80"
+          },
+          {
+            "code": "BBS-38",
+            "name": "Sugar",
+            "hex": "#D2CFC7"
+          },
+          {
+            "code": "BBS-48",
+            "name": "Pelt",
+            "hex": "#A5A29F"
+          },
+          {
+            "code": "BBS-50",
+            "name": "Early",
+            "hex": "#C6C1BA"
+          },
+          {
+            "code": "BBS-52",
+            "name": "Mamut",
+            "hex": "#B9BAB5"
+          },
+          {
+            "code": "BBS-54",
+            "name": "Frost",
+            "hex": "#A9A4A1"
+          },
+          {
+            "code": "BBS-55",
+            "name": "Block",
+            "hex": "#B0B1AC"
+          },
+          {
+            "code": "BBS-58",
+            "name": "Salted",
+            "hex": "#A4A09D"
+          },
+          {
+            "code": "BBS-60",
+            "name": "Trunk",
+            "hex": "#7C7D79"
+          },
+          {
+            "code": "BBS-64",
+            "name": "Scones",
+            "hex": "#BAA17E"
+          },
+          {
+            "code": "BBS-66",
+            "name": "Dale",
+            "hex": "#AFA292"
+          }
+        ]
       },
-      "ecocemento": {
-        "name": "EcoCemento®",
-        "description": "Esimene VOC-vaba mikrotsement turul. Universaalne lahendus tervislike elukeskkondade loomiseks.",
+      "basebeton-grit": {
+        "name": "Basebeton Grit",
+        "tagline": "Jätkusuutlik betoonpõranda krohv",
+        "description": "Basebeton Grit on kahe kihiga kõrgkindel betoonstukk mikroniseeritud kvartsiga raskekoormuslikele põrandatele. Loob sileda, saumväärse viimistluse autentse betoonilookiga. 20 standardvärvi.",
         "features": [
-          { "icon": "leaf", "title": "Roheline Märgis", "desc": "Keskkonnasõbralikud mineraalsed komponendid kohalikest karjääridest." },
-          { "icon": "sparkles", "title": "Loomulik Tekstuur", "desc": "Pehme mineraalne välimus, mis toob kaasaegsetesse ruumidesse soojust." }
+          {
+            "icon": "shield",
+            "title": "Raskekoormuslik põrandasüsteem",
+            "desc": "Eelkõige mõeldud raskete koormuste all olevatele põrandatele — äärmuslik vastupidavus."
+          },
+          {
+            "icon": "edit",
+            "title": "Autentne griiditekstuura",
+            "desc": "Iseloomulik tekstuuritud pind loomuliku betooniteraga — saumvaba ja arhitektuurselt rafineeritud."
+          },
+          {
+            "icon": "droplets",
+            "title": "Märgalaks valmis",
+            "desc": "Kandke SA AquaStop tihend enne Basebeton Griti täieliku märgala veekindluse saavutamiseks."
+          },
+          {
+            "icon": "leaf",
+            "title": "Jätkusuutlik betoonesteetika",
+            "desc": "Madal süsinikhäälestus, EC1 Plus sertifitseeritud. Mõeldud pikaealisuse ja jätkusuutlikkuse silmas pidades."
+          }
         ],
-        "gallery": ["/assets/surfaces/ecocemento.png"],
+        "gallery": [
+          "/assets/pages/products/basebeton-grit-luxury.png",
+          "/assets/pages/products/basebeton-grit-1.png",
+          "/assets/pages/products/basebeton-grit-2.png"
+        ],
         "details": {
           "specs": [
-            { "label": "VOC Sisaldus", "value": "0.0 g/L" },
-            { "label": "Kasutusala", "value": "Põrandad ja Seinad" }
+            {
+              "label": "Süsteem",
+              "value": "2K (TechStone + Grit Basa)"
+            },
+            {
+              "label": "Värvid",
+              "value": "20 standardvärvi"
+            },
+            {
+              "label": "TechStone kulu",
+              "value": "800–1000 g/m²"
+            },
+            {
+              "label": "Töövahend",
+              "value": "Roostevaba teraspahtlid"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult sisepõrandad"
+            }
           ],
-          "maintenance": "Regulaarne niiske moppimine looduslike vahenditega.",
-          "philosophy": "Puhas mineraalne essents."
-        }
+          "maintenance": "pH-neutraalsed puhastusvahendid. Tahrastus- ja löögikindel. Minimaalne hooldus.",
+          "philosophy": "Tööstuslik tugevus, rafineeritud tekstuura — raskekoormuslik põrand, mis ei tee visuaalseid järeleandmisi."
+        },
+        "datasheet": "Basebeton-Grit-User-Manual-Technical-Datasheet-2024.08.pdf",
+        "productColors": [
+          {
+            "code": "BBG-101",
+            "name": "Dun Briste",
+            "hex": "#7E7976"
+          },
+          {
+            "code": "BBG-102",
+            "name": "Camps Bay",
+            "hex": "#B0A999"
+          },
+          {
+            "code": "BBG-104",
+            "name": "Cliffton",
+            "hex": "#9F988A"
+          },
+          {
+            "code": "BBG-105",
+            "name": "Navagio Beach",
+            "hex": "#D7CBBD"
+          },
+          {
+            "code": "BBG-107",
+            "name": "Cocoa Island",
+            "hex": "#7F7B7C"
+          },
+          {
+            "code": "BBG-108",
+            "name": "Stivina",
+            "hex": "#CCBEAF"
+          },
+          {
+            "code": "BBG-109",
+            "name": "Pinksand Beach",
+            "hex": "#B79E90"
+          },
+          {
+            "code": "BBG-112",
+            "name": "Baga",
+            "hex": "#737374"
+          },
+          {
+            "code": "BBG-113",
+            "name": "Blacksand Beach",
+            "hex": "#5A5B5B"
+          },
+          {
+            "code": "BBG-114",
+            "name": "Tayrona",
+            "hex": "#8F9090"
+          },
+          {
+            "code": "BBG-115",
+            "name": "Seagrass Bay",
+            "hex": "#BBB9AF"
+          },
+          {
+            "code": "BBG-121",
+            "name": "Astola",
+            "hex": "#A39F96"
+          },
+          {
+            "code": "BBG-122",
+            "name": "Varadero",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-125",
+            "name": "Calabar",
+            "hex": "#9F9587"
+          },
+          {
+            "code": "BBG-127",
+            "name": "Nissi",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-130",
+            "name": "Agando",
+            "hex": "#9F9588"
+          },
+          {
+            "code": "BBG-131",
+            "name": "Cappadocia",
+            "hex": "#BDBAB2"
+          },
+          {
+            "code": "BBG-133",
+            "name": "White Desert",
+            "hex": "#A49F97"
+          },
+          {
+            "code": "BBG-134",
+            "name": "Chimney",
+            "hex": "#C9C2B3"
+          },
+          {
+            "code": "BBG-138",
+            "name": "Diani",
+            "hex": "#CCBEAF"
+          }
+        ]
       },
-      "baxab": {
-        "name": "Baxab®",
-        "description": "Kõige arenenum saadaolev mikrotsemendi süsteem. Loodud ülima vastupidavuse tagamiseks nõudlikes tingimustes.",
+      "stuccopuro": {
+        "name": "Stuccopuro",
+        "tagline": "Dekoratiivne mattkrohv betoonilookiga",
+        "description": "Stuccopuro on mineraal- ja plastiksiduriga dekoratiivne sisekrohv mati betoonilookiga. Valmiskasutamiseks. Saadaval 60 kordumatut värvi + RAL/NCS. Ainult kuivade ruumide seintele.",
         "features": [
-          { "icon": "shield", "title": "Purunematu", "desc": "Tugevdatud kõrgjõudlusega polümeeridega ekstreemse vastupidavuse saavutamiseks." },
-          { "icon": "zap", "title": "Äriklassi Tase", "desc": "Ideaalne suure koormusega avalikesse ruumidesse, muuseumidesse ja esinduskauplustesse." }
+          {
+            "icon": "sparkles",
+            "title": "Matt betoonesteetika",
+            "desc": "Keerukas matt betoonilook — pehmem ja soojem kui standardne mikrotsement, ideaalne elutubadesse ja hotellipindadele."
+          },
+          {
+            "icon": "layers",
+            "title": "Kahe kihiga pealekanne",
+            "desc": "Esimene kiht määrab lõpliku välimuse ja tekstuuri. Teine kiht kraabitakse nii õhukeselt kui 0,1–0,5 mm."
+          },
+          {
+            "icon": "sun",
+            "title": "60 kordumatu värviga",
+            "desc": "60 hoolikalt valitud värvi pluss kohandatud RAL ja NCS sobitamine."
+          },
+          {
+            "icon": "shield",
+            "title": "Mineraal-plastiksidum",
+            "desc": "Hübriidsidem tagab paindlikkuse, adhesiooni ja vastupidavuse."
+          }
         ],
-        "gallery": ["/assets/surfaces/baxab.png"],
+        "gallery": [
+          "/assets/pages/products/stuccopuro-luxury.png",
+          "/assets/pages/products/stuccopuro-1.png"
+        ],
         "details": {
           "specs": [
-            { "label": "Survetugevus", "value": "Üli-kõrge" },
-            { "label": "Viimistlus", "value": "Poleeritud / Satiin" }
+            {
+              "label": "Värvid",
+              "value": "60 kordumatu + RAL/NCS"
+            },
+            {
+              "label": "Süsteem",
+              "value": "2 kihti dekoratiivkrohv"
+            },
+            {
+              "label": "2. kihi paksus",
+              "value": "0,1–0,5 mm"
+            },
+            {
+              "label": "Töövahend",
+              "value": "Roostevaba teraskühvel"
+            },
+            {
+              "label": "Kasutus",
+              "value": "Ainult sise-kuivad alad"
+            }
           ],
-          "maintenance": "Vajab minimaalset hooldust. Erakordselt lihtne puhastada.",
-          "philosophy": "Vastupidavuse standard."
-        }
-      },
-      "microcemento": {
-        "name": "Microcemento®",
-        "description": "Klassikaline, mitmekülgne mikrotsemendi viimistlus. Õmblusteta jätkuvus igale pinnale ilma lammutustööde vajaduseta.",
-        "features": [
-          { "icon": "layers", "title": "Ultra-õhuke", "desc": "Vaid 2-3 mm paksus, ideaalne renoveerimiseks otse plaatide peale." },
-          { "icon": "edit", "title": "Käsitööna Viimistletud", "desc": "Paigaldatud meistrite poolt unikaalse ja autentse tekstuuri saavutamiseks." }
-        ],
-        "gallery": ["/assets/surfaces/microcemento.png"],
-        "details": {
-          "specs": [
-            { "label": "Paksus", "value": "2.0 - 3.0 mm" },
-            { "label": "Aluspinnad", "value": "Universaalne Nake" }
-          ],
-          "maintenance": "Perioodiline vahatamine võib rõhutada loomulikku patinat.",
-          "philosophy": "Lõuend sinu eluruumile."
-        }
-      },
-      "tswim": {
-        "name": "T/Swim®",
-        "description": "Spetsiaalselt basseinidele ja märgadele keskkondadele loodud. Veekindel, kloorikindel ja libisemisvastane.",
-        "features": [
-          { "icon": "droplet", "title": "Basseinide Spetsialist", "desc": "Loodud taluma pidevat vettekastmist ja veesurvet." },
-          { "icon": "check-circle", "title": "Ohutus Ennekõike", "desc": "Integreeritud libisemisvastased omadused turvalise keskkonna tagamiseks." }
-        ],
-        "gallery": ["/assets/surfaces/tswim.png"],
-        "details": {
-          "specs": [
-            { "label": "Kemikaali-kindlus", "value": "Kloor ja Sool" },
-            { "label": "Tekstuur", "value": "Haarduvust parandav" }
-          ],
-          "maintenance": "Vee pH tasakaal on pikaealisuse jaoks kriitiline.",
-          "philosophy": "Vedel jätkuvus."
-        }
-      },
-      "summery": {
-        "name": "Summery®",
-        "description": "Uuenduslik mikrotsemendi süsteem integreeritud küttevõimalusega. Mugavus ja esteetika ühes kihis.",
-        "features": [
-          { "icon": "thermometer", "title": "Termiline Kiht", "desc": "Integreerib kütteelemendid otse mikrotsemendi kihtide vahele." },
-          { "icon": "sun", "title": "Kiirgus-soojus", "desc": "Ühtlane ja mahe soojusjaotus vannitubades ja eluruumides." }
-        ],
-        "gallery": ["/assets/surfaces/summery.png"],
-        "details": {
-          "specs": [
-            { "label": "Süsteem", "value": "Integreeritud Küte" },
-            { "label": "Energiatõhusus", "value": "Kõrge" }
-          ],
-          "maintenance": "Standardne mikrotsemendi hooldus.",
-          "philosophy": "Soojus, mida on tunda."
-        }
-      },
-      "real-metals": {
-        "name": "Real Metals®",
-        "description": "Autentne metallist mikrotsement, mis sisaldab ehtsat metallipulbrit sofistikeeritud ja luksusliku viimistluse saavutamiseks.",
-        "features": [
-          { "icon": "sparkles", "title": "Ehtne Metall", "desc": "Sisaldab pronksi-, vase- või tsingipulbrit tõelise metallilise läike saavutamiseks." },
-          { "icon": "zap", "title": "Reaktiivne Patina", "desc": "Võimalik vanandada või poleerida elava arhitektuurse pinna loomiseks." }
-        ],
-        "gallery": ["/assets/surfaces/real-metals.png"],
-        "details": {
-          "specs": [
-            { "label": "Metallid", "value": "Pronks, Tsink, Vask" },
-            { "label": "Efekt", "value": "Oksüdeeritud / Poleeritud" }
-          ],
-          "maintenance": "Vältige happelisi puhastusvahendeid, mis võivad patinat kahjustada.",
-          "philosophy": "Pindade alkeemia."
-        }
-      },
-      "silk-concrete": {
-        "name": "Siidibetoon",
-        "description": "ÜLISILE, MATT VIIMISTLUS PEHME TEKSTUURIGA.",
-        "features": [
-          { "icon": "sparkles", "title": "Pehme Puudutus", "desc": "Tekstuur, mis tundub sõrmeotste all nagu siid, säilitades betooni vastupidavuse." },
-          { "icon": "eye", "title": "Sügav Matt", "desc": "Peegeldusteta viimistlus, mis neelab valgust pehme ja atmosfäärse kuma loomiseks." }
-        ],
-        "gallery": ["/assets/pages/products/silk-concrete.png"],
-        "details": {
-          "specs": [
-            { "label": "Viimistlus", "value": "Ultra-matt" },
-            { "label": "Tekstuur", "value": "Siidpehme" }
-          ],
-          "maintenance": "Pühkige pehme niiske lapiga.",
-          "philosophy": "Vaikus, mida saab katsuda."
-        }
-      },
-      "polished-stone": {
-        "name": "Poleeritud Kivi",
-        "description": "ÕRN LÄIGE SÜGAVA MINERAALSE KIHI JA KRISTALSETE PEEGELDUSTEGA.",
-        "features": [
-          { "icon": "zap", "title": "Mineraalne Sügavus", "desc": "Kihilised mineraalid loovad pinna sees kolmemõõtmelise sügavuse tunde." },
-          { "icon": "sun", "title": "Kristalne Sära", "desc": "Õrnad peegeldused, mis reageerivad loomulikule valgusele päeva jooksul." }
-        ],
-        "gallery": ["/assets/pages/products/polished-stone.png"],
-        "details": {
-          "specs": [
-            { "label": "Viimistlus", "value": "Satiinläige" },
-            { "label": "Efekt", "value": "Mineraalne Sügavus" }
-          ],
-          "maintenance": "Regulaarne puhastamine säilitab peene läike.",
-          "philosophy": "Valgus kivi sees."
-        }
-      },
-      "velvet-mineral": {
-        "name": "Sametine Mineraal",
-        "description": "TIHE SAMETINE TEKSTUUR, MIS NEELAB JA HAJUTAB VALGUST KAUNILT.",
-        "features": [
-          { "icon": "layers", "title": "Sametine Tihedus", "desc": "Tihe ja rikkalik tekstuur, mis annab igale seinale või põrandale luksusliku tunde." },
-          { "icon": "cloud", "title": "Valguse Hajutamine", "desc": "Hajutab valgust täiuslikult, eemaldades teravad varjud ja luues rahustava keskkonna." }
-        ],
-        "gallery": ["/assets/pages/products/velvet-mineral.png"],
-        "details": {
-          "specs": [
-            { "label": "Viimistlus", "value": "Sametmatt" },
-            { "label": "Tihedus", "value": "Kõrge Mineraalsus" }
-          ],
-          "maintenance": "Lihtne hooldada vaatamata rikkalikule tekstuurile.",
-          "philosophy": "Atmosfäärne kaal."
-        }
+          "maintenance": "Kuivpuhastus või väga kergelt niiske lapp. Ei sobi märgpuhastuseks.",
+          "philosophy": "Piirangute kunst — matt betoonelegants ilma raskuseta."
+        },
+        "datasheet": "Stuccopuro-User-Manual-Technical-Datasheet-2024.07.pdf",
+        "productColors": [
+          {
+            "code": "SP 01",
+            "name": "Senape",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 02",
+            "name": "Olio",
+            "hex": "#7F826E"
+          },
+          {
+            "code": "SP 03",
+            "name": "Foresta",
+            "hex": "#827C67"
+          },
+          {
+            "code": "SP 04",
+            "name": "Alto",
+            "hex": "#A1967D"
+          },
+          {
+            "code": "SP 05",
+            "name": "Sedona",
+            "hex": "#887C65"
+          },
+          {
+            "code": "SP 06",
+            "name": "Lido",
+            "hex": "#706349"
+          },
+          {
+            "code": "SP 07",
+            "name": "Ficre",
+            "hex": "#DBE2CE"
+          },
+          {
+            "code": "SP 08",
+            "name": "Amaro",
+            "hex": "#B1BEAD"
+          },
+          {
+            "code": "SP 09",
+            "name": "Sabbina",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 10",
+            "name": "Mela",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 11",
+            "name": "Cotta",
+            "hex": "#D3A696"
+          },
+          {
+            "code": "SP 12",
+            "name": "Panna",
+            "hex": "#C8BBAA"
+          },
+          {
+            "code": "SP 13",
+            "name": "Caramello",
+            "hex": "#A05D4F"
+          },
+          {
+            "code": "SP 14",
+            "name": "Sole",
+            "hex": "#BA9F71"
+          },
+          {
+            "code": "SP 15",
+            "name": "Riso",
+            "hex": "#CED3CD"
+          },
+          {
+            "code": "SP 16",
+            "name": "Mare",
+            "hex": "#A9AB9F"
+          },
+          {
+            "code": "SP 17",
+            "name": "Sardina",
+            "hex": "#D1CCB7"
+          },
+          {
+            "code": "SP 18",
+            "name": "Uno",
+            "hex": "#A3AEAA"
+          },
+          {
+            "code": "SP 19",
+            "name": "Vico",
+            "hex": "#959F9B"
+          },
+          {
+            "code": "SP 20",
+            "name": "Timo",
+            "hex": "#BEC0B2"
+          },
+          {
+            "code": "SP 21",
+            "name": "Salvia",
+            "hex": "#D8D9D3"
+          },
+          {
+            "code": "SP 22",
+            "name": "Mora",
+            "hex": "#927360"
+          },
+          {
+            "code": "SP 23",
+            "name": "Putta",
+            "hex": "#ECE0CE"
+          },
+          {
+            "code": "SP 24",
+            "name": "Sabbia",
+            "hex": "#A1865A"
+          },
+          {
+            "code": "SP 25",
+            "name": "Cossa",
+            "hex": "#DEDEDE"
+          },
+          {
+            "code": "SP 26",
+            "name": "Porto",
+            "hex": "#7A99A7"
+          },
+          {
+            "code": "SP 27",
+            "name": "Menta",
+            "hex": "#7AA0A6"
+          },
+          {
+            "code": "SP 28",
+            "name": "Pianto",
+            "hex": "#958A93"
+          },
+          {
+            "code": "SP 29",
+            "name": "Arla",
+            "hex": "#9B9597"
+          },
+          {
+            "code": "SP 30",
+            "name": "Scuro",
+            "hex": "#595959"
+          },
+          {
+            "code": "SP 31",
+            "name": "Salsa",
+            "hex": "#36312E"
+          },
+          {
+            "code": "SP 32",
+            "name": "Strada",
+            "hex": "#4D4946"
+          },
+          {
+            "code": "SP 33",
+            "name": "Salto",
+            "hex": "#A9AB9E"
+          },
+          {
+            "code": "SP 34",
+            "name": "Brista",
+            "hex": "#DFCCB0"
+          },
+          {
+            "code": "SP 35",
+            "name": "Porso",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 36",
+            "name": "Pepe",
+            "hex": "#68797E"
+          },
+          {
+            "code": "SP 37",
+            "name": "Oliva",
+            "hex": "#687A7E"
+          },
+          {
+            "code": "SP 38",
+            "name": "Erba",
+            "hex": "#645F5C"
+          },
+          {
+            "code": "SP 39",
+            "name": "Isola",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 40",
+            "name": "Tropi",
+            "hex": "#B4B5B1"
+          },
+          {
+            "code": "SP 41",
+            "name": "Cabo",
+            "hex": "#F3EFDD"
+          },
+          {
+            "code": "SP 42",
+            "name": "Gelato",
+            "hex": "#E7E4D2"
+          },
+          {
+            "code": "SP 43",
+            "name": "Dolce",
+            "hex": "#F3EBE0"
+          },
+          {
+            "code": "SP 44",
+            "name": "Pietra",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 45",
+            "name": "Torta",
+            "hex": "#C1C0A5"
+          },
+          {
+            "code": "SP 46",
+            "name": "Puri",
+            "hex": "#DED1B4"
+          },
+          {
+            "code": "SP 47",
+            "name": "Torno",
+            "hex": "#8D8D8D"
+          },
+          {
+            "code": "SP 48",
+            "name": "Uovo",
+            "hex": "#E6DED6"
+          },
+          {
+            "code": "SP 49",
+            "name": "Albero",
+            "hex": "#D0C8BE"
+          },
+          {
+            "code": "SP 50",
+            "name": "Mucca",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 51",
+            "name": "Parco",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 52",
+            "name": "Secco",
+            "hex": "#8A8372"
+          },
+          {
+            "code": "SP 53",
+            "name": "Burra",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 54",
+            "name": "Mandurla",
+            "hex": "#BBB5AD"
+          },
+          {
+            "code": "SP 55",
+            "name": "Verdura",
+            "hex": "#697D7C"
+          },
+          {
+            "code": "SP 56",
+            "name": "Lana",
+            "hex": "#859494"
+          },
+          {
+            "code": "SP 57",
+            "name": "Rivero",
+            "hex": "#939E9A"
+          },
+          {
+            "code": "SP 58",
+            "name": "Sea",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 59",
+            "name": "Oceano",
+            "hex": "#B4BEBB"
+          },
+          {
+            "code": "SP 60",
+            "name": "Casse",
+            "hex": "#BD9375"
+          }
+        ]
       }
     },
     "products_types": {
@@ -481,212 +2715,306 @@
       "efficiency": "Teame, et aeg on väärtuslik, seepärast arendasime välja kiiresti kuivava vaigusüsteemi. Kaunid pinnad, mis on kasutatavad vaid 24 tundi pärast paigaldamist.",
       "items": [
         {
+          "name": "Baxab® Eco",
           "slug": "baxab-eco",
-          "name": "Baxab-Eco®",
-          "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
-          "desc": "Parim valik keskkonnateadlikele. VOC-vaba, üli-vastupidav ning pleki-, kriimustus- ja löögikindel."
+          "ideal": "Kõrge koormusega äripinnad, köögid, avalikud ruumid.",
+          "desc": "Valdkonna vastupidavaim mikrotsement, nüüd ilma VOC-ühenditeta. Järeleandmatu struktuurne tugevus kohtub ökoloogilise vastutustundega."
         },
         {
-          "slug": "ecocemento",
+          "name": "Interjöörikunst & Dekoor",
+          "slug": "deco-walls",
+          "ideal": "Aktsentseinad, luksuslikud eluruumid, eritellimusmööbel.",
+          "desc": "Eritellimusel mineraalsed installatsioonid, käsitööna voolitud reljeefid ja skulpturaalne pinnakunst. Kus arhitektuurne vorm kohtub käsitöö vaikse luksusega."
+        },
+        {
           "name": "EcoCemento®",
+          "slug": "ecocemento",
           "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
-          "desc": "Esimene VOC-vaba mikrotsement turul. Kõrge vastupidavus plekkidele ja kriimustustele, lihtne hooldada."
+          "desc": "Revolutsiooniline VOC-vaba süsteem tervislikuks elukeskkonnaks. Erakordne kulumiskindlus koos pehme, naturaalse mineraalse esteetikaga."
         },
         {
           "slug": "baxab",
           "name": "Baxab®",
           "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
-          "desc": "Kõige edasijõudnum mikrotsement turul. Erakordselt vastupidav pragudele, plekkidele ja kriimustustele."
+          "desc": "Kõrge jõudlusega mikrotsemendi globaalne etalon. Loodud äärmuslikuks vastupidavuseks pragudele, löökidele ja suurele koormusele."
         },
         {
           "slug": "microcemento",
           "name": "Microcemento®",
           "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
-          "desc": "Pidev pinnalahendus, mis ei nõua lammutustöid. Universaalne ja väga kulumiskindel."
+          "desc": "Originaalne vuugivaba pinnalahendus. Universaalne, õhukese profiiliga paigaldus, mis välistab vajaduse lammutustöödeks, pakkudes samas ülimat kulumiskindlust."
         },
         {
           "slug": "tswim",
           "name": "T/Swim®",
           "ideal": "Basseinid.",
-          "desc": "Spetsiaalselt basseinidele loodud. Veekindel, kloorikindel ja libisemisvastane suurema ohutuse tagamiseks."
+          "desc": "Spetsialiseeritud veekindel tehnoloogia veekeskkondadesse. Kloorikindel ja libisemiskindluse sertifikaadiga turvaliste, monoliitsete basseinipindade jaoks."
         },
         {
           "slug": "summery",
           "name": "Summery®",
           "ideal": "Põrandad, seinad, vannitoad ja köögid.",
-          "desc": "Sisaldab integreeritud küttesüsteemi. Ideaalne põrandate ja seinte soojendamiseks, säilitades samas vastupidavuse."
+          "desc": "Intelligentne termiline integratsioon. Kõrge vastupidavusega mineraalne viimistlus, mis koondab endas arenenud küttevõimekust põrandatele ja seintele."
         },
         {
           "slug": "real-metals",
           "name": "Real Metals®",
           "ideal": "Sise-põrandad, seinad, mööbel ja töötasapinnad.",
-          "desc": "Sisaldab ehtsat metallipulbrit metallist viimistluse loomiseks. Lisab elegantsi ja sofistikeeritust koos kõrge vastupidavusega."
+          "desc": "Autentne metalliline sügavus. Ehtsad metallipulbrid mineraalses maatriksis loovad elava ja sofistikeeritud viimistluse, mis ajas areneb."
         }
       ]
     }
   },
   "story": {
-    "title": "Materiaalsuse Pärand",
-    "subtitle": "Sündinud toormineraalide ja skulptuurse ambitsiooni ristumiskohas, asutati KUUS DESIGN ühe eesmärgiga: luua pindu, mis määratlevad atmosfääri läbi kõrge kontrastsusega materiaalsuse.",
+    "title": "Meie Lugu",
+    "subtitle": "Soovime luua pindu, mis kestavad põlvest põlve ja kannavad endas tõelist käsitöö väärtust.",
     "sections": {
       "origin": {
-        "title": "Toores Algus",
-        "text": "Meie teekond algas väikeses tööstusstuudios, kus eksperimenteerisime traditsiooniliste mineraalsegudega. Otsisime materjali, mis kannaks betooni tugevust, kuid siidi taktikalist elegantsi."
+        "title": "Kuidas see algas",
+        "text": "Kõik sai alguse ühe lihtsa mõttega – me tahtsime luua ruume, kus materjalid ja tunded kohtuvad.\nMe oleme alati olnud seda usku, et kodu ei ole lihtsalt seinad ja põrand, vaid terviklik kogemus.\n\nSellel pikkal ja põneval avastusretkel. Testisime erinevaid segusid, tundsime oma sõrmedega iga tekstuuri ja jälgisime, kuidas erinevad pinnad valgusega mängivad.\n\nSelle protsessi käigus kujunes meil välja väga kindel maitse. Me mõistsime, et me ei taha olla lihtsalt ühe toote edasimüüjad. Me tahtsime valida välja parimad materjalid, millesse me ise sajaprotsendiliselt usume, ja need oma kätega – ning suure kirega – teie kodudesse tuua.\n\nTänaseks on KUUS DESIGN enamat kui lihtsalt paigaldusmeeskond. Oleme partnerid neile, kes hindavad detailideni lihvitud interjööri. Meie töölaual on koos nii mikrotsemendi paigaldamine kui ka läbimõeldud dekoorielementide disainimine.\n\nOleme oma teekonnal leidnud materjalid ja partnerid, keda usaldame igas projektis. See annab meile vabaduse keskenduda kõige olulisemale: sellele, kuidas muuta teie ideed ja unistused elavaks ruumiks, mis pakub rõõmu aastateks.\n\nMeie jaoks on iga projekt natuke nagu oma kodu loomine. Tuleme, kuulame, ja viime ellu – täpselt nii, nagu tegime seda oma päris esimeses stuudios."
       },
       "philosophy": {
-        "title": "Vaikuse Käsitöö",
-        "text": "Massiliselt toodetud ühetaolisuse maailmas valime meie kätetöö rütmi. Iga kiht KUUS DESIGN materjali kantakse peale meistri poolt."
+        "title": "Meistri Käejälg",
+        "text": "Iga pind, mille loome, on kordumatu teos. Me ei kasuta masinaid, vaid usaldame oma käsi. See käsitsi paigaldatud rütm tähendab, et valgus ja varjud mängivad seintel ja põrandatel iga kord isemoodi, andes teie kodu interjöörile unikaalse hinge."
       }
     }
   },
   "projects": {
     "title": "Arhitektuurne Portfell",
     "subtitle": "Valik eksklusiivseid ruume, kus materiaalsus kohtub visiooniga.",
+    "labels": {
+      "year": "Aasta",
+      "architect": "Arhitekt",
+      "surface_area": "Pindala",
+      "tone": "Toon",
+      "case_study": "Objekt",
+      "location": "Asukoht",
+      "explore": "Loe lähemalt",
+      "back": "Tagasi Portfelli"
+    },
     "items": {
-      "villa": {
-        "name": "Villa Mediterranean",
-        "location": "Toscana, IT",
-        "year": "2023",
-        "description": "Sise- ja välistingimuste mikrotsemendist terrasside sujuv integratsioon."
-      },
       "boutique": {
-        "name": "Kontseptsioonipood",
-        "location": "Tokyo, JP",
+        "name": "TARTU LUKSUSLIK ERAMU",
+        "location": "Tartu, EE",
         "year": "2024",
-        "description": "Minimalistlik jaeinterjöör hall-matte mikrotsemendiga."
+        "description": "Luksuslik interjöör EcoCemento® mineraalse sügavusega.",
+        "longDescription": "Selles Tartu luksuseramus valiti Topcret EcoCemento® selle 100% VOC-vaba koostise ja loomuliku mineraalse sügavuse tõttu. 'Marfil' tonaalsus loob sooja ja tekstuurse atmosfääri, mis mängib kaunilt koos päeva jooksul muutuva valgusega."
+      },
+      "eramu": {
+        "name": "Eramu Tartu 2026",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "description": "Ekstreemne vastupidavus ja tippdisain Baxab® tehnoloogiaga.",
+        "longDescription": "See projekt esindab meie visiooni tuleviku kodust. Kasutasime Topcret Baxab® süsteemi läbi terve elumaja, et tagada 'purunematu' vastupidavus suure koormusega tsoonides. Skulpturaalsed trepid ja monoliitsed eluruumid on selle eramu arhitektuursed pärlid."
+      },
+      "lino": {
+        "name": "TARTU LUKSUSLIK VANNIBAAS",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "description": "Monoliitne märgala esteetika T/Swim® tehnoloogiaga.",
+        "longDescription": "Toores mineraalsus kohtub funktsionaalse luksusega. Kasutades T/Swim® tehnoloogiat, lõime täielikult veekindla ja libisemiskindla oaasiks, kus vuugivabad pinnad rõhutavad käsitöömeistri jäetud rütmilist tekstuuri."
       },
       "spa": {
-        "name": "Aurora Spa",
-        "location": "Reykjavik, IS",
-        "year": "2022",
-        "description": "Orgaanilised kaarjad mikrotsemendist vormid."
+        "name": "TALLINN ERAMU",
+        "location": "Tallinn, EE",
+        "year": "2025",
+        "description": "Moodne eramu minimalistliku ja valgusküllase mikrotsemendi lahendusega.",
+        "longDescription": "Tallinna eramus kasutasime seamless mikrotsementi põrandatel ja seintel, luues rahuliku, voolava ja valgusküllase põhjamaise keskkonna, mis harmoneerub täiuslikult puidu ning betooniga."
       }
     }
   },
   "faq": {
-    "title": "Levinud Küsimused",
-    "subtitle": "Mineraalse paigalduse tehnilised nüansid ja eripärad.",
+    "abbr": "Küsimused ja vastused",
+    "title": "Tehnilised küsimused",
+    "subtitle": "Siin on vastused levinumatele küsimustele meie materjalide ja paigalduse kohta.",
     "items": [
       {
-        "question": "Mis on paigalduse tüüpiline paksus?",
-        "answer": "Meie mikrotsemendi süsteem paigaldatakse mitme kihina, mille kogupaksus on umbes 2-3 mm."
+        "question": "Kui paks mikrotsemendi kiht on?",
+        "answer": "Meie süsteemid on kokku vaid 2–3 mm paksud. See võimaldab uuendada põrandaid ilma uksi või liiste vahetamata."
+      },
+      {
+        "question": "Kas see sobib põrandaküttele?",
+        "answer": "Jah, mikrotsement juhib suurepäraselt soojust ja sobib ideaalselt nii vee- kui elektri-põrandaküttele."
+      },
+      {
+        "question": "Kuidas seda hooldada?",
+        "answer": "Piisab tavalisest pH-neutraalsest puhastusvahendist. Nii säilitad pinna kaitsva kihi ja kauni välimuse kaua."
+      },
+      {
+        "question": "Kas saab paigaldada vanade plaatide peale?",
+        "answer": "Kindlasti. Tänu meie erilisele ettevalmistusmeetodile saab uue kihi kanda otse vanale plaadile, säästes sind lammutustolmust ja -kuludest."
       }
     ]
   },
   "business": {
-    "title": "Äripartnerlus",
-    "subtitle": "KUUS DESIGN teeb koostööd juhtivate arhitektuuribüroode ja arendajatega.",
-    "cta": "Küsi Äriportfelli"
+    "title": "Koostöö partneritega",
+    "subtitle": "Oleme avatud koostööle arhitektide, disainerite ja arendajatega. Olgu tegemist hotelli, restorani või bürooga – aitame luua vastupidava ja erilise mineraalse pinna.",
+    "cta": "Võta ühendust"
   },
   "hero": {
-    "title": "Pindade Kunst",
-    "subtitle": "Premium arhitektuurne mikrotsement.",
-    "cta": "Vaata Kollektsiooni"
+    "title": "Kunstilised Pinnad",
+    "subtitle": "Käsitööna valminud pinnad, mis loovad kordumatu ja ajatu atmosfääri.",
+    "cta": "Tutvu meie valikutega"
   },
   "philosophy": {
-    "title": "VAIKUS ON AEG, MIDA ME KUULEME.",
-    "text": "Usume, et pinnad ei ole pelgalt taust, vaid atmosfääri vundament."
+    "title": "Pind, mis loob meeleolu",
+    "text": "Meie jaoks ei ole pind lihtsalt osa ruumist. See on vaikus ja atmosfäär. Iga kiht, mille me käsitsi paigaldame, mängib valguse ja varjudega täiesti omamoodi. See on meie kirg ja käsitöö, mis annab kodule hinguse."
   },
   "methodology": {
-    "title": "Puhtuse Protsess",
-    "subtitle": "Aeg on kõige väärtuslikum koostisosa.",
+    "title": "Käsitöö ja Tehnoloogia",
+    "subtitle": "Täpsus igas kihis. Meie mitmeastmeline paigaldusprotsess tagab struktuurse terviklikkuse ja visuaalse sügavuse.",
     "steps": [
       {
         "number": "01",
-        "title": "Pinna Ettevalmistus",
-        "text": "Vundament on kõik."
+        "title": "Veatu viimistluse vundament",
+        "text": "Teostame põhjaliku pinna ettevalmistuse ja struktuurne tugevdamine —, et tagada täielik nake ja pikaajaline stabiilsus."
+      },
+      {
+        "number": "02",
+        "title": "Käsitsi Paigaldus",
+        "text": "Mineraalsed põhikihid kantakse peale meie meistrite poolt. See manuaalne protsess püüab kinni paigaldaja unikaalse rütmi, luues peene topograafia, mida masinad ei suuda kopeerida."
+      },
+      {
+        "number": "03",
+        "title": "Külluslik Tekstuur",
+        "text": "Viimased esteetilised kihid lisatakse erilise hoolega, lastes igal neist loomulikult kuivada. Tulemuseks on tihe mineraalne loor, mis reageerib dünaamiliselt muutuvale valgusele."
+      },
+      {
+        "number": "04",
+        "title": "Pinna Kaitsmine",
+        "text": "Katame pinna kvaliteetsete mattide topcoatidega. See loob veekindla ja kriimustuskindla barjääri, mis säilitab toore esteetika ja tagab arhitektuurse vastupidavuse."
       }
     ]
   },
   "surfaces_collection": {
-    "title": "The Raw Collection",
-    "subtitle": "Valitud valik mineraalseid tekstuure.",
+    "title": "Basebetoni Süsteemid",
+    "subtitle": "11 professionaalset valmiskasutatavat mikrotsemendisüsteemi iga rakenduse jaoks.",
     "items": [
       {
         "id": "surface-1",
-        "name": "Baxab®",
-        "description": "Kõige arenenum mikrotsemendi süsteem turul. Erakordselt vastupidav pragudele, plekkidele ja kriimustustele."
+        "name": "Basebeton Originale",
+        "description": "Valmiskasutatav mikrotsement. Põrandad, seinad, mööbel. 75 värvi."
       },
       {
         "id": "surface-2",
-        "name": "EcoCemento®",
-        "description": "Esimene VOC-vaba mikrotsement turul. Kõrge vastupidavus plekkidele ja kriimustustele."
+        "name": "Beton Ciré",
+        "description": "Autentne elegantne betoonivaade. 41 arhitektuurset tooni."
       },
       {
         "id": "surface-3",
-        "name": "Microcemento®",
-        "description": "Pidev pinnalahendus, mis ei nõua lammutustöid. Universaalne ja väga kulumiskindel."
+        "name": "Oxidestuc",
+        "description": "Metalliline seinaviimistlus. Kuld, Pronks, Vask, Alumiinium, Rooste, Teras."
       },
       {
         "id": "surface-4",
-        "name": "T/Swim®",
-        "description": "Spetsiaalselt basseinidele loodud. Veekindel, kloorikindel ja libisemisvastane."
+        "name": "Basebeton Solid",
+        "description": "Tugevaim epoksüpõrandakrohv. 22 omavärvi + 64 Basebetoni tooni."
       },
       {
         "id": "surface-5",
-        "name": "Summery®",
-        "description": "Integreeritud küttesüsteemiga mikrotsement. Ideaalne põrandate ja seinte soojendamiseks."
+        "name": "Stuccopuro",
+        "description": "Dekoratiivne matt betoonilookiga seinakrohv. 60 kordumatu tooni."
       },
       {
         "id": "surface-6",
-        "name": "Real Metals®",
-        "description": "Autentne metallist viimistlus, mis sisaldab ehtsat metallipulbrit luksusliku tulemuse saavutamiseks."
+        "name": "Basebeton Grit",
+        "description": "Raskekoormuslik tekstuurne põrand. 20 rannamaastiku inspireeritud tooni."
       }
     ]
   },
   "timeless_collection": {
-    "title": "Igavikuline Kollektsioon",
-    "subtitle": "Siledad ja peened mineraalsed viimistlused ruumidesse, mis nõuavad täielikku rahu ja katkematut järjepidevust.",
+    "title": "Basebeton Kollektsioon",
+    "subtitle": "Kolm süsteemi. Kolm erinevat esteetikat. Ühine disainifilosoofia.",
     "items": [
       {
         "id": "timeless-1",
-        "name": "Siidibetoon",
-        "description": "ÜLISILE, MATT VIIMISTLUS PEHME TEKSTUURIGA."
+        "name": "Basebeton Originale",
+        "description": "VALMISKASUTATAV MIKROTSEMENDIPASTA. 75 VÄRVI. PÕRANDAD, SEINAD JA MÖÖBEL."
       },
       {
         "id": "timeless-2",
-        "name": "Poleeritud Kivi",
-        "description": "ÕRN LÄIGE SÜGAVA MINERAALSE KIHI JA KRISTALSETE PEEGELDUSTEGA."
+        "name": "Oxidestuc",
+        "description": "METALLILINE SEINAVIIMISTLUS. KULD, PRONKS, VASK, ALUMIINIUM, ROOSTE JA TERAS."
       },
       {
         "id": "timeless-3",
-        "name": "Sametine Mineraal",
-        "description": "TIHE SAMETINE TEKSTUUR, MIS NEELAB JA HAJUTAB VALGUST KAUNILT."
+        "name": "Stuccopuro",
+        "description": "DEKORATIIVNE MATT BETOONILOOKIGA SEINAKROHV. 60 KORDUMATU TOONI."
+      }
+    ]
+  },
+  "deco_walls_collection": {
+    "title": "Interjöörikunst & Dekoor",
+    "subtitle": "Käsitööna valminud seinaelemendid, kivinikerdustused, mineraalreljeefid, tekstuurpaneelid.",
+    "collection_label": "Stuudiost",
+    "decorative_title": "Seinateosed",
+    "items": [
+      {
+        "id": "deco-1",
+        "name": "Mineraal Lõuendil",
+        "tag": "Maal"
+      },
+      {
+        "id": "deco-2",
+        "name": "Söe ja Luu",
+        "tag": "Maal"
+      },
+      {
+        "id": "deco-4",
+        "name": "Kivist Peegel, Valgustatud",
+        "tag": "Objekt"
+      },
+      {
+        "id": "deco-5",
+        "name": "Liivaküngaste Reljeef",
+        "tag": "Sein"
+      },
+      {
+        "id": "deco-6",
+        "name": "Nikerdatud Kivikaare",
+        "tag": "Installatsioon"
       }
     ]
   },
   "cta_section": {
-    "title": "Alusta \n Muutusega.",
-    "text": "Konsulteeri meie stuudioga, et tuua käsitööna valminud mineraalsed tekstuurid oma visiooni.",
-    "button": "Küsi Konsultatsiooni"
+    "title": "Anna ruumile vorm",
+    "text": "TEIE VISIOON — MEIE TEOSTUS",
+    "button": "ALUSTA MUUTUSEGA"
   },
   "team": {
-    "title": "Meistrid",
-    "subtitle": "Käed pindade taga.",
+    "title": "Meie",
+    "subtitle": "Tehnilise täpsuse ja kunstilise visiooni ühendus.",
     "members": [
       {
-        "name": "Erik Tamm",
-        "role": "Peameister",
-        "description": "Käsitsi viimistlemise magister."
+        "name": "Janar",
+        "role": "Juhataja",
+        "description": ""
+      },
+      {
+        "name": "Loore",
+        "role": "Loovjuht",
+        "description": ""
       }
     ]
   },
   "thank_you": {
-    "title": "Täname Huvi Eest.",
-    "text": "Teie visioon on meie protsessi alguspunkt."
+    "title": "Täname pöördumise eest.",
+    "text": "Vaatame saadetud info üle ja võtame ühe-kahe päeva jooksul ühendust."
   },
   "story_quote": {
-    "text": "Materjalid ei tohiks lihtsalt ruumi täita; nad peaksid määratlema vaikuse selle sees.",
-    "author": "Peadisainer, KUUS DESIGN"
+    "text": "Pinnad ei peaks lihtsalt täitma ruumi; nad peavad määratlema selle vaikuse.",
+    "author": "Loovjuht, KUUS DESIGN"
   },
   "footer": {
-    "tagline": "Premium mikrotsemendi pinnad, loodud ruumidele, mis nõuavad vaikset luksust.",
+    "tagline": "Käsitsi valmistatud mikrotsemendi pinnad Tartust.",
     "categories": {
       "studio": "Stuudio",
       "collections": "Kollektsioonid",
       "connect": "Kontaktid"
     },
-    "rights": "Kõik õigused kaitstud."
+    "rights": "Kõik õigused kaitstud.",
+    "terms": "Kasutustingimused",
+    "privacy": "Privaatsuspoliitika"
   },
   "blog_ui": {
     "featured": "Esiletõstetud Žurnaalikanne",
@@ -694,11 +3022,11 @@
     "continue_reading": "Jätka Lugemist"
   },
   "contact_ui": {
-    "dialogue": "Alusta Dialoogi",
-    "name": "Täisnimi",
-    "email_label": "E-posti Aadress",
-    "vision": "Teie Visioon",
-    "inquiries": "Päringud",
+    "dialogue": "Projekti Dialoog",
+    "name": "Teie Identiteet",
+    "email_label": "Digitaalne Aadress",
+    "vision": "Projekti Visioon",
+    "inquiries": "Stuudio Päringud",
     "direct_line": "Otseliin",
     "studio": "Stuudio"
   },
@@ -716,146 +3044,2044 @@
     "manual": "Paigaldusjuhend",
     "maintenance": "Hooldusmanuaal",
     "data_sheet": "Tehniliste Andmete Leht",
-    "order_sample": "Telli Näidis"
+    "order_sample": "Telli Näidis",
+    "get_quote": "Küsi Pakkumist",
+    "specs": "Tehnilised Andmed",
+    "back_to_products": "Tagasi toodete juurde",
+    "explore": "Vaata kollektsiooni"
   },
   "guide_topcret": {
-    "title": "Topcret Juhend",
+    "title": "Juhend",
+    "subtitle": "Mineraalpindade tehniline meisterlikkus.",
+    "description": "Basebeton on valmiskasutatav tsemendibaasil pasta mikroniseeritud kvartsi, polümeeride ja pigmentidega. See tagab saumvaba viimistluse põrandatele, seintele ja mööblile — ilma ulatusliku ehitustööta.",
     "what_is": {
       "title": "Mis on mikrotsement?",
       "paragraphs": [
-        "Mikrotsement, mida sageli nimetatakse ka mikrobetooniks või mikrokihiks, on tipptasemel ja erakordselt mitmekülgne tsemendipõhine pinnakate, mis on revolutsiooniliselt muutnud sise- ja väliskujunduse valdkonda. See innovaatiline materjal koosneb peentest osakestest ja seda saab saumideta kanda väga erinevatele pindadele, sealhulgas põrandatele, seintele ja isegi mööblile nii elu- kui ka äripindadel.",
-        "Topcret toob selle erakordse toote turule kui juhtiv mikrotsemendi tarnija. Mikrotsementi eristab teistest materjalidest selle ainulaadne omaduste kombinatsioon, mis teeb sellest eelistatud valiku nii sisekujundajate, arhitektide kui ka koduomanike jaoks. Selle vastupidavus tagab pikaealisuse, sobides ideaalselt suure koormusega aladele, tegemata järeleandmisi esteetikas.",
-        "Mikrotsemendi kasvava populaarsuse üheks peamiseks põhjuseks on selle võime anda igale ruumile sile, minimalistlik ja kaasaegne välimus. Laia värvi- ja viimistlusvalikuga on klientidel vabadus vallandada oma loovus ja saavutada soovitud atmosfäär. Olgu tegemist kaasaegse kontoripinna, trendika restorani või stiilse eluruumiga, mikrotsement on ülim lahendus igasuguse keskkonna esteetika ja funktsionaalsuse tõstmiseks.",
-        "Lisaks silmapaistvale visuaalsele välimusele minimeerib selle õhuke kiht mõju olemasolevatele struktuuridele nii renoveerimise kui ka uute paigalduste käigus. See omadus teeb sellest ideaalse valiku neile, kes soovivad oma ruumi täiustada ilma mahukate ehitustöödeta.",
-        "Olgu tegemist renoveerimise või uute projektidega, mikrotsement on parim lahendus iga ruumi esteetika ja funktsionaalsuse parandamiseks."
+        "Mikrotsement — tuntud ka kui mikrobetoon, mikrokrohv või mikrokate — on kõrgelt mitmekülgne polümeermodifitseeritud tsemendibaasil kate, mis on muutnud sise- ja välikujundust. Vaid 1–3mm õhuke, see kleepub otse olemasolevate plaatide, betooni, puidu ja enamiku jäikade pindade peale, luues saumvaba ja vuugivaba tulemuse.",
+        "Basebeton by Stone Age on premium valmiskasutatav mikrotsemendipasta. Iga Basebetoni toode on eelvärvitud, eelmiksitud ja tehases kalibreeritud ühtlaste tulemuste tagamiseks. See on EC1 Plus sertifitseeritud — väga madal lenduvate orgaaniliste ühendite emissioon, ohutu kõigile siseruumidele, sealhulgas magamistubadele ja koolidele.",
+        "Üks peamisi põhjuseid mikrotsemendi kasvavaks populaarsuseks on selle võime anda ruumile siledaid, minimalistlik ja kaasaegset välimust. 366 värviga 11 tootekollektsioonist annab Basebeton disaineritele, arhitektidele ja kodude omanikele täieliku loovusvabaduse — toorbetoonist tööstuslike kuni rafineeritud metallilisteni.",
+        "Basebetoni õhuke pealekandmine minimeerib olemasolevate konstruktsioonide mõju renoveerimise ajal. Pole lammutamist, pole kõrgendatud põrandatasemeid, pole ehitusmüra — mikrotsement kantakse otse olemasoleva peale.",
+        "Nii renoveerimiseks kui uusehituseks on Basebeton professionaalne lahendus, mis tõstab iga pinna esteetilisust ja funktsionaalsust."
       ]
     },
     "applications": {
-      "title": "Mikrotsemendi kasutusvaldkonnad",
+      "title": "Mikrotsemendi rakendused",
       "items": [
         {
-          "title": "Mikrotsemendist põrandad",
-          "desc": "Mikrotsemendist põrandad on eriti vastupidavad ja kergesti puhastatavad, olles suurepärane valik suure koormusega aladele. Neid saab kohandada erinevate viimistlustega, alates siledast ja poleeritud pinnast kuni tekstuurse ja rustikaalseni, ning neid saab kasutada nii kodu-, äri- kui ka tööstuspindadel. Mikrotsemendist põrand on ka kulutõhus alternatiiv traditsioonilistele põrandamaterjalidele."
+          "title": "Mikrotsemendipõrandad",
+          "desc": "Basebeton Originale, Plus, Xtreme, Solid ja Grit on kõik mõeldud põrandakasutuseks. Väga vastupidav, ühilduv põrandaküttega ja saadaval kümnetes värvides. Sobib elamu-, äri- ja kõrge liiklusega tööstusruumidesse."
         },
         {
-          "title": "Mikrotsemendist vannitoad",
-          "desc": "Mikrotsement on ideaalne saumideta ja veekindlate pindade loomiseks vannitoas. Kuna see kantakse peale ühtse kihina, puuduvad vuugid, mis tähendab vähem kohti mustuse ja hallituse kogunemiseks. Mikrotsemendist vannitoad on kergesti puhastatavad, vastupidavad ning neid saab kohandada laia värvi- ja viimistlusvalikuga."
+          "title": "Mikrotsemendivannitoad",
+          "desc": "Basebeton loob vannitoasse saumvaba, täielikult veekindla pinna ilma vuugijoonteta. Kantakse otse olemasolevate plaatide peale — lammutamist pole vaja. Ilma lammutamiseta vannituba on meie enim nõutud rakendus."
         },
         {
-          "title": "Mikrotsemendist tasapinnad",
-          "desc": "Mikrotsemendist töötasapinnad pakuvad siledat ja vastupidavat pinda, mis sobib ideaalselt kaasaegsesse kööki. Kohandatava viimistluse ja saumideta paigaldusega pakuvad mikrotsemendist tasapinnad stiilset ja praktilist lahendust neile, kes soovivad oma kööki uuendada. Lisaks vajavad need minimaalset hooldust ja on plekkidele vastupidavad, olles ideaalne valik hõivatud majapidamistele."
+          "title": "Mikrotsementtasapinnad",
+          "desc": "Basebeton Originale ja Beton Ciré sobivad köögitasapindadele. Kuumakindel pitseerimisel, toiduohutus ning saadaval 75–41 värvis. Pakub puhta, saumvaba pinna, mida on lihtne hooldada."
         },
         {
-          "title": "Väline mikrotsement",
-          "desc": "Väline mikrotsement on muutnud viisi, kuidas me kujundame välisalasid. See innovaatiline materjal, mis sobib ideaalselt terrassidele, rõdudele ja teeradadele, pakub siledat ja saumideta viimistlust, mis on ühtaegu vastupidav ja ilmastikukindel. Võime taluda erinevaid ilmastikuolusid koos kaasaegse esteetikaga teeb välisest mikrotsemendist eelistatud valiku. Olgu eesmärgiks stiilne basseiniala või kaasaegne aiavärav, väline mikrotsement lubab ilu, funktsionaalsuse ja pikaealisuse kombinatsiooni."
+          "title": "Välimikrotsement",
+          "desc": "Valitud Basebetoni süsteeme saab kasutada terrassidel, patsidel ja jalgteedel. Saadaval UV-stabiilsed, ilmastikukindlad ja libisemisvastased viimistlused. Märkige väliskasutus konsultatsiooni etapis õige toote valiku jaoks."
         },
         {
-          "title": "Mikrotsement seintel",
-          "desc": "Mikrotsement on mitmekülgne materjal, millega saab luua erinevaid seinaviimistlusi, alates siledast ja läikivast kuni tekstuurse ja rustikaalseni. Seda saab kanda ka kumeratele või ebatasastele pindadele, olles suurepärane valik aktsentseinte jaoks. Mikrotsemendist seinad on väga vastupidavad ja pragunemiskindlad, pakkudes pikaajalist ja vähest hooldust vajavat lahendust igasse ruumi."
+          "title": "Mikrotsemendiseinad",
+          "desc": "Basebeton Originale, Stuccopuro, Sichtbeton, Natureplast ja Oxidestuc sobivad kõik seintele, igaüks erineva iseloomuga — toorbetoonist kuni looduslikku savini või metallilise säranigu. Loob arhitektuurse järjepidevuse põranda ja seina vahel."
         },
         {
-          "title": "Mikrotsemendist köögid",
-          "desc": "Mikrotsemendist pinnad on ideaalsed kaasaegse ja puhta ilme loomiseks köögis. Neid saab kasutada töötasapindadel, tagaseintel ja isegi põrandatel ning neid saab kohandada vastavalt köögi stiilile. Mikrotsemendist köögid on väga vastupidavad ja plekkidele kindlad, olles suurepärane valik suure koormusega aladele."
+          "title": "Mikrotsemendiköögid",
+          "desc": "Saumvabad mikrotsemendipinnad töötavad köögitasapindadel, tagalõikel ja põrandatel. Basebeton on täpitsustes korrektselt pitseeritud väga tahrastuskindel ja kergesti puhastatav pH-neutraalsete toodetega."
         },
         {
-          "title": "Mikrotsemendist trepid",
-          "desc": "Mikrotsementi saab kasutada vastupidavate ja libisemiskindlate trepiastmete loomiseks. Seda saab kanda igat tüüpi treppidele, sealhulgas betoonile, puidule või metallile, ning seda saab kohandada vastavalt ruumi kujundusele. Mikrotsemendist trepid on kergesti puhastatavad ja hooldatavad ning kulumiskindlad."
+          "title": "Mikrotsementtrepid",
+          "desc": "Pidevad mikrotsementtrepi pinnad kõrvaldavad servaribasid ja üleminekuprofiilid. Saadaval libisemisvastased viimistlused. Kantakse betooni, puidu või metall-treppide peale — kleepub otse ettevalmistatud alusele."
         },
         {
-          "title": "Mikrotsemendist dušid",
-          "desc": "Mikrotsemendist dušid on väga veekindlad, olles ideaalne valik vannituppa. Nende saumideta pind pole mitte ainult esteetiliselt nauditav, vaid ka kergesti puhastatav ja hooldatav. Duširuume saab viimistleda erinevates stiilides, alates moodsast ja poleeritud pinnast kuni loodusliku ja tekstuurse ilmeni."
+          "title": "Mikrotsementdušid",
+          "desc": "Basebeton Originale ja Beton Ciré on heaks kiidetud duširuumides ja märgaladel kasutamiseks. Täielikult veekindel pitseerimisel, saumvaba ning saadaval laias värvivalikus. Kerge puhastada — vuugijooni, kus hallitus saaks koguneda, pole."
         },
         {
-          "title": "Mikrotsemendist mööbel",
-          "desc": "Mikrotsemendiga saab luua unikaalseid ja kaasaegseid mööbliesemeid. Seda saab kanda väga erinevatele materjalidele, sealhulgas puidule, metallile ja plastile, ning kohandada vastavalt ruumi stiilile. Mikrotsemendist mööbel on väga vastupidav ning pleki- ja kriimustuskindel."
+          "title": "Mikrotsemendimööbel",
+          "desc": "Basebetoni saab kanda kapide, laudade, valamute, vannide ja kohandatud objektide peale. Kaaluiive on minimaalne. Loob ainulaadse mineraalpinna, mis on vastupidav, tahrastuskindel ning erineb täielikult ükskõik millisest värvitud või spoonitud viimistlusest."
         },
         {
-          "title": "Mikrotsemendist basseinid",
-          "desc": "Mikrotsemendist basseinid pakuvad saumideta ja veekindlat pinda, mis on ideaalne basseini ehituseks. Kohandatava viimistluse ja vähese hooldusvajadusega on need stiilne ja kulutõhus valik koduomanikele, kes soovivad täiustada oma välisruumi."
+          "title": "Mikrotsemendibasseinid",
+          "desc": "Basebeton Grit ja Basebeton Solid pakuvad veekindlaid, vastupidavaid pindu basseiniümbrusele ja märgaladele. Kantakse otse olemasolevate basseiniplaatide peale. Kohandatud värvid on saadaval vee ja ümbritseva arhitektuuriga ühtimiseks."
         }
       ]
     },
-    "subtitle": "Mineraalpindade tehniline meistriklass.",
-    "description": "Mikrotsement on tipptasemel tsemendipõhine pinnakate.",
-    "advantages_title": "Peamised Eelised",
+    "advantages_title": "Põhieelised",
     "advantages": {
-      "versatility": { "title": "Universaalsus", "desc": "Sobib peaaegu igale pinnale." },
-      "durability": { "title": "Vastupidavus", "desc": "Kõrge kulumis- ja plekkidekindlus." },
-      "customization": { "title": "Personaliseerimine", "desc": "Lai valik värve ja viimistlusi." },
-      "waterproof": { "title": "Veekindlus", "desc": "Täielikult veekindel süsteem." },
-      "thickness": { "title": "Minimaalne Paksus", "desc": "Õhuke kiht, mis ei lisa kõrgust." },
-      "flexibility": { "title": "Paindlikkus", "desc": "Talub struktuurseid liikumisi." },
-      "eco": { "title": "Keskkonnasõbralikkus", "desc": "Säästev tootmine ja madal VOC." },
-      "maintenance": { "title": "Lihtne Hooldus", "desc": "Erakordselt lihtne puhastada." }
+      "versatility": {
+        "title": "Mitmekülgsus",
+        "desc": "Kantav peaaegu igale pinnale — põrandad, seinad, mööbel, trepid ja basseinid, sealhulgas kõverad või ebaühtlased aluspinnad."
+      },
+      "durability": {
+        "title": "Vastupidavus",
+        "desc": "Kõrge vastupidavus igapäevasele kulumisele, löökidele, tahrastustele ja kriimustustele. EC1 Plus sertifitseeritud pikaajalise siseõhu kvaliteedi tagamiseks."
+      },
+      "customization": {
+        "title": "366 värvi",
+        "desc": "11 tootespetsiifilist värvipaketti kokku 366 kureeritud tooniga. Saadaval kohandatud RAL ja NCS sobitamine."
+      },
+      "waterproof": {
+        "title": "Veekindel",
+        "desc": "Pitseerimisel loomulikult veekindel — ideaalne vannitubadesse, duširuumidesse, basseiniümbrusele ja köögitasapindadele."
+      },
+      "thickness": {
+        "title": "Minimaalne paksus",
+        "desc": "1–3mm kogupealekanne. Põrandataseme oluline muutus puudub. Konstruktsiooniline mõju hoonele puudub."
+      },
+      "flexibility": {
+        "title": "Valmis kasutamiseks",
+        "desc": "Tehases eelmiksitud, eelvärvitud pasta. Kohapeal keerulist segamist pole — avage ja kandke otse peale."
+      },
+      "eco": {
+        "title": "EC1 Plus sertifikaat",
+        "desc": "Kõik Basebetoni tooted vastavad rangimatele Euroopa tervise- ja keskkonnastandarditele. Väga madal LOÜ emissioon."
+      },
+      "maintenance": {
+        "title": "Lihtne hooldus",
+        "desc": "Puhastage pH-neutraalsete pesuvahendite. Pitseeri uuesti iga 3–5 aasta tagant. Erialaseid tooteid pole vaja."
+      }
     },
-    "process_title": "Tehniline Protsess",
+    "process_title": "Tehniline protsess",
     "process_steps": [
-      { "title": "Pinna Ettevalmistus", "desc": "Aluspind peab olema puhas ja kuiv." },
-      { "title": "Kruntimine", "desc": "Tagab ülitugeva nakke." },
-      { "title": "Segamine", "desc": "Segatakse pigmentidega soovitud värvini." },
-      { "title": "Aluskiht", "desc": "Pinnale kantakse esimene kiht." },
-      { "title": "Tekstuurikiht", "desc": "Lõpliku tekstuuri saavutamine." },
-      { "title": "Lakkimine", "desc": "Kaitseb plekkide eest." }
+      {
+        "title": "Pinnaeettevalmistus",
+        "desc": "Aluspind peab olema puhas, kuiv, kandev ja tasane. Praod täidetakse ja liikumisõmblused adresseeritakse. Teemantlihvimine avab pinnaporid optimaalse adhesiooni tagamiseks. See on kõige kriitilisem samm — see määrab viimistluse pikaealisuse."
+      },
+      {
+        "title": "Krunt (MCG / Ecohecht)",
+        "desc": "Spetsialiseeritud krunt — MCG imavate pindade jaoks, Ecohecht mitteimavate jaoks — kantakse ühes või kahes õhukeses kihis. Imavatel alustel lahjendatakse 1:1 veega. Kuivamisaeg ligikaudu 1 tund kihi kohta. Valikuline klaaskiududega tugevdamine lisab pragusidekindlust."
+      },
+      {
+        "title": "Basekiht — Basebeton Basa",
+        "desc": "Esimene mikrotsemendikiht kantakse roostevaba teraskraabiga, laotades ühtlaselt üle pinna ligikaudu 1,5 kg/m². See kiht loob struktuuri ja sügavuse. Kraabijäljed loovad viimistletud pinna topograafilise iseloomu."
+      },
+      {
+        "title": "Viimistluskiht — Basebeton Sense",
+        "desc": "Teine ja viimane kiht kantakse kuiva baasinaasele. See määrab lõpliku värvi, tekstuuri ja sileduse. Kantakse õhukeselt (ligikaudu 1,5 kg/m²) täpsete rütmiliste kraabiliigutustega. See kiht reageerib valgusele ja annab igale paigaldusele ainulaadse mineraalse iseloomu."
+      },
+      {
+        "title": "Impregneerimis- ja pitseerimine",
+        "desc": "Esmalt kantakse pinna stabiliseerimiseks immutav impregneerija, millele järgneb polüuretaanist või veebaasil ülemiskate. Saadaval matt, satiin või läikiv viimistlus. Tagab täieliku veekindluse ja pikaajalise vastupidavuse. Pind on kasutatav 24–48h pärast pitseeri kuivamist."
+      }
     ],
-    "finishes_title": "Pinna Viimistlused",
-    "finishes_intro": "Saavutatavate viimistluste mitmekesisus sõltub valitud tekstuuridest.",
+    "finishes_title": "Pinnaviimistlused",
+    "finishes_intro": "Basebetoni tooted on saadaval kolmes standardsealvärvis. Viimistlusvalik mõjutab pinna lõplikku välimust, läike taset ja hoolduse nõudeid.",
     "finishes_list": [
-      { "title": "Poleeritud", "desc": "Ideaalne sileda ja kaasaegse välimuse saavutamiseks." },
-      { "title": "Vanandatud ja Poleeritud", "desc": "Keemiline töötlus rustikaalsema sarmi jaoks." },
-      { "title": "Toonitud", "desc": "Unikaalsed ja eritellimusel värvilahendused." },
-      { "title": "Läikiv", "desc": "Särav ja tugev pind, lihtne hooldada." },
-      { "title": "Matt", "desc": "Tagasihoidlik ja sofistikeeritud viimistlus." },
-      { "title": "Satiin", "desc": "Elegantne ja pehme tunnetus." },
-      { "title": "Libisemisvastane Matt", "desc": "Säilitab mati esteetika ja ohutuse." }
+      {
+        "title": "Matt",
+        "desc": "Luksusinterjööride populaarseim viimistlus. Tasane, valgust neelav pind, mis rõhutab tekstuuri ja värvusügavust. Varjab väiksemaid plekke. Ideaalne seintele, esindusliku pinna jaoks ja elamupõrandatele."
+      },
+      {
+        "title": "Satiin",
+        "desc": "Pehme keskmise läikega viimistlus, mis lisab soojust ja peent heledust. Rikastab värvikust, jättes mulje mittevärvilisest. Kõige mitmekülgsem viimistlus — sobib nii põrandatele, seintele kui tööpindadele nii elamus kui ärikeskkonnas."
+      },
+      {
+        "title": "Läikiv",
+        "desc": "Kõrge peegeldavus, mis loob julge ja kaasaegse avalduse. Muudab värvid sügavamaks ja küllasemaks. Parim esinduseintele, vastuvõtualadele ja külalislahkusruumidele, kus soovitakse maksimaalset visuaalset mõju."
+      }
     ]
   },
   "colors": {
-    "title": "Mineraalne Palett",
-    "subtitle": "Kureeritud kollektsioon looduslikest pigmentidest, mis on loodud reageerima valgusele ja arhitektuurile.",
+    "title": "Tootemärkide värvikogumid",
+    "subtitle": "Igal Basebetoni tootel on oma kureeritud värvpalett. Sirvige tooteti või kasutage tehaselähedase spetsifikatsiooni jaoks värvikoodi.",
     "collections": {
-      "timeless": {
-        "title": "Timeless Kollektsioon",
-        "description": "Olulised arhitektuursed toonid, mis ületavad hooajalisi trende.",
+      "basebeton-originale": {
+        "title": "Basebeton Originale",
+        "description": "75 mineraalpigmendi värvi. Saadaval standardvärvides, RAL ja NCS.",
         "items": [
-          { "code": "BLA-01", "name": "Blanco Roto", "hex": "#E5E4E2" },
-          { "code": "GRI-03", "name": "Gris Perla", "hex": "#B7B7B7" },
-          { "code": "GRI-05", "name": "Gris Cemento", "hex": "#9E9E9E" },
-          { "code": "NEG-01", "name": "Negro Fumo", "hex": "#3A3A3A" },
-          { "code": "AMA-02", "name": "Trigo", "hex": "#C5B358" },
-          { "code": "OLI-02", "name": "Verde Ceniza", "hex": "#7E8071" }
+          {
+            "code": "10-1",
+            "name": "Dutch Grey",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-2",
+            "name": "Mouse",
+            "hex": "#B1AFAA"
+          },
+          {
+            "code": "10-3",
+            "name": "Stone",
+            "hex": "#9F9D97"
+          },
+          {
+            "code": "10-4",
+            "name": "Pebble",
+            "hex": "#8D8A85"
+          },
+          {
+            "code": "10-6",
+            "name": "Mauwe",
+            "hex": "#82837F"
+          },
+          {
+            "code": "10-8",
+            "name": "Mud",
+            "hex": "#797672"
+          },
+          {
+            "code": "10-9",
+            "name": "Persian",
+            "hex": "#63605C"
+          },
+          {
+            "code": "10-10",
+            "name": "Pitch Black",
+            "hex": "#616161"
+          },
+          {
+            "code": "10-13",
+            "name": "Berry",
+            "hex": "#9C9088"
+          },
+          {
+            "code": "10-14",
+            "name": "Clay",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-15",
+            "name": "Duhe",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-16",
+            "name": "Dawn",
+            "hex": "#C5C2BF"
+          },
+          {
+            "code": "10-17",
+            "name": "Buff",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-18",
+            "name": "Wheat",
+            "hex": "#DED2C7"
+          },
+          {
+            "code": "10-19",
+            "name": "Daw",
+            "hex": "#ECD8AD"
+          },
+          {
+            "code": "10-20",
+            "name": "Olive",
+            "hex": "#C0B39C"
+          },
+          {
+            "code": "10-21",
+            "name": "Moss",
+            "hex": "#7A7772"
+          },
+          {
+            "code": "10-22",
+            "name": "Cord",
+            "hex": "#E4CEAC"
+          },
+          {
+            "code": "10-23",
+            "name": "Mocca",
+            "hex": "#9E897D"
+          },
+          {
+            "code": "10-24",
+            "name": "Past Yellow",
+            "hex": "#D2C3AC"
+          },
+          {
+            "code": "10-26",
+            "name": "Rose Red",
+            "hex": "#C78F7B"
+          },
+          {
+            "code": "10-27",
+            "name": "Truffel",
+            "hex": "#B58F78"
+          },
+          {
+            "code": "10-28",
+            "name": "Blossom",
+            "hex": "#CAD3B9"
+          },
+          {
+            "code": "10-29",
+            "name": "Sage",
+            "hex": "#B6B5A1"
+          },
+          {
+            "code": "10-30",
+            "name": "Artichok",
+            "hex": "#A6A597"
+          },
+          {
+            "code": "10-31",
+            "name": "Brown",
+            "hex": "#897E70"
+          },
+          {
+            "code": "10-32",
+            "name": "Putty",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-33",
+            "name": "Grime",
+            "hex": "#ACA098"
+          },
+          {
+            "code": "10-34",
+            "name": "Canvas",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-35",
+            "name": "Steel Black",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-37",
+            "name": "Tender",
+            "hex": "#98837E"
+          },
+          {
+            "code": "10-38",
+            "name": "Rose White",
+            "hex": "#D8D5CF"
+          },
+          {
+            "code": "10-41",
+            "name": "Lice Taupe",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-42",
+            "name": "Mey Red",
+            "hex": "#B28A7B"
+          },
+          {
+            "code": "10-43",
+            "name": "Deep Brown",
+            "hex": "#89716A"
+          },
+          {
+            "code": "10-45",
+            "name": "Knosse",
+            "hex": "#89716B"
+          },
+          {
+            "code": "10-47",
+            "name": "Raum Red",
+            "hex": "#8B6154"
+          },
+          {
+            "code": "10-48",
+            "name": "Sinc",
+            "hex": "#B3AFAC"
+          },
+          {
+            "code": "10-49",
+            "name": "Smoke",
+            "hex": "#9D9E9C"
+          },
+          {
+            "code": "10-50",
+            "name": "Ice",
+            "hex": "#CECAC4"
+          },
+          {
+            "code": "10-51",
+            "name": "Lava",
+            "hex": "#6E6F6A"
+          },
+          {
+            "code": "10-52",
+            "name": "Ash",
+            "hex": "#C2C3BF"
+          },
+          {
+            "code": "10-53",
+            "name": "Lin",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-54",
+            "name": "Deep",
+            "hex": "#9D9D9B"
+          },
+          {
+            "code": "10-55",
+            "name": "Elephant",
+            "hex": "#BBBCB7"
+          },
+          {
+            "code": "10-56",
+            "name": "Hippo",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "10-57",
+            "name": "Wolf",
+            "hex": "#B2AFAC"
+          },
+          {
+            "code": "10-58",
+            "name": "Whale",
+            "hex": "#959595"
+          },
+          {
+            "code": "10-59",
+            "name": "Grizzle",
+            "hex": "#A6A7A4"
+          },
+          {
+            "code": "10-60",
+            "name": "Rock",
+            "hex": "#8D8E8A"
+          },
+          {
+            "code": "10-61",
+            "name": "Flake",
+            "hex": "#BFB19C"
+          },
+          {
+            "code": "10-62",
+            "name": "Sisal",
+            "hex": "#BDB0A8"
+          },
+          {
+            "code": "10-63",
+            "name": "Gentle",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-64",
+            "name": "Grain",
+            "hex": "#C3B19C"
+          },
+          {
+            "code": "10-65",
+            "name": "Oat",
+            "hex": "#D2C8BB"
+          },
+          {
+            "code": "10-66",
+            "name": "Loam",
+            "hex": "#BEB3A6"
+          },
+          {
+            "code": "10-67",
+            "name": "Dust",
+            "hex": "#D3C7B9"
+          },
+          {
+            "code": "10-68",
+            "name": "Savanne",
+            "hex": "#D0C6BC"
+          },
+          {
+            "code": "10-69",
+            "name": "Caramel",
+            "hex": "#9C8B74"
+          },
+          {
+            "code": "10-70",
+            "name": "Tierra",
+            "hex": "#9E847A"
+          },
+          {
+            "code": "10-71",
+            "name": "Indian",
+            "hex": "#9E7E5D"
+          },
+          {
+            "code": "10-72",
+            "name": "Brownie",
+            "hex": "#89706A"
+          },
+          {
+            "code": "10-73",
+            "name": "Choco",
+            "hex": "#5A4D46"
+          },
+          {
+            "code": "10-74",
+            "name": "Blush",
+            "hex": "#C57B71"
+          },
+          {
+            "code": "10-75",
+            "name": "Bright",
+            "hex": "#E6E2E0"
+          },
+          {
+            "code": "10-76",
+            "name": "Shell",
+            "hex": "#BCBAAE"
+          },
+          {
+            "code": "10-77",
+            "name": "Cotton",
+            "hex": "#C4C1B9"
+          },
+          {
+            "code": "10-78",
+            "name": "Sand",
+            "hex": "#CDCAC4"
+          },
+          {
+            "code": "10-79",
+            "name": "Pigeon",
+            "hex": "#B2AFAA"
+          },
+          {
+            "code": "10-80",
+            "name": "Noce",
+            "hex": "#ADA297"
+          },
+          {
+            "code": "10-81",
+            "name": "Khaki",
+            "hex": "#A8A28C"
+          },
+          {
+            "code": "10-82",
+            "name": "Delta",
+            "hex": "#837C6B"
+          },
+          {
+            "code": "10-83",
+            "name": "Dove",
+            "hex": "#8E9180"
+          },
+          {
+            "code": "10-84",
+            "name": "Lagoon",
+            "hex": "#A8B8B2"
+          },
+          {
+            "code": "10-85",
+            "name": "Lychee",
+            "hex": "#C5AFA2"
+          }
         ]
       },
-      "clay": {
-        "title": "Clay Kollektsioon",
-        "description": "Maapõuest pärinevad pigmendid, mis peegeldavad toormineraalide soojust.",
+      "beton-cire": {
+        "title": "Beton Ciré",
+        "description": "41 rafineeritud betoonitooni arhitektuurilisest paletist.",
         "items": [
-          { "code": "NUD-1", "name": "Nude Essence", "hex": "#BC9E82" },
-          { "code": "MAL-02", "name": "Mallow Earth", "hex": "#8D6E63" },
-          { "code": "PUR-03", "name": "Deep Plum", "hex": "#6D5D6E" },
-          { "code": "ROS-01", "name": "Pale Rose", "hex": "#D4B4B4" },
-          { "code": "ROJ-02", "name": "Terra Cotta", "hex": "#A0522D" }
+          {
+            "code": "ST 701",
+            "name": "Wide",
+            "hex": "#B7B4A5"
+          },
+          {
+            "code": "ST 702",
+            "name": "Grime",
+            "hex": "#65615F"
+          },
+          {
+            "code": "ST 703",
+            "name": "Putty",
+            "hex": "#6F6B6C"
+          },
+          {
+            "code": "ST 704",
+            "name": "Doleriet",
+            "hex": "#84817E"
+          },
+          {
+            "code": "ST 705",
+            "name": "Gabbro",
+            "hex": "#6F6B65"
+          },
+          {
+            "code": "ST 706",
+            "name": "Wool",
+            "hex": "#86827E"
+          },
+          {
+            "code": "ST 707",
+            "name": "Levant",
+            "hex": "#8E8A89"
+          },
+          {
+            "code": "ST 708",
+            "name": "Cella",
+            "hex": "#837F79"
+          },
+          {
+            "code": "ST 709",
+            "name": "Celadon",
+            "hex": "#9F9C9D"
+          },
+          {
+            "code": "ST 710",
+            "name": "Vincenza",
+            "hex": "#C0BCB9"
+          },
+          {
+            "code": "ST 711",
+            "name": "Fumus",
+            "hex": "#AAABA6"
+          },
+          {
+            "code": "ST 712",
+            "name": "Jute",
+            "hex": "#C0C5BF"
+          },
+          {
+            "code": "ST 713",
+            "name": "Enamel",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 714",
+            "name": "Campania",
+            "hex": "#85817E"
+          },
+          {
+            "code": "ST 715",
+            "name": "Grisette",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 720",
+            "name": "Aura",
+            "hex": "#91837B"
+          },
+          {
+            "code": "ST 721",
+            "name": "Khorsabad",
+            "hex": "#92776D"
+          },
+          {
+            "code": "ST 722",
+            "name": "Lascaux",
+            "hex": "#80675A"
+          },
+          {
+            "code": "ST 723",
+            "name": "Cueva",
+            "hex": "#AE806C"
+          },
+          {
+            "code": "ST 725",
+            "name": "Assyria",
+            "hex": "#AA8F86"
+          },
+          {
+            "code": "ST 726",
+            "name": "Phaistos",
+            "hex": "#AC9586"
+          },
+          {
+            "code": "ST 727",
+            "name": "Veneto",
+            "hex": "#B9A991"
+          },
+          {
+            "code": "ST 728",
+            "name": "Mist",
+            "hex": "#BFA695"
+          },
+          {
+            "code": "ST 729",
+            "name": "Parchment",
+            "hex": "#BDA38F"
+          },
+          {
+            "code": "ST 730",
+            "name": "Chendré",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 731",
+            "name": "Auburn",
+            "hex": "#CDC1B4"
+          },
+          {
+            "code": "ST 732",
+            "name": "Dawn",
+            "hex": "#D3B8A2"
+          },
+          {
+            "code": "ST 733",
+            "name": "Flame",
+            "hex": "#D3B7A9"
+          },
+          {
+            "code": "ST 734",
+            "name": "Damson",
+            "hex": "#B9A990"
+          },
+          {
+            "code": "ST 735",
+            "name": "Sydney",
+            "hex": "#B9AC9D"
+          },
+          {
+            "code": "ST 736",
+            "name": "Rogany",
+            "hex": "#ADAAA3"
+          },
+          {
+            "code": "ST 737",
+            "name": "Agra",
+            "hex": "#E2C5B1"
+          },
+          {
+            "code": "ST 738",
+            "name": "Savanne",
+            "hex": "#DBCEBE"
+          },
+          {
+            "code": "ST 739",
+            "name": "Calamine",
+            "hex": "#E1DDD3"
+          },
+          {
+            "code": "ST 740",
+            "name": "Middleton",
+            "hex": "#EAE6D7"
+          },
+          {
+            "code": "ST 741",
+            "name": "Natura",
+            "hex": "#F0EDE5"
+          },
+          {
+            "code": "ST 762",
+            "name": "Nova",
+            "hex": "#4FB0D4"
+          },
+          {
+            "code": "ST 765",
+            "name": "Matala",
+            "hex": "#67A0A7"
+          },
+          {
+            "code": "ST 766",
+            "name": "Paulitlus",
+            "hex": "#85A794"
+          },
+          {
+            "code": "ST 767",
+            "name": "Thermae",
+            "hex": "#92AA95"
+          },
+          {
+            "code": "ST 768",
+            "name": "Ceylon",
+            "hex": "#99A98A"
+          }
         ]
       },
-      "flora": {
-        "title": "Flora Kollektsioon",
-        "description": "Botaanilised inspiratsioonid rahustavate orgaaniliste keskkondade jaoks.",
+      "oxidestuc": {
+        "title": "Oxidestuc",
+        "description": "6 metallilist viimistlust: Alumiinium, Pronks, Vask, Kuld, Rooste ja Teras.",
         "items": [
-          { "code": "ALM", "name": "Almond", "hex": "#F5E6D3" },
-          { "code": "SAG", "name": "Sage", "hex": "#D1D5C0" },
-          { "code": "BLU", "name": "Blueberry", "hex": "#A9BCD0" },
-          { "code": "LAV", "name": "Lavender", "hex": "#E0D1D1" },
-          { "code": "PEA", "name": "Peach", "hex": "#FAD5A5" }
+          {
+            "code": "Aluminium",
+            "name": "Aluminium",
+            "hex": "#DCD9D4"
+          },
+          {
+            "code": "Bronze",
+            "name": "Bronze",
+            "hex": "#9F9483"
+          },
+          {
+            "code": "Copper",
+            "name": "Copper",
+            "hex": "#D3A38B"
+          },
+          {
+            "code": "Gold",
+            "name": "Gold",
+            "hex": "#E3CB8C"
+          },
+          {
+            "code": "Rust",
+            "name": "Rust",
+            "hex": "#BA8B67"
+          },
+          {
+            "code": "Steel",
+            "name": "Steel",
+            "hex": "#7F7F7F"
+          }
         ]
       },
-      "metals": {
-        "title": "Real Metals Kollektsioon",
-        "description": "Autentsed metallist viimistlused ehtsa mineraalse iseloomuga.",
+      "natureplast": {
+        "title": "Natureplast",
+        "description": "16 looduslikku savipigmendi värvi orgaanilistele siseruumidele.",
         "items": [
-          { "code": "ZIN", "name": "Tsink", "hex": "#8E9196" },
-          { "code": "BRA", "name": "Messing", "hex": "#B5A642" },
-          { "code": "BRO", "name": "Pronks", "hex": "#804A00" },
-          { "code": "COP", "name": "Vask", "hex": "#B87333" },
-          { "code": "COR", "name": "Corten Teras", "hex": "#8B4513" }
+          {
+            "code": "NP-01",
+            "name": "Tusk",
+            "hex": "#C4C2C2"
+          },
+          {
+            "code": "NP-02",
+            "name": "Marigold",
+            "hex": "#C1BEBB"
+          },
+          {
+            "code": "NP-03",
+            "name": "Sienna",
+            "hex": "#BBB6AF"
+          },
+          {
+            "code": "NP-04",
+            "name": "Mirage",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "NP-05",
+            "name": "Twilight",
+            "hex": "#ACACAA"
+          },
+          {
+            "code": "NP-06",
+            "name": "Celestial",
+            "hex": "#B9B8B9"
+          },
+          {
+            "code": "NP-07",
+            "name": "Whisper",
+            "hex": "#BDBBB4"
+          },
+          {
+            "code": "NP-08",
+            "name": "Moon",
+            "hex": "#B2ACAA"
+          },
+          {
+            "code": "NP-09",
+            "name": "Oasis",
+            "hex": "#C1CCB9"
+          },
+          {
+            "code": "NP-10",
+            "name": "Ochre",
+            "hex": "#D6C5AF"
+          },
+          {
+            "code": "NP-11",
+            "name": "Allure",
+            "hex": "#D3C3BC"
+          },
+          {
+            "code": "NP-12",
+            "name": "Mahogany",
+            "hex": "#B4A59A"
+          },
+          {
+            "code": "NP-13",
+            "name": "Canyon",
+            "hex": "#B38968"
+          },
+          {
+            "code": "NP-14",
+            "name": "Emerald",
+            "hex": "#C8CCB3"
+          },
+          {
+            "code": "NP-15",
+            "name": "Tangerine",
+            "hex": "#B59E8D"
+          },
+          {
+            "code": "NP-16",
+            "name": "Midnight",
+            "hex": "#575657"
+          }
+        ]
+      },
+      "sichtbeton": {
+        "title": "Sichtbeton",
+        "description": "3 arhitektuurset halli tooni toorbetooniks.",
+        "items": [
+          {
+            "code": "SB-L",
+            "name": "Light Grey",
+            "hex": "#DDDAD6"
+          },
+          {
+            "code": "SB-M",
+            "name": "Mid Grey",
+            "hex": "#CECBC7"
+          },
+          {
+            "code": "SB-D",
+            "name": "Dark Grey",
+            "hex": "#B9B9B9"
+          }
+        ]
+      },
+      "basebeton-paint": {
+        "title": "Basebeton Paint",
+        "description": "40 mineraalnimeliste värviga soojad tööstuslikud seinakattevärvi toonid.",
+        "items": [
+          {
+            "code": "BBP-001",
+            "name": "Dutch Grey",
+            "hex": "#A7A29D"
+          },
+          {
+            "code": "BBP-009",
+            "name": "Persian",
+            "hex": "#6F6A66"
+          },
+          {
+            "code": "BBP-020",
+            "name": "Olive",
+            "hex": "#C2B39A"
+          },
+          {
+            "code": "BBP-029",
+            "name": "Sage",
+            "hex": "#C2C4B7"
+          },
+          {
+            "code": "BBP-030",
+            "name": "Artichok",
+            "hex": "#9D9785"
+          },
+          {
+            "code": "BBP-038",
+            "name": "Rose White",
+            "hex": "#D9D6CB"
+          },
+          {
+            "code": "BBP-051",
+            "name": "Lava",
+            "hex": "#555D60"
+          },
+          {
+            "code": "BBP-052",
+            "name": "Ash",
+            "hex": "#A2A4A3"
+          },
+          {
+            "code": "BBP-062",
+            "name": "Sisal",
+            "hex": "#B5A999"
+          },
+          {
+            "code": "BBP-064",
+            "name": "Grain",
+            "hex": "#E2D6BB"
+          },
+          {
+            "code": "BBP-070",
+            "name": "Tierra",
+            "hex": "#A88F83"
+          },
+          {
+            "code": "BBP-075",
+            "name": "Bright",
+            "hex": "#DCDCDA"
+          },
+          {
+            "code": "BBP-077",
+            "name": "Cotton",
+            "hex": "#B5AA9A"
+          },
+          {
+            "code": "BBP-078",
+            "name": "Sand",
+            "hex": "#C9C6BF"
+          },
+          {
+            "code": "BBP-079",
+            "name": "Pigeon",
+            "hex": "#C2BEB5"
+          },
+          {
+            "code": "BBP-082",
+            "name": "Delta",
+            "hex": "#8D836B"
+          },
+          {
+            "code": "BBP-085",
+            "name": "Lychee",
+            "hex": "#B69F94"
+          },
+          {
+            "code": "BBP-101",
+            "name": "Boracite",
+            "hex": "#D1D0C3"
+          },
+          {
+            "code": "BBP-102",
+            "name": "Rutile",
+            "hex": "#515255"
+          },
+          {
+            "code": "BBP-103",
+            "name": "Corundum",
+            "hex": "#858B7C"
+          },
+          {
+            "code": "BBP-104",
+            "name": "Dolomite",
+            "hex": "#EFEEEB"
+          },
+          {
+            "code": "BBP-105",
+            "name": "Cerussite",
+            "hex": "#ECE9E5"
+          },
+          {
+            "code": "BBP-106",
+            "name": "Garnet",
+            "hex": "#B6B8B5"
+          },
+          {
+            "code": "BBP-107",
+            "name": "Diopside",
+            "hex": "#646A68"
+          },
+          {
+            "code": "BBP-108",
+            "name": "Calcite",
+            "hex": "#BEBAB1"
+          },
+          {
+            "code": "BBP-109",
+            "name": "Anatase",
+            "hex": "#848678"
+          },
+          {
+            "code": "BBP-110",
+            "name": "Proteus",
+            "hex": "#806F5B"
+          },
+          {
+            "code": "BBP-111",
+            "name": "Almandine",
+            "hex": "#CAAFA5"
+          },
+          {
+            "code": "BBP-112",
+            "name": "Adamite",
+            "hex": "#85856C"
+          },
+          {
+            "code": "BBP-113",
+            "name": "Mali Garnet",
+            "hex": "#EFE9DF"
+          },
+          {
+            "code": "BBP-114",
+            "name": "Anglesite",
+            "hex": "#EDEAE3"
+          },
+          {
+            "code": "BBP-115",
+            "name": "Brookite",
+            "hex": "#D9CDB3"
+          },
+          {
+            "code": "BBP-116",
+            "name": "Gypsum",
+            "hex": "#D1D2CD"
+          },
+          {
+            "code": "BBP-117",
+            "name": "Cuprite",
+            "hex": "#C9A67D"
+          },
+          {
+            "code": "BBP-118",
+            "name": "Sapphire",
+            "hex": "#CAD8E0"
+          },
+          {
+            "code": "BBP-119",
+            "name": "Cinnabar",
+            "hex": "#A87C76"
+          },
+          {
+            "code": "BBP-120",
+            "name": "Hessonite",
+            "hex": "#8B795A"
+          },
+          {
+            "code": "BBP-121",
+            "name": "Andradite",
+            "hex": "#F1D4C8"
+          },
+          {
+            "code": "BBP-122",
+            "name": "Powellite",
+            "hex": "#908F74"
+          },
+          {
+            "code": "BBP-123",
+            "name": "Agate",
+            "hex": "#B5C3B9"
+          }
+        ]
+      },
+      "basebeton-plus": {
+        "title": "Basebeton Plus",
+        "description": "64 prantsuse igapäevaelu rütmide järgi nimetatud värvi.",
+        "items": [
+          {
+            "code": "Plus-01",
+            "name": "Icles",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus-02",
+            "name": "Drapeau",
+            "hex": "#B5B0AC"
+          },
+          {
+            "code": "Plus-03",
+            "name": "Curry",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus-04",
+            "name": "Pays",
+            "hex": "#8F8A86"
+          },
+          {
+            "code": "Plus-05",
+            "name": "Brique",
+            "hex": "#8D8982"
+          },
+          {
+            "code": "Plus-06",
+            "name": "Bois",
+            "hex": "#78736E"
+          },
+          {
+            "code": "Plus-07",
+            "name": "Ciel",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus-08",
+            "name": "Patine",
+            "hex": "#5F5B58"
+          },
+          {
+            "code": "Plus-09",
+            "name": "Calda",
+            "hex": "#9A8F7F"
+          },
+          {
+            "code": "Plus-10",
+            "name": "Rocher",
+            "hex": "#BCAEA4"
+          },
+          {
+            "code": "Plus-11",
+            "name": "Chypre",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus-12",
+            "name": "Caput",
+            "hex": "#CAC5C1"
+          },
+          {
+            "code": "Plus-13",
+            "name": "Mortier",
+            "hex": "#C1AD97"
+          },
+          {
+            "code": "Plus-14",
+            "name": "Carbone",
+            "hex": "#DED2C2"
+          },
+          {
+            "code": "Plus-15",
+            "name": "Roches",
+            "hex": "#F1D094"
+          },
+          {
+            "code": "Plus-16",
+            "name": "Rues",
+            "hex": "#BFB19A"
+          },
+          {
+            "code": "Plus-17",
+            "name": "Montagne",
+            "hex": "#85796A"
+          },
+          {
+            "code": "Plus-18",
+            "name": "Galets",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus-19",
+            "name": "Vase",
+            "hex": "#B38973"
+          },
+          {
+            "code": "Plus-20",
+            "name": "Jarre",
+            "hex": "#E4CDA9"
+          },
+          {
+            "code": "Plus 21",
+            "name": "Ville",
+            "hex": "#C37B63"
+          },
+          {
+            "code": "Plus 22",
+            "name": "Parc",
+            "hex": "#C89075"
+          },
+          {
+            "code": "Plus 23",
+            "name": "Voiture",
+            "hex": "#B9C4A2"
+          },
+          {
+            "code": "Plus 24",
+            "name": "Enfant",
+            "hex": "#B5B59F"
+          },
+          {
+            "code": "Plus 25",
+            "name": "École",
+            "hex": "#A3A193"
+          },
+          {
+            "code": "Plus 26",
+            "name": "Porte",
+            "hex": "#77726C"
+          },
+          {
+            "code": "Plus 27",
+            "name": "Jardin",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 28",
+            "name": "Bassin",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 29",
+            "name": "Suite",
+            "hex": "#AB9F90"
+          },
+          {
+            "code": "Plus 30",
+            "name": "Maison",
+            "hex": "#76726A"
+          },
+          {
+            "code": "Plus 31",
+            "name": "Patron",
+            "hex": "#977F7B"
+          },
+          {
+            "code": "Plus 32",
+            "name": "Beau",
+            "hex": "#ECEDE9"
+          },
+          {
+            "code": "Plus 33",
+            "name": "Chargé",
+            "hex": "#B0ACA6"
+          },
+          {
+            "code": "Plus 34",
+            "name": "Grand",
+            "hex": "#AF8777"
+          },
+          {
+            "code": "Plus 35",
+            "name": "Petit",
+            "hex": "#9F7460"
+          },
+          {
+            "code": "Plus 36",
+            "name": "Poubelle",
+            "hex": "#865852"
+          },
+          {
+            "code": "Plus 37",
+            "name": "Image",
+            "hex": "#AD7369"
+          },
+          {
+            "code": "Plus 38",
+            "name": "Vélo",
+            "hex": "#A7A3A4"
+          },
+          {
+            "code": "Plus 39",
+            "name": "Etage",
+            "hex": "#8D8A87"
+          },
+          {
+            "code": "Plus 40",
+            "name": "Robe",
+            "hex": "#CAC7C1"
+          },
+          {
+            "code": "Plus 41",
+            "name": "Veste",
+            "hex": "#6C6865"
+          },
+          {
+            "code": "Plus 42",
+            "name": "Parti",
+            "hex": "#C4C9C3"
+          },
+          {
+            "code": "Plus 43",
+            "name": "Feuille",
+            "hex": "#BBB7B4"
+          },
+          {
+            "code": "Plus 44",
+            "name": "Fiche",
+            "hex": "#B0ADA6"
+          },
+          {
+            "code": "Plus 45",
+            "name": "Linge",
+            "hex": "#C3BFB6"
+          },
+          {
+            "code": "Plus 46",
+            "name": "Livre",
+            "hex": "#A29E99"
+          },
+          {
+            "code": "Plus 47",
+            "name": "Salin",
+            "hex": "#A7ABAA"
+          },
+          {
+            "code": "Plus 48",
+            "name": "Sabot",
+            "hex": "#9D9991"
+          },
+          {
+            "code": "Plus 49",
+            "name": "Couper",
+            "hex": "#979B9A"
+          },
+          {
+            "code": "Plus 50",
+            "name": "Label",
+            "hex": "#8B877F"
+          },
+          {
+            "code": "Plus 51",
+            "name": "Roue",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 52",
+            "name": "Tour",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 53",
+            "name": "Moudre",
+            "hex": "#BEAF98"
+          },
+          {
+            "code": "Plus 54",
+            "name": "Broyé",
+            "hex": "#CFC2A9"
+          },
+          {
+            "code": "Plus 55",
+            "name": "Sentir",
+            "hex": "#D3C7BA"
+          },
+          {
+            "code": "Plus 56",
+            "name": "Odeur",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "Plus 57",
+            "name": "Parfum",
+            "hex": "#DED1C7"
+          },
+          {
+            "code": "Plus 58",
+            "name": "Trottoir",
+            "hex": "#A99C94"
+          },
+          {
+            "code": "Plus 59",
+            "name": "Tabac",
+            "hex": "#B48C75"
+          },
+          {
+            "code": "Plus 60",
+            "name": "Fossé",
+            "hex": "#9F785C"
+          },
+          {
+            "code": "Plus 61",
+            "name": "Verre",
+            "hex": "#997846"
+          },
+          {
+            "code": "Plus 62",
+            "name": "Boirre",
+            "hex": "#A0805D"
+          },
+          {
+            "code": "Plus 63",
+            "name": "Avion",
+            "hex": "#6B5A5A"
+          },
+          {
+            "code": "Plus 64",
+            "name": "Bouge",
+            "hex": "#D47670"
+          }
+        ]
+      },
+      "basebeton-xtreme": {
+        "title": "Basebeton Xtreme",
+        "description": "20 loodusest inspireeritud värvi raskekoormuslikele epoksüpõrandatele.",
+        "items": [
+          {
+            "code": "XT-01",
+            "name": "Candle",
+            "hex": "#E3DFD7"
+          },
+          {
+            "code": "XT-03",
+            "name": "Mountain",
+            "hex": "#828689"
+          },
+          {
+            "code": "XT-05",
+            "name": "Field",
+            "hex": "#B1ADAA"
+          },
+          {
+            "code": "XT-07",
+            "name": "Evening",
+            "hex": "#777374"
+          },
+          {
+            "code": "XT-09",
+            "name": "Willow",
+            "hex": "#A29E96"
+          },
+          {
+            "code": "XT-11",
+            "name": "Storm",
+            "hex": "#B1ADA7"
+          },
+          {
+            "code": "XT-13",
+            "name": "Village",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "XT-15",
+            "name": "Bottle",
+            "hex": "#C5C1BE"
+          },
+          {
+            "code": "XT-17",
+            "name": "Sharp",
+            "hex": "#CDC9C2"
+          },
+          {
+            "code": "XT-19",
+            "name": "Biscuit",
+            "hex": "#D2C5B6"
+          },
+          {
+            "code": "XT-21",
+            "name": "Silver",
+            "hex": "#B0B9BC"
+          },
+          {
+            "code": "XT-23",
+            "name": "Roof",
+            "hex": "#D47771"
+          },
+          {
+            "code": "XT-25",
+            "name": "Elegance",
+            "hex": "#CEC9C2"
+          },
+          {
+            "code": "XT-27",
+            "name": "Shadow",
+            "hex": "#C4C0B7"
+          },
+          {
+            "code": "XT-29",
+            "name": "Brick",
+            "hex": "#C5AD9D"
+          },
+          {
+            "code": "XT-31",
+            "name": "Walnut",
+            "hex": "#B29D90"
+          },
+          {
+            "code": "XT-33",
+            "name": "Muddy",
+            "hex": "#6B5B5B"
+          },
+          {
+            "code": "XT-35",
+            "name": "Slow",
+            "hex": "#C7C9BE"
+          },
+          {
+            "code": "XT-37",
+            "name": "Cliff",
+            "hex": "#A8A4A1"
+          },
+          {
+            "code": "XT-39",
+            "name": "Dune",
+            "hex": "#DED2C3"
+          }
+        ]
+      },
+      "basebeton-solid": {
+        "title": "Basebeton Solid",
+        "description": "21 rafineeritud tooni tugevaima betoonpõranda kruntvärvi jaoks.",
+        "items": [
+          {
+            "code": "BBS-01",
+            "name": "Morning",
+            "hex": "#D1CDCA"
+          },
+          {
+            "code": "BBS-02",
+            "name": "Gravel",
+            "hex": "#999184"
+          },
+          {
+            "code": "BBS-03",
+            "name": "Elegance",
+            "hex": "#8C7F7F"
+          },
+          {
+            "code": "BBS-04",
+            "name": "Marble",
+            "hex": "#9B9084"
+          },
+          {
+            "code": "BBS-10",
+            "name": "Phantom",
+            "hex": "#95918E"
+          },
+          {
+            "code": "BBS-16",
+            "name": "Chalk",
+            "hex": "#B7B4A9"
+          },
+          {
+            "code": "BBS-18",
+            "name": "Creme",
+            "hex": "#9B8F7F"
+          },
+          {
+            "code": "BBS-27",
+            "name": "Show",
+            "hex": "#BE855B"
+          },
+          {
+            "code": "BBS-30",
+            "name": "Leaves",
+            "hex": "#96947C"
+          },
+          {
+            "code": "BBS-32",
+            "name": "Dolphin",
+            "hex": "#908070"
+          },
+          {
+            "code": "BBS-34",
+            "name": "Plain",
+            "hex": "#A08E80"
+          },
+          {
+            "code": "BBS-38",
+            "name": "Sugar",
+            "hex": "#D2CFC7"
+          },
+          {
+            "code": "BBS-48",
+            "name": "Pelt",
+            "hex": "#A5A29F"
+          },
+          {
+            "code": "BBS-50",
+            "name": "Early",
+            "hex": "#C6C1BA"
+          },
+          {
+            "code": "BBS-52",
+            "name": "Mamut",
+            "hex": "#B9BAB5"
+          },
+          {
+            "code": "BBS-54",
+            "name": "Frost",
+            "hex": "#A9A4A1"
+          },
+          {
+            "code": "BBS-55",
+            "name": "Block",
+            "hex": "#B0B1AC"
+          },
+          {
+            "code": "BBS-58",
+            "name": "Salted",
+            "hex": "#A4A09D"
+          },
+          {
+            "code": "BBS-60",
+            "name": "Trunk",
+            "hex": "#7C7D79"
+          },
+          {
+            "code": "BBS-64",
+            "name": "Scones",
+            "hex": "#BAA17E"
+          },
+          {
+            "code": "BBS-66",
+            "name": "Dale",
+            "hex": "#AFA292"
+          }
+        ]
+      },
+      "basebeton-grit": {
+        "title": "Basebeton Grit",
+        "description": "20 randa ja maastikku inspireeritud värvi gritpõrandatele.",
+        "items": [
+          {
+            "code": "BBG-101",
+            "name": "Dun Briste",
+            "hex": "#7E7976"
+          },
+          {
+            "code": "BBG-102",
+            "name": "Camps Bay",
+            "hex": "#B0A999"
+          },
+          {
+            "code": "BBG-104",
+            "name": "Cliffton",
+            "hex": "#9F988A"
+          },
+          {
+            "code": "BBG-105",
+            "name": "Navagio Beach",
+            "hex": "#D7CBBD"
+          },
+          {
+            "code": "BBG-107",
+            "name": "Cocoa Island",
+            "hex": "#7F7B7C"
+          },
+          {
+            "code": "BBG-108",
+            "name": "Stivina",
+            "hex": "#CCBEAF"
+          },
+          {
+            "code": "BBG-109",
+            "name": "Pinksand Beach",
+            "hex": "#B79E90"
+          },
+          {
+            "code": "BBG-112",
+            "name": "Baga",
+            "hex": "#737374"
+          },
+          {
+            "code": "BBG-113",
+            "name": "Blacksand Beach",
+            "hex": "#5A5B5B"
+          },
+          {
+            "code": "BBG-114",
+            "name": "Tayrona",
+            "hex": "#8F9090"
+          },
+          {
+            "code": "BBG-115",
+            "name": "Seagrass Bay",
+            "hex": "#BBB9AF"
+          },
+          {
+            "code": "BBG-121",
+            "name": "Astola",
+            "hex": "#A39F96"
+          },
+          {
+            "code": "BBG-122",
+            "name": "Varadero",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-125",
+            "name": "Calabar",
+            "hex": "#9F9587"
+          },
+          {
+            "code": "BBG-127",
+            "name": "Nissi",
+            "hex": "#B1B1B0"
+          },
+          {
+            "code": "BBG-130",
+            "name": "Agando",
+            "hex": "#9F9588"
+          },
+          {
+            "code": "BBG-131",
+            "name": "Cappadocia",
+            "hex": "#BDBAB2"
+          },
+          {
+            "code": "BBG-133",
+            "name": "White Desert",
+            "hex": "#A49F97"
+          },
+          {
+            "code": "BBG-134",
+            "name": "Chimney",
+            "hex": "#C9C2B3"
+          },
+          {
+            "code": "BBG-138",
+            "name": "Diani",
+            "hex": "#CCBEAF"
+          }
+        ]
+      },
+      "stuccopuro": {
+        "title": "Stuccopuro",
+        "description": "60 itaalia keeles nimetatud värvi dekoratiivse betoonilookiga seinakrohvidele.",
+        "items": [
+          {
+            "code": "SP 01",
+            "name": "Senape",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 02",
+            "name": "Olio",
+            "hex": "#7F826E"
+          },
+          {
+            "code": "SP 03",
+            "name": "Foresta",
+            "hex": "#827C67"
+          },
+          {
+            "code": "SP 04",
+            "name": "Alto",
+            "hex": "#A1967D"
+          },
+          {
+            "code": "SP 05",
+            "name": "Sedona",
+            "hex": "#887C65"
+          },
+          {
+            "code": "SP 06",
+            "name": "Lido",
+            "hex": "#706349"
+          },
+          {
+            "code": "SP 07",
+            "name": "Ficre",
+            "hex": "#DBE2CE"
+          },
+          {
+            "code": "SP 08",
+            "name": "Amaro",
+            "hex": "#B1BEAD"
+          },
+          {
+            "code": "SP 09",
+            "name": "Sabbina",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 10",
+            "name": "Mela",
+            "hex": "#B7A999"
+          },
+          {
+            "code": "SP 11",
+            "name": "Cotta",
+            "hex": "#D3A696"
+          },
+          {
+            "code": "SP 12",
+            "name": "Panna",
+            "hex": "#C8BBAA"
+          },
+          {
+            "code": "SP 13",
+            "name": "Caramello",
+            "hex": "#A05D4F"
+          },
+          {
+            "code": "SP 14",
+            "name": "Sole",
+            "hex": "#BA9F71"
+          },
+          {
+            "code": "SP 15",
+            "name": "Riso",
+            "hex": "#CED3CD"
+          },
+          {
+            "code": "SP 16",
+            "name": "Mare",
+            "hex": "#A9AB9F"
+          },
+          {
+            "code": "SP 17",
+            "name": "Sardina",
+            "hex": "#D1CCB7"
+          },
+          {
+            "code": "SP 18",
+            "name": "Uno",
+            "hex": "#A3AEAA"
+          },
+          {
+            "code": "SP 19",
+            "name": "Vico",
+            "hex": "#959F9B"
+          },
+          {
+            "code": "SP 20",
+            "name": "Timo",
+            "hex": "#BEC0B2"
+          },
+          {
+            "code": "SP 21",
+            "name": "Salvia",
+            "hex": "#D8D9D3"
+          },
+          {
+            "code": "SP 22",
+            "name": "Mora",
+            "hex": "#927360"
+          },
+          {
+            "code": "SP 23",
+            "name": "Putta",
+            "hex": "#ECE0CE"
+          },
+          {
+            "code": "SP 24",
+            "name": "Sabbia",
+            "hex": "#A1865A"
+          },
+          {
+            "code": "SP 25",
+            "name": "Cossa",
+            "hex": "#DEDEDE"
+          },
+          {
+            "code": "SP 26",
+            "name": "Porto",
+            "hex": "#7A99A7"
+          },
+          {
+            "code": "SP 27",
+            "name": "Menta",
+            "hex": "#7AA0A6"
+          },
+          {
+            "code": "SP 28",
+            "name": "Pianto",
+            "hex": "#958A93"
+          },
+          {
+            "code": "SP 29",
+            "name": "Arla",
+            "hex": "#9B9597"
+          },
+          {
+            "code": "SP 30",
+            "name": "Scuro",
+            "hex": "#595959"
+          },
+          {
+            "code": "SP 31",
+            "name": "Salsa",
+            "hex": "#36312E"
+          },
+          {
+            "code": "SP 32",
+            "name": "Strada",
+            "hex": "#4D4946"
+          },
+          {
+            "code": "SP 33",
+            "name": "Salto",
+            "hex": "#A9AB9E"
+          },
+          {
+            "code": "SP 34",
+            "name": "Brista",
+            "hex": "#DFCCB0"
+          },
+          {
+            "code": "SP 35",
+            "name": "Porso",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 36",
+            "name": "Pepe",
+            "hex": "#68797E"
+          },
+          {
+            "code": "SP 37",
+            "name": "Oliva",
+            "hex": "#687A7E"
+          },
+          {
+            "code": "SP 38",
+            "name": "Erba",
+            "hex": "#645F5C"
+          },
+          {
+            "code": "SP 39",
+            "name": "Isola",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 40",
+            "name": "Tropi",
+            "hex": "#B4B5B1"
+          },
+          {
+            "code": "SP 41",
+            "name": "Cabo",
+            "hex": "#F3EFDD"
+          },
+          {
+            "code": "SP 42",
+            "name": "Gelato",
+            "hex": "#E7E4D2"
+          },
+          {
+            "code": "SP 43",
+            "name": "Dolce",
+            "hex": "#F3EBE0"
+          },
+          {
+            "code": "SP 44",
+            "name": "Pietra",
+            "hex": "#9F9887"
+          },
+          {
+            "code": "SP 45",
+            "name": "Torta",
+            "hex": "#C1C0A5"
+          },
+          {
+            "code": "SP 46",
+            "name": "Puri",
+            "hex": "#DED1B4"
+          },
+          {
+            "code": "SP 47",
+            "name": "Torno",
+            "hex": "#8D8D8D"
+          },
+          {
+            "code": "SP 48",
+            "name": "Uovo",
+            "hex": "#E6DED6"
+          },
+          {
+            "code": "SP 49",
+            "name": "Albero",
+            "hex": "#D0C8BE"
+          },
+          {
+            "code": "SP 50",
+            "name": "Mucca",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 51",
+            "name": "Parco",
+            "hex": "#C7B8AA"
+          },
+          {
+            "code": "SP 52",
+            "name": "Secco",
+            "hex": "#8A8372"
+          },
+          {
+            "code": "SP 53",
+            "name": "Burra",
+            "hex": "#A39787"
+          },
+          {
+            "code": "SP 54",
+            "name": "Mandurla",
+            "hex": "#BBB5AD"
+          },
+          {
+            "code": "SP 55",
+            "name": "Verdura",
+            "hex": "#697D7C"
+          },
+          {
+            "code": "SP 56",
+            "name": "Lana",
+            "hex": "#859494"
+          },
+          {
+            "code": "SP 57",
+            "name": "Rivero",
+            "hex": "#939E9A"
+          },
+          {
+            "code": "SP 58",
+            "name": "Sea",
+            "hex": "#A2ACA8"
+          },
+          {
+            "code": "SP 59",
+            "name": "Oceano",
+            "hex": "#B4BEBB"
+          },
+          {
+            "code": "SP 60",
+            "name": "Casse",
+            "hex": "#BD9375"
+          }
         ]
       }
     },
@@ -865,39 +5091,103 @@
     }
   },
   "custom_interior": {
-    "title": "Interjöörikunst & Dekoor",
-    "subtitle": "Mineraalne meisterlikkus väljaspool pinda. Iga element on meie stuudio poolt käsitsi vormitud.",
+    "title": "Interjöörikunst",
+    "subtitle": "Käsitööna valminud mineraalsed tekstuurid.",
     "items": [
       {
         "id": "fresco",
         "name": "Fresko & Lubivärv",
-        "description": "Iidne mineraaltehnika, mis loob orgaanilisi, hingavaid seinapindu pehme, vananenud patinaga, mis on unikaalne igale ruumile."
+        "description": "Iidne mineraaltehnika, mis loob orgaanilisi, hingavaid seinapindu pehme, vananenud patinaga, mis on unikaalne igale ruumile.",
+        "image": "/assets/pages/deco-walls/wave-wall.png"
       },
       {
         "id": "geometric",
         "name": "Geomeetrilised Inkrusteeringud",
-        "description": "Täpselt lõigatud mineraalmustrid — Muuristiili võrgustikust rangete modernistlike võredeni — otse elavasse pinnasse põimitud."
+        "description": "Täpselt lõigatud mineraalmustrid — Muuristiili võrgustikust rangete modernistlike võredeni — otse elavasse pinnasse põimitud.",
+        "image": "/assets/pages/deco-walls/charcoal-abstract.png"
       },
       {
         "id": "sculptural",
         "name": "Skulpturaalsed Reljeefpaneelid",
-        "description": "Kolmemõõtmelised dekoratiivsed paneelid, käsitsi vormitud mikrotsemendist — aktsentseinäde, peatsete ja arhitektuursete niššide jaoks."
+        "description": "Kolmemõõtmelised dekoratiivsed paneelid, käsitsi vormitud mikrotsemendist — aktsentseinäde, peatsete ja arhitektuursete niššide jaoks.",
+        "image": "/assets/pages/deco-walls/red-white-relief.png"
       },
       {
         "id": "ombre",
         "name": "Ombré Mineraalgradiendid",
-        "description": "Sujuvad värvüleminekud põrandalt laeni tooreid savipigmente kasutades, ilma nähtava piiri või õmbluseta."
+        "description": "Sujuvad värvüleminekud põrandalt laeni tooreid savipigmente kasutades, ilma nähtava piiri või õmbluseta.",
+        "image": "/assets/pages/deco-walls/hero.png"
       },
       {
         "id": "mural",
         "name": "Kohandatud Mineraalmuraalid",
-        "description": "Suuremahulised käsitsimaalitud muraalid mineraalpigmendis — püsivad, UV-stabiilsed ja täiesti ainulaadsed teie ruumile."
+        "description": "Suuremahulised käsitsimaalitud muraalid mineraalpigmendis — püsivad, UV-stabiilsed ja täiesti ainulaadsed teie ruumile.",
+        "image": "/assets/pages/deco-walls/sculpture-painting.png"
       },
       {
         "id": "accents",
-        "name": "Arhitektuursed Aktsendid",
-        "description": "Dekoratiivsed sambad, kaared, konsoolilauad ja kaminad, viimistletud monoliitse mikrotsemendiga."
+        "name": "Mööbli Detailid",
+        "description": "Dekoratiivsed sambad, kaared, konsoolilauad ja kaminad, viimistletud monoliitse mikrotsemendiga.",
+        "image": "/assets/pages/deco-walls/backlit-mirror.png"
+      },
+      {
+        "id": "relief-walls",
+        "name": "Reljeefsed Struktuurseinad",
+        "description": "Sügava tekstuuriga diagonaalsed ja orgaanilised reljeefid, mis muudavad seina dünaamiliseks arhitektuurseks elemendiks.",
+        "image": "/assets/pages/deco-walls/diagonal-relief.png"
       }
     ]
+  },
+  "terms": {
+    "title": "Kasutustingimused",
+    "subtitle": "Kuus Design stuudio teenuste ja veebilehe kasutamise alused.",
+    "last_updated": "Viimati uuendatud: 28. aprill 2026",
+    "sections": [
+      {
+        "title": "1. Üldsätted",
+        "content": "Käesolevad kasutustingimused reguleerivad Kuus Design veebilehe ja teenuste kasutamist. Veebilehte kasutades nõustute nende tingimustega täielikult."
+      },
+      {
+        "title": "2. Teenused",
+        "content": "Kuus Design pakub premium-klassi mikrotsemendi paigaldust ja dekoratiivseid pinnatöötlusi. Iga projekt on unikaalne käsitöö ning lõpptulemus võib varieeruda vastavalt materjali omadustele."
+      },
+      {
+        "title": "3. Intellektuaalomand",
+        "content": "Kogu veebilehel olev sisu, sealhulgas fotod, tekstid ja disainielemendid, kuuluvad Kuus Designile või on litsentseeritud meile. Sisu kopeerimine ilma loata on keelatud."
+      },
+      {
+        "title": "4. Vastutuse piirang",
+        "content": "Me anname endast parima, et tagada info täpsus, kuid me ei vastuta võimalike tehniliste vigade või informatsiooni tõlgendamisest tulenevate tagajärgede eest."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privaatsuspoliitika",
+    "subtitle": "Teie andmete turvalisus ja privaatsus on meie prioriteet.",
+    "last_updated": "Viimati uuendatud: 28. aprill 2026",
+    "sections": [
+      {
+        "title": "1. Andmete kogumine",
+        "content": "Kogume isikuandmeid (nimi, e-post, telefon), mida edastate meile vabatahtlikult päringuvormi kaudu, et saaksime teile pakkuda personaalset teenust."
+      },
+      {
+        "title": "2. Andmete kasutamine",
+        "content": "Kasutame teie andmeid ainult päringutele vastamiseks, projektide planeerimiseks ja teiega suhtlemiseks. Me ei müü ega jaga teie andmeid kolmandatele osapooltele turunduslikel eesmärkidel."
+      },
+      {
+        "title": "3. Küpsised",
+        "content": "Kasutame veebilehel küpsiseid, et analüüsida liiklust ja parandada kasutajakogemust. Teil on õigus küpsistest loobuda oma brauseri seadetes."
+      },
+      {
+        "title": "4. Teie õigused",
+        "content": "Teil on igal ajal õigus tutvuda oma andmetega, nõuda nende parandamist või kustutamist, võttes meiega ühendust e-posti teel."
+      }
+    ]
+  },
+  "visualize_cta": {
+    "badge": "Studio tööriist",
+    "title": "Näe seda oma ruumis",
+    "desc": "Lae üles foto oma ruumist, klõpsa seinale ja vaata kohe Basebetoni toone realistliku tekstuuri ja valgusega.",
+    "button": "Proovi visualiseerijat"
   }
 }

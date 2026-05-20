@@ -28,9 +28,9 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
   };
 
   const categories = [
-    { id: "flooring", image: "/cat-flooring.png", href: "/products/flooring" },
-    { id: "bathrooms", image: "/cat-bathroom.png", href: "/products/bathrooms" },
-    { id: "furniture", image: "/cat-furniture.png", href: "/products/furniture" },
+    { id: "basebeton-originale", image: "/assets/surfaces/microcemento.png", href: "/products/basebeton-originale", label: "Basebeton Originale" },
+    { id: "oxidestuc",           image: "/assets/surfaces/real-metals.png",  href: "/products/oxidestuc",           label: "Oxidestuc" },
+    { id: "stuccopuro",          image: "/assets/surfaces/summery.png",       href: "/products/stuccopuro",          label: "Stuccopuro" },
   ];
 
   const mainLinks = [
@@ -39,7 +39,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
     { id: "blog", href: "/blog" },
     { id: "projects", href: "/projects", sub: ["Gallery", "Stories", "Map"] },
     { id: "colors", href: "/colors" },
-    { id: "guide", href: "/guide/topcret" },
+    { id: "guide", href: "/guide/basebeton" },
     { id: "faq", href: "/faq" },
     { id: "business", href: "/business" },
     { id: "events", href: "/events" },
@@ -76,7 +76,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
                     alt="KUUS DESIGN Logo"
                     width={160}
                     height={48}
-                    className="w-full h-auto"
+                    style={{ width: "100%", height: "auto" }}
                   />
                 </Link>
                 <button onClick={onClose} className="p-2 hover:opacity-50 transition-opacity">
@@ -101,7 +101,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
                     />
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
                     <span className="absolute bottom-4 left-4 text-white text-[10px] uppercase tracking-widest font-medium">
-                      {navDict?.products_items?.[cat.id]?.name || cat.id}
+                      {cat.label}
                     </span>
                   </Link>
                 ))}

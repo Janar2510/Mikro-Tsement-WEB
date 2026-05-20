@@ -2,103 +2,163 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Maximize2 } from "lucide-react";
+import Link from "next/link";
 import { ColorModal } from "./ColorModal";
 
-interface ColorItem {
-  code: string;
-  name: string;
-  hex: string;
+interface ColorItem { code: string; name: string; hex: string; }
+interface ColorsUIProps { dict: any; lang: string; }
+
+const noiseSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4" stitchTiles="stitch"/></filter><rect width="300" height="300" filter="url(#n)"/></svg>`;
+const NOISE_BG = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(noiseSvg)}`;
+
+function brightness(hex: string) {
+  return (parseInt(hex.slice(1,3),16) + parseInt(hex.slice(3,5),16) + parseInt(hex.slice(5,7),16)) / 3;
 }
 
-interface ColorsUIProps {
-  dict: any;
-  lang: string;
+// Pick a spread of 8 representative colours: 2 light, 3 mid, 3 dark
+function pickPreview(items: ColorItem[]): ColorItem[] {
+  if (items.length <= 8) return items;
+  const sorted = [...items].sort((a, b) => brightness(b.hex) - brightness(a.hex));
+  const step = Math.floor(sorted.length / 8);
+  return Array.from({ length: 8 }, (_, i) => sorted[Math.min(i * step, sorted.length - 1)]);
 }
 
 export function ColorsUI({ dict, lang }: ColorsUIProps) {
   const d = dict.colors;
   const [selectedColor, setSelectedColor] = useState<ColorItem | null>(null);
 
+  const collections = Object.entries(d.collections) as [string, any][];
+  const totalColors = collections.reduce((sum, [, c]) => sum + (c.items?.length ?? 0), 0);
+
   return (
     <section className="pt-[188px] pb-24 bg-background">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-24 space-y-4">
-          <motion.h1 
+
+        {/* Hero */}
+        <div className="mb-20 space-y-6">
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="font-serif text-5xl md:text-7xl uppercase tracking-tighter italic"
+            className="space-y-4"
           >
-            {d.title}
-          </motion.h1>
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            className="font-sans text-lg text-foreground/60 max-w-2xl"
+            <h1 className="font-serif text-5xl md:text-7xl uppercase tracking-tighter italic">
+              {d.title}
+            </h1>
+            <p className="font-sans text-base text-foreground/60 max-w-2xl leading-relaxed">
+              {d.subtitle}
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.15 }}
+            className="flex items-center gap-8 pt-2"
           >
-            {d.subtitle}
-          </motion.p>
+            <div>
+              <p className="font-serif text-4xl italic">{totalColors}</p>
+              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Total Colours</p>
+            </div>
+            <div>
+              <p className="font-serif text-4xl italic">{collections.length}</p>
+              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Product Palettes</p>
+            </div>
+          </motion.div>
         </div>
 
-        <div className="space-y-32">
-          {Object.entries(d.collections).map(([key, collection]: [string, any], idx: number) => (
-            <div key={key} className="space-y-12">
-              <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-border/50 pb-8">
-                <div className="space-y-2">
-                  <h2 className="font-serif text-3xl uppercase tracking-tight italic">
-                    {collection.title}
-                  </h2>
-                  <p className="font-sans text-sm text-foreground/50 uppercase tracking-widest">
-                    {collection.description}
-                  </p>
-                </div>
-                <div className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/30">
-                  Collection {idx + 1} / 4
-                </div>
-              </div>
+        {/* Product palette cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+          {collections.map(([slug, collection], idx) => {
+            const preview = pickPreview(collection.items ?? []);
+            const nLight = (collection.items ?? []).filter((c: ColorItem) => brightness(c.hex) > 185).length;
+            const nMid   = (collection.items ?? []).filter((c: ColorItem) => brightness(c.hex) > 100 && brightness(c.hex) <= 185).length;
+            const nDark  = (collection.items ?? []).filter((c: ColorItem) => brightness(c.hex) <= 100).length;
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-                {collection.items.map((item: ColorItem, i: number) => (
-                  <motion.div
-                    key={item.code}
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.05 }}
-                    className="group cursor-pointer space-y-4"
-                    onClick={() => setSelectedColor(item)}
+            return (
+              <motion.div
+                key={slug}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.05 }}
+                className="group space-y-6"
+              >
+                {/* Spectrum bar — click opens product palette */}
+                <Link href={`/${lang}/colors/${slug}`} className="block">
+                  <div className="relative overflow-hidden">
+                    {/* Horizontal spectrum */}
+                    <div className="flex h-40 gap-0.5">
+                      {preview.map((c, i) => (
+                        <div
+                          key={c.code}
+                          className="flex-1 relative transition-transform duration-500 group-hover:scale-y-[1.03] origin-bottom"
+                          style={{ backgroundColor: c.hex }}
+                        >
+                          <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: `url("${NOISE_BG}")`, backgroundSize: "200px 200px", opacity: 0.1, mixBlendMode: "overlay" }} />
+                          <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(128deg,rgba(255,255,255,0.15) 0%,transparent 50%,rgba(0,0,0,0.15) 100%)" }} />
+                        </div>
+                      ))}
+                    </div>
+                    {/* Overlay on hover */}
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                      <span className="bg-white/90 backdrop-blur-sm px-4 py-2 text-[10px] uppercase tracking-widest font-bold text-foreground">
+                        View {collection.items?.length} Colours →
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+
+                {/* Info row */}
+                <div className="flex items-start justify-between gap-4">
+                  <div className="space-y-1.5">
+                    <Link href={`/${lang}/colors/${slug}`}>
+                      <h2 className="font-serif text-xl italic tracking-tight hover:opacity-70 transition-opacity">
+                        {collection.title}
+                      </h2>
+                    </Link>
+                    <p className="font-sans text-[11px] text-foreground/50 leading-relaxed max-w-xs">
+                      {collection.description}
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-end gap-1 shrink-0 text-right">
+                    <span className="font-serif text-2xl italic text-foreground">{collection.items?.length ?? 0}</span>
+                    <span className="text-[9px] uppercase tracking-[0.25em] text-foreground/30">colours</span>
+                  </div>
+                </div>
+
+                {/* Tone breakdown */}
+                <div className="flex gap-3">
+                  {nLight > 0 && (
+                    <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
+                      <p className="font-serif text-base italic">{nLight}</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Light</p>
+                    </div>
+                  )}
+                  {nMid > 0 && (
+                    <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
+                      <p className="font-serif text-base italic">{nMid}</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Mid</p>
+                    </div>
+                  )}
+                  {nDark > 0 && (
+                    <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
+                      <p className="font-serif text-base italic">{nDark}</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Dark</p>
+                    </div>
+                  )}
+                  <Link
+                    href={`/${lang}/colors/${slug}`}
+                    className="flex-1 flex items-center justify-center py-2 bg-foreground/[0.03] border border-foreground/5 text-[9px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:bg-foreground hover:text-background transition-all duration-500"
                   >
-                    <div 
-                      className="aspect-square relative overflow-hidden bg-muted transition-transform duration-700 group-hover:scale-[1.02]"
-                      style={{ backgroundColor: item.hex }}
-                    >
-                      <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/p6-mini.png')]" />
-                      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/5">
-                        <Maximize2 className="w-6 h-6 text-white/50" />
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-1">
-                      <p className="text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40">
-                        {item.code}
-                      </p>
-                      <p className="font-serif text-lg italic tracking-tight">
-                        {item.name}
-                      </p>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          ))}
+                    View All
+                  </Link>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
 
-      <ColorModal 
-        color={selectedColor} 
-        onClose={() => setSelectedColor(null)} 
-      />
+      <ColorModal color={selectedColor} onClose={() => setSelectedColor(null)} />
     </section>
   );
 }

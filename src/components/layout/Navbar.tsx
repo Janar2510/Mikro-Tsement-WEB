@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, Sparkles } from "lucide-react";
+import { Menu, Sparkles, Camera } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { NavDrawer } from "./NavDrawer";
 import { AIAssistant } from "@/components/search/AIAssistant";
@@ -46,9 +46,10 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
               width={200}
               height={60}
               className={cn(
-                "w-full h-auto transition-all duration-500",
+                "transition-all duration-500",
                 (isDark && !isScrolled) ? "brightness-0 invert" : ""
               )}
+              style={{ width: "100%", height: "auto" }}
               priority
             />
           </Link>
@@ -56,13 +57,28 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
           <div className="flex items-center gap-8">
             {/* Minimal Desktop Links - Just the priorities */}
             <nav className="hidden md:flex gap-8 text-[10px] uppercase font-bold tracking-[0.2em]">
+              <Link href={`/${lang}`} className="hover:opacity-60 transition-opacity">
+                {navDict?.home || "Home"}
+              </Link>
               <Link href={`/${lang}/products`} className="hover:opacity-60 transition-opacity">
                 {navDict?.products || "Products"}
               </Link>
               <Link href={`/${lang}/story`} className="hover:opacity-60 transition-opacity">
                 {navDict?.story || "Our Story"}
               </Link>
+              <Link href={`/${lang}/contact`} className="hover:opacity-60 transition-opacity">
+                {navDict?.contact || "Contact"}
+              </Link>
             </nav>
+
+            {/* Visualizer Link Button */}
+            <Link 
+              href={`/${lang}/visualize`} 
+              className="hidden lg:flex items-center gap-2 px-5 py-2.5 bg-foreground text-background text-[10px] uppercase font-bold tracking-[0.2em] rounded-full hover:bg-foreground/80 hover:scale-105 active:scale-95 transition-all duration-300 shadow-md"
+            >
+              <Camera className="w-3.5 h-3.5" />
+              {navDict?.visualizer || (lang === 'et' ? 'Visualiseerija' : 'Visualizer')}
+            </Link>
 
             {/* Hamburger Button */}
             <button
@@ -85,7 +101,7 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
                <span className="hidden md:block text-[10px] uppercase font-bold tracking-[0.2em] group-hover:opacity-60 transition-opacity">
                  {aiDict?.trigger || "AI"}
                </span>
-               <Sparkles className="w-5 h-5 text-foreground" />
+               <Sparkles className="w-5 h-5" />
             </button>
           </div>
         </div>
