@@ -18,6 +18,7 @@ export function SectionHero({ title, subtitle, backgroundImage, backgroundVideo,
   useEffect(() => {
     const video = sectionRef.current?.querySelector("video");
     if (video) {
+      video.muted = true;
       video.play().catch((err) => {
         console.warn("Video play failed:", err);
       });

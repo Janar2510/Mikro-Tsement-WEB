@@ -10,6 +10,7 @@ export function TimelessCollection({ dict }: { dict: any }) {
   useEffect(() => {
     const video = heroRef.current?.querySelector("video");
     if (video) {
+      video.muted = true;
       video.play().catch((err) => {
         console.warn("Video play failed:", err);
       });
