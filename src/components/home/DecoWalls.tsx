@@ -13,6 +13,7 @@ interface DecoItem {
 
 export function DecoWalls({ dict }: { dict: any }) {
   const heroRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -52,16 +53,40 @@ export function DecoWalls({ dict }: { dict: any }) {
       node.addEventListener("scroll", checkScroll);
       checkScroll();
     }
-    const video = heroRef.current?.querySelector("video");
+    const video = videoRef.current;
+    let videoCleanup = () => {};
+
     if (video) {
       video.muted = true;
-      video.play().catch((err) => {
-        console.warn("Video play failed:", err);
-      });
+      video.defaultMuted = true;
+      video.playsInline = true;
+
+      const handleUserInteraction = () => {
+        if (video.paused) {
+          video.play().catch((err) => {
+            console.warn("DecoWalls fallback play blocked:", err);
+          });
+        }
+        cleanup();
+      };
+
+      const cleanup = () => {
+        window.removeEventListener("click", handleUserInteraction);
+        window.removeEventListener("touchstart", handleUserInteraction);
+      };
+
+      window.addEventListener("click", handleUserInteraction, { passive: true });
+      window.addEventListener("touchstart", handleUserInteraction, { passive: true });
+
+      videoCleanup = cleanup;
     }
-    if (node) {
-      return () => node.removeEventListener("scroll", checkScroll);
-    }
+
+    return () => {
+      if (node) {
+        node.removeEventListener("scroll", checkScroll);
+      }
+      videoCleanup();
+    };
   }, []);
 
 
@@ -87,20 +112,26 @@ export function DecoWalls({ dict }: { dict: any }) {
         <motion.div
           className="absolute inset-0 z-0"
           style={{ y: heroY }}
-          dangerouslySetInnerHTML={{ __html: `
+        >
           <video
-            autoplay
+            ref={(el) => {
+              (videoRef as any).current = el;
+              if (el) {
+                el.defaultMuted = true;
+                el.muted = true;
+              }
+            }}
+            autoPlay
             loop
             muted
-            playsinline
+            playsInline
             preload="auto"
             src="/assets/pages/home/deco-hero.mp4?v=2"
             poster="/assets/pages/home/deco-hero-poster.jpg"
-            class="absolute inset-0 w-full h-full object-cover brightness-[0.8] scale-110"
-          ></video>
-          <div class="absolute inset-0 bg-black/30"></div>
-          `}}
-        />
+            className="absolute inset-0 w-full h-full object-cover brightness-[0.8] scale-110"
+          />
+          <div className="absolute inset-0 bg-black/30" />
+        </motion.div>
 
         <motion.div
           className="relative z-10 text-center flex flex-col items-center max-w-5xl px-4"

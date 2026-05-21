@@ -16,36 +16,58 @@ interface HeroProps {
 const VIDEO_SRC = "/assets/pages/home/home-hero.mp4?v=2";
 
 export function Hero({ dict, lang }: HeroProps) {
-  const sectionRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    const video = sectionRef.current?.querySelector("video");
-    if (video) {
-      video.muted = true;
-      video.play().catch((err) => {
-        console.warn("Video play failed:", err);
-      });
-    }
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Double-ensure attributes programmatically
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    const handleUserInteraction = () => {
+      if (video.paused) {
+        video.play().catch((err) => {
+          console.warn("Hero fallback play blocked:", err);
+        });
+      }
+      cleanup();
+    };
+
+    const cleanup = () => {
+      window.removeEventListener("click", handleUserInteraction);
+      window.removeEventListener("touchstart", handleUserInteraction);
+    };
+
+    window.addEventListener("click", handleUserInteraction, { passive: true });
+    window.addEventListener("touchstart", handleUserInteraction, { passive: true });
+
+    return cleanup;
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
-
-      <div 
-        className="absolute inset-0 z-0"
-        dangerouslySetInnerHTML={{ __html: `
+    <section className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 z-0">
         <video
-          autoplay
+          ref={(el) => {
+            (videoRef as any).current = el;
+            if (el) {
+              el.defaultMuted = true;
+              el.muted = true;
+            }
+          }}
+          autoPlay
           loop
           muted
-          playsinline
+          playsInline
           preload="auto"
-          src="${VIDEO_SRC}"
+          src={VIDEO_SRC}
           poster="/assets/pages/home/hero-poster.jpg"
-          class="absolute inset-0 w-full h-full object-cover"
-        ></video>
-        `}}
-      />
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center flex flex-col items-center max-w-5xl px-4">

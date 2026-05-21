@@ -6,15 +6,35 @@ import Image from "next/image";
 
 export function TimelessCollection({ dict }: { dict: any }) {
   const heroRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    const video = heroRef.current?.querySelector("video");
-    if (video) {
-      video.muted = true;
-      video.play().catch((err) => {
-        console.warn("Video play failed:", err);
-      });
-    }
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Double-ensure attributes programmatically
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    const handleUserInteraction = () => {
+      if (video.paused) {
+        video.play().catch((err) => {
+          console.warn("Timeless fallback play blocked:", err);
+        });
+      }
+      cleanup();
+    };
+
+    const cleanup = () => {
+      window.removeEventListener("click", handleUserInteraction);
+      window.removeEventListener("touchstart", handleUserInteraction);
+    };
+
+    window.addEventListener("click", handleUserInteraction, { passive: true });
+    window.addEventListener("touchstart", handleUserInteraction, { passive: true });
+
+    return cleanup;
   }, []);
 
   const { scrollYProgress } = useScroll({
@@ -41,20 +61,26 @@ export function TimelessCollection({ dict }: { dict: any }) {
         <motion.div
           className="absolute inset-0 z-0"
           style={{ y: videoY }}
-          dangerouslySetInnerHTML={{ __html: `
+        >
           <video
-            autoplay
+            ref={(el) => {
+              (videoRef as any).current = el;
+              if (el) {
+                el.defaultMuted = true;
+                el.muted = true;
+              }
+            }}
+            autoPlay
             loop
             muted
-            playsinline
+            playsInline
             preload="auto"
             src="/assets/pages/products/product-videos.mp4?v=2"
             poster="/assets/pages/products/product-videos-poster.jpg"
-            class="absolute inset-0 w-full h-full object-cover brightness-[0.95] scale-110"
-          ></video>
-          <div class="absolute inset-0 bg-black/20"></div>
-          `}}
-        />
+            className="absolute inset-0 w-full h-full object-cover brightness-[0.95] scale-110"
+          />
+          <div className="absolute inset-0 bg-black/20" />
+        </motion.div>
 
         <motion.div
           className="relative z-10 text-center flex flex-col items-center max-w-5xl px-4"

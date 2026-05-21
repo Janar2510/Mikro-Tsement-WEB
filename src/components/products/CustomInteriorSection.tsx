@@ -23,6 +23,7 @@ const NUMBERS = ["01", "02", "03", "04", "05", "06"];
 
 export function CustomInteriorSection({ dict }: CustomInteriorSectionProps) {
   const heroRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start start", "end start"],
@@ -32,13 +33,32 @@ export function CustomInteriorSection({ dict }: CustomInteriorSectionProps) {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]);
 
   useEffect(() => {
-    const video = heroRef.current?.querySelector("video");
-    if (video) {
-      video.muted = true;
-      video.play().catch((err) => {
-        console.warn("Video play failed:", err);
-      });
-    }
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Double-ensure attributes programmatically
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    const handleUserInteraction = () => {
+      if (video.paused) {
+        video.play().catch((err) => {
+          console.warn("CustomInterior fallback play blocked:", err);
+        });
+      }
+      cleanup();
+    };
+
+    const cleanup = () => {
+      window.removeEventListener("click", handleUserInteraction);
+      window.removeEventListener("touchstart", handleUserInteraction);
+    };
+
+    window.addEventListener("click", handleUserInteraction, { passive: true });
+    window.addEventListener("touchstart", handleUserInteraction, { passive: true });
+
+    return cleanup;
   }, []);
 
   return (
@@ -51,19 +71,25 @@ export function CustomInteriorSection({ dict }: CustomInteriorSectionProps) {
         <motion.div 
           className="absolute inset-0 z-0" 
           style={{ y: videoY }}
-          dangerouslySetInnerHTML={{ __html: `
+        >
           <video
-            autoplay
+            ref={(el) => {
+              (videoRef as any).current = el;
+              if (el) {
+                el.defaultMuted = true;
+                el.muted = true;
+              }
+            }}
+            autoPlay
             loop
             muted
-            playsinline
+            playsInline
             preload="auto"
             src="/assets/pages/home/home-hero-2.mp4?v=2"
             poster="/assets/pages/home/surfaces-poster.jpg"
-            class="absolute inset-0 w-full h-full object-cover scale-110"
-          ></video>
-          `}}
-        />
+            className="absolute inset-0 w-full h-full object-cover scale-110"
+          />
+        </motion.div>
  
         <motion.div
           className="relative z-10 text-center flex flex-col items-center max-w-5xl px-4"

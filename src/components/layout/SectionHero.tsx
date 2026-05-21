@@ -13,36 +13,59 @@ interface SectionHeroProps {
 }
 
 export function SectionHero({ title, subtitle, backgroundImage, backgroundVideo, backgroundVideoPoster, fullHeight }: SectionHeroProps) {
-  const sectionRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    const video = sectionRef.current?.querySelector("video");
-    if (video) {
-      video.muted = true;
-      video.play().catch((err) => {
-        console.warn("Video play failed:", err);
-      });
-    }
-  }, []);
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Double-ensure attributes programmatically
+    video.muted = true;
+    video.defaultMuted = true;
+    video.playsInline = true;
+
+    const handleUserInteraction = () => {
+      if (video.paused) {
+        video.play().catch((err) => {
+          console.warn("SectionHero fallback play blocked:", err);
+        });
+      }
+      cleanup();
+    };
+
+    const cleanup = () => {
+      window.removeEventListener("click", handleUserInteraction);
+      window.removeEventListener("touchstart", handleUserInteraction);
+    };
+
+    window.addEventListener("click", handleUserInteraction, { passive: true });
+    window.addEventListener("touchstart", handleUserInteraction, { passive: true });
+
+    return cleanup;
+  }, [backgroundVideo]);
 
   return (
-    <section ref={sectionRef} className={`relative w-full ${fullHeight ? "h-screen" : "min-h-[60vh]"} flex items-center pt-36 md:pt-[220px] pb-20 px-6 overflow-hidden`}>
+    <section className={`relative w-full ${fullHeight ? "h-screen" : "min-h-[60vh]"} flex items-center pt-36 md:pt-[220px] pb-20 px-6 overflow-hidden`}>
       {backgroundVideo && (
-        <div 
-          className="absolute inset-0 z-0"
-          dangerouslySetInnerHTML={{ __html: `
+        <div className="absolute inset-0 z-0">
           <video
-            autoplay
+            ref={(el) => {
+              (videoRef as any).current = el;
+              if (el) {
+                el.defaultMuted = true;
+                el.muted = true;
+              }
+            }}
+            autoPlay
             loop
             muted
-            playsinline
+            playsInline
             preload="auto"
-            src="${backgroundVideo}"
-            poster="${backgroundVideoPoster || ''}"
-            class="w-full h-full object-cover"
-          ></video>
-          `}}
-        />
+            src={backgroundVideo}
+            poster={backgroundVideoPoster || undefined}
+            className="w-full h-full object-cover"
+          />
+        </div>
       )}
       
       {backgroundImage && !backgroundVideo && (
