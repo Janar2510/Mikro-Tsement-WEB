@@ -51,6 +51,14 @@ export function DecoWalls({ dict }: { dict: any }) {
     if (node) {
       node.addEventListener("scroll", checkScroll);
       checkScroll();
+    }
+    const video = heroRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+    if (node) {
       return () => node.removeEventListener("scroll", checkScroll);
     }
   }, []);

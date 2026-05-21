@@ -16,10 +16,19 @@ interface HeroProps {
 const VIDEO_SRC = "/assets/pages/home/home-hero.mp4?v=2";
 
 export function Hero({ dict, lang }: HeroProps) {
+  const sectionRef = useRef<HTMLElement>(null);
 
+  useEffect(() => {
+    const video = sectionRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+  }, []);
 
   return (
-    <section className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
+    <section ref={sectionRef} className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
 
       <div 
         className="absolute inset-0 z-0"

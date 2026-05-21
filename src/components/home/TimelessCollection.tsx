@@ -7,7 +7,14 @@ import Image from "next/image";
 export function TimelessCollection({ dict }: { dict: any }) {
   const heroRef = useRef<HTMLElement>(null);
 
-
+  useEffect(() => {
+    const video = heroRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: heroRef,

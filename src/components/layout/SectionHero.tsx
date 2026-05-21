@@ -13,12 +13,19 @@ interface SectionHeroProps {
 }
 
 export function SectionHero({ title, subtitle, backgroundImage, backgroundVideo, backgroundVideoPoster, fullHeight }: SectionHeroProps) {
+  const sectionRef = useRef<HTMLElement>(null);
 
-
-
+  useEffect(() => {
+    const video = sectionRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+  }, []);
 
   return (
-    <section className={`relative w-full ${fullHeight ? "h-screen" : "min-h-[60vh]"} flex items-center pt-36 md:pt-[220px] pb-20 px-6 overflow-hidden`}>
+    <section ref={sectionRef} className={`relative w-full ${fullHeight ? "h-screen" : "min-h-[60vh]"} flex items-center pt-36 md:pt-[220px] pb-20 px-6 overflow-hidden`}>
       {backgroundVideo && (
         <div 
           className="absolute inset-0 z-0"

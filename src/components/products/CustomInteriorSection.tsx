@@ -31,7 +31,14 @@ export function CustomInteriorSection({ dict }: CustomInteriorSectionProps) {
   const videoY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]);
 
-
+  useEffect(() => {
+    const video = heroRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+  }, []);
 
   return (
     <>

@@ -14,7 +14,14 @@ export function Surfaces({ dict }: { dict: any }) {
   const videoY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
 
-
+  useEffect(() => {
+    const video = heroRef.current?.querySelector("video");
+    if (video) {
+      video.play().catch((err) => {
+        console.warn("Video play failed:", err);
+      });
+    }
+  }, []);
 
   const images: Record<string, string> = {
     "surface-1": "/assets/pages/products/basebeton-originale-2.png",
