@@ -8,7 +8,6 @@ import {
   ValidationError,
 } from "@/lib/validation";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "kuusk.janar@icloud.com";
 
 // HTML-escape values that we interpolate into the email template to neutralize
@@ -98,6 +97,17 @@ export async function POST(req: NextRequest) {
         </div>
       </div>
     `;
+
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("Resend API Key is missing from environment variables.");
+      return NextResponse.json(
+        { error: "Email service is currently unavailable. Please try again later." },
+        { status: 503 }
+      );
+    }
+
+    const resend = new Resend(apiKey);
 
     await resend.emails.send({
       from: "Studio AI <onboarding@resend.dev>",
