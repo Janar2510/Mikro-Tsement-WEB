@@ -4,13 +4,6 @@ import { buildSystemPrompt } from "@/lib/ai-knowledge";
 import { getClientKey, rateLimit, rateLimitHeaders } from "@/lib/rate-limit";
 import { validateChatMessages, ValidationError } from "@/lib/validation";
 
-// NVIDIA NIM API — OpenAI-compatible endpoint
-// Get a free key at https://build.nvidia.com
-const client = new OpenAI({
-  apiKey: process.env.NVIDIA_API_KEY ?? process.env.GEMINI_API_KEY ?? "",
-  baseURL: "https://integrate.api.nvidia.com/v1",
-});
-
 // Best free NVIDIA model for chat — change to any model from build.nvidia.com
 const CHAT_MODEL = "meta/llama-3.1-70b-instruct";
 
@@ -38,6 +31,20 @@ export async function POST(req: NextRequest) {
         content: m.content,
       })),
     ];
+
+    const apiKey = process.env.NVIDIA_API_KEY ?? process.env.GEMINI_API_KEY;
+    if (!apiKey) {
+      console.error("API Key is missing from environment variables.");
+      return NextResponse.json(
+        { error: "AI service is currently unavailable. Please try again later." },
+        { status: 503 }
+      );
+    }
+
+    const client = new OpenAI({
+      apiKey,
+      baseURL: "https://integrate.api.nvidia.com/v1",
+    });
 
     const stream = await client.chat.completions.create({
       model: CHAT_MODEL,
