@@ -189,9 +189,9 @@ export function smartPrecisionWallSegment(
   // Pass 1: tight — good precision on well-lit photos
   let mask = dualCheckBFS(
     labMap, edgeMap, width, height, startX, startY,
-    /* globalTol */ 45,
-    /* localTol  */ 12,
-    /* edgeThres */ 32,
+    /* globalTol */ 25,
+    /* localTol  */ 6,
+    /* edgeThres */ 20,
     maxPixels
   );
 
@@ -201,9 +201,9 @@ export function smartPrecisionWallSegment(
   if (filled < 800) {
     mask = dualCheckBFS(
       labMap, edgeMap, width, height, startX, startY,
-      /* globalTol */ 60,
-      /* localTol  */ 18,
-      /* edgeThres */ 45,
+      /* globalTol */ 40,
+      /* localTol  */ 10,
+      /* edgeThres */ 28,
       maxPixels
     );
   }

@@ -282,7 +282,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
             transition={{ duration: 1.3, delay: 0.55, ease: [0.16, 1, 0.3, 1] }}
           >
             <Image
-              src="/assets/pages/story/origin.png"
+              src="/assets/pages/about/About Us.jpg"
               alt="KUUS DESIGN Atelier"
               fill
               className="object-cover"
@@ -365,7 +365,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
         animate={{ clipPath: "inset(0 0% 0 0)" }}
         transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
       >
-        <Image src="/assets/pages/story/origin.png" alt="KUUS DESIGN" fill className="object-cover object-center" />
+        <Image src="/assets/pages/about/About Us.jpg" alt="KUUS DESIGN" fill className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
       </motion.div>
     </section>

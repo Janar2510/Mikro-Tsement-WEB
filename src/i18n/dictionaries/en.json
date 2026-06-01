@@ -107,7 +107,7 @@
     "subtitle": "Tell us about the project — room type, size, what you're going for. We'll come back with honest advice.",
     "email": "studio@ateliermicro.com",
     "address": "124 Mineral St, Tartu 51003",
-    "tel": "+372 555 124 12",
+    "tel": "+372 55586956",
     "cta": "Send message"
   },
   "blog": {
@@ -2766,12 +2766,12 @@
     }
   },
   "story": {
-    "title": "The Essence of Materiality",
+    "title": "KUUS DESIGN STORY",
     "subtitle": "KUUS DESIGN was founded with a singular vision: to create microcement surfaces that possess the permanence and weight of architectural heritage.",
     "sections": {
       "origin": {
-        "title": "Artisanal Origins",
-        "text": "Our journey began in a dedicated studio, refining mineral compositions until we achieved the perfect tactile balance. We sought a medium that exists between raw concrete and fine plaster—exceptionally durable, yet possessing a natural warmth. Years of technical application have perfected our signature high-performance formula."
+        "title": "This is how it started",
+        "text": "It all started with a simple thought – we wanted to create spaces where materials and emotions meet.\\nWe have always believed that a home is not just walls and a floor, but a complete experience.\\n\\nOn this long and exciting journey of discovery, we tested different mixtures, felt every texture with our fingers, and observed how different surfaces play with light.\\n\\nDuring this process, we developed a very specific taste. We realized we didn't just want to be resellers of a single product. We wanted to select the best materials that we believe in 100%, and bring them to your homes with our own hands – and with great passion.\\n\\nToday, KUUS DESIGN is more than just an installation team. We are partners to those who appreciate interiors polished to the finest detail. On our workbench, microcement installation goes hand-in-hand with the thoughtful design of decorative elements.\\n\\nOn our journey, we have found materials and partners we trust in every project. This gives us the freedom to focus on what matters most: how to turn your ideas and dreams into a living space that will bring joy for years to come.\\n\\nFor us, every project is a bit like creating our own home. We come, we listen, and we execute – exactly as we did in our very first studio."
       },
       "philosophy": {
         "title": "The Rhythm of the Hand",
@@ -2986,14 +2986,14 @@
     "subtitle": "A collective of technical mastery and artistic vision.",
     "members": [
       {
-        "name": "Erik Tamm",
-        "role": "Lead Artisan",
-        "description": "With over 15 years of technical application, Erik's mastery of the trowel defines our signature topography. His rhythmic approach ensures every surface is a unique architectural statement."
+        "name": "Janar",
+        "role": "Director",
+        "description": ""
       },
       {
-        "name": "Liis Koppel",
-        "role": "Mineral Specialist",
-        "description": "Liis oversees pigment integration and substrate engineering. Her deep understanding of mineral chemistry ensures that each finish responds perfectly to its unique environment and lighting conditions."
+        "name": "Loore",
+        "role": "Creative Director",
+        "description": ""
       }
     ]
   },
