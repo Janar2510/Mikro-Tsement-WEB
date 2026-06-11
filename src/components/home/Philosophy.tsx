@@ -67,7 +67,7 @@ export function Philosophy({ dict }: PhilosophyProps) {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <Image 
-            src="/detail.png"
+            src="/assets/surfaces/surface-1.png"
             alt="Microcement Texture Detail"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

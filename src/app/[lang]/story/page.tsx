@@ -74,7 +74,7 @@ export default async function StoryPage({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-center">
             <div className="relative h-[500px] lg:h-[700px] w-full">
               <Image 
-                src="/assets/pages/story/microcement-texture.png" 
+                src="/assets/surfaces/surface-1.png" 
                 alt={dict.story.sections.philosophy.title} 
                 fill 
                 className="object-cover"
