@@ -58,7 +58,7 @@ export default async function StoryPage({
             </div>
             <div className="relative h-[500px] lg:h-[700px] w-full order-1 lg:order-2">
               <Image 
-                src="/assets/pages/about/About Us.jpg" 
+                src="/assets/pages/story/origin.png" 
                 alt={dict.story.sections.origin.title} 
                 fill 
                 className="object-cover grayscale"
