@@ -53,6 +53,7 @@ function SwatchCard({ item, onClick, size = "normal" }: { item: ColorItem; onCli
 }
 
 export function ProductColorsUI({ lang, slug, collection, product, dict }: Props) {
+  const ui = dict.colors.ui;
   const [selected, setSelected] = useState<ColorItem | null>(null);
   const [toneFilter, setToneFilter] = useState<"all" | "light" | "mid" | "dark">("all");
 
@@ -77,17 +78,17 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
 
   const groups = toneFilter === "all"
     ? [
-        { label: "Light Tones", count: lights.length, items: lights },
-        { label: "Mid Tones", count: mids.length, items: mids },
-        { label: "Dark Tones", count: darks.length, items: darks },
+        { label: ui.lightTones, count: lights.length, items: lights },
+        { label: ui.midTones, count: mids.length, items: mids },
+        { label: ui.darkTones, count: darks.length, items: darks },
       ].filter(g => g.items.length > 0)
-    : [{ label: toneFilter === "light" ? "Light Tones" : toneFilter === "mid" ? "Mid Tones" : "Dark Tones", count: filtered.length, items: filtered }];
+    : [{ label: toneFilter === "light" ? ui.lightTones : toneFilter === "mid" ? ui.midTones : ui.darkTones, count: filtered.length, items: filtered }];
 
   const FILTERS = [
-    { key: "all",   label: `All ${collection.items.length}` },
-    { key: "light", label: `Light ${lights.length}` },
-    { key: "mid",   label: `Mid ${mids.length}` },
-    { key: "dark",  label: `Dark ${darks.length}` },
+    { key: "all",   label: `${ui.all} ${collection.items.length}` },
+    { key: "light", label: `${ui.light} ${lights.length}` },
+    { key: "mid",   label: `${ui.mid} ${mids.length}` },
+    { key: "dark",  label: `${ui.dark} ${darks.length}` },
   ] as const;
 
   return (
@@ -101,7 +102,7 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
             className="group flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:text-foreground transition-colors"
           >
             <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" />
-            All Palettes
+            {ui.allPalettes}
           </Link>
           <span className="text-foreground/20">·</span>
           <Link
@@ -120,7 +121,7 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
               animate={{ opacity: 1, y: 0 }}
               className="space-y-2"
             >
-              <p className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— Colour Palette</p>
+              <p className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {ui.colourPalette}</p>
               <h1 className="font-serif text-5xl md:text-7xl uppercase tracking-tighter italic leading-[0.9]">
                 {collection.title}
               </h1>
@@ -141,24 +142,24 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
             >
               <div>
                 <p className="font-serif text-3xl italic">{collection.items.length}</p>
-                <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Total Colours</p>
+                <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.totalColours}</p>
               </div>
               {lights.length > 0 && (
                 <div>
                   <p className="font-serif text-3xl italic">{lights.length}</p>
-                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Light Tones</p>
+                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.lightTones}</p>
                 </div>
               )}
               {mids.length > 0 && (
                 <div>
                   <p className="font-serif text-3xl italic">{mids.length}</p>
-                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Mid Tones</p>
+                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.midTones}</p>
                 </div>
               )}
               {darks.length > 0 && (
                 <div>
                   <p className="font-serif text-3xl italic">{darks.length}</p>
-                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Dark Tones</p>
+                  <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.darkTones}</p>
                 </div>
               )}
             </motion.div>
@@ -206,7 +207,7 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
               className="ml-auto flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/30 hover:text-foreground transition-colors pb-3"
             >
               <Download className="w-3 h-3" />
-              Datasheet
+              {ui.datasheet}
             </a>
           )}
         </div>
@@ -217,7 +218,7 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
             <div key={group.label} className="space-y-8">
               <div className="flex items-baseline gap-4">
                 <h2 className="font-serif text-2xl italic tracking-tight">{group.label}</h2>
-                <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/25">{group.count} colours</span>
+                <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/25">{group.count} {ui.colours}</span>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
                 {group.items.map((item, i) => (
@@ -247,13 +248,13 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
               href={`/${lang}/products/${slug}`}
               className="inline-block border border-foreground/30 px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-foreground hover:text-background transition-all duration-500"
             >
-              View Product
+              {ui.viewProduct}
             </Link>
             <Link
               href={`/${lang}/contact`}
               className="inline-block bg-foreground text-background px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-foreground/80 transition-all duration-500"
             >
-              Request Sample
+              {ui.requestSample}
             </Link>
           </div>
         </div>

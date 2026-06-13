@@ -4,6 +4,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
 import Image from "next/image";
+import Link from "next/link";
 
 const BASE_URL = "https://kuusdesign.ee";
 const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
@@ -62,9 +63,11 @@ export default async function BusinessPage({
               {dict.business.subtitle}
             </p>
             <div className="pt-12">
-              <button className="bg-foreground text-background px-12 py-5 uppercase tracking-[0.2em] text-[10px] font-bold hover:bg-foreground/80 transition-all">
-                {dict.business.cta}
-              </button>
+              <Link href={`/${lang}/contact`}>
+                <button className="bg-foreground text-background px-12 py-5 uppercase tracking-[0.2em] text-[10px] font-bold hover:bg-foreground/80 transition-all">
+                  {dict.business.cta}
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import OpenAI from "openai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { buildSystemPrompt } from "@/lib/ai-knowledge";
 import { getClientKey, rateLimit, rateLimitHeaders } from "@/lib/rate-limit";
 import { validateChatMessages, ValidationError } from "@/lib/validation";
 
-// Best free NVIDIA model for chat — change to any model from build.nvidia.com
-const CHAT_MODEL = "meta/llama-3.1-70b-instruct";
+const CHAT_MODEL = "gemini-2.0-flash";
 
 export async function POST(req: NextRequest) {
   const rl = rateLimit(getClientKey(req, "chat"), 20, 5 * 60_000);
@@ -23,16 +22,11 @@ export async function POST(req: NextRequest) {
       maxContentLength: 4_000,
     });
 
-    // OpenAI-format messages with system prompt
-    const openaiMessages: OpenAI.Chat.ChatCompletionMessageParam[] = [
-      { role: "system", content: buildSystemPrompt() },
-      ...messages.map((m) => ({
-        role: m.role as "user" | "assistant",
-        content: m.content,
-      })),
-    ];
+    if (messages.length === 0) {
+      return NextResponse.json({ error: "No messages provided." }, { status: 400 });
+    }
 
-    const apiKey = process.env.NVIDIA_API_KEY ?? process.env.GEMINI_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
       console.error("API Key is missing from environment variables.");
       return NextResponse.json(
@@ -41,25 +35,30 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const client = new OpenAI({
-      apiKey,
-      baseURL: "https://integrate.api.nvidia.com/v1",
+    const genAI = new GoogleGenerativeAI(apiKey);
+    const model = genAI.getGenerativeModel({
+      model: CHAT_MODEL,
+      systemInstruction: buildSystemPrompt(),
     });
 
-    const stream = await client.chat.completions.create({
-      model: CHAT_MODEL,
-      messages: openaiMessages,
-      stream: true,
-      max_tokens: 1024,
-    });
+    // Format messages for Gemini API
+    const history = messages.slice(0, -1).map((m) => ({
+      role: m.role === "user" ? "user" : "model",
+      parts: [{ text: m.content }],
+    }));
+    
+    const lastMessage = messages[messages.length - 1].content;
+
+    const chat = model.startChat({ history });
+    const result = await chat.sendMessageStream(lastMessage);
 
     const encoder = new TextEncoder();
 
     const readable = new ReadableStream({
       async start(controller) {
         try {
-          for await (const chunk of stream) {
-            const text = chunk.choices[0]?.delta?.content;
+          for await (const chunk of result.stream) {
+            const text = chunk.text();
             if (text) controller.enqueue(encoder.encode(text));
           }
         } catch (err) {

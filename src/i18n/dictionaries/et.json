@@ -107,7 +107,7 @@
     "subtitle": "Räägi projektist — ruumi tüüp, suurus, mida otsid. Anname ausat nõu.",
     "email": "studio@kuusdesign.ee",
     "address": "Mineral tn 124, Tartu 51003",
-    "tel": "+372 555 124 12",
+    "tel": "+372 55586956",
     "cta": "Saada sõnum"
   },
   "blog": {
@@ -2770,8 +2770,8 @@
     "subtitle": "Soovime luua pindu, mis kestavad põlvest põlve ja kannavad endas tõelist käsitöö väärtust.",
     "sections": {
       "origin": {
-        "title": "Kuidas see algas",
-        "text": "Kõik sai alguse ühe lihtsa mõttega – me tahtsime luua ruume, kus materjalid ja tunded kohtuvad.\nMe oleme alati olnud seda usku, et kodu ei ole lihtsalt seinad ja põrand, vaid terviklik kogemus.\n\nSellel pikkal ja põneval avastusretkel. Testisime erinevaid segusid, tundsime oma sõrmedega iga tekstuuri ja jälgisime, kuidas erinevad pinnad valgusega mängivad.\n\nSelle protsessi käigus kujunes meil välja väga kindel maitse. Me mõistsime, et me ei taha olla lihtsalt ühe toote edasimüüjad. Me tahtsime valida välja parimad materjalid, millesse me ise sajaprotsendiliselt usume, ja need oma kätega – ning suure kirega – teie kodudesse tuua.\n\nTänaseks on KUUS DESIGN enamat kui lihtsalt paigaldusmeeskond. Oleme partnerid neile, kes hindavad detailideni lihvitud interjööri. Meie töölaual on koos nii mikrotsemendi paigaldamine kui ka läbimõeldud dekoorielementide disainimine.\n\nOleme oma teekonnal leidnud materjalid ja partnerid, keda usaldame igas projektis. See annab meile vabaduse keskenduda kõige olulisemale: sellele, kuidas muuta teie ideed ja unistused elavaks ruumiks, mis pakub rõõmu aastateks.\n\nMeie jaoks on iga projekt natuke nagu oma kodu loomine. Tuleme, kuulame, ja viime ellu – täpselt nii, nagu tegime seda oma päris esimeses stuudios."
+        "title": "VISIOON JA TEOSTUS",
+        "text": "Meie tugevus peitub kahe näiliselt erineva maailma – peene kunstilise tunnetuse ja aastakümnete pikkuse ehituskogemuse – ühendamises. Tulemuseks on ruumid, kus iga detail on läbi mõeldud ja meisterlikult teostatud."
       },
       "philosophy": {
         "title": "Meistri Käejälg",
@@ -2780,11 +2780,11 @@
     }
   },
   "projects": {
-    "title": "Arhitektuurne Portfell",
+    "title": "Portfolio",
     "subtitle": "Valik eksklusiivseid ruume, kus materiaalsus kohtub visiooniga.",
     "labels": {
       "year": "Aasta",
-      "architect": "Arhitekt",
+      "architect": "Teostaja",
       "surface_area": "Pindala",
       "tone": "Toon",
       "case_study": "Objekt",
@@ -2793,33 +2793,59 @@
       "back": "Tagasi Portfelli"
     },
     "items": {
-      "boutique": {
-        "name": "TARTU LUKSUSLIK ERAMU",
+      "kitchen-tartu": {
+        "name": "Köök Tartus",
         "location": "Tartu, EE",
-        "year": "2024",
-        "description": "Luksuslik interjöör EcoCemento® mineraalse sügavusega.",
-        "longDescription": "Selles Tartu luksuseramus valiti Topcret EcoCemento® selle 100% VOC-vaba koostise ja loomuliku mineraalse sügavuse tõttu. 'Marfil' tonaalsus loob sooja ja tekstuurse atmosfääri, mis mängib kaunilt koos päeva jooksul muutuva valgusega."
-      },
-      "eramu": {
-        "name": "Eramu Tartu 2026",
-        "location": "Tartu, EE",
-        "year": "2026",
-        "description": "Ekstreemne vastupidavus ja tippdisain Baxab® tehnoloogiaga.",
-        "longDescription": "See projekt esindab meie visiooni tuleviku kodust. Kasutasime Topcret Baxab® süsteemi läbi terve elumaja, et tagada 'purunematu' vastupidavus suure koormusega tsoonides. Skulpturaalsed trepid ja monoliitsed eluruumid on selle eramu arhitektuursed pärlid."
-      },
-      "lino": {
-        "name": "TARTU LUKSUSLIK VANNIBAAS",
-        "location": "Tartu, EE",
-        "year": "2026",
-        "description": "Monoliitne märgala esteetika T/Swim® tehnoloogiaga.",
-        "longDescription": "Toores mineraalsus kohtub funktsionaalse luksusega. Kasutades T/Swim® tehnoloogiat, lõime täielikult veekindla ja libisemiskindla oaasiks, kus vuugivabad pinnad rõhutavad käsitöömeistri jäetud rütmilist tekstuuri."
-      },
-      "spa": {
-        "name": "TALLINN ERAMU",
-        "location": "Tallinn, EE",
         "year": "2025",
-        "description": "Moodne eramu minimalistliku ja valgusküllase mikrotsemendi lahendusega.",
-        "longDescription": "Tallinna eramus kasutasime seamless mikrotsementi põrandatel ja seintel, luues rahuliku, voolava ja valgusküllase põhjamaise keskkonna, mis harmoneerub täiuslikult puidu ning betooniga."
+        "tone": "Basebeton Originale Basaal",
+        "area": "28 m²",
+        "description": "Luksuslik Basebeton mikrotsemendist köök.",
+        "longDescription": "Selles Tartu köögis paigaldasime valmiskasutatava Basebeton Originale mikrotsemendi nii tasapindadele kui ka seintele, luues ühtse, veekindla ja ülivastupidava pinna."
+      },
+      "livingroom-tartu": {
+        "name": "Elutuba Tartus",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Silt",
+        "area": "38 m²",
+        "description": "Avar elutuba vuugivaba Basebeton viimistlusega.",
+        "longDescription": "Elutuppa valiti soe ja tekstuuriga Basebeton mikrotsement, mis pakub monoliitset ja kergesti hooldatavat põrandapinda, tuues esile ruumi loomuliku avaruse."
+      },
+      "bathroom-elva": {
+        "name": "Vannituba Elvas",
+        "location": "Elva, EE",
+        "year": "2025",
+        "tone": "Basebeton Originale Mink",
+        "area": "14 m²",
+        "description": "Veekindel ja stiilne Basebeton vannituba.",
+        "longDescription": "Täielikult veekindel Basebeton mikrotsementlahendus, mis sobib ideaalselt niisketesse ruumidesse, luues sujuva ja moodsa vannitoa interjööri ilma lammutamiseta."
+      },
+      "bathroom-polva": {
+        "name": "Vannituba Põlvas",
+        "location": "Põlva, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Chalk",
+        "area": "11 m²",
+        "description": "Minimalistlik vannituba Basebeton Originale'ga.",
+        "longDescription": "Kasutasime EC1 Plus sertifitseeritud Basebeton mikrotsementi, et luua kaasaegne, funktsionaalne ja vuukideta vannituba, mida on imelihtne hooldada."
+      },
+      "bathroom-tartu": {
+        "name": "Vannituba Tartus",
+        "location": "Tartu, EE",
+        "year": "2025",
+        "tone": "Basebeton Originale Pebble",
+        "area": "19 m²",
+        "description": "Moodne Basebeton vannituba Tartu kesklinnas.",
+        "longDescription": "Selles Tartu kesklinna vannitoas loob Basebeton mikrotsement modernse, veekindla ja lõõgastava atmosfääri, ühendades esteetika praktilisusega."
+      },
+      "kitchen-tallinn": {
+        "name": "Köök Tallinnas",
+        "location": "Tallinn, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Stone",
+        "area": "34 m²",
+        "description": "Praktiline ja kaunis Basebeton köök.",
+        "longDescription": "Põhjamaise disainiga köök Tallinnas, kus kriimustus- ja plekikindel Basebeton mikrotsement tagab tasapindade vastupidavuse ja luksusliku ilme."
       }
     }
   },
@@ -2888,7 +2914,7 @@
   },
   "surfaces_collection": {
     "title": "Basebetoni Süsteemid",
-    "subtitle": "11 professionaalset valmiskasutatavat mikrotsemendisüsteemi iga rakenduse jaoks.",
+    "subtitle": "11 professionaalset valmiskasutatavat mikrotsemendisüsteemi iga pinna jaoks.",
     "items": [
       {
         "id": "surface-1",
@@ -2987,19 +3013,19 @@
     "members": [
       {
         "name": "Janar",
-        "role": "Juhataja",
-        "description": ""
+        "role": "Müük ja paigaldus",
+        "description": "Iga hea idee vajab veatut vundamenti ja teostust. Minu seljataga on üle 20 aasta kogemust ehitusettevõtluses. See tähendab, et tunnen materjale, hindan tehnilist kvaliteeti ja tean, kuidas lahendada ka kõige keerulisemaid olukordi. Minu vastutada on sujuv protsess ja see, et paigaldus oleks sama kompromissitu kui disain."
       },
       {
         "name": "Loore",
         "role": "Loovjuht",
-        "description": ""
+        "description": "Ehtekunstniku taust on õpetanud mind märkama detaile seal, kus teised neid ei näe. See peen detailitunnetus ja kirg sisekujunduse vastu on minu töö aluseks. Ma loon interjööri iseloomu – olgu selleks unikaalsed aktsentseinad, maalid või läbimõeldud sisekujunduselemendid."
       }
     ]
   },
   "thank_you": {
-    "title": "Täname pöördumise eest.",
-    "text": "Vaatame saadetud info üle ja võtame ühe-kahe päeva jooksul ühendust."
+    "title": "SINU VISIOON, MEIE TEOSTUS.",
+    "text": "Oleme valmis tooma sinu ideed ellu premium Basebeton mikrotsemendiga. Võta meiega ühendust ja alustame koostööd."
   },
   "story_quote": {
     "text": "Pinnad ei peaks lihtsalt täitma ruumi; nad peavad määratlema selle vaikuse.",
@@ -3187,6 +3213,25 @@
   "colors": {
     "title": "Tootemärkide värvikogumid",
     "subtitle": "Igal Basebetoni tootel on oma kureeritud värvpalett. Sirvige tooteti või kasutage tehaselähedase spetsifikatsiooni jaoks värvikoodi.",
+    "ui": {
+      "totalColours": "Värve kokku",
+      "productPalettes": "Tootepaletid",
+      "viewColours": "Vaata {count} värvi",
+      "light": "Hele",
+      "mid": "Keskmine",
+      "dark": "Tume",
+      "all": "Kõik",
+      "colours": "värvi",
+      "viewAll": "Vaata kõiki",
+      "allPalettes": "Kõik paletid",
+      "colourPalette": "Värvipalett",
+      "lightTones": "Heledad toonid",
+      "midTones": "Keskmised toonid",
+      "darkTones": "Tumedad toonid",
+      "datasheet": "Andmeleht",
+      "viewProduct": "Vaata toodet",
+      "requestSample": "Telli näidis"
+    },
     "collections": {
       "basebeton-originale": {
         "title": "Basebeton Originale",

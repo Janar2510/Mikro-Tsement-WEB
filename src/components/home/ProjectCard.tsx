@@ -26,7 +26,7 @@ export function ProjectCard({ name, location, description, image, href, idx, lab
       viewport={{ once: true }}
       transition={{ duration: 0.8, delay: idx * 0.1 }}
     >
-      <Link href={href} className="relative aspect-[16/9] lg:aspect-[3/2] overflow-hidden bg-muted">
+      <Link href={href} className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-muted">
         <Image
           src={image}
           alt={name || "Project image"}

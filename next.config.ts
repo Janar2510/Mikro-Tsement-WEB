@@ -16,9 +16,11 @@ const securityHeaders = [
   {
     key: "Content-Security-Policy",
     // NOTE: 'unsafe-inline' on script-src is required for Next.js inline runtime scripts in App Router.
+    // 'unsafe-inline' on default-src is required because Safari enforces default-src (not script-src)
+    // against <script type="application/ld+json"> elements.
     // Tighten with nonces if/when Next 16 stable nonce API is adopted across all routes.
     value: [
-      "default-src 'self'",
+      "default-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: https:",
       "script-src 'self' 'unsafe-inline'",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",

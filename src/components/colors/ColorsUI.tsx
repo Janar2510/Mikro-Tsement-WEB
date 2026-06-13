@@ -25,6 +25,7 @@ function pickPreview(items: ColorItem[]): ColorItem[] {
 
 export function ColorsUI({ dict, lang }: ColorsUIProps) {
   const d = dict.colors;
+  const ui = d.ui;
   const [selectedColor, setSelectedColor] = useState<ColorItem | null>(null);
 
   const collections = Object.entries(d.collections) as [string, any][];
@@ -56,11 +57,11 @@ export function ColorsUI({ dict, lang }: ColorsUIProps) {
           >
             <div>
               <p className="font-serif text-4xl italic">{totalColors}</p>
-              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Total Colours</p>
+              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.totalColours}</p>
             </div>
             <div>
               <p className="font-serif text-4xl italic">{collections.length}</p>
-              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">Product Palettes</p>
+              <p className="text-[9px] uppercase tracking-[0.3em] text-foreground/40 mt-1">{ui.productPalettes}</p>
             </div>
           </motion.div>
         </div>
@@ -101,7 +102,7 @@ export function ColorsUI({ dict, lang }: ColorsUIProps) {
                     {/* Overlay on hover */}
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500 flex items-center justify-center opacity-0 group-hover:opacity-100">
                       <span className="bg-white/90 backdrop-blur-sm px-4 py-2 text-[10px] uppercase tracking-widest font-bold text-foreground">
-                        View {collection.items?.length} Colours →
+                        {ui.viewColours.replace("{count}", String(collection.items?.length ?? 0))} →
                       </span>
                     </div>
                   </div>
@@ -121,7 +122,7 @@ export function ColorsUI({ dict, lang }: ColorsUIProps) {
                   </div>
                   <div className="flex flex-col items-end gap-1 shrink-0 text-right">
                     <span className="font-serif text-2xl italic text-foreground">{collection.items?.length ?? 0}</span>
-                    <span className="text-[9px] uppercase tracking-[0.25em] text-foreground/30">colours</span>
+                    <span className="text-[9px] uppercase tracking-[0.25em] text-foreground/30">{ui.colours}</span>
                   </div>
                 </div>
 
@@ -130,26 +131,26 @@ export function ColorsUI({ dict, lang }: ColorsUIProps) {
                   {nLight > 0 && (
                     <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
                       <p className="font-serif text-base italic">{nLight}</p>
-                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Light</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">{ui.light}</p>
                     </div>
                   )}
                   {nMid > 0 && (
                     <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
                       <p className="font-serif text-base italic">{nMid}</p>
-                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Mid</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">{ui.mid}</p>
                     </div>
                   )}
                   {nDark > 0 && (
                     <div className="flex-1 text-center py-2 bg-foreground/[0.03] border border-foreground/5">
                       <p className="font-serif text-base italic">{nDark}</p>
-                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">Dark</p>
+                      <p className="text-[8px] uppercase tracking-[0.2em] text-foreground/30 mt-0.5">{ui.dark}</p>
                     </div>
                   )}
                   <Link
                     href={`/${lang}/colors/${slug}`}
                     className="flex-1 flex items-center justify-center py-2 bg-foreground/[0.03] border border-foreground/5 text-[9px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:bg-foreground hover:text-background transition-all duration-500"
                   >
-                    View All
+                    {ui.viewAll}
                   </Link>
                 </div>
               </motion.div>

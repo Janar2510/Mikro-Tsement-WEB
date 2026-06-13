@@ -95,7 +95,7 @@ export default async function RootLayout({
     "image": `${BASE_URL}/hero.png`,
     "@id": BASE_URL,
     "url": BASE_URL,
-    "telephone": "+372 555 124 12",
+    "telephone": "+372 55586956",
     "email": "studio@kuusdesign.ee",
     "priceRange": "€€€",
     "address": {

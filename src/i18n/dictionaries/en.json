@@ -107,7 +107,7 @@
     "subtitle": "Tell us about the project — room type, size, what you're going for. We'll come back with honest advice.",
     "email": "studio@ateliermicro.com",
     "address": "124 Mineral St, Tartu 51003",
-    "tel": "+372 555 124 12",
+    "tel": "+372 55586956",
     "cta": "Send message"
   },
   "blog": {
@@ -2766,25 +2766,25 @@
     }
   },
   "story": {
-    "title": "The Essence of Materiality",
-    "subtitle": "KUUS DESIGN was founded with a singular vision: to create microcement surfaces that possess the permanence and weight of architectural heritage.",
+    "title": "About us",
+    "subtitle": "We want to create surfaces that last from generation to generation and carry true craftsmanship value.",
     "sections": {
       "origin": {
-        "title": "Artisanal Origins",
-        "text": "Our journey began in a dedicated studio, refining mineral compositions until we achieved the perfect tactile balance. We sought a medium that exists between raw concrete and fine plaster—exceptionally durable, yet possessing a natural warmth. Years of technical application have perfected our signature high-performance formula."
+        "title": "VISION AND EXECUTION",
+        "text": "Our strength lies in combining two seemingly different worlds – fine artistic sensibility and decades of construction experience. The result is spaces where every detail is thought through and masterfully executed."
       },
       "philosophy": {
-        "title": "The Rhythm of the Hand",
-        "text": "Every surface is an original work, hand-troweled to create a subtle topography that machine processes cannot replicate. This artisanal rhythm ensures that light interacts with the mineral layers in a way that feels organic and alive, bringing a unique soul to every interior."
+        "title": "The Master's Touch",
+        "text": "Every surface we create is a unique work of art. We do not use machines, but trust our hands. This hand-applied rhythm means that light and shadows play on the walls and floors differently every time, giving your home's interior a unique soul."
       }
     }
   },
   "projects": {
-    "title": "Architectural Portfolio",
+    "title": "Portfolio",
     "subtitle": "A curation of exclusive spaces where materiality meets vision. High-contrast interiors that define the luxury of tomorrow.",
     "labels": {
       "year": "Year",
-      "architect": "Architect",
+      "architect": "Applicator",
       "surface_area": "Surface Area",
       "tone": "Tone",
       "case_study": "Case Study",
@@ -2793,33 +2793,59 @@
       "back": "Back to Portfolio"
     },
     "items": {
-      "boutique": {
-        "name": "TARTU LUXURY RESIDENCE",
+      "kitchen-tartu": {
+        "name": "Kitchen Tartu",
         "location": "Tartu, EE",
-        "year": "2024",
-        "description": "Luxurious interior featuring EcoCemento® mineral depth.",
-        "longDescription": "A study in VOC-free materiality. EcoCemento® was selected for its natural mineral depth and healthy living profile. The 'Marfil' tonality provides a soft, light-diffusing foundation that evolves with the movement of the sun."
-      },
-      "eramu": {
-        "name": "Private House Tartu 2026",
-        "location": "Tartu, EE",
-        "year": "2026",
-        "description": "Extreme durability meets high-end design with Baxab®.",
-        "longDescription": "Defining the future of residential resilience. Topcret Baxab® was specified throughout to provide high-traffic endurance without compromising the monolithic design intent. Sculptural staircases and seamless living zones anchor the home's architectural soul."
-      },
-      "lino": {
-        "name": "TARTU LUXURY BATH",
-        "location": "Tartu, EE",
-        "year": "2026",
-        "description": "Monolithic wetroom aesthetics with T/Swim® technology.",
-        "longDescription": "Raw minerality meets functional luxury. Utilizing T/Swim® technology, we created a fully waterproof, slip-certified sanctuary where the absence of grout lines enhances the rhythmic texture left by the artisan's trowel."
-      },
-      "spa": {
-        "name": "TALLINN RESIDENCE",
-        "location": "Tallinn, EE",
         "year": "2025",
-        "description": "Modern residence featuring seamless microcement walls and floors.",
-        "longDescription": "In this Tallinn private residence, we applied seamless microcement throughout the floors and walls, creating a calm, flowing, and light-filled Nordic environment that harmonizes perfectly with wood and raw concrete."
+        "tone": "Basebeton Originale Basaal",
+        "area": "28 m²",
+        "description": "Luxurious Basebeton microcement kitchen.",
+        "longDescription": "In this Tartu kitchen, we applied ready-to-use Basebeton Originale microcement to both the countertops and walls, creating a seamless, waterproof, and highly durable surface."
+      },
+      "livingroom-tartu": {
+        "name": "Livingroom Tartu",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Silt",
+        "area": "38 m²",
+        "description": "Spacious living room with a seamless Basebeton finish.",
+        "longDescription": "A warm, textured Basebeton microcement was chosen for the living room floor, offering a monolithic, easy-to-maintain surface that highlights the space's natural openness."
+      },
+      "bathroom-elva": {
+        "name": "Bathroom Elva",
+        "location": "Elva, EE",
+        "year": "2025",
+        "tone": "Basebeton Originale Mink",
+        "area": "14 m²",
+        "description": "Waterproof and stylish Basebeton bathroom.",
+        "longDescription": "A fully waterproof Basebeton microcement solution ideal for wet areas, creating a seamless and modern bathroom interior without the need for demolition."
+      },
+      "bathroom-polva": {
+        "name": "Bathroom Põlva",
+        "location": "Põlva, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Chalk",
+        "area": "11 m²",
+        "description": "Minimalist bathroom using Basebeton Originale.",
+        "longDescription": "We used EC1 Plus certified Basebeton microcement to create a modern, functional, and grout-free bathroom that is incredibly easy to maintain."
+      },
+      "bathroom-tartu": {
+        "name": "Bathroom Tartu",
+        "location": "Tartu, EE",
+        "year": "2025",
+        "tone": "Basebeton Originale Pebble",
+        "area": "19 m²",
+        "description": "Modern Basebeton bathroom in downtown Tartu.",
+        "longDescription": "In this downtown Tartu bathroom, Basebeton microcement creates a modern, waterproof, and relaxing atmosphere, combining aesthetics with ultimate practicality."
+      },
+      "kitchen-tallinn": {
+        "name": "Kitchen Tallinn",
+        "location": "Tallinn, EE",
+        "year": "2026",
+        "tone": "Basebeton Originale Stone",
+        "area": "34 m²",
+        "description": "Practical and beautiful Basebeton kitchen.",
+        "longDescription": "A Nordic-designed kitchen in Tallinn where scratch- and stain-resistant Basebeton microcement provides both supreme durability and a luxurious look."
       }
     }
   },
@@ -2888,7 +2914,7 @@
   },
   "surfaces_collection": {
     "title": "Basebeton Systems",
-    "subtitle": "11 professional ready-to-use microcement systems for every application.",
+    "subtitle": "11 professional ready-to-use microcement systems for every surface.",
     "items": [
       {
         "id": "surface-1",
@@ -2986,20 +3012,20 @@
     "subtitle": "A collective of technical mastery and artistic vision.",
     "members": [
       {
-        "name": "Erik Tamm",
-        "role": "Lead Artisan",
-        "description": "With over 15 years of technical application, Erik's mastery of the trowel defines our signature topography. His rhythmic approach ensures every surface is a unique architectural statement."
+        "name": "Janar",
+        "role": "Sales and Installation",
+        "description": "Every good idea needs a flawless foundation and execution. I have over 20 years of experience in the construction business. This means I know materials, value technical quality, and know how to solve even the most complex situations. I am responsible for ensuring a smooth process and that the installation is as uncompromising as the design."
       },
       {
-        "name": "Liis Koppel",
-        "role": "Mineral Specialist",
-        "description": "Liis oversees pigment integration and substrate engineering. Her deep understanding of mineral chemistry ensures that each finish responds perfectly to its unique environment and lighting conditions."
+        "name": "Loore",
+        "role": "Creative Director",
+        "description": "My background as a jewelry artist has taught me to notice details where others don't. This fine sense of detail and passion for interior design form the foundation of my work. I create the character of an interior - whether through unique accent walls, paintings, or thoughtfully designed decor elements."
       }
     ]
   },
   "thank_you": {
-    "title": "Thanks for reaching out.",
-    "text": "We'll look at what you've shared and get back to you within a day or two."
+    "title": "YOUR VISION, OUR EXECUTION.",
+    "text": "We are ready to bring your ideas to life with premium Basebeton microcement. Contact us and let's start collaborating."
   },
   "story_quote": {
     "text": "Surfaces should not merely fill a room; they must define the quiet within it.",
@@ -3187,6 +3213,25 @@
   "colors": {
     "title": "Product Colour Collections",
     "subtitle": "Every Basebeton product has its own curated colour palette. Browse by product or use the code for exact factory specification.",
+    "ui": {
+      "totalColours": "Total Colours",
+      "productPalettes": "Product Palettes",
+      "viewColours": "View {count} Colours",
+      "light": "Light",
+      "mid": "Mid",
+      "dark": "Dark",
+      "all": "All",
+      "colours": "colours",
+      "viewAll": "View All",
+      "allPalettes": "All Palettes",
+      "colourPalette": "Colour Palette",
+      "lightTones": "Light Tones",
+      "midTones": "Mid Tones",
+      "darkTones": "Dark Tones",
+      "datasheet": "Datasheet",
+      "viewProduct": "View Product",
+      "requestSample": "Request Sample"
+    },
     "collections": {
       "basebeton-originale": {
         "title": "Basebeton Originale",
