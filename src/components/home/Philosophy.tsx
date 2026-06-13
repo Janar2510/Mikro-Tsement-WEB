@@ -67,11 +67,11 @@ export function Philosophy({ dict }: PhilosophyProps) {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <Image 
-            src="/assets/surfaces/surface-1.png"
-            alt="Microcement Texture Detail"
+            src="/assets/surfaces/philosophy-bg.png"
+            alt="Beautiful architectural interior with microcement walls"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-cover object-center grayscale-[0.2]"
+            className="object-cover object-center"
           />
         </motion.div>
 

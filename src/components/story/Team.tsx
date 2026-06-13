@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export function Team({ dict }: { dict: any }) {
   const images = [
-    "/assets/team/erik-tamm.png",
-    "/assets/team/liis-koppel.png"
+    "/assets/team/janar.jpg",
+    "/assets/team/Loore.jpg"
   ];
 
   return (

@@ -12,28 +12,49 @@ interface ProjectDetailsUIProps {
 }
 
 export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetailsUIProps) {
-  const images: Record<string, string> = {
-    villa: "/assets/pages/projects/residential.png",
-    boutique: "/assets/pages/projects/commercial.jpg",
-    spa: "/assets/pages/projects/hospitality.png",
-    eramu: "/assets/pages/projects/residential.png",
-    lino: "/assets/pages/projects/lino-bathroom.png",
+  const projectImages: Record<string, string[]> = {
+    "kitchen-tartu": [
+      "/assets/pages/projects/Köök Tartus.png",
+      "/assets/pages/projects/Kitchen Tartu.png"
+    ],
+    "livingroom-tartu": [
+      "/assets/pages/projects/Livingroom Tartu.png",
+      "/assets/pages/projects/Elutuba Tartus3.png"
+    ],
+    "bathroom-elva": [
+      "/assets/pages/projects/Vannituba Elva.png"
+    ],
+    "bathroom-polva": [
+      "/assets/pages/projects/Vannituba Põlvas.png"
+    ],
+    "bathroom-tartu": [
+      "/assets/pages/projects/Vannituba Tartu Kesklinn.png",
+      "/assets/pages/projects/Vannituba Tartu.png"
+    ],
+    "kitchen-tallinn": [
+      "/assets/pages/projects/Köök Tallinnas.png",
+      "/assets/pages/projects/Köök Tallinas2.png"
+    ]
   };
+
+  const currentImages = projectImages[slug] || projectImages["kitchen-tartu"];
+  const coverImage = currentImages[0];
+  const galleryImages = currentImages.slice(1);
 
   return (
     <>
-      <div className="relative h-[60vh] md:h-[80vh] w-full overflow-hidden">
+      <div className="relative h-[85vh] w-full bg-muted/30 overflow-hidden">
         <motion.div
-          initial={{ scale: 1.1 }}
+          initial={{ scale: 1.05 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="absolute inset-0"
         >
           <Image 
-            src={images[slug] || images.villa} 
+            src={coverImage} 
             alt={project.name} 
             fill 
-            className="object-cover grayscale"
+            className="object-cover"
             priority
           />
         </motion.div>
@@ -68,9 +89,9 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
                 <div className="grid grid-cols-2 gap-8 border-y border-border/50 py-12">
                    {[
                      { label: labels?.year || "Year", value: project.year || "2026" },
-                     { label: labels?.architect || "Architect", value: "KUUS DESIGN Studio" },
-                     { label: labels?.surface_area || "Surface Area", value: slug === 'boutique' ? "25 m²" : (project.area || "450 m²") },
-                     { label: labels?.tone || "Tone", value: slug === 'boutique' ? "Marfil Rustik" : (project.tone || "Lino") }
+                     { label: labels?.architect || "Architect", value: "KUUS DISAIN" },
+                     { label: labels?.surface_area || "Surface Area", value: project.area || "TBD" },
+                     { label: labels?.tone || "Tone", value: project.tone || "Custom" }
                    ].map((item, i) => (
                      <motion.div 
                        key={item.label} 
@@ -119,21 +140,27 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
                 </div>
 
                 {/* Optional Gallery Placeholders */}
-                <div className="grid grid-cols-1 gap-12 pt-20">
-                   <motion.div 
-                     className="relative aspect-[3/2] bg-muted grayscale overflow-hidden"
-                     initial={{ opacity: 0, scale: 0.95 }}
-                     whileInView={{ opacity: 1, scale: 1 }}
-                     viewport={{ once: true }}
-                   >
-                      <Image 
-                        src={images[slug] || images.villa} 
-                        alt="Detail 1" 
-                        fill 
-                        className="object-cover opacity-50"
-                      />
-                   </motion.div>
-                </div>
+                {galleryImages.length > 0 && (
+                  <div className="grid grid-cols-1 gap-12 pt-20">
+                     {galleryImages.map((img, idx) => (
+                       <motion.div 
+                         key={idx}
+                         className="relative bg-muted overflow-hidden rounded-md"
+                         initial={{ opacity: 0, y: 20 }}
+                         whileInView={{ opacity: 1, y: 0 }}
+                         viewport={{ once: true }}
+                       >
+                          <Image 
+                            src={img} 
+                            alt={`${project.name} - Detail ${idx + 1}`} 
+                            width={1200}
+                            height={1600}
+                            className="w-full h-auto object-cover"
+                          />
+                       </motion.div>
+                     ))}
+                  </div>
+                )}
              </div>
           </div>
         </div>

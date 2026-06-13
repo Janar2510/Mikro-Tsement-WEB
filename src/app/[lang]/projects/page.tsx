@@ -14,28 +14,40 @@ export default async function ProjectsPage({
 
   const projects = [
     {
-      id: "boutique",
-      image: "/assets/pages/projects/commercial.jpg",
-      href: `/${lang}/projects/boutique`,
-      ...dict.projects.items.boutique
+      id: "kitchen-tartu",
+      image: "/assets/pages/projects/Köök Tartus.png",
+      href: `/${lang}/projects/kitchen-tartu`,
+      ...dict.projects.items["kitchen-tartu"]
     },
     {
-      id: "eramu",
-      image: "/assets/pages/projects/residential.png",
-      href: `/${lang}/projects/eramu`,
-      ...dict.projects.items.eramu
+      id: "livingroom-tartu",
+      image: "/assets/pages/projects/Livingroom Tartu.png",
+      href: `/${lang}/projects/livingroom-tartu`,
+      ...dict.projects.items["livingroom-tartu"]
     },
     {
-      id: "lino",
-      image: "/assets/pages/projects/lino-bathroom.png",
-      href: `/${lang}/projects/lino`,
-      ...dict.projects.items.lino
+      id: "bathroom-elva",
+      image: "/assets/pages/projects/Vannituba Elva.png",
+      href: `/${lang}/projects/bathroom-elva`,
+      ...dict.projects.items["bathroom-elva"]
     },
     {
-      id: "spa",
-      image: "/assets/pages/projects/hospitality.png",
-      href: `/${lang}/projects/spa`,
-      ...dict.projects.items.spa
+      id: "bathroom-polva",
+      image: "/assets/pages/projects/Vannituba Põlvas.png",
+      href: `/${lang}/projects/bathroom-polva`,
+      ...dict.projects.items["bathroom-polva"]
+    },
+    {
+      id: "bathroom-tartu",
+      image: "/assets/pages/projects/Vannituba Tartu Kesklinn.png",
+      href: `/${lang}/projects/bathroom-tartu`,
+      ...dict.projects.items["bathroom-tartu"]
+    },
+    {
+      id: "kitchen-tallinn",
+      image: "/assets/pages/projects/Köök Tallinnas.png",
+      href: `/${lang}/projects/kitchen-tallinn`,
+      ...dict.projects.items["kitchen-tallinn"]
     }
   ];
 

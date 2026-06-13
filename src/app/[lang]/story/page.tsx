@@ -58,7 +58,7 @@ export default async function StoryPage({
             </div>
             <div className="relative h-[500px] lg:h-[700px] w-full order-1 lg:order-2">
               <Image 
-                src="/assets/pages/story/origin.png" 
+                src="/assets/pages/story/about-us-picture.jpg" 
                 alt={dict.story.sections.origin.title} 
                 fill 
                 className="object-cover grayscale"
@@ -68,33 +68,7 @@ export default async function StoryPage({
         </div>
       </section>
 
-      {/* Narrative Section 2 - Image Left, Text Right (Full Width Variation) */}
-      <section className="py-24 bg-[#FAF5F2]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-center">
-            <div className="relative h-[500px] lg:h-[700px] w-full">
-              <Image 
-                src="/assets/surfaces/surface-1.png" 
-                alt={dict.story.sections.philosophy.title} 
-                fill 
-                className="object-cover"
-              />
-            </div>
-            <div className="space-y-8">
-              <h2 className="font-serif text-4xl uppercase tracking-widest">{dict.story.sections.philosophy.title}</h2>
-              <p className="font-sans text-sm md:text-base text-foreground/70 leading-relaxed max-w-lg">
-                {dict.story.sections.philosophy.text}
-              </p>
-              <div className="pt-8">
-                <blockquote className="border-l-2 border-foreground/20 pl-8 space-y-4">
-                   <p className="font-serif text-2xl italic tracking-tight">"{dict.story_quote.text}"</p>
-                   <footer className="text-[10px] uppercase tracking-widest text-foreground/40">— {dict.story_quote.author}</footer>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Team Section */}
       <Team dict={dict.team} />
