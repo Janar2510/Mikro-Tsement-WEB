@@ -18,7 +18,7 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const BASE_URL = "https://kuusdesign.ee";
+const BASE_URL = "https://www.kuusdisain.ee";
 const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
