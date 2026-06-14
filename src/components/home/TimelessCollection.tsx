@@ -16,6 +16,7 @@ export function TimelessCollection({ dict }: { dict: any }) {
     video.muted = true;
     video.defaultMuted = true;
     video.playsInline = true;
+    video.play().catch(() => {});
 
     const handleUserInteraction = () => {
       if (video.paused) {

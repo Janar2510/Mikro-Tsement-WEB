@@ -46,6 +46,7 @@ export function WorkshopSection({ dict, lang }: WorkshopSectionProps) {
     video.muted = true;
     video.defaultMuted = true;
     video.playsInline = true;
+    video.play().catch(() => {});
 
     const handleUserInteraction = () => {
       if (video.paused) {
