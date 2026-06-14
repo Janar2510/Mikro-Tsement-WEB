@@ -114,23 +114,34 @@ export function DecoWalls({ dict }: { dict: any }) {
           className="absolute inset-0 z-0"
           style={{ y: heroY }}
         >
-          <video
-            ref={(el) => {
-              (videoRef as any).current = el;
-              if (el) {
-                el.defaultMuted = true;
-                el.muted = true;
+          <div
+          ref={(el) => {
+            if (el) {
+              const video = el.querySelector('video');
+              if (video) {
+                (videoRef as any).current = video;
+                video.defaultMuted = true;
+                video.muted = true;
+                video.playsInline = true;
               }
-            }}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            src="/assets/pages/home/deco-hero.mp4?v=2"
-            poster="/assets/pages/home/deco-hero-poster.jpg"
-            className="absolute inset-0 w-full h-full object-cover brightness-[0.8] scale-110"
-          />
+            }
+          }}
+          className="absolute inset-0 w-full h-full object-cover brightness-[0.8] scale-110"
+          dangerouslySetInnerHTML={{
+            __html: `
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="auto"
+                src="${'/assets/pages/home/deco-hero.mp4'}"
+                poster="/assets/pages/home/deco-hero-poster.jpg"
+                class="w-full h-full object-cover"
+              ></video>
+            `
+          }}
+        />
           <div className="absolute inset-0 bg-black/30" />
         </motion.div>
 

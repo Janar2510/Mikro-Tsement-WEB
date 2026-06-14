@@ -49,23 +49,34 @@ export function SectionHero({ title, subtitle, backgroundImage, backgroundVideo,
     <section className={`relative w-full ${fullHeight ? "h-screen" : "min-h-[60vh]"} flex items-center pt-36 md:pt-[220px] pb-20 px-6 overflow-hidden`}>
       {backgroundVideo && (
         <div className="absolute inset-0 z-0">
-          <video
-            ref={(el) => {
-              (videoRef as any).current = el;
-              if (el) {
-                el.defaultMuted = true;
-                el.muted = true;
+          <div
+          ref={(el) => {
+            if (el) {
+              const video = el.querySelector('video');
+              if (video) {
+                (videoRef as any).current = video;
+                video.defaultMuted = true;
+                video.muted = true;
+                video.playsInline = true;
               }
-            }}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            src={backgroundVideo}
-            poster={backgroundVideoPoster || undefined}
-            className="w-full h-full object-cover"
-          />
+            }
+          }}
+          className="w-full h-full object-cover"
+          dangerouslySetInnerHTML={{
+            __html: `
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="auto"
+                src="${backgroundVideo}"
+                poster=""
+                class="w-full h-full object-cover"
+              ></video>
+            `
+          }}
+        />
         </div>
       )}
       

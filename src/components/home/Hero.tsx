@@ -13,7 +13,7 @@ interface HeroProps {
   lang: string;
 }
 
-const VIDEO_SRC = "/assets/pages/home/home-hero.mp4?v=2";
+const VIDEO_SRC = "/assets/pages/home/home-hero.mp4";
 
 export function Hero({ dict, lang }: HeroProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -51,22 +51,33 @@ export function Hero({ dict, lang }: HeroProps) {
   return (
     <section className="relative w-full h-[100dvh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <video
+        <div
           ref={(el) => {
-            (videoRef as any).current = el;
             if (el) {
-              el.defaultMuted = true;
-              el.muted = true;
+              const video = el.querySelector('video');
+              if (video) {
+                (videoRef as any).current = video;
+                video.defaultMuted = true;
+                video.muted = true;
+                video.playsInline = true;
+              }
             }
           }}
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          src={VIDEO_SRC}
-          poster="/assets/pages/home/hero-poster.jpg"
           className="absolute inset-0 w-full h-full object-cover"
+          dangerouslySetInnerHTML={{
+            __html: `
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="auto"
+                src="${VIDEO_SRC}"
+                poster="/assets/pages/home/hero-poster.jpg"
+                class="w-full h-full object-cover"
+              ></video>
+            `
+          }}
         />
       </div>
 
