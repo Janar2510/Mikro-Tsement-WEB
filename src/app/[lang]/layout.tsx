@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     icons: {
       icon: '/icon.png',
       shortcut: '/icon.png',
-      apple: '/icon.png',
+      apple: '/apple-icon.png',
     },
   };
 }
