@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -163,6 +164,7 @@ export default async function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-sans bg-background text-foreground" suppressHydrationWarning>
         {children}
+        <Analytics />
       </body>
     </html>
   );
