@@ -4,7 +4,7 @@ import { buildSystemPrompt } from "@/lib/ai-knowledge";
 import { getClientKey, rateLimit, rateLimitHeaders } from "@/lib/rate-limit";
 import { validateChatMessages, ValidationError } from "@/lib/validation";
 
-const CHAT_MODEL = "meta/llama-3.1-70b-instruct";
+const CHAT_MODEL = "gemini-1.5-flash";
 
 export const runtime = "edge";
 
@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "No messages provided." }, { status: 400 });
     }
 
-    const apiKey = process.env.NVIDIA_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY || process.env.NVIDIA_API_KEY;
     if (!apiKey) {
       console.error("API Key is missing from environment variables.");
       return NextResponse.json(
@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
 
     const openai = new OpenAI({
       apiKey: apiKey,
-      baseURL: 'https://integrate.api.nvidia.com/v1',
+      baseURL: 'https://generativelanguage.googleapis.com/v1beta/openai/',
     });
 
     // Format messages for OpenAI compatibility
