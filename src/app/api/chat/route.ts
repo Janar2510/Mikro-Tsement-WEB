@@ -6,6 +6,8 @@ import { validateChatMessages, ValidationError } from "@/lib/validation";
 
 const CHAT_MODEL = "gemini-2.0-flash";
 
+export const runtime = "edge";
+
 export async function POST(req: NextRequest) {
   const rl = rateLimit(getClientKey(req, "chat"), 20, 5 * 60_000);
   if (!rl.allowed) {
