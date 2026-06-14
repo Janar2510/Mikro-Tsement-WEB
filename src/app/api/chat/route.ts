@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import OpenAI from "openai";
 import { buildSystemPrompt } from "@/lib/ai-knowledge";
 import { getClientKey, rateLimit, rateLimitHeaders } from "@/lib/rate-limit";
 import { validateChatMessages, ValidationError } from "@/lib/validation";
 
-const CHAT_MODEL = "gemini-2.0-flash";
+const CHAT_MODEL = "meta/llama-3.1-70b-instruct";
 
 export const runtime = "edge";
 
@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "No messages provided." }, { status: 400 });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.NVIDIA_API_KEY;
     if (!apiKey) {
       console.error("API Key is missing from environment variables.");
       return NextResponse.json(
@@ -37,31 +37,39 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({
-      model: CHAT_MODEL,
-      systemInstruction: buildSystemPrompt(),
+    const openai = new OpenAI({
+      apiKey: apiKey,
+      baseURL: 'https://integrate.api.nvidia.com/v1',
     });
 
-    // Format messages for Gemini API
-    const history = messages.slice(0, -1).map((m) => ({
-      role: m.role === "user" ? "user" : "model",
-      parts: [{ text: m.content }],
-    }));
-    
-    const lastMessage = messages[messages.length - 1].content;
+    // Format messages for OpenAI compatibility
+    const formattedMessages: any[] = [
+      { role: "system", content: buildSystemPrompt() },
+      ...messages.map((m) => ({
+        role: m.role === "user" ? "user" : "assistant",
+        content: m.content,
+      })),
+    ];
 
-    const chat = model.startChat({ history });
-    const result = await chat.sendMessageStream(lastMessage);
+    const completion = await openai.chat.completions.create({
+      model: CHAT_MODEL,
+      messages: formattedMessages,
+      temperature: 0.2,
+      top_p: 0.7,
+      max_tokens: 1024,
+      stream: true,
+    });
 
     const encoder = new TextEncoder();
 
     const readable = new ReadableStream({
       async start(controller) {
         try {
-          for await (const chunk of result.stream) {
-            const text = chunk.text();
-            if (text) controller.enqueue(encoder.encode(text));
+          for await (const chunk of completion) {
+            const content = chunk.choices[0]?.delta?.content;
+            if (content) {
+              controller.enqueue(encoder.encode(content));
+            }
           }
         } catch (err) {
           controller.error(err);
@@ -84,6 +92,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: err.message }, { status: 400 });
     }
     console.error("[/api/chat]", err);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Internal server error" }, { status: 500 });
   }
 }
