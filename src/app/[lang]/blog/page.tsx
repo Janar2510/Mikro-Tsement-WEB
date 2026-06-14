@@ -50,7 +50,7 @@ export default async function BlogPage({
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mb-32 items-center">
               <div className="relative aspect-[16/9] lg:aspect-square overflow-hidden grayscale">
                 <Image 
-                  src="/assets/pages/story/origin.png" 
+                  src="/assets/pages/blog/featured.png" 
                   alt={dict.blog.posts[0].title} 
                   fill 
                   className="object-cover"

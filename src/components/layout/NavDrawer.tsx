@@ -16,6 +16,15 @@ interface NavDrawerProps {
 
 const LANGUAGES = ["EN", "ET", "DE", "RU", "ES", "FR"];
 
+const LANGUAGE_FLAGS: Record<string, string> = {
+  EN: "🇬🇧",
+  ET: "🇪🇪",
+  DE: "🇩🇪",
+  RU: "🇷🇺",
+  ES: "🇪🇸",
+  FR: "🇫🇷",
+};
+
 export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
   const pathname = usePathname();
 
@@ -69,7 +78,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
           >
             <div className="p-6 md:p-10 min-h-full flex flex-col">
               {/* Header */}
-              <div className="flex justify-between items-center mb-6">
+              <div className="flex justify-between items-center mb-0 md:mb-2">
                 <Link href={`/${lang}`} className="block w-32 md:w-40" onClick={onClose}>
                   <Image 
                     src="/assets/brand/logos/Micro Logo.png"
@@ -79,13 +88,29 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
                     style={{ width: "100%", height: "auto" }}
                   />
                 </Link>
-                <button onClick={onClose} className="p-2 hover:opacity-50 transition-opacity">
-                  <X className="w-6 h-6" />
-                </button>
+                <div className="flex items-center gap-4 md:gap-8">
+                  <div className="flex flex-wrap gap-4 text-[10px] uppercase tracking-[0.2em] font-bold">
+                    {LANGUAGES.map((l) => (
+                      <Link
+                        key={l}
+                        href={getPathForLocale(l)}
+                        className={`hover:text-primary transition-colors flex items-center gap-1 ${l === lang.toUpperCase() ? "text-primary border-b border-primary font-black" : "text-foreground/40"}`}
+                        onClick={onClose}
+                        title={l}
+                      >
+                        <span className="text-sm leading-none">{LANGUAGE_FLAGS[l]}</span>
+                        <span>{l}</span>
+                      </Link>
+                    ))}
+                  </div>
+                  <button onClick={onClose} className="p-2 hover:opacity-50 transition-opacity">
+                    <X className="w-6 h-6" />
+                  </button>
+                </div>
               </div>
 
               {/* Visual Categories */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 md:mb-8 -mt-2 md:-mt-4">
                 {categories.map((cat) => (
                   <Link
                     key={cat.id}
@@ -138,20 +163,8 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
                 ))}
               </nav>
 
-              {/* Footer / Languages */}
-              <div className="mt-auto pt-8 border-t border-border flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-                <div className="flex flex-wrap gap-6 text-[10px] uppercase tracking-[0.2em] font-bold">
-                  {LANGUAGES.map((l) => (
-                    <Link
-                      key={l}
-                      href={getPathForLocale(l)}
-                      className={`hover:text-primary transition-colors ${l === lang.toUpperCase() ? "text-primary border-b border-primary font-black" : "text-foreground/40"}`}
-                      onClick={onClose}
-                    >
-                      {l}
-                    </Link>
-                  ))}
-                </div>
+              {/* Footer */}
+              <div className="mt-auto pt-8 border-t border-border flex justify-end">
                 <p className="text-[10px] uppercase tracking-widest text-foreground/30">
                   EST 2024 • KUUS DESIGN
                 </p>

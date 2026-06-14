@@ -115,63 +115,75 @@
     "subtitle": "Reflections on architecture, the evolution of materiality, and the quiet luxury of the handmade.",
     "posts": [
       {
+        "slug": "microcement-trends-2026",
+        "title": "What's Changing in Microcement Design for 2026",
+        "date": "February 2026",
+        "image": "/assets/pages/blog/microcement-trends-2026.png",
+        "excerpt": "Warmer palettes, continuous surfaces in commercial spaces, and matte finishes that hide daily wear better. What's actually changing this year.",
+        "content": [
+          "The biggest shift we're seeing this year is in color. For the last few years, cool greys dominated almost every project that came through our studio. In 2026, clients are asking for warmer tones: sand, clay, soft ochre, even the occasional dusty pink. Cold minimalism is giving way to something that still feels minimal but reads as lived-in rather than sterile.",
+          "On the commercial side, we're getting more requests from hospitality and retail clients for continuous mineral surfaces that run from the floor up the walls and onto custom furniture. A single material across a whole space used to be mostly a residential thing. Now hotels and shops want that same continuity, partly because it photographs well and partly because one surface is easier to maintain than a patchwork of finishes.",
+          "Low-VOC certification used to be a selling point. Now it's close to a baseline expectation, especially for bedrooms, nurseries, and healthcare spaces. What's changed more is the finish itself: instead of high-gloss polished microcement, more clients are choosing matte or lightly textured surfaces that hide fingerprints and water marks better in daily use."
+        ]
+      },
+      {
         "slug": "rhythm-of-the-hand",
         "title": "The Rhythm of the Hand",
-        "date": "April 02, 2024",
+        "date": "April 02, 2026",
         "image": "/assets/pages/blog/rhythm-of-the-hand.png",
         "excerpt": "Why hand-troweled surfaces look different from machine-finished ones, and whether it matters.",
         "content": [
-          "Microcement is more than a mixture of minerals and polymers; it is a medium for human expression. Unlike poured floors or factory-made tiles, a hand-troweled surface carries the distinctive rhythm of the artisan who applied it.",
-          "This biological irregularity is what defines 'Quiet Luxury'. As architecture leans further into automated perfection, the subtle variations in trowel pressure and motion create a landscape that is uniquely yours. It is a material that records the process of its own creation.",
-          "When we speak of the 'Rhythm of the Hand', we refer to the meditative state our artisans enter during application. It is this focus that ensures the final texture is not just seen, but felt."
+          "Microcement is a mix of minerals and polymers, but the finish depends on the person applying it. A hand-troweled surface carries small variations a poured floor or factory tile never will: the pressure of the trowel, the angle of each pass, the rhythm of the hand doing the work.",
+          "Those variations are why the same color can feel different from one room to the next, even using the same material. Most architecture is moving toward machine-perfect finishes, so a surface with this kind of texture stands out. It isn't a flaw to sand away. It's a record of how the surface was made.",
+          "Our artisans fall into a steady rhythm while they work, and that rhythm shows up in the final texture. You can see it in the right light, and you can feel it under your palm."
         ]
       },
       {
         "slug": "mineral-tonality",
         "title": "Exploring Mineral Tonality",
-        "date": "March 20, 2024",
+        "date": "March 20, 2026",
         "image": "/assets/pages/blog/mineral-tonality.png",
         "excerpt": "The same mineral surface looks warmer at dusk than at noon. Here's why.",
         "content": [
-          "Color in a mineral surface is never static. Because KUUS DESIGN utilizes raw earthen pigments, the tonality of the surface shifts as natural light moves across the room.",
-          "A 'Bone' white might feel warm and inviting at sunset, yet crisp and architectural during the bright afternoon hours. This interaction with the environment is a core pillar of our design philosophy.",
-          "We encourage architects to view our surfaces as living canvases. By selecting specific pigment foundations, we can align the atmosphere of a space with the natural rhythms of its geographic location."
+          "The color of a mineral surface never sits still. We use raw earthen pigments, so the tone shifts as the light in the room changes through the day.",
+          "Take our Bone white: warm at sunset, almost cool and architectural under midday light. That shift isn't an accident, it's part of how we choose pigments in the first place.",
+          "When we work with architects, we talk about the surface as something that responds to its setting rather than sitting flat against it. Picking the right pigment base means thinking about which way a room faces and what the light does there over the course of a day."
         ]
       },
       {
         "slug": "bathroom-renovation-no-demolition",
         "title": "Bathroom Renovation Without Demolition",
-        "date": "April 15, 2024",
+        "date": "April 15, 2026",
         "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
         "excerpt": "How to redo a bathroom without removing a single tile using Topcret technology.",
         "content": [
-          "Traditional bathroom renovations are synonymous with weeks of demolition, dust, and structural disruption. Microcement offers a sophisticated alternative: a continuous mineral skin that can be applied directly over your existing tiles.",
-          "This 'Zero Demolition' approach is possible due to the extreme adhesion properties of Topcret Microcemento®. By bypassing the removal process, we significantly reduce waste and project timelines while maintaining a monolithic, spa-like result.",
-          "The seamless nature of a microcement bathroom is not just a visual choice; it is a hygienic one. Without grout lines, moisture and mold have nowhere to hide, ensuring your sanctuary remains as pure as the day it was finished."
+          "A typical bathroom renovation means weeks of demolition, dust everywhere, and walls torn back to the studs. Microcement skips most of that: it's a thin mineral coating that goes directly over your existing tiles.",
+          "That works because Topcret Microcemento® bonds hard to almost any stable surface, including old tile. Skip the demolition and you cut waste and the project timeline, and you still end up with a seamless, spa-like finish.",
+          "There's also a practical upside beyond looks. No grout lines means nothing to scrub, and no hidden gaps for moisture and mold to build up in."
         ]
       },
       {
         "slug": "microcement-on-tiles-guide",
         "title": "The Definitive Guide: Microcement on Tiles",
-        "date": "April 10, 2024",
+        "date": "April 10, 2026",
         "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
         "excerpt": "Applying microcement over existing tiles takes more prep than most people expect. This is what we do.",
         "content": [
-          "Can you really apply microcement over old tiles? The answer is a definitive yes, provided the substrate is sound. The primary advantage of this technique is the ability to achieve a modern, grout-free look without raising floor levels significantly.",
-          "The process begins with diamond-grinding the tile surface to open the pores, followed by a double-layer epoxy primer reinforced with fiberglass mesh. This creates a stable, non-porous foundation that prevents 'ghosting'—the visual telegraphing of old grout lines through the new surface.",
-          "At KUUS DESIGN, we utilize specific base-mortars designed to neutralize structural movement. The resulting finish is just 3mm thick yet carries the compressive strength of high-end architectural concrete."
+          "Can you apply microcement over old tiles? Yes, as long as the tiles are sound, not loose or cracked. The big advantage is a modern, grout-free look without tearing out the floor or raising it by much.",
+          "We start by diamond-grinding the tile to open up the surface, then apply a double layer of epoxy primer with fiberglass mesh underneath. That combination stops 'ghosting', where old grout lines slowly become visible again through the new surface months later.",
+          "We use base mortars chosen specifically to absorb structural movement under the new layer. The finished surface is about 3mm thick, but it holds up like a high-end architectural concrete."
         ]
       },
       {
         "slug": "microcement-furniture-trends-2026",
         "title": "Sculptural Silence: Microcement Furniture Trends 2026",
-        "date": "April 05, 2024",
+        "date": "April 05, 2026",
         "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
         "excerpt": "More furniture is being specified in mineral materials this year. Some reasons why that's happening.",
         "content": [
-          "In 2026, the boundary between furniture and architecture continues to blur. Designers are moving away from modular assemblies in favor of monolithic objects that feel as if they were carved from the room's very foundation.",
-          "Microcement furniture—cubical coffee tables, cantilevered dining surfaces, and seamless sideboards—serves as the ultimate expression of this 'Monolithic Minimalism'. The material allows for geometric precision while providing the tactile warmth of natural stone.",
-          "The trend is shifting toward 'Brutal Elegance'—pairing heavy, mineral forms with soft, organic textiles. A microcement object doesn't just occupy space; it anchors it with a sense of permanence and architectural intent."
+          "The line between furniture and architecture keeps getting thinner. More designers are skipping modular, assembled pieces in favor of single monolithic objects that look like they grew out of the floor.",
+          "Microcement works well for this: cube-shaped coffee tables, cantilevered dining surfaces, sideboards with no visible seams. It holds sharp geometric edges but still feels warm to the touch, closer to stone than to concrete.",
+          "The look that's gaining ground pairs these heavy mineral shapes with soft textiles, like a wool throw draped over a poured concrete bench. A piece like that doesn't just sit in a room, it changes how the room feels."
         ]
       }
     ]

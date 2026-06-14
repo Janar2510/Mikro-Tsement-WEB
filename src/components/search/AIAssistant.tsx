@@ -119,7 +119,11 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
         }),
       });
 
-      if (!res.ok || !res.body) throw new Error("Stream failed");
+      if (!res.ok) {
+        const errText = await res.text().catch(() => "Unknown error");
+        throw new Error(errText || `HTTP ${res.status}`);
+      }
+      if (!res.body) throw new Error("Stream failed - no response body");
 
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
@@ -146,10 +150,14 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
           submitted: false,
         }));
       }
-    } catch {
+    } catch (err: any) {
+      console.error("AI Chat Error:", err);
       setMessages((prev) => {
         const updated = [...prev];
-        updated[updated.length - 1] = { role: "assistant", content: dict.error ?? "Something went wrong. Please try again." };
+        updated[updated.length - 1] = { 
+          role: "assistant", 
+          content: dict.error ?? "Something went wrong. Please try again." 
+        };
         return updated;
       });
     } finally {

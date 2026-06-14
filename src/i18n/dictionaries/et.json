@@ -111,67 +111,79 @@
     "cta": "Saada sõnum"
   },
   "blog": {
-    "title": "Žurnaal",
+    "title": "Blog",
     "subtitle": "Mõtisklused arhitektuurist, materiaalsuse evolutsioonist ja käsitöö vaiksest luksusest.",
     "posts": [
       {
+        "slug": "microcement-trends-2026",
+        "title": "Mis muutub mikrotsemendi disainis 2026. aastal",
+        "date": "Veebruar 2026",
+        "image": "/assets/pages/blog/microcement-trends-2026.png",
+        "excerpt": "Soojemad toonid, pidevad pinnad äriruumides ja matid viimistlused, mis peidavad igapäevast kasutust paremini. Mis sel aastal tegelikult muutub.",
+        "content": [
+          "Suurim muutus, mille me sel aastal näeme, on värvides. Viimastel aastatel domineerisid meie stuudiosse jõudvates projektides peaaegu eranditult jahedad hallid toonid. 2026. aastal küsivad kliendid soojemaid toone: liivakas, savi, pehme oker, vahel ka tolmune roosa. Külm minimalism annab teed millelegi, mis tundub endiselt minimalistlik, kuid mõjub elatuna, mitte steriilsena.",
+          "Hotellinduse ja jaekaubanduse kliendid küsivad rohkem pidevaid mineraalpindu, mis kulgevad põrandalt seintele ja kohandatud mööblile. Üks materjal läbi terve ruumi oli varem peamiselt eraklientide teema. Nüüd soovivad hotellid ja kauplused sama järjepidevust, osalt sellepärast, et see näeb fotodel hea välja, ja osalt sellepärast, et üht pinda on lihtsam hooldada kui erinevate viimistluste segu.",
+          "Madala VOC-sisaldusega sertifikaat oli varem müügiargument. Nüüd on see peaaegu enesestmõistetav, eriti magamistubade, lastetubade ja tervishoiuruumide puhul. Rohkem on muutunud viimistlus ise: kõrgläikega poleeritud mikrotsemendi asemel valivad kliendid sagedamini matti või kergelt tekstuurset pinda, mis peidab sõrmejälgi ja veeplekke igapäevases kasutuses paremini."
+        ]
+      },
+      {
         "slug": "rhythm-of-the-hand",
         "title": "Käe Rütm",
-        "date": "02. aprill 2024",
+        "date": "02. aprill 2026",
         "image": "/assets/pages/blog/rhythm-of-the-hand.png",
         "excerpt": "Miks käsitsi paigaldatud pinnad näevad teistsugused välja kui masintöötlus ja kas see on oluline.",
         "content": [
-          "Mikrotsement on enamat kui mineraalide ja polümeeride segu; see on inimliku väljenduse meedium. Erinevalt isevalguvatest põrandatest või tehases toodetud plaatidest kannab käsitsi paigaldatud pind endas selle loonud käsitöölise kordumatut rütmi.",
-          "See 'bioloogiline ebakorrapärasus' defineeribki vaikset luksust. Kuna arhitektuur kaldub üha enam automatiseeritud täiuslikkuse poole, loovad kühvli surve ja liikumise peened variatsioonid maastiku, mis on unikaalselt teie oma. See on materjal, mis salvestab oma loomisprotsessi.",
-          "Kui räägime 'käe rütmist', peame silmas meditatiivset seisundit, kuhu meie meistrid paigalduse ajal sisenevad. Just see keskendumine tagab, et lõplik tekstuur pole lihtsalt nähtav, vaid ka tuntav."
+          "Mikrotsement on mineraalide ja polümeeride segu, kuid viimistlus sõltub sellest, kes seda paigaldab. Käsitsi kühveldatud pind kannab endas väikseid erinevusi, mida valatud põrand või tehases toodetud plaat kunagi ei kanna: kühvli surve, iga liigutuse nurk, käe rütm, mis tööd teeb.",
+          "Need erinevused on põhjus, miks sama värv võib ühes ruumis tunduda teistsugune kui teises, ka sama materjali puhul. Suurem osa arhitektuurist liigub masinpinnaviimistluse poole, mistõttu selline tekstuur paistab silma. See ei ole viga, mida maha lihvida. See on jälg sellest, kuidas pind valmis tehti.",
+          "Meie meistrid leiavad töö käigus oma rütmi ja see rütm jääb lõplikku tekstuuri näha. Õiges valguses näed seda ja peopesa all tunned."
         ]
       },
       {
         "slug": "mineral-tonality",
         "title": "Mineraalne Tonaalsus",
-        "date": "20. märts 2024",
+        "date": "20. märts 2026",
         "image": "/assets/pages/blog/mineral-tonality.png",
         "excerpt": "Sama mineraalpind näeb õhtuvalguses soojem välja kui lõunal. Siin on põhjus.",
         "content": [
-          "Värv mineraalsel pinnal ei ole kunagi staatiline. Kuna KUUS DESIGN kasutab tooreid muldpigmente, nihkub pinna tonaalsus koos loodusliku valguse liikumisega ruumis.",
-          "Üks 'Bone' valge võib tunduda päikeseloojangul soe ja kutsuv, kuid karge ja arhitektuurne eredatel pärastlõunastel tundidel. See interaktsioon keskkonnaga on meie disainifilosoofia põhitala.",
-          "Julgustame arhitekte vaatama meie pindu kui elavaid lõuendeid. Valides spetsiifikate pigmentide põhjad, saame viia ruumi atmosfääri kooskõlla selle geograafilise asukoha loomulike rütmidega."
+          "Mineraalpinna värv ei püsi kunagi paigal. Kasutame tooreid muldpigmente, mistõttu toon muutub koos ruumi valguse muutumisega päeva jooksul.",
+          "Võtame näiteks meie Bone valge: õhtuvalguses soe, keskpäevasel valgusel peaaegu jahe ja arhitektuurne. See muutus ei ole juhus, see on osa sellest, kuidas pigmente algusest peale valime.",
+          "Arhitektidega töötades räägime pinnast kui millestki, mis reageerib oma keskkonnale, mitte seisab selle ees liikumatult. Õige pigmendipõhja valimine tähendab mõtlemist, kuhu poole ruum vaatab ja mida valgus seal päeva jooksul teeb."
         ]
       },
       {
         "slug": "bathroom-renovation-no-demolition",
         "title": "Vannitoa remont ilma lammutamiseta",
-        "date": "15. aprill 2024",
+        "date": "15. aprill 2026",
         "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
         "excerpt": "Kuidas vannituba ümber teha ilma ühtegi plaati eemaldamata, kasutades Topcret tehnoloogiat.",
         "content": [
-          "Traditsioonilised vannitoaremondid tähendavad nädalaid kestvat lammutamist, tolmu ja struktuurseid häireid. Mikrotsement pakub rafineeritud alternatiivi: pidev mineraalne kiht, mida saab paigaldada otse olemasolevatele plaatidele.",
-          "See 'lammutamisvaba' lähenemine on võimalik tänu Topcret Microcemento® suurepärastele nakkeomadustele. Lammutusprotsessi vahelejätmisega vähendame oluliselt jäätmete hulka ja projekti ajakulu, säilitades samal ajal monoliitse ja spa-laadse tulemuse.",
-          "Mikrotsemendist vannituba pole vaid visuaalne valik; see on ka hügieeniline otsus. Ilma vuugivahedeta pole niiskusel ja hallitusel kohta, kuhu peituda, tagades, et sinu erapühamu püsib sama puhtana kui esimesel päeval."
+          "Tavaline vannitoa remont tähendab nädalaid lammutamist, tolmu igal pool ja seinu, mis on lahti kraabitud kandekonstruktsioonini. Mikrotsement jätab suurema osa sellest vahele: see on õhuke mineraalkate, mis läheb otse olemasolevate plaatide peale.",
+          "See toimib, kuna Topcret Microcemento® nakkub tugevalt peaaegu igale stabiilsele pinnale, ka vanale plaadile. Lammutamise vahelejättes kahaneb jäätmehulk ja projekti ajakava, ning tulemuseks on ikkagi õmblusteta, spaa-laadne pind.",
+          "Sellel on ka praktiline pool väljaspool välimust. Vuugivahesid ei ole, seega ei pea midagi hõõruma, ja niiskusel ega hallitusel pole peidetud pragusid, kuhu koguneda."
         ]
       },
       {
         "slug": "microcement-on-tiles-guide",
         "title": "Mikrotsement plaatidele: põhjalik juhend",
-        "date": "10. aprill 2024",
+        "date": "10. aprill 2026",
         "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
         "excerpt": "Mikrotsemendi kandmine olemasolevate plaatide peale nõuab rohkem ettevalmistust kui enamik inimesi arvab. Siin on see, mida teeme.",
         "content": [
-          "Kas mikrotsementi saab tõesti paigaldada vanadele plaatidele? Vastus on kindel jah, eeldusel, et aluspind on stabiilne. Selle tehnika suurim eelis on saavutada kaasaegne, vuugivaba välimus ilma põrandapinna taseme märgatava tõusuta.",
-          "Protsess algab plaatide teemantlihvimisega, et avada poorid, millele järgneb kahekihiline epoksiidkrunt koos klaaskiudvõrguga. See loob stabiilse ja mittepoorse vundamendi, mis hoiab ära 'kummitusefekti' ehk vanade vuugijoonte läbinähtavuse uuel pinnal.",
-          "KUUS DESIGN stuudios kasutame spetsiaalseid alussegusid, mis on loodud neutraliseerima struktuurseid liikumisi. Tulemuseks on vaid 3 mm paksune viimistlus, millel on siiski premium-klassi arhitektuurse betooni tugevus."
+          "Kas mikrotsementi saab paigaldada vanade plaatide peale? Jah, kui plaadid on korras, ei lõdvu ega ole pragunenud. Suur eelis on kaasaegne, vuugivaba välimus, ilma et peaks põranda lahti kangutama või seda märkimisväärselt tõstma.",
+          "Alustame plaadi teemantlihvimisest, et pind avada, ning kanname seejärel peale kahekordse epoksiidkrundi koos klaaskiudvõrguga selle all. See kombinatsioon takistab 'läbipaistmist', mille puhul vanad vuugijooned muutuvad mõne kuu pärast uuel pinnal taas nähtavaks.",
+          "Kasutame alussegusid, mis on valitud spetsiaalselt selleks, et neelata uue kihi all toimuvaid struktuurseid liikumisi. Valmis pind on umbes 3 mm paksune, aga peab vastu nagu kõrgekvaliteediline arhitektuurne betoon."
         ]
       },
       {
         "slug": "microcement-furniture-trends-2026",
         "title": "Skulptuurne vaikus: Mikrotsemendist mööbli trendid 2026",
-        "date": "05. aprill 2024",
+        "date": "05. aprill 2026",
         "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
-        "excerpt": "Üha rohkem mööblit täpsustatakse sel aastal mineraalsetest materjalidest. Mõned põhjused, miks see juhtub.",
+        "excerpt": "Üha rohkem mööblit kaetakse sel aastal mineraalsete materjalidega. Mõned põhjused, miks see juhtub.",
         "content": [
-          "2026. aastal hägustub piir mööbli ja arhitektuuri vahel veelgi. Disainerid liiguvad eemale modulaarsetest lahendustest monoliitsete objektide suunas, mis tunduvad kui ruumi vundamendist välja voolitud.",
-          "Mikrotsemendist mööbel — kuubikujulised diivanilauad, konsoolsed söögilaudade pinnad ja õmblusteta kummutid — on selle 'monoliitse minimalismi' ülim väljendus. Materjal võimaldab geomeetrilist täpsust, pakkudes samas loodusliku kivi taktikalist soojust.",
-          "Trend liigub 'brutaalse elegantsi' suunas — raskete mineraalsete vormide sidumine pehmete orgaaniliste tekstiilidega. Mikrotsemendist objekt ei täida lihtsalt ruumi; see ankurdab selle püsivuse ja arhitektuurse mõõtmega."
+          "Piir mööbli ja arhitektuuri vahel muutub üha hägusemaks. Rohkem disainereid jätab kõrvale moodulitest kokku pandud lahendused ja eelistab üksikuid monoliitseid objekte, mis näevad välja, nagu oleksid põrandast välja kasvanud.",
+          "Mikrotsement sobib selleks hästi: kuubikujulised diivanilauad, konsoolsed söögilaua pinnad, õmblusteta kummutid. See hoiab teravaid geomeetrilisi servi, ent on katsudes ikkagi soe, lähemal kivile kui betoonile.",
+          "Stiil, mis levib, paneb need raskepoolsed mineraalsed vormid kokku pehmete tekstiilidega, näiteks vilditud villane vaip valatud betoonpingil. Selline ese ei ole ruumis vaid üks objekt, see muudab seda, kuidas ruum tundub."
         ]
       }
     ]
@@ -180,7 +192,7 @@
     "home": "Avaleht",
     "products": "Tooted",
     "story": "Meie Lugu",
-    "blog": "Blogi",
+    "blog": "Blog",
     "projects": "Projektid",
     "faq": "KKK",
     "business": "Ärikliendile",
@@ -3043,7 +3055,7 @@
     "privacy": "Privaatsuspoliitika"
   },
   "blog_ui": {
-    "featured": "Esiletõstetud Žurnaalikanne",
+    "featured": "Esiletõstetud Blogipostitus",
     "read_story": "Loe Lugu",
     "continue_reading": "Jätka Lugemist"
   },
