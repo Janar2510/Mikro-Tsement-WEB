@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://kuusdesign.ee";
+const BASE_URL = "https://kuusdisain.ee";
 const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
 const DEFAULT_LOCALE = "et";
 
