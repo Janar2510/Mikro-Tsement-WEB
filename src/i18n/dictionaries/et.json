@@ -2899,28 +2899,28 @@
     "text": "Meie jaoks ei ole pind lihtsalt osa ruumist. See on vaikus ja atmosfäär. Iga kiht, mille me käsitsi paigaldame, mängib valguse ja varjudega täiesti omamoodi. See on meie kirg ja käsitöö, mis annab kodule hinguse."
   },
   "methodology": {
-    "title": "Käsitöö ja Tehnoloogia",
-    "subtitle": "Täpsus igas kihis. Meie mitmeastmeline paigaldusprotsess tagab struktuurse terviklikkuse ja visuaalse sügavuse.",
+    "title": "Tööprotsess: Kuidas me loome iseloomuga pindu",
+    "subtitle": "",
     "steps": [
       {
         "number": "01",
-        "title": "Veatu viimistluse vundament",
-        "text": "Teostame põhjaliku pinna ettevalmistuse ja struktuurne tugevdamine —, et tagada täielik nake ja pikaajaline stabiilsus."
+        "title": "PÕHJALIK EELTÖÖ",
+        "text": "Pikaajalise ja veatu tulemuse aluseks on korralik vundament. Valmistame pinna hoolikalt ette ja tugevdame seda struktuurselt, et tagada materjali kindel nake ning vastupidavus aastateks."
       },
       {
         "number": "02",
-        "title": "Käsitsi Paigaldus",
-        "text": "Mineraalsed põhikihid kantakse peale meie meistrite poolt. See manuaalne protsess püüab kinni paigaldaja unikaalse rütmi, luues peene topograafia, mida masinad ei suuda kopeerida."
+        "title": "EHTNE KÄSITÖÖ",
+        "text": "Põhikihid kannavad peale meie oma ala meistrid. Iga tõmme ja liigutus annab pinnale kordumatu mustri – see on ehtne käsitöö ja meistri käekiri, mida ükski masin ei suuda järele teha."
       },
       {
         "number": "03",
-        "title": "Külluslik Tekstuur",
-        "text": "Viimased esteetilised kihid lisatakse erilise hoolega, lastes igal neist loomulikult kuivada. Tulemuseks on tihe mineraalne loor, mis reageerib dünaamiliselt muutuvale valgusele."
+        "title": "LOOMULIK TEKSTUUR",
+        "text": "Viimased viimistluskihid nõuavad erilist hoolt ja aega loomulikuks kuivamiseks. Tulemuseks on elav ja isikupärane pind, mis mängib kaunilt ruumi valguse ja varjudega."
       },
       {
         "number": "04",
-        "title": "Pinna Kaitsmine",
-        "text": "Katame pinna kvaliteetsete mattide topcoatidega. See loob veekindla ja kriimustuskindla barjääri, mis säilitab toore esteetika ja tagab arhitektuurse vastupidavuse."
+        "title": "PINNA KAITSMINE",
+        "text": "Lõpetuseks katame pinna kvaliteetse mattlakiga. See muudab viimistluse vee- ja kulumiskindlaks, säilitades samal ajal materjali loomuliku ilu ning tagades pinna pika eluea."
       }
     ]
   },
