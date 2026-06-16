@@ -110,7 +110,6 @@ export function Hero({ dict, lang }: HeroProps) {
               }}
             >
               {word}&nbsp;
-              {(i === 1 || i === 3) && <br />}
             </motion.span>
           ))}
         </motion.h1>

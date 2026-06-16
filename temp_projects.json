@@ -1,0 +1,30 @@
+{
+  "boutique": {
+    "name": "TARTU LUKSUSLIK ERAMU",
+    "location": "Tartu, EE",
+    "year": "2024",
+    "description": "Luksuslik interjöör EcoCemento® mineraalse sügavusega.",
+    "longDescription": "Selles Tartu luksuseramus valiti Topcret EcoCemento® selle 100% VOC-vaba koostise ja loomuliku mineraalse sügavuse tõttu. 'Marfil' tonaalsus loob sooja ja tekstuurse atmosfääri, mis mängib kaunilt koos päeva jooksul muutuva valgusega."
+  },
+  "eramu": {
+    "name": "Eramu Tartu 2026",
+    "location": "Tartu, EE",
+    "year": "2026",
+    "description": "Ekstreemne vastupidavus ja tippdisain Baxab® tehnoloogiaga.",
+    "longDescription": "See projekt esindab meie visiooni tuleviku kodust. Kasutasime Topcret Baxab® süsteemi läbi terve elumaja, et tagada 'purunematu' vastupidavus suure koormusega tsoonides. Skulpturaalsed trepid ja monoliitsed eluruumid on selle eramu arhitektuursed pärlid."
+  },
+  "lino": {
+    "name": "TARTU LUKSUSLIK VANNIBAAS",
+    "location": "Tartu, EE",
+    "year": "2026",
+    "description": "Monoliitne märgala esteetika T/Swim® tehnoloogiaga.",
+    "longDescription": "Toores mineraalsus kohtub funktsionaalse luksusega. Kasutades T/Swim® tehnoloogiat, lõime täielikult veekindla ja libisemiskindla oaasiks, kus vuugivabad pinnad rõhutavad käsitöömeistri jäetud rütmilist tekstuuri."
+  },
+  "spa": {
+    "name": "TALLINN ERAMU",
+    "location": "Tallinn, EE",
+    "year": "2025",
+    "description": "Moodne eramu minimalistliku ja valgusküllase mikrotsemendi lahendusega.",
+    "longDescription": "Tallinna eramus kasutasime seamless mikrotsementi põrandatel ja seintel, luues rahuliku, voolava ja valgusküllase põhjamaise keskkonna, mis harmoneerub täiuslikult puidu ning betooniga."
+  }
+}

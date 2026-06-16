@@ -41,7 +41,6 @@ export function Philosophy({ dict }: PhilosophyProps) {
                  }}
                >
                  {word}&nbsp;
-                 {i === 0 && <br />}
                </motion.span>
              ))}
            </motion.h2>

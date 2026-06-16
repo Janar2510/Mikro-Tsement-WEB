@@ -38,7 +38,6 @@ export function Methodology({ dict }: { dict: any }) {
                     }}
                   >
                     {word}&nbsp;
-                    {(i === 1 || i === 3) && <br />}
                   </motion.span>
                 ))}
               </motion.h2>
