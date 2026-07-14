@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const BASE_URL = "https://kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 const DEFAULT_LOCALE = "et";
 
 const BLOG_SLUGS = [
@@ -13,31 +13,27 @@ const BLOG_SLUGS = [
 ];
 
 const PRODUCT_SLUGS = [
-  "basebeton-originale",
-  "beton-cire",
-  "oxidestuc",
-  "natureplast",
-  "sichtbeton",
-  "basebeton-paint",
-  "basebeton-plus",
-  "basebeton-xtreme",
-  "basebeton-solid",
-  "basebeton-grit",
-  "stuccopuro",
+  "concrete",
+  "monocrete",
+  "easycret",
+  "concrete-pox",
+  "limecrete",
+  "metallic",
+  "primers",
+  "sealers",
+  "pigments",
+  "care",
+  "tools",
 ];
 
 const COLOR_PALETTE_SLUGS = [
-  "basebeton-originale",
-  "beton-cire",
-  "oxidestuc",
-  "natureplast",
-  "sichtbeton",
-  "basebeton-paint",
-  "basebeton-plus",
-  "basebeton-xtreme",
-  "basebeton-solid",
-  "basebeton-grit",
-  "stuccopuro",
+  "colorcrete",
+  "true-metal",
+  "oxid-metal",
+  "gemstone",
+  "glowing",
+  "concrete-pox",
+  "limecrete",
 ];
 
 const STATIC_ROUTES = [
@@ -50,7 +46,7 @@ const STATIC_ROUTES = [
   { path: "/contact", priority: 0.6, changeFrequency: "monthly" as const },
   { path: "/faq", priority: 0.6, changeFrequency: "monthly" as const },
   { path: "/colors", priority: 0.8, changeFrequency: "monthly" as const },
-  { path: "/guide/basebeton", priority: 0.7, changeFrequency: "monthly" as const },
+  { path: "/guide/luxury-concrete", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "/business", priority: 0.6, changeFrequency: "monthly" as const },
 ];
 

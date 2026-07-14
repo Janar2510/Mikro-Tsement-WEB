@@ -5,8 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
 import { ContactUI } from "@/components/contact/ContactUI";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;

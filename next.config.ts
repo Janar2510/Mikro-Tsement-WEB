@@ -46,11 +46,63 @@ const nextConfig: NextConfig = {
     // Explicit allowlist (was wildcard '**' — open image-proxy risk).
     // Add additional hosts here as needed.
     remotePatterns: [
-      { protocol: "https", hostname: "topcret.com" },
       { protocol: "https", hostname: "replicate.delivery" },
       { protocol: "https", hostname: "**.supabase.co" },
       { protocol: "https", hostname: "images.unsplash.com" },
     ],
+  },
+
+  // Old Basebeton-era URLs -> new Luxury Concrete® taxonomy.
+  // Kept permanently so previously indexed pages don't 404.
+  async redirects() {
+    const productMap: Record<string, string> = {
+      "basebeton-originale": "concrete",
+      "beton-cire": "monocrete",
+      "oxidestuc": "metallic",
+      "natureplast": "", // no Luxury Concrete equivalent -> hub
+      "sichtbeton": "limecrete",
+      "basebeton-paint": "easycret",
+      "basebeton-plus": "monocrete",
+      "basebeton-xtreme": "concrete-pox",
+      "basebeton-solid": "concrete-pox",
+      "basebeton-grit": "concrete",
+      "stuccopuro": "limecrete",
+    };
+    const colorMap: Record<string, string> = {
+      "oxidestuc": "oxid-metal",
+      "basebeton-originale": "colorcrete",
+      "beton-cire": "colorcrete",
+      "basebeton-paint": "colorcrete",
+      "basebeton-plus": "colorcrete",
+    };
+
+    const redirects = [
+      { source: "/:lang/guide/basebeton", destination: "/:lang/guide/luxury-concrete", permanent: true },
+      { source: "/:lang/guide/topcret", destination: "/:lang/guide/luxury-concrete", permanent: true },
+    ];
+
+    for (const [oldSlug, newSlug] of Object.entries(productMap)) {
+      redirects.push({
+        source: `/:lang/products/${oldSlug}`,
+        destination: newSlug ? `/:lang/products/${newSlug}` : "/:lang/products",
+        permanent: true,
+      });
+    }
+
+    for (const oldSlug of [
+      "basebeton-originale", "beton-cire", "oxidestuc", "natureplast", "sichtbeton",
+      "basebeton-paint", "basebeton-plus", "basebeton-xtreme", "basebeton-solid",
+      "basebeton-grit", "stuccopuro",
+    ]) {
+      const newSlug = colorMap[oldSlug];
+      redirects.push({
+        source: `/:lang/colors/${oldSlug}`,
+        destination: newSlug ? `/:lang/colors/${newSlug}` : "/:lang/colors",
+        permanent: true,
+      });
+    }
+
+    return redirects;
   },
 
   async headers() {

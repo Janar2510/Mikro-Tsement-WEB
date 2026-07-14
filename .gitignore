@@ -44,3 +44,5 @@ next-env.d.ts
 free-claude-code/
 .windsurf/
 .gemini/
+.gstack/
+reference/

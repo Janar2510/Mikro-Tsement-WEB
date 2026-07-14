@@ -187,9 +187,7 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
       });
       setContact((c) => ({ ...c, submitting: false, submitted: true }));
       // Add confirmation message to chat
-      const confirmMsg = lang === "et"
-        ? "Teie andmed on edastatud. Meie meeskond võtab teiega ühendust esimesel võimalusel. ✦"
-        : "Your details have been sent. Our team will be in touch shortly. ✦";
+      const confirmMsg = dict.confirm_sent ?? "Your details have been sent. Our team will be in touch shortly. ✦";
       setMessages((prev) => [...prev, { role: "assistant", content: confirmMsg }]);
       setTimeout(() => setContact((c) => ({ ...c, show: false })), 500);
     } catch {
@@ -265,7 +263,7 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
                   </div>
                   <div className="space-y-2">
                     <p className="text-[9px] uppercase tracking-widest font-bold text-foreground/30 mb-3">
-                      {lang === "et" ? "Sagedased küsimused" : "Common questions"}
+                      {dict.common_questions}
                     </p>
                     {quickReplies.map((reply) => (
                       <button
@@ -392,7 +390,7 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
                 </button>
               </form>
               <p className="mt-3 text-[8px] uppercase tracking-widest text-foreground/20 text-center">
-                {lang === "et" ? "Studio AI · Hinnainfo kontaktvormi kaudu" : "Studio AI · Pricing via contact form"}
+                {dict.pricing_note}
               </p>
             </div>
           </motion.div>

@@ -4,7 +4,7 @@ import { buildSystemPrompt } from "@/lib/ai-knowledge";
 import { getClientKey, rateLimit, rateLimitHeaders } from "@/lib/rate-limit";
 import { validateChatMessages, ValidationError } from "@/lib/validation";
 
-const CHAT_MODEL = "gemini-1.5-flash";
+const CHAT_MODEL = "gemini-2.5-flash";
 
 export const runtime = "edge";
 

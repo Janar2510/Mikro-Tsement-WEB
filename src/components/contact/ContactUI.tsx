@@ -83,17 +83,14 @@ export function ContactUI({ dict, lang }: ContactUIProps) {
                    />
                 </div>
                 <CustomSelect
-                  label={dict.contact_ui.project_type ?? (lang === "et" ? "Projekti tüüp" : "Project Type")}
-                  placeholder={lang === "et" ? "Vali..." : "Select..."}
-                  options={lang === "et"
-                    ? ["Põrand", "Vannituba", "Seinad", "Köök", "Mööbel", "Dekoratiivne", "Bassein", "Muu"]
-                    : ["Flooring", "Bathroom", "Walls", "Kitchen", "Furniture", "Decorative", "Pool", "Other"]
-                  }
+                  label={dict.contact_ui.project_type}
+                  placeholder={dict.contact_ui.select_placeholder}
+                  options={dict.contact_ui.project_types}
                 />
                 <div className="grid grid-cols-2 gap-8">
                    <div className="group relative">
                       <label className="text-[10px] uppercase tracking-widest text-foreground/40 font-bold block mb-2 transition-colors group-focus-within:text-foreground">
-                         {dict.contact_ui.area ?? (lang === "et" ? "Pindala (m²)" : "Area (m²)")}
+                         {dict.contact_ui.area}
                       </label>
                       <input
                         type="number"
@@ -103,12 +100,9 @@ export function ContactUI({ dict, lang }: ContactUIProps) {
                       />
                    </div>
                    <CustomSelect
-                     label={dict.contact_ui.timeline ?? (lang === "et" ? "Ajakava" : "Timeline")}
-                     placeholder={lang === "et" ? "Vali..." : "Select..."}
-                     options={lang === "et"
-                       ? ["Kiire (< 1 kuu)", "1–3 kuud", "3–6 kuud", "Planeerin", "Pole kindel"]
-                       : ["Urgent (< 1 month)", "1–3 months", "3–6 months", "Planning ahead", "Not sure"]
-                     }
+                     label={dict.contact_ui.timeline}
+                     placeholder={dict.contact_ui.select_placeholder}
+                     options={dict.contact_ui.timelines}
                    />
                 </div>
              </div>

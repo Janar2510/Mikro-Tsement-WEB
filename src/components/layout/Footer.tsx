@@ -87,7 +87,7 @@ export function Footer({ lang, navDict, footerDict }: FooterProps) {
             <Link href={`/${lang}#philosophy`} className="hover:opacity-70 transition-opacity">
               {navDict?.philosophy || "Methodology"}
             </Link>
-            <Link href={`/${lang}/guide/topcret`} className="hover:opacity-70 transition-opacity">
+            <Link href={`/${lang}/guide/luxury-concrete`} className="hover:opacity-70 transition-opacity">
               {navDict?.guide || "Guide"}
             </Link>
             <Link href={`/${lang}/contact`} className="hover:opacity-70 transition-opacity">

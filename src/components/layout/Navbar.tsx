@@ -87,7 +87,7 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
               aria-label="Open menu"
             >
               <span className="hidden md:block text-[10px] uppercase font-bold tracking-[0.2em] group-hover:opacity-60 transition-opacity">
-                {lang === 'et' ? "Menüü" : "Menu"}
+                {navDict?.menu || (lang === 'et' ? "Menüü" : "Menu")}
               </span>
               <Menu className="w-6 h-6" />
             </button>

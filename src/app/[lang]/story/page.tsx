@@ -8,8 +8,8 @@ import { ThankYou } from "@/components/story/ThankYou";
 import { Accordion } from "@/components/ui/Accordion";
 import Image from "next/image";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;

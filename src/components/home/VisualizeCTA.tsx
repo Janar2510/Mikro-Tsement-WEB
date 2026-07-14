@@ -17,7 +17,7 @@ interface VisualizeCTAProps {
 export function VisualizeCTA({ lang, dict }: VisualizeCTAProps) {
   const badge  = dict?.badge  ?? "Studio Tool";
   const title  = dict?.title  ?? "See it in your space";
-  const desc   = dict?.desc   ?? "Upload a photo, tap any wall, instantly preview Basebeton finishes.";
+  const desc   = dict?.desc   ?? "Upload a photo, tap any wall, instantly preview Luxury Concrete® finishes.";
   const button = dict?.button ?? "Try Visualiser";
 
   return (
@@ -109,7 +109,7 @@ export function VisualizeCTA({ lang, dict }: VisualizeCTAProps) {
               ))}
             </div>
             <p className="text-[8px] uppercase tracking-[0.25em] font-bold text-background/25 text-right mt-3">
-              Basebeton Originale — 75 colours
+              Luxury Concrete® — 78+ colours
             </p>
           </motion.div>
 

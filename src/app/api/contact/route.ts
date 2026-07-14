@@ -92,7 +92,7 @@ export async function POST(req: NextRequest) {
 
         <div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #E7E0D8;">
           <p style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; color: #A8A29E;">
-            KUUS DESIGN — Studio AI · kuusdesign.ee
+            KUUS DESIGN — Studio AI · kuusdisain.ee
           </p>
         </div>
       </div>

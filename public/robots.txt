@@ -20,4 +20,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://kuusdesign.ee/sitemap.xml
+Sitemap: https://kuusdisain.ee/sitemap.xml

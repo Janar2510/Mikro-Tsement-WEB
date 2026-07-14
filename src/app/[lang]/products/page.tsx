@@ -5,8 +5,8 @@ import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
 import { ProductCard } from "@/components/home/ProductCard";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -22,19 +22,20 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 }
 
-// Fallback images for products that don't have dedicated assets yet
+// Fallback images (real Luxury Concrete product photography) in case a
+// product's gallery is ever empty.
 const PRODUCT_IMAGES: Record<string, string> = {
-  "basebeton-originale": "/assets/surfaces/microcemento.png",
-  "beton-cire":          "/assets/surfaces/ecocemento.png",
-  "oxidestuc":           "/assets/surfaces/real-metals.png",
-  "natureplast":         "/assets/surfaces/summery.png",
-  "sichtbeton":          "/assets/surfaces/baxab.png",
-  "basebeton-paint":     "/assets/pages/products/basebeton-paint-1.png",
-  "basebeton-plus":      "/assets/surfaces/microcemento.png",
-  "basebeton-xtreme":    "/assets/pages/products/basebeton-xtreme-luxury.png",
-  "basebeton-solid":     "/assets/pages/products/basebeton-solid-luxury.png",
-  "basebeton-grit":      "/assets/pages/products/basebeton-grit-luxury.png",
-  "stuccopuro":          "/assets/pages/products/stuccopuro-luxury.png",
+  "concrete":     "/assets/pages/products/luxury-concrete/concrete/microcemento-bicomponente.webp",
+  "monocrete":    "/assets/pages/products/luxury-concrete/monocrete/microcemento-monocomponente.webp",
+  "easycret":     "/assets/pages/products/luxury-concrete/easycret/microcemento-easycret-2.webp",
+  "concrete-pox": "/assets/pages/products/luxury-concrete/concrete-pox/suelo-gran-almacen-concrete-pox.webp",
+  "limecrete":    "/assets/pages/products/luxury-concrete/limecrete/microcemento-sala-estar.webp",
+  "metallic":     "/assets/pages/products/luxury-concrete/metallic/colorcrete-metal-diamond.webp",
+  "primers":      "/assets/pages/products/luxury-concrete/primers/acabado_imprimaciones.webp",
+  "sealers":      "/assets/pages/products/luxury-concrete/sealers/acabado_barniz.webp",
+  "pigments":     "/assets/pages/products/luxury-concrete/pigments/colorcrete_base.webp",
+  "care":         "/assets/pages/products/luxury-concrete/care/concrete_clean.webp",
+  "tools":        "/assets/pages/products/luxury-concrete/tools/malla.webp",
 };
 
 export default async function ProductsPage({
@@ -45,13 +46,17 @@ export default async function ProductsPage({
   const { lang } = await params;
   const dict = await getDictionary(lang);
 
-  const products = Object.entries(dict.products.items).map(([slug, item]: [string, any]) => ({
+  const allProducts = Object.entries(dict.products.items).map(([slug, item]: [string, any]) => ({
     id: slug,
-    image: item.gallery?.[0] || PRODUCT_IMAGES[slug] || "/assets/surfaces/microcemento.png",
+    category: item.category || "systems",
+    image: item.gallery?.[0] || PRODUCT_IMAGES[slug] || "/assets/pages/products/luxury-concrete/concrete/microcemento-bicomponente.webp",
     href: `/${lang}/products/${slug}`,
     name: item.name,
     description: item.tagline || item.description,
   }));
+
+  const systems = allProducts.filter((p) => p.category === "systems");
+  const materials = allProducts.filter((p) => p.category === "materials");
 
   return (
     <main>
@@ -66,19 +71,43 @@ export default async function ProductsPage({
       />
 
       <section className="py-24 bg-background">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20">
-            {products.map((product, idx) => (
-              <ProductCard
-                key={product.id}
-                name={product.name}
-                description={product.description}
-                image={product.image}
-                href={product.href}
-                idx={idx}
-                exploreLabel={dict.products_ui.explore}
-              />
-            ))}
+        <div className="max-w-7xl mx-auto px-6 space-y-24">
+          <div>
+            <h2 className="font-serif text-2xl md:text-3xl uppercase tracking-tight italic mb-10">
+              {dict.products.systems_title}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20">
+              {systems.map((product, idx) => (
+                <ProductCard
+                  key={product.id}
+                  name={product.name}
+                  description={product.description}
+                  image={product.image}
+                  href={product.href}
+                  idx={idx}
+                  exploreLabel={dict.products_ui.explore}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h2 className="font-serif text-2xl md:text-3xl uppercase tracking-tight italic mb-10">
+              {dict.products.materials_title}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20">
+              {materials.map((product, idx) => (
+                <ProductCard
+                  key={product.id}
+                  name={product.name}
+                  description={product.description}
+                  image={product.image}
+                  href={product.href}
+                  idx={idx}
+                  exploreLabel={dict.products_ui.explore}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>

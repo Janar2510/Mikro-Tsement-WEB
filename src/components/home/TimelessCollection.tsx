@@ -3,8 +3,15 @@
 import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
-export function TimelessCollection({ dict }: { dict: any }) {
+const PRODUCT_SLUGS: Record<string, string> = {
+  "timeless-1": "concrete",
+  "timeless-2": "metallic",
+  "timeless-3": "limecrete",
+};
+
+export function TimelessCollection({ dict, lang }: { dict: any; lang: string }) {
   const heroRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -47,9 +54,9 @@ export function TimelessCollection({ dict }: { dict: any }) {
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "12%"]);
 
   const images: Record<string, string> = {
-    "timeless-1": "/assets/pages/products/basebeton-originale-1.png",
-    "timeless-2": "/assets/pages/products/OXIDESTUC10.webp",
-    "timeless-3": "/assets/pages/products/stuccopuro-1.png",
+    "timeless-1": "/assets/pages/products/luxury-concrete/lifestyle/concrete-staircase.jpg",
+    "timeless-2": "/assets/pages/products/luxury-concrete/lifestyle/metallic-brass-texture.jpg",
+    "timeless-3": "/assets/pages/products/luxury-concrete/lifestyle/limecrete-bathroom.jpg",
   };
 
   return (
@@ -125,26 +132,27 @@ export function TimelessCollection({ dict }: { dict: any }) {
             {dict.items.map((item: any, idx: number) => (
               <motion.div
                 key={item.id}
-                className="space-y-6 group"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.1 * idx }}
               >
-                <div className="relative aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-[1.5s]">
-                  <Image
-                    src={images[item.id]}
-                    alt={item.name}
-                    fill
-                    className="object-cover transition-transform duration-[2s] group-hover:scale-105"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-serif text-2xl uppercase tracking-widest">{item.name}</h3>
-                  <p className="font-sans text-xs text-foreground/40 uppercase tracking-widest leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
+                <Link href={`/${lang}/products/${PRODUCT_SLUGS[item.id] ?? ""}`} className="space-y-6 group block">
+                  <div className="relative aspect-[4/5] overflow-hidden grayscale hover:grayscale-0 transition-all duration-[1.5s]">
+                    <Image
+                      src={images[item.id]}
+                      alt={item.name}
+                      fill
+                      className="object-cover transition-transform duration-[2s] group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h3 className="font-serif text-2xl uppercase tracking-widest">{item.name}</h3>
+                    <p className="font-sans text-xs text-foreground/40 uppercase tracking-widest leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </div>

@@ -16,7 +16,7 @@ interface MicrocementPreviewProps {
 const T = {
   en: {
     uploadTitle: "See it in your space",
-    uploadDesc: "Upload a photo of your room, tap any wall to instantly preview Basebeton finishes.",
+    uploadDesc: "Upload a photo of your room, tap any wall to instantly preview Luxury Concrete® finishes.",
     takePhoto: "Take Photo",
     choosePhoto: "Upload Photo",
     dragDrop: "or drag and drop",
@@ -27,7 +27,7 @@ const T = {
   },
   et: {
     uploadTitle: "Näe seda oma ruumis",
-    uploadDesc: "Lae üles foto oma ruumist, klõpsa seinale ja vaata kohe Basebetoni toone.",
+    uploadDesc: "Lae üles foto oma ruumist, klõpsa seinale ja vaata kohe Luxury Concrete® toone.",
     takePhoto: "Tee foto",
     choosePhoto: "Lae foto üles",
     dragDrop: "või lohista siia",
@@ -137,7 +137,7 @@ export default function MicrocementPreview({ lang = "en" }: MicrocementPreviewPr
               <div className="w-16 h-16 mx-auto rounded-full bg-white shadow-sm border border-foreground/5 flex items-center justify-center mb-6">
                 <Upload className="w-6 h-6 text-foreground/40 group-hover:text-foreground/80 transition-colors duration-500" />
               </div>
-              <p className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/40">— Basebeton</p>
+              <p className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/40">— Luxury Concrete®</p>
               <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl uppercase tracking-tighter italic leading-[0.95]">
                 {t.uploadTitle}
               </h2>

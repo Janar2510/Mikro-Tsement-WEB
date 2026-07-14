@@ -11,6 +11,7 @@ interface ColorItem { code: string; name: string; hex: string; }
 interface Props {
   lang: string;
   slug: string;
+  productSlug?: string;
   collection: { title: string; description: string; items: ColorItem[] };
   product?: any;
   dict: any;
@@ -52,7 +53,7 @@ function SwatchCard({ item, onClick, size = "normal" }: { item: ColorItem; onCli
   );
 }
 
-export function ProductColorsUI({ lang, slug, collection, product, dict }: Props) {
+export function ProductColorsUI({ lang, slug, productSlug, collection, product, dict }: Props) {
   const ui = dict.colors.ui;
   const [selected, setSelected] = useState<ColorItem | null>(null);
   const [toneFilter, setToneFilter] = useState<"all" | "light" | "mid" | "dark">("all");
@@ -104,13 +105,17 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
             <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" />
             {ui.allPalettes}
           </Link>
-          <span className="text-foreground/20">·</span>
-          <Link
-            href={`/${lang}/products/${slug}`}
-            className="text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:text-foreground transition-colors"
-          >
-            {collection.title}
-          </Link>
+          {productSlug && (
+            <>
+              <span className="text-foreground/20">·</span>
+              <Link
+                href={`/${lang}/products/${productSlug}`}
+                className="text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/40 hover:text-foreground transition-colors"
+              >
+                {collection.title}
+              </Link>
+            </>
+          )}
         </div>
 
         {/* Hero header */}
@@ -184,58 +189,70 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
           </motion.div>
         </div>
 
-        {/* Tone filter tabs */}
-        <div className="flex items-center gap-1 mb-16 border-b border-border/30 pb-0">
-          {FILTERS.map(f => (
-            <button
-              key={f.key}
-              onClick={() => setToneFilter(f.key)}
-              className={`px-5 py-3 text-[10px] uppercase tracking-[0.2em] font-bold transition-all border-b-2 -mb-px ${
-                toneFilter === f.key
-                  ? "border-foreground text-foreground"
-                  : "border-transparent text-foreground/30 hover:text-foreground/60"
-              }`}
-            >
-              {f.label}
-            </button>
-          ))}
-          {product?.datasheet && (
-            <a
-              href={`/assets/datasheets/${product.datasheet}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ml-auto flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/30 hover:text-foreground transition-colors pb-3"
-            >
-              <Download className="w-3 h-3" />
-              {ui.datasheet}
-            </a>
-          )}
-        </div>
-
-        {/* Colour groups */}
-        <div className="space-y-20">
-          {groups.map((group) => (
-            <div key={group.label} className="space-y-8">
-              <div className="flex items-baseline gap-4">
-                <h2 className="font-serif text-2xl italic tracking-tight">{group.label}</h2>
-                <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/25">{group.count} {ui.colours}</span>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-                {group.items.map((item, i) => (
-                  <motion.div
-                    key={item.code}
-                    initial={{ opacity: 0, scale: 0.97 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: Math.min(i * 0.02, 0.4) }}
-                  >
-                    <SwatchCard item={item} onClick={() => setSelected(item)} />
-                  </motion.div>
-                ))}
-              </div>
+        {collection.items.length === 0 ? (
+          /* Empty state: chart not yet published (e.g. Limecrete) */
+          <div className="py-24 text-center border-t border-border/30">
+            <p className="font-serif text-2xl italic mb-2">{ui.comingSoon ?? "Coming soon"}</p>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-foreground/40 max-w-sm mx-auto">
+              {collection.description}
+            </p>
+          </div>
+        ) : (
+          <>
+            {/* Tone filter tabs */}
+            <div className="flex items-center gap-1 mb-16 border-b border-border/30 pb-0">
+              {FILTERS.map(f => (
+                <button
+                  key={f.key}
+                  onClick={() => setToneFilter(f.key)}
+                  className={`px-5 py-3 text-[10px] uppercase tracking-[0.2em] font-bold transition-all border-b-2 -mb-px ${
+                    toneFilter === f.key
+                      ? "border-foreground text-foreground"
+                      : "border-transparent text-foreground/30 hover:text-foreground/60"
+                  }`}
+                >
+                  {f.label}
+                </button>
+              ))}
+              {product?.datasheet && (
+                <a
+                  href={`/assets/datasheets/${product.datasheet}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-auto flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-bold text-foreground/30 hover:text-foreground transition-colors pb-3"
+                >
+                  <Download className="w-3 h-3" />
+                  {ui.datasheet}
+                </a>
+              )}
             </div>
-          ))}
-        </div>
+
+            {/* Colour groups */}
+            <div className="space-y-20">
+              {groups.map((group) => (
+                <div key={group.label} className="space-y-8">
+                  <div className="flex items-baseline gap-4">
+                    <h2 className="font-serif text-2xl italic tracking-tight">{group.label}</h2>
+                    <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/25">{group.count} {ui.colours}</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+                    {group.items.map((item, i) => (
+                      <motion.div
+                        key={item.code}
+                        initial={{ opacity: 0, scale: 0.97 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: Math.min(i * 0.02, 0.4) }}
+                      >
+                        <SwatchCard item={item} onClick={() => setSelected(item)} />
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
 
         {/* Bottom CTA */}
         <div className="mt-32 pt-16 border-t border-border/30 flex flex-col md:flex-row items-center justify-between gap-8">
@@ -244,12 +261,14 @@ export function ProductColorsUI({ lang, slug, collection, product, dict }: Props
             <p className="text-[10px] uppercase tracking-[0.3em] text-foreground/40">{product?.tagline ?? collection.description}</p>
           </div>
           <div className="flex items-center gap-4">
-            <Link
-              href={`/${lang}/products/${slug}`}
-              className="inline-block border border-foreground/30 px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-foreground hover:text-background transition-all duration-500"
-            >
-              {ui.viewProduct}
-            </Link>
+            {productSlug && (
+              <Link
+                href={`/${lang}/products/${productSlug}`}
+                className="inline-block border border-foreground/30 px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-foreground hover:text-background transition-all duration-500"
+              >
+                {ui.viewProduct}
+              </Link>
+            )}
             <Link
               href={`/${lang}/contact`}
               className="inline-block bg-foreground text-background px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-foreground/80 transition-all duration-500"

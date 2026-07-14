@@ -6,8 +6,8 @@ import { SectionHero } from "@/components/layout/SectionHero";
 import Image from "next/image";
 import Link from "next/link";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -56,8 +56,8 @@ export default async function BusinessPage({
 
           <div className="max-w-3xl text-center space-y-12">
             <h2 className="font-serif text-3xl uppercase tracking-widest leading-relaxed">
-              {lang === 'et' ? "Rätsepalahendused " : "Tailored solutions for "}
-              <span className="italic">{lang === 'et' ? "arhitektuurseks tipptasemeks" : "architectural excellence"}</span>.
+              {dict.business.heading_1}
+              <span className="italic">{dict.business.heading_2}</span>.
             </h2>
             <p className="font-sans text-sm md:text-base text-foreground/60 leading-relaxed uppercase tracking-widest">
               {dict.business.subtitle}

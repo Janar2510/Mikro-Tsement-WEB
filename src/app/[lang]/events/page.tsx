@@ -6,8 +6,8 @@ import { SectionHero } from "@/components/layout/SectionHero";
 import { WorkshopSection } from "@/components/events/WorkshopSection";
 import Image from "next/image";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -47,9 +47,9 @@ export default async function EventsPage({
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
              <div className="relative aspect-[4/5] overflow-hidden grayscale">
-                <Image 
-                  src="/assets/pages/story/artisan.png" 
-                  alt={dict.events.title} 
+                <Image
+                  src="/assets/pages/blog/rhythm-of-the-hand.png"
+                  alt={dict.events.title}
                   fill 
                   className="object-cover"
                 />

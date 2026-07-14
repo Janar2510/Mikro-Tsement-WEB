@@ -3,8 +3,18 @@
 import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
-export function Surfaces({ dict }: { dict: any }) {
+const PRODUCT_SLUGS: Record<string, string> = {
+  "surface-1": "concrete",
+  "surface-2": "monocrete",
+  "surface-3": "easycret",
+  "surface-4": "concrete-pox",
+  "surface-5": "limecrete",
+  "surface-6": "metallic",
+};
+
+export function Surfaces({ dict, lang }: { dict: any; lang: string }) {
   const heroRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,12 +56,12 @@ export function Surfaces({ dict }: { dict: any }) {
   }, []);
 
   const images: Record<string, string> = {
-    "surface-1": "/assets/pages/products/basebeton-originale-2.png",
-    "surface-2": "/assets/pages/products/beton-cire-1.png",
-    "surface-3": "/assets/pages/products/OXIDESTUC9.jpeg",
-    "surface-4": "/assets/pages/products/basebeton-solid-1.png",
-    "surface-5": "/assets/pages/products/stuccopuro-1.png",
-    "surface-6": "/assets/pages/products/basebeton-grit-1.png",
+    "surface-1": "/assets/pages/products/luxury-concrete/concrete/acabado-microcemento.webp",
+    "surface-2": "/assets/pages/products/luxury-concrete/monocrete/microcemento-monocomponente.webp",
+    "surface-3": "/assets/pages/products/luxury-concrete/easycret/microcemento-easycret-2.webp",
+    "surface-4": "/assets/pages/products/luxury-concrete/concrete-pox/suelo-gran-almacen-concrete-pox.webp",
+    "surface-5": "/assets/pages/products/luxury-concrete/limecrete/microcemento-sala-estar.webp",
+    "surface-6": "/assets/pages/products/luxury-concrete/metallic/colorcrete-metal-diamond.webp",
   };
 
   return (
@@ -127,29 +137,33 @@ export function Surfaces({ dict }: { dict: any }) {
             {dict.items.map((surface: any, idx: number) => (
               <motion.div
                 key={surface.id}
-                className="relative group overflow-hidden bg-white aspect-[4/5]"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.1 * idx }}
               >
-                <div className="relative h-full w-full overflow-hidden">
-                  <Image
-                    src={images[surface.id] || "/surface-bone.png"}
-                    alt={`${surface.name} - premium mikrotsement pind`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-700" />
-                </div>
-
-                <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
-                  <div className="backdrop-blur-md bg-white/20 p-6 border border-white/50">
-                    <h3 className="font-serif text-xl text-white uppercase tracking-widest mb-1">{surface.name}</h3>
-                    <p className="text-white/90 text-[10px] uppercase tracking-widest font-light">{surface.description}</p>
+                <Link
+                  href={`/${lang}/products/${PRODUCT_SLUGS[surface.id] ?? ""}`}
+                  className="relative group overflow-hidden bg-white aspect-[4/5] block"
+                >
+                  <div className="relative h-full w-full overflow-hidden">
+                    <Image
+                      src={images[surface.id] || "/surface-bone.png"}
+                      alt={`${surface.name} - premium mikrotsement pind`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-700" />
                   </div>
-                </div>
+
+                  <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+                    <div className="backdrop-blur-md bg-white/20 p-6 border border-white/50">
+                      <h3 className="font-serif text-xl text-white uppercase tracking-widest mb-1">{surface.name}</h3>
+                      <p className="text-white/90 text-[10px] uppercase tracking-widest font-light">{surface.description}</p>
+                    </div>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </div>

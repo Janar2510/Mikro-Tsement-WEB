@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -49,8 +49,8 @@ export default async function Home({
       />
       <Hero dict={dict.hero} lang={lang} />
       <Philosophy dict={dict.philosophy} />
-      <Surfaces dict={dict.surfaces_collection} />
-      <TimelessCollection dict={dict.timeless_collection} />
+      <Surfaces dict={dict.surfaces_collection} lang={lang} />
+      <TimelessCollection dict={dict.timeless_collection} lang={lang} />
       <DecoWalls dict={dict.deco_walls_collection} />
       <Methodology dict={dict.methodology} />
       <VisualizeCTA lang={lang} dict={dict.visualize_cta} />

@@ -5,14 +5,27 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ProductColorsUI } from "@/components/colors/ProductColorsUI";
 
-const BASE_URL = "https://kuusdesign.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+
+// Colour-collection slugs and product slugs are different taxonomies (one
+// collection can supply several products, e.g. "colorcrete" is used by
+// Concrete, Monocrete, Easycret and Pigments). This maps each collection to
+// the single most relevant product page to link back to.
+const COLLECTION_PRODUCT: Record<string, string> = {
+  colorcrete: "concrete",
+  "true-metal": "metallic",
+  "oxid-metal": "metallic",
+  gemstone: "metallic",
+  glowing: "metallic",
+  "concrete-pox": "concrete-pox",
+  limecrete: "limecrete",
+};
 
 export async function generateStaticParams() {
   const slugs = [
-    "basebeton-originale","beton-cire","oxidestuc","natureplast","sichtbeton",
-    "basebeton-paint","basebeton-plus","basebeton-xtreme","basebeton-solid",
-    "basebeton-grit","stuccopuro",
+    "colorcrete", "true-metal", "oxid-metal", "gemstone", "glowing",
+    "concrete-pox", "limecrete",
   ];
   return LOCALES.flatMap(lang => slugs.map(slug => ({ lang, slug })));
 }
@@ -46,7 +59,8 @@ export default async function ProductColorsPage({
   const collection = dict.colors?.collections?.[slug];
   if (!collection) notFound();
 
-  const product = dict.products?.items?.[slug];
+  const productSlug = COLLECTION_PRODUCT[slug];
+  const product = productSlug ? dict.products?.items?.[productSlug] : undefined;
 
   return (
     <main>
@@ -54,6 +68,7 @@ export default async function ProductColorsPage({
       <ProductColorsUI
         lang={lang}
         slug={slug}
+        productSlug={productSlug}
         collection={collection}
         product={product}
         dict={dict}

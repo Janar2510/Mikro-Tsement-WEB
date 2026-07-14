@@ -35,6 +35,20 @@ interface ProductDetailsUIProps {
   dict: any;
 }
 
+// Product slugs and colour-collection slugs are different taxonomies (a
+// product can draw from several collections, e.g. "metallic" spans four).
+// This maps each product to where its "view all colours" link should land.
+const PRODUCT_COLOR_COLLECTION: Record<string, string> = {
+  concrete: "colorcrete",
+  monocrete: "colorcrete",
+  easycret: "colorcrete",
+  pigments: "colorcrete",
+  "concrete-pox": "concrete-pox",
+  limecrete: "limecrete",
+  // metallic spans true-metal/oxid-metal/gemstone/glowing — no single page
+  // covers all of it, so it links to the colours index instead.
+};
+
 const IconMap: Record<string, any> = {
   shield: Shield,
   droplets: Droplets,
@@ -64,10 +78,19 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
     `/assets/pages/products/${slug}.png`
   ];
 
-  // Use product's own palette; fall back to first available collection
-  const productColors: any[] = product.productColors?.length
-    ? product.productColors.slice(0, 10)
-    : (Object.values(dict.colors.collections)[0] as any)?.items?.slice(0, 10) ?? [];
+  // Datasheets: prefer the new multi-SKU array; fall back to the legacy
+  // single `datasheet` field for backward compatibility.
+  const datasheets: { label: string; file: string }[] = product.datasheets?.length
+    ? product.datasheets
+    : product.datasheet
+    ? [{ label: `${product.name} — Technical Datasheet`, file: product.datasheet }]
+    : [];
+  const datasheetHref = (file: string) =>
+    file.startsWith("http") ? file : `/assets/datasheets/${file}`;
+
+  // Only this product's own palette — never substitute another product's
+  // colours, since that would misrepresent what's actually available.
+  const productColors: any[] = product.productColors?.slice(0, 10) ?? [];
 
   const nextImage = () => setActiveImageIdx((prev) => (prev + 1) % gallery.length);
   const prevImage = () => setActiveImageIdx((prev) => (prev - 1 + gallery.length) % gallery.length);
@@ -206,11 +229,11 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
           <div className="mt-40 space-y-12">
             <div className="flex items-end justify-between border-b border-foreground/10 pb-8">
               <div className="space-y-2">
-                <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.colors.popular?.title ?? "Available Colours"}</h3>
+                <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.products_ui.available_colours}</h3>
                 <p className="font-serif text-3xl italic tracking-tight">{product.name} Palette</p>
               </div>
-              <Link href={`/${lang}/colors/${slug}`} className="text-[10px] uppercase tracking-[0.2em] font-bold hover:opacity-50 transition-opacity">
-                View All {product.productColors?.length ?? ""} Colours →
+              <Link href={`/${lang}/colors${PRODUCT_COLOR_COLLECTION[slug] ? `/${PRODUCT_COLOR_COLLECTION[slug]}` : ""}`} className="text-[10px] uppercase tracking-[0.2em] font-bold hover:opacity-50 transition-opacity">
+                {(dict.products_ui.view_all_colours || "View all {count} colours").replace("{count}", String(product.productColors?.length ?? ""))} →
               </Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
@@ -244,6 +267,14 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
           </div>
         )}
 
+        {productColors.length === 0 && product.colorsPending && (
+          <div className="mt-40 border-t border-foreground/10 pt-12">
+            <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/30">
+              {dict.products_ui.colours_coming_soon}
+            </p>
+          </div>
+        )}
+
         {/* Technical Section */}
         <div className="mt-40 border-t border-foreground/10 pt-20">
           <div className="space-y-12">
@@ -252,9 +283,9 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
                 <h3 className="font-serif text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/30">— {dict.products_ui.documentation}</h3>
                 <p className="font-serif text-3xl italic tracking-tight">{dict.products_ui.data_sheet}</p>
               </div>
-              {product.datasheet && (
+              {datasheets.length === 1 && (
                 <a
-                  href={`/assets/datasheets/${product.datasheet}`}
+                  href={datasheetHref(datasheets[0].file)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center justify-center gap-3 bg-black text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-black/80 transition-all w-full md:w-auto"
@@ -265,33 +296,39 @@ export function ProductDetailsUI({ product, lang, slug, dict }: ProductDetailsUI
               )}
             </div>
 
-            {product.datasheet && (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="bg-white border border-foreground/5 shadow-sm p-8 md:p-12 flex flex-col md:flex-row items-center gap-8"
-              >
-                <div className="w-16 h-16 flex items-center justify-center border border-foreground/10 shrink-0">
-                  <FileText className="w-8 h-8 text-foreground/40" />
-                </div>
-                <div className="flex-1 space-y-2 text-center md:text-left">
-                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/30">Basebeton</p>
-                  <h4 className="font-serif text-2xl italic tracking-tight">{product.name} — Technical Datasheet</h4>
-                  <p className="text-sm text-foreground/50 font-sans">
-                    Official installation manual, technical specifications and substrate preparation guidelines.
-                  </p>
-                </div>
-                <a
-                  href={`/assets/datasheets/${product.datasheet}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-black text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-black/80 transition-all shrink-0"
-                >
-                  <Download className="w-4 h-4" />
-                  Download PDF
-                </a>
-              </motion.div>
+            {datasheets.length > 0 && (
+              <div className="space-y-4">
+                {datasheets.map((sheet, i) => (
+                  <motion.div
+                    key={sheet.file}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: i * 0.05 }}
+                    className="bg-white border border-foreground/5 shadow-sm p-8 md:p-12 flex flex-col md:flex-row items-center gap-8"
+                  >
+                    <div className="w-16 h-16 flex items-center justify-center border border-foreground/10 shrink-0">
+                      <FileText className="w-8 h-8 text-foreground/40" />
+                    </div>
+                    <div className="flex-1 space-y-2 text-center md:text-left">
+                      <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/30">Luxury Concrete®</p>
+                      <h4 className="font-serif text-2xl italic tracking-tight">{sheet.label}</h4>
+                      <p className="text-sm text-foreground/50 font-sans">
+                        {dict.products_ui.datasheet_description}
+                      </p>
+                    </div>
+                    <a
+                      href={datasheetHref(sheet.file)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 bg-black text-white px-8 py-4 text-[10px] uppercase tracking-widest font-bold hover:bg-black/80 transition-all shrink-0"
+                    >
+                      <Download className="w-4 h-4" />
+                      {dict.products_ui.download_pdf}
+                    </a>
+                  </motion.div>
+                ))}
+              </div>
             )}
           </div>
         </div>

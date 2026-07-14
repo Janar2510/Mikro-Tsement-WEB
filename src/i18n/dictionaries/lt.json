@@ -1,0 +1,2840 @@
+{
+  "seo": {
+    "global": {
+      "title": "KUUS DESIGN | Aukščiausios Kokybės Luxury Concrete® Mikrocementas – Tartu, Estija",
+      "description": "Aukščiausios kokybės Luxury Concrete® mikrocemento paviršiai prabangiems interjerams. Besiūlės grindys, vandeniui atsparūs vonios kambariai, dekoratyvinės sienos. Kuusdisain — oficialus LUXURY CONCRETE® platintojas Estijoje.",
+      "keywords": "mikrocementas, luxury concrete, mikrocementas Estijoje, mikrocementas Baltijos šalyse, mikrocemento montavimas, mikrocemento vonios kambarys, mikrocemento grindys, besiūlės grindys, vandeniui atspari siena, dekoratyvinė siena, renovacija be griovimo, mineralinis paviršius, luxury concrete platintojas, aukščiausios kokybės mikrocementas"
+    },
+    "pages": {
+      "home": {
+        "title": "KUUS DESIGN | Luxury Concrete® Mikrocementas – Besiūliai Paviršiai Baltijos Šalyse",
+        "description": "Pakeisk savo erdvę su monolitiniu Luxury Concrete® mikrocementu. Besiūliai, vandeniui atsparūs, be griovimo darbų paviršiai grindims, sienoms ir vonios kambariams. Aukščiausios kokybės studija Tartu."
+      },
+      "products": {
+        "title": "Luxury Concrete® Produktai | 11 Mikrocemento Sistemų – KUUS DESIGN",
+        "description": "Concrete, Monocrete, Easycret, Concrete Pox, Limecrete ir metalinės apdailos. Profesionalios mikrocemento sistemos iš Ispanijos gamintojo Luxury Concrete®."
+      },
+      "projects": {
+        "title": "Mikrocemento Projektų Portfolio | KUUS DESIGN",
+        "description": "Peržiūrėk baigtus mikrocemento projektus — grindis, vonios kambarius, sienas ir baldus visoje Estijoje ir Baltijos šalyse. Gyvenamųjų ir komercinių patalpų pavyzdžiai."
+      },
+      "blog": {
+        "title": "Mikrocemento Žurnalas | Dizaino ir Montavimo Įžvalgos – KUUS DESIGN",
+        "description": "Ekspertų straipsniai apie mikrocementą, mineralinius paviršius, montavimo technikas ir interjero tendencijas."
+      },
+      "colors": {
+        "title": "Mikrocemento Spalvų Kolekcijos | 78+ Spalvos – KUUS DESIGN",
+        "description": "Luxury Concrete® mikrocemento spalvos septyniose kolekcijose, 78+ atspalviai. Tiksliam atitikimui naudok spalvos kodą. Colorcrete, True Metal, Oxid Metal, Concrete Pox ir kt."
+      },
+      "story": {
+        "title": "Mūsų Istorija | KUUS DESIGN Mikrocemento Studija Tartu",
+        "description": "KUUS DESIGN yra aukščiausios kokybės mikrocemento studija Tartu, Estijoje. Kuusdisain yra oficialus LUXURY CONCRETE® platintojas Estijoje — profesionalus mikrocementas iš Ispanijos gamintojo."
+      },
+      "contact": {
+        "title": "Kontaktai | KUUS DESIGN Mikrocemento Studija – Tartu",
+        "description": "Susisiek su KUUS DESIGN dėl mikrocemento konsultacijų, projektų pasiūlymų ir Luxury Concrete® produktų klausimų. Studija Tartu. studio@kuusdesign.ee"
+      },
+      "events": {
+        "title": "Mikrocemento Mokymų Seminarai | KUUS DESIGN Tartu",
+        "description": "Profesionalūs mikrocemento montavimo mokymai Tartu. 2 ir 3 dienų programos. Tarptautiniu mastu pripažintas montuotojo sertifikatas."
+      },
+      "faq": {
+        "title": "Mikrocemento DUK | Dažniausiai Užduodami Klausimai – KUUS DESIGN",
+        "description": "Atsakymai į dažniausiai užduodamus klausimus apie Luxury Concrete® mikrocementą: montavimas, priežiūra, vandeniui atsparumas, spalvos ir pagrindai."
+      },
+      "guide": {
+        "title": "Luxury Concrete® Mikrocemento Vadovas | Montavimas ir Pritaikymas – KUUS DESIGN",
+        "description": "Išsamus vadovas apie Luxury Concrete® mikrocementą: kas tai yra, kur galima naudoti, techninis procesas ir paviršių apdailos."
+      }
+    }
+  },
+  "events": {
+    "title": "Architectural Dialogues",
+    "subtitle": "Join our studio for immersive workshops, showroom openings, and material deep-dives across Europe.",
+    "items": [
+      {
+        "date": "May 12, 2024",
+        "name": "The Alchemy of Sand",
+        "description": "A hands-on workshop focused on mineral pigment mixing and hand-trowel techniques."
+      },
+      {
+        "date": "June 05, 2024",
+        "name": "Design District Expo",
+        "description": "Showcasing our new 'Brutal Silence' collection at the International Design Fair."
+      }
+    ],
+    "workshop": {
+      "label": "Education & Training",
+      "title": "Learn Microcement Installation With Us",
+      "subtitle": "We train individuals and companies in professional microcement installation. Every graduate receives an internationally recognised certificate.",
+      "intro": "Our hands-on workshops take place in our Tartu studio. Led by master applicators with over a decade of project experience, the programme covers surface preparation, mixing, trowel technique, colour theory, sealing, and quality control.",
+      "tiers": [
+        {
+          "type": "Individual",
+          "badge": "1 – 4 Participants",
+          "duration": "2-Day Intensive",
+          "description": "Ideal for independent contractors, designers, and renovation specialists who want to add microcement to their skill set.",
+          "includes": [
+            "Full material kit",
+            "Hands-on trowel practice",
+            "Colour mixing lab",
+            "Professional Installer Certificate"
+          ]
+        },
+        {
+          "type": "Corporate",
+          "badge": "5 – 20 Participants",
+          "duration": "3-Day Programme",
+          "description": "Tailored team training for construction firms, interior studios, and real estate developers.",
+          "includes": [
+            "Custom curriculum",
+            "On-site practice sessions",
+            "Team material kit",
+            "Professional Installer Certificates",
+            "3-month follow-up support"
+          ]
+        }
+      ],
+      "certificate": {
+        "title": "Professional Installer Certificate",
+        "desc": "Awarded to every graduate, recognised across Estonia and the EU. Demonstrates mastery of surface preparation, mineral application, and quality sealing."
+      },
+      "cta": "Reserve Your Spot"
+    }
+  },
+  "contact": {
+    "title": "Susisiekite su mumis",
+    "subtitle": "Papasakok apie projektą — patalpos tipas, dydis, ko sieki. Atsakysime su sąžiningu patarimu.",
+    "email": "studio@kuusdesign.ee",
+    "address": "Mineral tn 124, Tartu 51003",
+    "tel": "+372 55586956",
+    "cta": "Siųsti žinutę"
+  },
+  "blog": {
+    "title": "The Journal",
+    "subtitle": "Reflections on architecture, the evolution of materiality, and the quiet luxury of the handmade.",
+    "posts": [
+      {
+        "slug": "microcement-trends-2026",
+        "title": "What's Changing in Microcement Design for 2026",
+        "date": "February 2026",
+        "image": "/assets/pages/blog/microcement-trends-2026.png",
+        "excerpt": "Warmer palettes, continuous surfaces in commercial spaces, and matte finishes that hide daily wear better. What's actually changing this year.",
+        "content": [
+          "The biggest shift we're seeing this year is in color. For the last few years, cool greys dominated almost every project that came through our studio. In 2026, clients are asking for warmer tones: sand, clay, soft ochre, even the occasional dusty pink. Cold minimalism is giving way to something that still feels minimal but reads as lived-in rather than sterile.",
+          "On the commercial side, we're getting more requests from hospitality and retail clients for continuous mineral surfaces that run from the floor up the walls and onto custom furniture. A single material across a whole space used to be mostly a residential thing. Now hotels and shops want that same continuity, partly because it photographs well and partly because one surface is easier to maintain than a patchwork of finishes.",
+          "Low-VOC certification used to be a selling point. Now it's close to a baseline expectation, especially for bedrooms, nurseries, and healthcare spaces. What's changed more is the finish itself: instead of high-gloss polished microcement, more clients are choosing matte or lightly textured surfaces that hide fingerprints and water marks better in daily use."
+        ]
+      },
+      {
+        "slug": "rhythm-of-the-hand",
+        "title": "The Rhythm of the Hand",
+        "date": "April 02, 2026",
+        "image": "/assets/pages/blog/rhythm-of-the-hand.png",
+        "excerpt": "Why hand-troweled surfaces look different from machine-finished ones, and whether it matters.",
+        "content": [
+          "Microcement is a mix of minerals and polymers, but the finish depends on the person applying it. A hand-troweled surface carries small variations a poured floor or factory tile never will: the pressure of the trowel, the angle of each pass, the rhythm of the hand doing the work.",
+          "Those variations are why the same color can feel different from one room to the next, even using the same material. Most architecture is moving toward machine-perfect finishes, so a surface with this kind of texture stands out. It isn't a flaw to sand away. It's a record of how the surface was made.",
+          "Our artisans fall into a steady rhythm while they work, and that rhythm shows up in the final texture. You can see it in the right light, and you can feel it under your palm."
+        ]
+      },
+      {
+        "slug": "mineral-tonality",
+        "title": "Exploring Mineral Tonality",
+        "date": "March 20, 2026",
+        "image": "/assets/pages/blog/mineral-tonality.png",
+        "excerpt": "The same mineral surface looks warmer at dusk than at noon. Here's why.",
+        "content": [
+          "The color of a mineral surface never sits still. We use raw earthen pigments, so the tone shifts as the light in the room changes through the day.",
+          "Take our Bone white: warm at sunset, almost cool and architectural under midday light. That shift isn't an accident, it's part of how we choose pigments in the first place.",
+          "When we work with architects, we talk about the surface as something that responds to its setting rather than sitting flat against it. Picking the right pigment base means thinking about which way a room faces and what the light does there over the course of a day."
+        ]
+      },
+      {
+        "slug": "bathroom-renovation-no-demolition",
+        "title": "Bathroom Renovation Without Demolition",
+        "date": "April 15, 2026",
+        "image": "/assets/pages/blog/bathroom-renovation-no-demolition.png",
+        "excerpt": "How to redo a bathroom without removing a single tile using Luxury Concrete® technology.",
+        "content": [
+          "A typical bathroom renovation means weeks of demolition, dust everywhere, and walls torn back to the studs. Microcement skips most of that: it's a thin mineral coating that goes directly over your existing tiles.",
+          "That works because Luxury Concrete® microcement bonds hard to almost any stable surface, including old tile. Skip the demolition and you cut waste and the project timeline, and you still end up with a seamless, spa-like finish.",
+          "There's also a practical upside beyond looks. No grout lines means nothing to scrub, and no hidden gaps for moisture and mold to build up in."
+        ]
+      },
+      {
+        "slug": "microcement-on-tiles-guide",
+        "title": "The Definitive Guide: Microcement on Tiles",
+        "date": "April 10, 2026",
+        "image": "/assets/pages/blog/microcement-on-tiles-guide.png",
+        "excerpt": "Applying microcement over existing tiles takes more prep than most people expect. This is what we do.",
+        "content": [
+          "Can you apply microcement over old tiles? Yes, as long as the tiles are sound, not loose or cracked. The big advantage is a modern, grout-free look without tearing out the floor or raising it by much.",
+          "We start by diamond-grinding the tile to open up the surface, then apply a double layer of epoxy primer with fiberglass mesh underneath. That combination stops 'ghosting', where old grout lines slowly become visible again through the new surface months later.",
+          "We use base mortars chosen specifically to absorb structural movement under the new layer. The finished surface is about 3mm thick, but it holds up like a high-end architectural concrete."
+        ]
+      },
+      {
+        "slug": "microcement-furniture-trends-2026",
+        "title": "Sculptural Silence: Microcement Furniture Trends 2026",
+        "date": "April 05, 2026",
+        "image": "/assets/pages/blog/microcement-furniture-trends-2026.png",
+        "excerpt": "More furniture is being specified in mineral materials this year. Some reasons why that's happening.",
+        "content": [
+          "The line between furniture and architecture keeps getting thinner. More designers are skipping modular, assembled pieces in favor of single monolithic objects that look like they grew out of the floor.",
+          "Microcement works well for this: cube-shaped coffee tables, cantilevered dining surfaces, sideboards with no visible seams. It holds sharp geometric edges but still feels warm to the touch, closer to stone than to concrete.",
+          "The look that's gaining ground pairs these heavy mineral shapes with soft textiles, like a wool throw draped over a poured concrete bench. A piece like that doesn't just sit in a room, it changes how the room feels."
+        ]
+      }
+    ]
+  },
+  "navigation": {
+    "home": "Pradžia",
+    "products": "Produktai",
+    "story": "Mūsų Istorija",
+    "blog": "Tinklaraštis",
+    "projects": "Klientų Projektai",
+    "faq": "DUK",
+    "business": "Verslui",
+    "events": "Renginiai",
+    "contact": "Kontaktai",
+    "guide": "Vadovas",
+    "colors": "Spalvos",
+    "surfaces": "Paviršiai",
+    "philosophy": "Filosofija",
+    "products_items": {
+      "flooring": {
+        "name": "Grindys"
+      },
+      "bathrooms": {
+        "name": "Vonios kambariai"
+      },
+      "furniture": {
+        "name": "Baldai"
+      }
+    },
+    "visualizer": "Vizualizatorius",
+    "menu": "Meniu"
+  },
+  "products": {
+    "title": "Luxury Concrete® kolekcija",
+    "subtitle": "Kuusdisain — oficialus LUXURY CONCRETE® platintojas Estijoje. Profesionalios mikrocemento sistemos kiekvienam paviršiui.",
+    "items": {
+      "concrete": {
+        "category": "systems",
+        "name": "Concrete",
+        "tagline": "Luxury Concrete® dviejų komponentų sistema",
+        "description": "Concrete yra Luxury Concrete® dviejų komponentų mikrocemento šeima: Concrete Base paruošia pagrindą, Concrete Wall ir Concrete Floor apdaila sienas ir grindis, Concrete Stone skirtas naudoti lauke, o Concrete Pool — baseinams. Kiekviena apdaila maišoma su Concrete Resin akriliniu rišikliu.",
+        "features": [
+          {
+            "icon": "layers",
+            "title": "Pilna sistema",
+            "desc": "Concrete Base paruošia pagrindą; Wall, Floor, Stone ir Pool suteikia apdailą — viena šeima kiekvienam paviršiui."
+          },
+          {
+            "icon": "box",
+            "title": "3 frakcijos dydžiai",
+            "desc": "Concrete Base yra L, XL ir XXL frakcijos, priklausomai nuo norimo paruošimo."
+          },
+          {
+            "icon": "droplets",
+            "title": "Vidaus ir lauko erdvėms",
+            "desc": "Concrete Stone ir Concrete Pool skirti naudoti lauke ir esant nuolatiniam kontaktui su vandeniu."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/concrete/microcemento-bicomponente.webp",
+          "/assets/pages/products/luxury-concrete/concrete/acabado-microcemento.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "2 komponentai (pagrindas + Concrete Resin)"
+            },
+            {
+              "label": "Frakcijos dydis (Base)",
+              "value": "L / XL / XXL"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Sienos, grindys, akmens efekto paviršiai, baseinai"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Dviejų komponentų mikrocementas, sukurtas dideliam sukibimui ir mechaniniam atsparumui — Ispanijos gamintojo Luxury Concrete® meistrystė."
+        },
+        "datasheets": [
+          {
+            "label": "Concrete Base",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Base_EN.pdf"
+          },
+          {
+            "label": "Concrete Wall",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Wall_EN.pdf"
+          },
+          {
+            "label": "Concrete Floor",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Floor_EN.pdf"
+          },
+          {
+            "label": "Concrete Stone",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Stone_EN.pdf"
+          },
+          {
+            "label": "Concrete Pool",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Pool_EN.pdf"
+          },
+          {
+            "label": "Concrete Resin",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Resin_EN.pdf"
+          },
+          {
+            "label": "Concrete Resin Pool",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Resin_Pool_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-C01",
+            "name": "Blanco",
+            "hex": "#EFEDE9"
+          },
+          {
+            "code": "LC-C02",
+            "name": "Blanco Roto",
+            "hex": "#EBE4D5"
+          },
+          {
+            "code": "LC-C03",
+            "name": "Bone",
+            "hex": "#DBCEBA"
+          },
+          {
+            "code": "LC-C04",
+            "name": "Shale Grey",
+            "hex": "#807B71"
+          },
+          {
+            "code": "LC-C05",
+            "name": "Spike",
+            "hex": "#BFB3A3"
+          },
+          {
+            "code": "LC-C06",
+            "name": "Liquen",
+            "hex": "#CBC5AF"
+          },
+          {
+            "code": "LC-C07",
+            "name": "Mojave",
+            "hex": "#D5B78C"
+          },
+          {
+            "code": "LC-C08",
+            "name": "Porcelain",
+            "hex": "#DFD7BE"
+          },
+          {
+            "code": "LC-C09",
+            "name": "Universe",
+            "hex": "#C2BEB7"
+          },
+          {
+            "code": "LC-C10",
+            "name": "Moss",
+            "hex": "#D4D8CB"
+          },
+          {
+            "code": "LC-C11",
+            "name": "Breeze",
+            "hex": "#AEBFC4"
+          },
+          {
+            "code": "LC-C12",
+            "name": "India",
+            "hex": "#E5CFA8"
+          },
+          {
+            "code": "LC-C13",
+            "name": "Blush",
+            "hex": "#DED1C9"
+          },
+          {
+            "code": "LC-C14",
+            "name": "Coral",
+            "hex": "#E7B7A5"
+          },
+          {
+            "code": "LC-C15",
+            "name": "Papyrus",
+            "hex": "#BAAE9E"
+          },
+          {
+            "code": "LC-C16",
+            "name": "Champagne",
+            "hex": "#E3D0B2"
+          },
+          {
+            "code": "LC-C17",
+            "name": "Wasabi",
+            "hex": "#D0C496"
+          },
+          {
+            "code": "LC-C18",
+            "name": "Khaki",
+            "hex": "#B5B08F"
+          },
+          {
+            "code": "LC-C19",
+            "name": "Salmón",
+            "hex": "#EABE95"
+          },
+          {
+            "code": "LC-C20",
+            "name": "Café",
+            "hex": "#CBB08F"
+          },
+          {
+            "code": "LC-C21",
+            "name": "Cemento",
+            "hex": "#C5C0AF"
+          },
+          {
+            "code": "LC-C22",
+            "name": "Pearl Grey",
+            "hex": "#CAC2B0"
+          },
+          {
+            "code": "LC-C23",
+            "name": "Himalaya",
+            "hex": "#706A5F"
+          },
+          {
+            "code": "LC-C24",
+            "name": "Jade",
+            "hex": "#93B8C2"
+          },
+          {
+            "code": "LC-C25",
+            "name": "Pink",
+            "hex": "#DFC5BF"
+          },
+          {
+            "code": "LC-C26",
+            "name": "Eucalyptus",
+            "hex": "#B5C4B5"
+          },
+          {
+            "code": "LC-C27",
+            "name": "Clay",
+            "hex": "#CDB8A2"
+          },
+          {
+            "code": "LC-C28",
+            "name": "Ginger",
+            "hex": "#E4BF77"
+          },
+          {
+            "code": "LC-C29",
+            "name": "Sáhara",
+            "hex": "#E1D2B6"
+          },
+          {
+            "code": "LC-C30",
+            "name": "Calabaza",
+            "hex": "#BD7039"
+          },
+          {
+            "code": "LC-C31",
+            "name": "Cobre",
+            "hex": "#7C594B"
+          },
+          {
+            "code": "LC-C32",
+            "name": "Raffia",
+            "hex": "#BBA990"
+          },
+          {
+            "code": "LC-C33",
+            "name": "Cairo",
+            "hex": "#CAB99E"
+          },
+          {
+            "code": "LC-C34",
+            "name": "Sand",
+            "hex": "#B3A488"
+          },
+          {
+            "code": "LC-C35",
+            "name": "Marrón",
+            "hex": "#8B7463"
+          },
+          {
+            "code": "LC-C36",
+            "name": "Pizarra",
+            "hex": "#6E6964"
+          }
+        ]
+      },
+      "monocrete": {
+        "category": "systems",
+        "name": "Monocrete",
+        "tagline": "Vieno komponento mikrocementas — tereikia pridėti vandens",
+        "description": "Monocrete yra vieno komponento mikrocemento šeima su dervos milteliais, kuriuos reikia maišyti tik su vandeniu. Monocrete Base paruošia pagrindą; Monocrete Wall ir Monocrete Floor suteikia šilkinę apdailą sienoms ir grindims.",
+        "features": [
+          {
+            "icon": "droplet",
+            "title": "Tereikia pridėti vandens",
+            "desc": "Dervos milteliai jau iš anksto sumaišyti — pridėk vandens ir maišyk. Lengviau laikyti ir transportuoti nei dviejų komponentų sistemas."
+          },
+          {
+            "icon": "layers",
+            "title": "3 frakcijos dydžiai",
+            "desc": "Monocrete Base yra L, XL ir XXL frakcijos, priklausomai nuo pagrindo."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Šilkinė apdaila",
+            "desc": "Monocrete Wall ir Floor suteikia švelnią, tolygią, natūraliai šviesią apdailą."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/monocrete/microcemento-monocomponente.webp",
+          "/assets/pages/products/luxury-concrete/monocrete/monocrete_wall.webp",
+          "/assets/pages/products/luxury-concrete/monocrete/monocrete_floor.webp",
+          "/assets/pages/products/luxury-concrete/monocrete/monocrete_base_20kg.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "1 komponentas (dervos milteliai)"
+            },
+            {
+              "label": "Frakcijos dydis (Base)",
+              "value": "L / XL / XXL"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Sienos, grindys"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Tradicijos evoliucija — vieno komponento sistema, supaprastinanti montavimą neaukojant kokybės."
+        },
+        "datasheets": [
+          {
+            "label": "Monocrete Base",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Monocrete_Base_EN.pdf"
+          },
+          {
+            "label": "Monocrete Wall",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Monocrete_Wall_EN.pdf"
+          },
+          {
+            "label": "Monocrete Floor",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Monocrete_Floor_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-C01",
+            "name": "Blanco",
+            "hex": "#EFEDE9"
+          },
+          {
+            "code": "LC-C02",
+            "name": "Blanco Roto",
+            "hex": "#EBE4D5"
+          },
+          {
+            "code": "LC-C03",
+            "name": "Bone",
+            "hex": "#DBCEBA"
+          },
+          {
+            "code": "LC-C04",
+            "name": "Shale Grey",
+            "hex": "#807B71"
+          },
+          {
+            "code": "LC-C05",
+            "name": "Spike",
+            "hex": "#BFB3A3"
+          },
+          {
+            "code": "LC-C06",
+            "name": "Liquen",
+            "hex": "#CBC5AF"
+          },
+          {
+            "code": "LC-C07",
+            "name": "Mojave",
+            "hex": "#D5B78C"
+          },
+          {
+            "code": "LC-C08",
+            "name": "Porcelain",
+            "hex": "#DFD7BE"
+          },
+          {
+            "code": "LC-C09",
+            "name": "Universe",
+            "hex": "#C2BEB7"
+          },
+          {
+            "code": "LC-C10",
+            "name": "Moss",
+            "hex": "#D4D8CB"
+          },
+          {
+            "code": "LC-C11",
+            "name": "Breeze",
+            "hex": "#AEBFC4"
+          },
+          {
+            "code": "LC-C12",
+            "name": "India",
+            "hex": "#E5CFA8"
+          },
+          {
+            "code": "LC-C13",
+            "name": "Blush",
+            "hex": "#DED1C9"
+          },
+          {
+            "code": "LC-C14",
+            "name": "Coral",
+            "hex": "#E7B7A5"
+          },
+          {
+            "code": "LC-C15",
+            "name": "Papyrus",
+            "hex": "#BAAE9E"
+          },
+          {
+            "code": "LC-C16",
+            "name": "Champagne",
+            "hex": "#E3D0B2"
+          },
+          {
+            "code": "LC-C17",
+            "name": "Wasabi",
+            "hex": "#D0C496"
+          },
+          {
+            "code": "LC-C18",
+            "name": "Khaki",
+            "hex": "#B5B08F"
+          },
+          {
+            "code": "LC-C19",
+            "name": "Salmón",
+            "hex": "#EABE95"
+          },
+          {
+            "code": "LC-C20",
+            "name": "Café",
+            "hex": "#CBB08F"
+          },
+          {
+            "code": "LC-C21",
+            "name": "Cemento",
+            "hex": "#C5C0AF"
+          },
+          {
+            "code": "LC-C22",
+            "name": "Pearl Grey",
+            "hex": "#CAC2B0"
+          },
+          {
+            "code": "LC-C23",
+            "name": "Himalaya",
+            "hex": "#706A5F"
+          },
+          {
+            "code": "LC-C24",
+            "name": "Jade",
+            "hex": "#93B8C2"
+          },
+          {
+            "code": "LC-C25",
+            "name": "Pink",
+            "hex": "#DFC5BF"
+          },
+          {
+            "code": "LC-C26",
+            "name": "Eucalyptus",
+            "hex": "#B5C4B5"
+          },
+          {
+            "code": "LC-C27",
+            "name": "Clay",
+            "hex": "#CDB8A2"
+          },
+          {
+            "code": "LC-C28",
+            "name": "Ginger",
+            "hex": "#E4BF77"
+          },
+          {
+            "code": "LC-C29",
+            "name": "Sáhara",
+            "hex": "#E1D2B6"
+          },
+          {
+            "code": "LC-C30",
+            "name": "Calabaza",
+            "hex": "#BD7039"
+          },
+          {
+            "code": "LC-C31",
+            "name": "Cobre",
+            "hex": "#7C594B"
+          },
+          {
+            "code": "LC-C32",
+            "name": "Raffia",
+            "hex": "#BBA990"
+          },
+          {
+            "code": "LC-C33",
+            "name": "Cairo",
+            "hex": "#CAB99E"
+          },
+          {
+            "code": "LC-C34",
+            "name": "Sand",
+            "hex": "#B3A488"
+          },
+          {
+            "code": "LC-C35",
+            "name": "Marrón",
+            "hex": "#8B7463"
+          },
+          {
+            "code": "LC-C36",
+            "name": "Pizarra",
+            "hex": "#6E6964"
+          }
+        ]
+      },
+      "easycret": {
+        "category": "systems",
+        "name": "Easycret",
+        "tagline": "Paruoštas naudoti mikrocemento tirštas mišinys",
+        "description": "Easycret yra paruoštas naudoti mikrocemento mišinys, sukurtas greitesniam ir paprastesniam darbui nei tradicinis mikrocementas. Easycret Thin tinka smulkiai apdailai, Easycret Basic suteikia grubesnę, natūralią tekstūrą, o Easycret Medium skirtas ištisinei grindų apdailai.",
+        "features": [
+          {
+            "icon": "zap",
+            "title": "Greitas dengimas",
+            "desc": "Paruoštas mišinys, kuriam reikia tik pigmento — taupo laiką lyginant su rankomis maišomomis sistemomis."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Didelis sukibimas",
+            "desc": "Sukimba su dažniausiais pagrindais: plytelėmis, terasu, tinku, cementu."
+          },
+          {
+            "icon": "layers",
+            "title": "Trys frakcijos dydžiai",
+            "desc": "Thin smulkiai apdailai, Basic natūraliai tekstūrai, Medium ištisinei grindų apdailai."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/easycret/microcemento-easycret-2.webp",
+          "/assets/pages/products/luxury-concrete/easycret/Easycret_10Kg_Thin.WEBP",
+          "/assets/pages/products/luxury-concrete/easycret/Easycret_10Kg_Basic.WEBP",
+          "/assets/pages/products/luxury-concrete/easycret/Easycret_10Kg_Medium.WEBP"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "Paruoštas naudoti mišinys"
+            },
+            {
+              "label": "Frakcijos dydžiai",
+              "value": "Thin / Basic / Medium"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Sienos, grindys"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Idealu greitiems renovacijos darbams, neaukojant paruošto mišinio kokybės."
+        },
+        "datasheets": [
+          {
+            "label": "Easycret",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Easycret_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-C01",
+            "name": "Blanco",
+            "hex": "#EFEDE9"
+          },
+          {
+            "code": "LC-C02",
+            "name": "Blanco Roto",
+            "hex": "#EBE4D5"
+          },
+          {
+            "code": "LC-C03",
+            "name": "Bone",
+            "hex": "#DBCEBA"
+          },
+          {
+            "code": "LC-C04",
+            "name": "Shale Grey",
+            "hex": "#807B71"
+          },
+          {
+            "code": "LC-C05",
+            "name": "Spike",
+            "hex": "#BFB3A3"
+          },
+          {
+            "code": "LC-C06",
+            "name": "Liquen",
+            "hex": "#CBC5AF"
+          },
+          {
+            "code": "LC-C07",
+            "name": "Mojave",
+            "hex": "#D5B78C"
+          },
+          {
+            "code": "LC-C08",
+            "name": "Porcelain",
+            "hex": "#DFD7BE"
+          },
+          {
+            "code": "LC-C09",
+            "name": "Universe",
+            "hex": "#C2BEB7"
+          },
+          {
+            "code": "LC-C10",
+            "name": "Moss",
+            "hex": "#D4D8CB"
+          },
+          {
+            "code": "LC-C11",
+            "name": "Breeze",
+            "hex": "#AEBFC4"
+          },
+          {
+            "code": "LC-C12",
+            "name": "India",
+            "hex": "#E5CFA8"
+          },
+          {
+            "code": "LC-C13",
+            "name": "Blush",
+            "hex": "#DED1C9"
+          },
+          {
+            "code": "LC-C14",
+            "name": "Coral",
+            "hex": "#E7B7A5"
+          },
+          {
+            "code": "LC-C15",
+            "name": "Papyrus",
+            "hex": "#BAAE9E"
+          },
+          {
+            "code": "LC-C16",
+            "name": "Champagne",
+            "hex": "#E3D0B2"
+          },
+          {
+            "code": "LC-C17",
+            "name": "Wasabi",
+            "hex": "#D0C496"
+          },
+          {
+            "code": "LC-C18",
+            "name": "Khaki",
+            "hex": "#B5B08F"
+          },
+          {
+            "code": "LC-C19",
+            "name": "Salmón",
+            "hex": "#EABE95"
+          },
+          {
+            "code": "LC-C20",
+            "name": "Café",
+            "hex": "#CBB08F"
+          },
+          {
+            "code": "LC-C21",
+            "name": "Cemento",
+            "hex": "#C5C0AF"
+          },
+          {
+            "code": "LC-C22",
+            "name": "Pearl Grey",
+            "hex": "#CAC2B0"
+          },
+          {
+            "code": "LC-C23",
+            "name": "Himalaya",
+            "hex": "#706A5F"
+          },
+          {
+            "code": "LC-C24",
+            "name": "Jade",
+            "hex": "#93B8C2"
+          },
+          {
+            "code": "LC-C25",
+            "name": "Pink",
+            "hex": "#DFC5BF"
+          },
+          {
+            "code": "LC-C26",
+            "name": "Eucalyptus",
+            "hex": "#B5C4B5"
+          },
+          {
+            "code": "LC-C27",
+            "name": "Clay",
+            "hex": "#CDB8A2"
+          },
+          {
+            "code": "LC-C28",
+            "name": "Ginger",
+            "hex": "#E4BF77"
+          },
+          {
+            "code": "LC-C29",
+            "name": "Sáhara",
+            "hex": "#E1D2B6"
+          },
+          {
+            "code": "LC-C30",
+            "name": "Calabaza",
+            "hex": "#BD7039"
+          },
+          {
+            "code": "LC-C31",
+            "name": "Cobre",
+            "hex": "#7C594B"
+          },
+          {
+            "code": "LC-C32",
+            "name": "Raffia",
+            "hex": "#BBA990"
+          },
+          {
+            "code": "LC-C33",
+            "name": "Cairo",
+            "hex": "#CAB99E"
+          },
+          {
+            "code": "LC-C34",
+            "name": "Sand",
+            "hex": "#B3A488"
+          },
+          {
+            "code": "LC-C35",
+            "name": "Marrón",
+            "hex": "#8B7463"
+          },
+          {
+            "code": "LC-C36",
+            "name": "Pizarra",
+            "hex": "#6E6964"
+          }
+        ]
+      },
+      "concrete-pox": {
+        "category": "systems",
+        "name": "Concrete Pox",
+        "tagline": "Epoksidinis mikrocementas su didesniu kietumu ir vandeniui atsparumu",
+        "description": "Concrete Pox yra vandeninis epoksidinis mikrocementas, apjungiantis užpildą ir vandeninę epoksidinę dervą. Šoro kietumas 80–87 tinka intensyviai naudojamoms grindims ir sienoms: garažams, sandėliams, parduotuvėms ir biurams. Yra keturių frakcijų ir 16 spalvų.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Didelis kietumas",
+            "desc": "Šoro kietumas 80–87 — atsparus smūgiams ir kasdieniam nusidėvėjimui."
+          },
+          {
+            "icon": "droplets",
+            "title": "Vandeniui atsparus",
+            "desc": "Sustiprintas vandeniui atsparumas paruošia paviršių reikliausioms drėgmės sąlygoms."
+          },
+          {
+            "icon": "layers",
+            "title": "4 frakcijos dydžiai",
+            "desc": "Extra ir Basic paruošimui, Medium ir Thin apdailos sluoksniui."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/concrete-pox/suelo-gran-almacen-concrete-pox.webp",
+          "/assets/pages/products/luxury-concrete/concrete-pox/concrete-pox-nave-industrial.webp",
+          "/assets/pages/products/luxury-concrete/concrete-pox/concrete_pox_extra.webp",
+          "/assets/pages/products/luxury-concrete/concrete-pox/concrete_pox_medium.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "2 komponentai (A: užpildas + cikloalifatinis aminas; B: vandeninė epoksidinė derva)"
+            },
+            {
+              "label": "Šoro kietumas",
+              "value": "80–87"
+            },
+            {
+              "label": "Sąnaudos (Extra / Basic / Medium / Thin)",
+              "value": "1,40 / 0,90 / 0,55 / 0,45 kg/m²"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Intensyviai naudojamos vidaus grindys ir sienos"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Aukščiausios kokybės epoksidinis mikrocementas reikliausioms erdvėms, kur nudėvėjimo atsparumas yra kritiškai svarbus."
+        },
+        "datasheets": [
+          {
+            "label": "Concrete Pox",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Pox_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-CP01",
+            "name": "Brown Sugar",
+            "hex": "#736357"
+          },
+          {
+            "code": "LC-CP02",
+            "name": "Canella",
+            "hex": "#685550"
+          },
+          {
+            "code": "LC-CP03",
+            "name": "Cedar",
+            "hex": "#5C4F4A"
+          },
+          {
+            "code": "LC-CP04",
+            "name": "Clay",
+            "hex": "#A2998C"
+          },
+          {
+            "code": "LC-CP05",
+            "name": "Elephant",
+            "hex": "#9E9793"
+          },
+          {
+            "code": "LC-CP06",
+            "name": "Fossil",
+            "hex": "#545251"
+          },
+          {
+            "code": "LC-CP07",
+            "name": "Graphite",
+            "hex": "#534747"
+          },
+          {
+            "code": "LC-CP08",
+            "name": "Grey Stone",
+            "hex": "#6C665D"
+          },
+          {
+            "code": "LC-CP09",
+            "name": "Ink Black",
+            "hex": "#433F40"
+          },
+          {
+            "code": "LC-CP10",
+            "name": "Midnight Black",
+            "hex": "#484242"
+          },
+          {
+            "code": "LC-CP11",
+            "name": "Mink",
+            "hex": "#6C5E58"
+          },
+          {
+            "code": "LC-CP12",
+            "name": "Peanut",
+            "hex": "#A48A72"
+          },
+          {
+            "code": "LC-CP13",
+            "name": "Pecan Nut",
+            "hex": "#8C7C6B"
+          },
+          {
+            "code": "LC-CP14",
+            "name": "Sand",
+            "hex": "#B7B09E"
+          },
+          {
+            "code": "LC-CP15",
+            "name": "Silver Coin",
+            "hex": "#797474"
+          }
+        ]
+      },
+      "limecrete": {
+        "category": "systems",
+        "name": "Limecrete",
+        "tagline": "Kalkinis tadelakt mikrocementas",
+        "description": "Limecrete yra dviejų komponentų kalkinis mikrocementas, apjungiantis tadelakt rankų darbo apdailą ir matomo betono estetiką. Extra, Basic, Medium ir Thin frakcijos apima ir paruošimą, ir apdailą, viduje ir lauke.",
+        "features": [
+          {
+            "icon": "leaf",
+            "title": "Kalkinis pagrindas",
+            "desc": "Tradicinė, tvaresnė formulė, tęsianti tadelakt dviejų tūkstančių metų paveldą."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Rankų darbo apdaila",
+            "desc": "Gali būti tepama \"šviežia ant šviežios\" technika unikalioms, individualizuotoms tekstūroms."
+          },
+          {
+            "icon": "layers",
+            "title": "4 frakcijos dydžiai",
+            "desc": "Extra ir Basic paruošimui bei apdailai, Medium ir Thin smulkesnei apdailai."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/limecrete/microcemento-sala-estar.webp",
+          "/assets/pages/products/luxury-concrete/limecrete/cubo-limecrete-extra.webp",
+          "/assets/pages/products/luxury-concrete/limecrete/cubo-limecrete-basic.webp",
+          "/assets/pages/products/luxury-concrete/limecrete/cubo-limecrete-medium.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "2 komponentai, kalkinis pagrindas"
+            },
+            {
+              "label": "Sąnaudos (Extra / Basic / Medium / Thin)",
+              "value": "2,0 / 1,4 / 1,0 / 0,5 kg/m²"
+            },
+            {
+              "label": "Frakcijos dydis (Thin)",
+              "value": "0,1 mm"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Sienos ir grindys, viduje ir lauke"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Tradicija ir technologija kartu — Maroko tadelakt paveldas su moderniu našumu."
+        },
+        "datasheets": [
+          {
+            "label": "Limecrete",
+            "file": "https://www.luxuryconcrete.eu/sheets/Fichas_Tecnicas_2026/LIMECRETE_EN.pdf"
+          }
+        ],
+        "productColors": [],
+        "colorsPending": true
+      },
+      "metallic": {
+        "category": "systems",
+        "name": "Metalinės apdailos",
+        "tagline": "Colorcrete Metal, Oxid Metal ir True Metal",
+        "description": "Luxury Concrete® metalinių apdailų asortimentas apima tris technologijas: Colorcrete Metal (Gemstone ir Glowing kolekcijos) mirgančiam, atspindinčiam efektui; Oxid Metal, reaguojantį su vandeniniu oksidatoriumi autentiškam patinos rezultatui; ir True Metal, dviejų komponentų didelio metalo kiekio apdailą žalvario, bronzos, vario, aliuminio ir iridžio atspalviais.",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "Trys technologijos",
+            "desc": "Colorcrete Metal mirgėjimui, Oxid Metal oksidacijai, True Metal tikram metaliniam pojūčiui — kiekviena su savo charakteriu."
+          },
+          {
+            "icon": "sun",
+            "title": "Oksidacijos efektas",
+            "desc": "Colorcrete Oxidant pagreitina rūdijimo/patinos procesą ant Oxid Metal ir True Metal apdailų."
+          },
+          {
+            "icon": "box",
+            "title": "Platus atspalvių pasirinkimas",
+            "desc": "Žalvaris, bronza, varis, aliuminis, iridis, gintaras, karneolis, deimantas, rubinas ir kt."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/metallic/colorcrete-metal-diamond.webp",
+          "/assets/pages/products/luxury-concrete/metallic/oxid_metal.webp",
+          "/assets/pages/products/luxury-concrete/metallic/true_metal.webp",
+          "/assets/pages/products/luxury-concrete/metallic/colorcrete_metal_gemstones.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Sistema",
+              "value": "Colorcrete Metal (pigmentas), Oxid Metal (vandeninis tirpalas), True Metal (2 komponentai)"
+            },
+            {
+              "label": "Taikymas",
+              "value": "Sienos, baldai, akcentiniai paviršiai"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis. Vengti abrazyvinių valymo kempinių.",
+          "philosophy": "Metalas, kuris gyvena ir keičiasi laikui bėgant — prabangus akcentas bet kuriai patalpai."
+        },
+        "datasheets": [
+          {
+            "label": "Colorcrete Metal Gemstone",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Colorcrete_Metal_Gemstone_EN.pdf"
+          },
+          {
+            "label": "Colorcrete Metal Glowing",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Colorcrete_Metal_Glowing_EN.pdf"
+          },
+          {
+            "label": "Oxid Metal",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Oxid_Metal_EN.pdf"
+          },
+          {
+            "label": "True Metal",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=True_Metal_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-TM01",
+            "name": "True Metal Copper",
+            "hex": "#93644F"
+          },
+          {
+            "code": "LC-TM02",
+            "name": "True Metal Copper + Oxidant",
+            "hex": "#878586"
+          },
+          {
+            "code": "LC-TM03",
+            "name": "True Metal Bronze",
+            "hex": "#786357"
+          },
+          {
+            "code": "LC-TM04",
+            "name": "True Metal Bronze + Oxidant",
+            "hex": "#83827D"
+          },
+          {
+            "code": "LC-TM05",
+            "name": "True Metal Brass",
+            "hex": "#B3A068"
+          },
+          {
+            "code": "LC-TM06",
+            "name": "True Metal Brass + Oxidant",
+            "hex": "#8B9699"
+          },
+          {
+            "code": "LC-TM07",
+            "name": "True Metal Iridium",
+            "hex": "#464344"
+          },
+          {
+            "code": "LC-TM08",
+            "name": "True Metal Iridium + Oxidant",
+            "hex": "#6F4D44"
+          },
+          {
+            "code": "LC-OM01",
+            "name": "Oxid Metal Copper",
+            "hex": "#54433E"
+          },
+          {
+            "code": "LC-OM02",
+            "name": "Oxid Metal Copper + Oxidant",
+            "hex": "#454E4F"
+          },
+          {
+            "code": "LC-OM03",
+            "name": "Oxid Metal Bronze",
+            "hex": "#64564A"
+          },
+          {
+            "code": "LC-OM04",
+            "name": "Oxid Metal Bronze + Oxidant",
+            "hex": "#6F807A"
+          },
+          {
+            "code": "LC-OM05",
+            "name": "Oxid Metal Light Iron",
+            "hex": "#424040"
+          },
+          {
+            "code": "LC-OM06",
+            "name": "Oxid Metal Light Iron + Oxidant",
+            "hex": "#5F4C3F"
+          },
+          {
+            "code": "LC-OM07",
+            "name": "Oxid Metal Heavy Iron",
+            "hex": "#4B4A4B"
+          },
+          {
+            "code": "LC-OM08",
+            "name": "Oxid Metal Heavy Iron + Oxidant",
+            "hex": "#625853"
+          },
+          {
+            "code": "LC-OM09",
+            "name": "Oxid Metal Brass",
+            "hex": "#5B573C"
+          },
+          {
+            "code": "LC-OM10",
+            "name": "Oxid Metal Brass + Oxidant",
+            "hex": "#5F685E"
+          },
+          {
+            "code": "LC-G01",
+            "name": "Diamond",
+            "hex": "#B4B8AC"
+          },
+          {
+            "code": "LC-G02",
+            "name": "Amber",
+            "hex": "#B99F57"
+          },
+          {
+            "code": "LC-G03",
+            "name": "Carnelian",
+            "hex": "#B78F63"
+          },
+          {
+            "code": "LC-G04",
+            "name": "Ruby",
+            "hex": "#B27556"
+          },
+          {
+            "code": "LC-G05",
+            "name": "Platinum",
+            "hex": "#70798B"
+          },
+          {
+            "code": "LC-G01",
+            "name": "Mars",
+            "hex": "#CEA884"
+          },
+          {
+            "code": "LC-G02",
+            "name": "Star",
+            "hex": "#BBC2BB"
+          },
+          {
+            "code": "LC-G03",
+            "name": "Sun",
+            "hex": "#785A35"
+          },
+          {
+            "code": "LC-G04",
+            "name": "Uranus",
+            "hex": "#5E5E60"
+          }
+        ]
+      },
+      "primers": {
+        "category": "materials",
+        "name": "Gruntai",
+        "tagline": "Primacrete gruntai ir IMPOXY® drėgmės barjera",
+        "description": "Primacrete yra Luxury Concrete® gruntų ir sukibimą gerinančių priemonių asortimentas, užtikrinantis optimalų pagrindo paruošimą prieš dengiant mikrocementu. IMPOXY® yra dviejų komponentų epoksidinė sistema, naudojama kaip garų ar drėgmės barjera.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Kiekvienam pagrindui",
+            "desc": "Primacrete ABS sugeriantiems paviršiams (gipso kartonui, tinkui), Primacrete Plus nesugeriantiems (marmurui, terasui, plytelėms), Primacrete Grip lygaus paviršiaus šiurkštinimui."
+          },
+          {
+            "icon": "droplets",
+            "title": "Drėgmės barjera",
+            "desc": "IMPOXY® blokuoja drėgmę ir vandens garus — 100% kietųjų dalelių, be tirpiklių."
+          },
+          {
+            "icon": "check-circle",
+            "title": "Siūlių užpildas",
+            "desc": "Primacrete Joint yra siūlių užpildas paruoštam naudoti Easycret mikrocementui."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/primers/acabado_imprimaciones.webp",
+          "/assets/pages/products/luxury-concrete/primers/primacrete.webp",
+          "/assets/pages/products/luxury-concrete/primers/primacrete_ABS.webp",
+          "/assets/pages/products/luxury-concrete/primers/luxury_impoxy_A+B.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Taikymas",
+              "value": "Pagrindo paruošimas prieš dengiant mikrocementu"
+            }
+          ],
+          "maintenance": "",
+          "philosophy": "Tinkamas pagrindas yra kiekvieno mikrocemento paviršiaus pamatas."
+        },
+        "datasheets": [
+          {
+            "label": "Primacrete",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_EN.pdf"
+          },
+          {
+            "label": "Primacrete ABS",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_ABS_EN.pdf"
+          },
+          {
+            "label": "Primacrete Plus",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_Plus_EN.pdf"
+          },
+          {
+            "label": "Primacrete Grip",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_Grip_EN.pdf"
+          },
+          {
+            "label": "Primacrete Joint",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_Joint_EN.pdf"
+          },
+          {
+            "label": "IMPOXY®",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Impoxy_EN.pdf"
+          }
+        ],
+        "productColors": []
+      },
+      "sealers": {
+        "category": "materials",
+        "name": "Lakai",
+        "tagline": "Concrete Finish serija mikrocemento apsaugai",
+        "description": "Concrete Finish yra Luxury Concrete® lakų asortimentas, apsaugantis mikrocemento paviršius nuo nusidėvėjimo, dėmių ir UV spindulių poveikio. Primacrete Finish yra pirminis sluoksnis, jungiantis mikrocementą su galutiniu lako sluoksniu.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Matinis, pusiau blizgus ar blizgus",
+            "desc": "Concrete Finish WT ir WT Max siūlo apdailos pasirinkimą, įskaitant neslystantį variantą."
+          },
+          {
+            "icon": "droplets",
+            "title": "Drėgnoms zonoms",
+            "desc": "Concrete Finish WT Max ir WT Pool sukurti drėgnoms patalpoms ir baseinams."
+          },
+          {
+            "icon": "sun",
+            "title": "Nepagelsta",
+            "desc": "Concrete Finish Extra ir DSV atlaiko ilgalaikį saulės poveikį nepageltdami — tinka naudoti lauke."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/sealers/acabado_barniz.webp",
+          "/assets/pages/products/luxury-concrete/sealers/concrete_finish_wt_a+b_mate.webp",
+          "/assets/pages/products/luxury-concrete/sealers/Concrete_Finish_WT_Max.webp",
+          "/assets/pages/products/luxury-concrete/sealers/concrete_finish_dsv.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Taikymas",
+              "value": "Galutinis sluoksnis ir mikrocemento apsauga"
+            }
+          ],
+          "maintenance": "",
+          "philosophy": "Tinkamas lakas leidžia mikrocementui tarnauti metų metus."
+        },
+        "datasheets": [
+          {
+            "label": "Primacrete Finish",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Primacrete_Finish_EN.pdf"
+          },
+          {
+            "label": "Concrete Finish WT",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Finish_WT_EN.pdf"
+          },
+          {
+            "label": "Concrete Finish WT Max",
+            "file": "https://www.luxuryconcrete.eu/sheets/Fichas_Tecnicas_2026/Concrete-Finish-WT-Max-EN.pdf"
+          },
+          {
+            "label": "Concrete Finish One",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Finish_ONE_EN.pdf"
+          },
+          {
+            "label": "Concrete Finish DSV",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Finish_DSV_EN.pdf"
+          },
+          {
+            "label": "Concrete Finish WT Pool",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Finish_WT_POOL_EN.pdf"
+          },
+          {
+            "label": "Concrete Finish Extra",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Finish_Extra_EN.pdf"
+          }
+        ],
+        "productColors": []
+      },
+      "pigments": {
+        "category": "materials",
+        "name": "Pigmentai",
+        "tagline": "Colorcrete BASE ir MIX pigmentų pastos",
+        "description": "Colorcrete yra Luxury Concrete® pigmentų pastų asortimentas, turintis daugiau nei 30 atspalvių. Colorcrete BASE sudaro 6 pagrindinės spalvos (žalia, mėlyna, juoda, raudona, geltona, balta), kurios sumaišomos į Luxury Concrete 36 spalvų pagrindinę paletę. Colorcrete MIX siūlo iš anksto dozuotus pigmento vienetus konkrečiam produktui ir apdailai.",
+        "features": [
+          {
+            "icon": "sun",
+            "title": "36 spalvų pagrindinė paletė",
+            "desc": "6 Colorcrete BASE atspalviai sukuria spalvas visose Luxury Concrete pagrindinėse kolekcijose."
+          },
+          {
+            "icon": "check-circle",
+            "title": "Iš anksto dozuota",
+            "desc": "Colorcrete MIX siūlo tikslų, pakartojamą dozavimą konkrečiam produktui ir apdailai."
+          },
+          {
+            "icon": "shield",
+            "title": "Atsparu šviesai ir šarmams",
+            "desc": "Didelis atsparumas šarmams ir spalvos stabilumas, nekintantis nuo šviesos ar senėjimo."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/pigments/colorcrete_base.webp",
+          "/assets/pages/products/luxury-concrete/pigments/colorcrete_mix.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Taikymas",
+              "value": "Pridedama maišant mikrocementą"
+            }
+          ],
+          "maintenance": "",
+          "philosophy": "Kiekvienas atspalvis yra įkvėpimo šaltinis — pigmentai yra Luxury Concrete spalvų paletės pagrindas."
+        },
+        "datasheets": [
+          {
+            "label": "Colorcrete Base",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Colorcrete_Base_EN.pdf"
+          },
+          {
+            "label": "Colorcrete Mix",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Colorcrete_Mix_EN.pdf"
+          }
+        ],
+        "productColors": [
+          {
+            "code": "LC-C01",
+            "name": "Blanco",
+            "hex": "#EFEDE9"
+          },
+          {
+            "code": "LC-C02",
+            "name": "Blanco Roto",
+            "hex": "#EBE4D5"
+          },
+          {
+            "code": "LC-C03",
+            "name": "Bone",
+            "hex": "#DBCEBA"
+          },
+          {
+            "code": "LC-C04",
+            "name": "Shale Grey",
+            "hex": "#807B71"
+          },
+          {
+            "code": "LC-C05",
+            "name": "Spike",
+            "hex": "#BFB3A3"
+          },
+          {
+            "code": "LC-C06",
+            "name": "Liquen",
+            "hex": "#CBC5AF"
+          },
+          {
+            "code": "LC-C07",
+            "name": "Mojave",
+            "hex": "#D5B78C"
+          },
+          {
+            "code": "LC-C08",
+            "name": "Porcelain",
+            "hex": "#DFD7BE"
+          },
+          {
+            "code": "LC-C09",
+            "name": "Universe",
+            "hex": "#C2BEB7"
+          },
+          {
+            "code": "LC-C10",
+            "name": "Moss",
+            "hex": "#D4D8CB"
+          },
+          {
+            "code": "LC-C11",
+            "name": "Breeze",
+            "hex": "#AEBFC4"
+          },
+          {
+            "code": "LC-C12",
+            "name": "India",
+            "hex": "#E5CFA8"
+          },
+          {
+            "code": "LC-C13",
+            "name": "Blush",
+            "hex": "#DED1C9"
+          },
+          {
+            "code": "LC-C14",
+            "name": "Coral",
+            "hex": "#E7B7A5"
+          },
+          {
+            "code": "LC-C15",
+            "name": "Papyrus",
+            "hex": "#BAAE9E"
+          },
+          {
+            "code": "LC-C16",
+            "name": "Champagne",
+            "hex": "#E3D0B2"
+          },
+          {
+            "code": "LC-C17",
+            "name": "Wasabi",
+            "hex": "#D0C496"
+          },
+          {
+            "code": "LC-C18",
+            "name": "Khaki",
+            "hex": "#B5B08F"
+          },
+          {
+            "code": "LC-C19",
+            "name": "Salmón",
+            "hex": "#EABE95"
+          },
+          {
+            "code": "LC-C20",
+            "name": "Café",
+            "hex": "#CBB08F"
+          },
+          {
+            "code": "LC-C21",
+            "name": "Cemento",
+            "hex": "#C5C0AF"
+          },
+          {
+            "code": "LC-C22",
+            "name": "Pearl Grey",
+            "hex": "#CAC2B0"
+          },
+          {
+            "code": "LC-C23",
+            "name": "Himalaya",
+            "hex": "#706A5F"
+          },
+          {
+            "code": "LC-C24",
+            "name": "Jade",
+            "hex": "#93B8C2"
+          },
+          {
+            "code": "LC-C25",
+            "name": "Pink",
+            "hex": "#DFC5BF"
+          },
+          {
+            "code": "LC-C26",
+            "name": "Eucalyptus",
+            "hex": "#B5C4B5"
+          },
+          {
+            "code": "LC-C27",
+            "name": "Clay",
+            "hex": "#CDB8A2"
+          },
+          {
+            "code": "LC-C28",
+            "name": "Ginger",
+            "hex": "#E4BF77"
+          },
+          {
+            "code": "LC-C29",
+            "name": "Sáhara",
+            "hex": "#E1D2B6"
+          },
+          {
+            "code": "LC-C30",
+            "name": "Calabaza",
+            "hex": "#BD7039"
+          },
+          {
+            "code": "LC-C31",
+            "name": "Cobre",
+            "hex": "#7C594B"
+          },
+          {
+            "code": "LC-C32",
+            "name": "Raffia",
+            "hex": "#BBA990"
+          },
+          {
+            "code": "LC-C33",
+            "name": "Cairo",
+            "hex": "#CAB99E"
+          },
+          {
+            "code": "LC-C34",
+            "name": "Sand",
+            "hex": "#B3A488"
+          },
+          {
+            "code": "LC-C35",
+            "name": "Marrón",
+            "hex": "#8B7463"
+          },
+          {
+            "code": "LC-C36",
+            "name": "Pizarra",
+            "hex": "#6E6964"
+          }
+        ]
+      },
+      "care": {
+        "category": "materials",
+        "name": "Valymas ir priežiūra",
+        "tagline": "Concrete CLEAN ir Concrete WAX",
+        "description": "Luxury Concrete® valymo ir priežiūros asortimentas išlaiko mikrocemento paviršius geriausios būklės. Concrete CLEAN ir Concrete PRO CLEAN pašalina stiprius, atsparius dėmes; Concrete WAX ir Concrete PRO WAX atkuria blizgesį ir sustiprina paviršiaus apsaugą.",
+        "features": [
+          {
+            "icon": "leaf",
+            "title": "Ekologiškas",
+            "desc": "Concrete CLEAN yra biologiškai skaidus ir veiksmingas net esant stipriam nešvarumui."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Atkuria blizgesį",
+            "desc": "Concrete WAX ir PRO WAX suteikia paviršiui metalinį blizgesį, kuris nepageltsta."
+          },
+          {
+            "icon": "shield",
+            "title": "Profesionaliam naudojimui",
+            "desc": "PRO CLEAN ir PRO WAX sukurti profesionaliam giluminiam valymui ir priežiūrai."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/care/concrete_clean.webp",
+          "/assets/pages/products/luxury-concrete/care/concrete_wax.webp",
+          "/assets/pages/products/luxury-concrete/care/concrete_pro_wax.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Taikymas",
+              "value": "Reguliarus mikrocemento paviršių valymas ir priežiūra"
+            }
+          ],
+          "maintenance": "Valyti pH neutraliomis priemonėmis; vengti abrazyvinių kempinių ir rūgštinių valiklių.",
+          "philosophy": "Reguliari priežiūra išlaiko nepriekaištingą mikrocemento išvaizdą dešimtmečiais."
+        },
+        "datasheets": [
+          {
+            "label": "Concrete Clean",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Clean_EN.pdf"
+          },
+          {
+            "label": "Concrete Pro Clean",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Pro_Clean_EN.pdf"
+          },
+          {
+            "label": "Concrete Wax",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Wax_EN.pdf"
+          },
+          {
+            "label": "Concrete Pro Wax",
+            "file": "https://www.luxuryconcrete.eu/sheets/file.php?file=Concrete_Pro_Wax_EN.pdf"
+          }
+        ],
+        "productColors": []
+      },
+      "tools": {
+        "category": "materials",
+        "name": "Įrankiai",
+        "tagline": "Stiklo pluošto tinklelis, plieniniai gladiliai ir voleliai",
+        "description": "Profesionalūs įrankiai mikrocemento montavimui: stiklo pluošto tinklelis (50/58/160g) įtrūkimams išvengti, lankstūs guminiai, anglies pluošto ir nerūdijančio plieno gladiliai apdailai tepti, tekstūriniai voleliai gruntams ir lakams.",
+        "features": [
+          {
+            "icon": "shield",
+            "title": "Stiklo pluošto tinklelis",
+            "desc": "Sutvirtina pagrindą ir apsaugo nuo įtrūkimų — yra trijų storių."
+          },
+          {
+            "icon": "edit",
+            "title": "Specializuoti gladiliai",
+            "desc": "Guminis gladilius smulkios frakcijos apdailai, anglies pluošto — paruošimo sluoksniams, nerūdijančio plieno Bi-Flex — labiausiai tekstūruotiems paviršiams."
+          },
+          {
+            "icon": "box",
+            "title": "Tekstūriniai voleliai",
+            "desc": "Rekomenduojami gruntams ir lakams tepti."
+          }
+        ],
+        "gallery": [
+          "/assets/pages/products/luxury-concrete/tools/malla.webp",
+          "/assets/pages/products/luxury-concrete/tools/llana-carbono.webp",
+          "/assets/pages/products/luxury-concrete/tools/llana-acero.webp",
+          "/assets/pages/products/luxury-concrete/tools/rodillo.webp"
+        ],
+        "details": {
+          "specs": [
+            {
+              "label": "Taikymas",
+              "value": "Profesionalus montavimas"
+            }
+          ],
+          "maintenance": "",
+          "philosophy": "Tinkami įrankiai yra tokie pat svarbūs kaip ir tinkamas produktas."
+        },
+        "datasheets": [],
+        "productColors": []
+      }
+    },
+    "systems_title": "Mikrocemento sistemos",
+    "materials_title": "Medžiagos ir priedai"
+  },
+  "story": {
+    "title": "About us",
+    "subtitle": "We want to create surfaces that last from generation to generation and carry true craftsmanship value.",
+    "sections": {
+      "origin": {
+        "title": "VISION AND EXECUTION",
+        "text": "Our strength lies in combining two seemingly different worlds – fine artistic sensibility and decades of construction experience. The result is spaces where every detail is thought through and masterfully executed."
+      },
+      "philosophy": {
+        "title": "The Master's Touch",
+        "text": "Every surface we create is a unique work of art. We do not use machines, but trust our hands. This hand-applied rhythm means that light and shadows play on the walls and floors differently every time, giving your home's interior a unique soul."
+      }
+    },
+    "colour_count": "78+ spalvos"
+  },
+  "projects": {
+    "title": "Portfolio",
+    "subtitle": "A curation of exclusive spaces where materiality meets vision. High-contrast interiors that define the luxury of tomorrow.",
+    "labels": {
+      "year": "Year",
+      "architect": "Applicator",
+      "surface_area": "Surface Area",
+      "tone": "Tone",
+      "case_study": "Case Study",
+      "location": "Location",
+      "explore": "Explore Case Study",
+      "back": "Back to Portfolio"
+    },
+    "items": {
+      "kitchen-tartu": {
+        "name": "Kitchen Tartu",
+        "location": "Tartu, EE",
+        "year": "2025",
+        "tone": "Warm grey tone",
+        "area": "28 m²",
+        "description": "A luxurious microcement kitchen.",
+        "longDescription": "In this Tartu kitchen we installed ready-to-use microcement on both worktops and walls, creating a seamless, waterproof and highly durable surface."
+      },
+      "livingroom-tartu": {
+        "name": "Livingroom Tartu",
+        "location": "Tartu, EE",
+        "year": "2026",
+        "tone": "Light sand tone",
+        "area": "38 m²",
+        "description": "A spacious living room with a seamless microcement finish.",
+        "longDescription": "A warm, textured microcement was chosen for the living room, delivering a monolithic, low-maintenance floor that highlights the room's natural spaciousness."
+      },
+      "bathroom-elva": {
+        "name": "Bathroom Elva",
+        "location": "Elva, EE",
+        "year": "2025",
+        "tone": "Dark grey tone",
+        "area": "14 m²",
+        "description": "A waterproof, stylish microcement bathroom.",
+        "longDescription": "A fully waterproof microcement solution, ideal for damp rooms, creating a smooth, modern bathroom interior without demolition."
+      },
+      "bathroom-polva": {
+        "name": "Bathroom Põlva",
+        "location": "Põlva, EE",
+        "year": "2026",
+        "tone": "Chalk white tone",
+        "area": "11 m²",
+        "description": "A minimalist microcement bathroom.",
+        "longDescription": "We used professional microcement to create a modern, functional, grout-free bathroom that's effortless to maintain."
+      },
+      "bathroom-tartu": {
+        "name": "Bathroom Tartu",
+        "location": "Tartu, EE",
+        "year": "2025",
+        "tone": "Stone grey tone",
+        "area": "19 m²",
+        "description": "A modern microcement bathroom in central Tartu.",
+        "longDescription": "In this central Tartu bathroom, microcement creates a modern, waterproof, relaxing atmosphere that combines aesthetics with practicality."
+      },
+      "kitchen-tallinn": {
+        "name": "Kitchen Tallinn",
+        "location": "Tallinn, EE",
+        "year": "2026",
+        "tone": "Stony grey tone",
+        "area": "34 m²",
+        "description": "A practical, beautiful microcement kitchen.",
+        "longDescription": "A Nordic-design kitchen in Tallinn, where scratch- and stain-resistant microcement gives the worktops durability and a luxurious look."
+      }
+    }
+  },
+  "faq": {
+    "title": "Architektūrinių specifikacijų DUK",
+    "subtitle": "Techninės įžvalgos apie mūsų mineralinių sistemų našumą ir taikymą.",
+    "items": [
+      {
+        "question": "Koks yra tipinis Luxury Concrete® sluoksnio storis?",
+        "answer": "Mūsų sistemos klojamos keliais kalibruotais sluoksniais, pasiekiant bendrą 2-3mm storį. Tai užtikrina itin didelį struktūrinį tankį, nekeičiant esamų grindų lygių ar architektūrinių profilių."
+      },
+      {
+        "question": "Ar mikrocementas suderinamas su modernaus šildymo sistemomis?",
+        "answer": "Tikrai taip. Mikrocementas pasižymi puikiu šiluminiu laidumu, todėl jis idealiai tinka tiek vandeniniam, tiek elektriniam grindiniam šildymui, užtikrinant efektyvų ir tolygų šilumos paskirstymą."
+      },
+      {
+        "question": "Kokie yra ilgalaikiai priežiūros reikalavimai?",
+        "answer": "Paviršių reikia valyti pH neutraliomis priemonėmis, kad būtų išsaugotas dangos vientisumas. Reguliari priežiūra užtikrina, kad patina vystytųsi natūraliai, išlaikant apsaugines savybes."
+      },
+      {
+        "question": "Ar galima kloti ant esamų pagrindų, pvz., keraminių plytelių?",
+        "answer": "Taip. Mūsų sistemos sukurtos universaliam sukibimui. Paruošiame esamą pagrindą mechaniniu šlifavimu ir aukšto našumo gruntavimu, todėl nereikia brangaus ir trikdančio griovimo."
+      }
+    ]
+  },
+  "business": {
+    "title": "Bendradarbiavimas su studijomis ir plėtotojais",
+    "subtitle": "Bendradarbiaujame su architektais, interjero studijomis ir plėtotojais komerciniuose projektuose. Viešbučiai, prekybos erdvės, restoranų įrengimas — jei reikia atsparaus mineralinio paviršiaus, galime padėti.",
+    "cta": "Susisiekite",
+    "heading_1": "Pritaikyti sprendimai ",
+    "heading_2": "architektūriniam tobulumui"
+  },
+  "hero": {
+    "title": "Monolitiniai Architektūriniai Paviršiai",
+    "subtitle": "Amatininkų kurtos mikrocemento sistemos Baltijos šalyse. Besiūlės mineralinės dangos, sukurtos architektūriniam ilgaamžiškumui.",
+    "cta": "Tyrinėti Kolekciją"
+  },
+  "philosophy": {
+    "title": "Medžiagiškumas Apibrėžia Atmosferą",
+    "text": "Tikime, kad paviršiai turėtų ne tik užpildyti erdvę — jie turi apibrėžti tylą joje. Kiekvienas sluoksnis klojamas rankomis, įamžinant unikalią šviesos ir šešėlio topografiją, kuri kinta kartu su diena. Tai architektūrinis tikslumas su amatininko siela."
+  },
+  "methodology": {
+    "title": "Meistriškumas ir Technologija",
+    "subtitle": "Tikslumas kiekviename sluoksnyje. Mūsų daugiapakopis dengimo procesas užtikrina struktūrinį vientisumą ir vizualinį gylį.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Pagrindo Paruošimas",
+        "text": "Nepriekaištingos apdailos pagrindas. Atliekame kruopštų paviršiaus paruošimą — šlifavimą, gruntavimą ir struktūrinį sustiprinimą —, kad būtų užtikrintas visiškas sukibimas ir ilgalaikis stabilumas."
+      },
+      {
+        "number": "02",
+        "title": "Amatininkų Darbas",
+        "text": "Pagrindinius mineralinius sluoksnius rankomis kloja mūsų meistrai. Šis rankinis procesas įamžina kiekvieno meistro unikalų ritmą, sukurdamas subtilią topografiją, kurios negali atkartoti mašinos."
+      },
+      {
+        "number": "03",
+        "title": "Mineralų Prisotinimas",
+        "text": "Paskutiniai estetiniai sluoksniai klojami itin rūpestingai, leidžiant kiekvienam natūraliai sudžiūti. Rezultatas — tankus mineralinis šydas, dinamiškai reaguojantis į kintančią šviesą."
+      },
+      {
+        "number": "04",
+        "title": "Molekulinė Impregnacija",
+        "text": "Paviršių užsandariname aukšto našumo matiniais dangos sluoksniais. Tai sukuria vandeniui ir įbrėžimams atsparią barjerą, išsaugančią natūralią estetiką ir užtikrinančią architektūrinį ilgaamžiškumą."
+      }
+    ]
+  },
+  "surfaces_collection": {
+    "title": "Luxury Concrete® Systems",
+    "subtitle": "Six professional microcement systems for every surface.",
+    "items": [
+      {
+        "id": "surface-1",
+        "name": "Concrete",
+        "description": "Two-component microcement. Floors, walls, stone-effect surfaces, pools."
+      },
+      {
+        "id": "surface-2",
+        "name": "Monocrete",
+        "description": "One-component microcement. Just add water."
+      },
+      {
+        "id": "surface-3",
+        "name": "Easycret",
+        "description": "Ready-to-use microcement paste. Fast application."
+      },
+      {
+        "id": "surface-4",
+        "name": "Concrete Pox",
+        "description": "Epoxy microcement. 16 colours, high abrasion resistance."
+      },
+      {
+        "id": "surface-5",
+        "name": "Limecrete",
+        "description": "Lime-based tadelakt microcement. Handcrafted finish."
+      },
+      {
+        "id": "surface-6",
+        "name": "Metallic finishes",
+        "description": "Colorcrete Metal, Oxid Metal and True Metal."
+      }
+    ]
+  },
+  "timeless_collection": {
+    "title": "The Luxury Concrete® Collection",
+    "subtitle": "Three systems. Three distinct aesthetics. One shared design philosophy.",
+    "items": [
+      {
+        "id": "timeless-1",
+        "name": "Concrete",
+        "description": "TWO-COMPONENT MICROCEMENT. FLOORS, WALLS AND STONE-EFFECT SURFACES."
+      },
+      {
+        "id": "timeless-2",
+        "name": "Metallic finishes",
+        "description": "OXID METAL, TRUE METAL AND COLORCRETE METAL."
+      },
+      {
+        "id": "timeless-3",
+        "name": "Limecrete",
+        "description": "LIME-BASED TADELAKT MICROCEMENT. HANDCRAFTED FINISH."
+      }
+    ]
+  },
+  "deco_walls_collection": {
+    "title": "Interior Art & Decor",
+    "subtitle": "Wall elements made by hand in our studio — stone carvings, mineral reliefs, textured panels.",
+    "collection_label": "From the studio",
+    "decorative_title": "Wall pieces",
+    "items": [
+      {
+        "id": "deco-1",
+        "name": "Mineral on Canvas",
+        "tag": "Painting"
+      },
+      {
+        "id": "deco-2",
+        "name": "Charcoal and Bone",
+        "tag": "Painting"
+      },
+      {
+        "id": "deco-4",
+        "name": "Stone Mirror, Backlit",
+        "tag": "Object"
+      },
+      {
+        "id": "deco-5",
+        "name": "Sand Dunes Relief",
+        "tag": "Wall"
+      },
+      {
+        "id": "deco-6",
+        "name": "Carved Stone Arch",
+        "tag": "Installation"
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Įsivaizduok Savo Erdvę",
+    "text": "Pasidalink savo architektūrine vizija, ir leisk mūsų studijai ją įgyvendinti su monolitiniu tikslumu.",
+    "button": "Užsisakyti Konsultaciją"
+  },
+  "team": {
+    "title": "Meistrų Komanda",
+    "subtitle": "Techninio meistriškumo ir meninės vizijos derinys.",
+    "members": [
+      {
+        "name": "Janar",
+        "role": "Pardavimai ir Montavimas",
+        "description": "Kiekvienai geros idėjai reikia nepriekaištingo pagrindo ir įgyvendinimo. Turiu daugiau nei 20 metų patirtį statybų srityje. Tai reiškia, kad išmanau medžiagas, vertinu techninę kokybę ir žinau, kaip išspręsti net sudėtingiausias situacijas. Aš atsakau už tai, kad procesas vyktų sklandžiai, o montavimas būtų toks pat nepriekaištingas kaip ir dizainas."
+      },
+      {
+        "name": "Loore",
+        "role": "Kūrybos Direktorė",
+        "description": "Mano, kaip papuošalų menininkės, patirtis išmokė pastebėti detales, kurių kiti nepastebi. Šis subtilus detalių pojūtis ir aistra interjero dizainui yra mano darbo pagrindas. Kuriu interjero charakterį — ar tai būtų unikalios akcentinės sienos, paveikslai, ar apgalvotai sukurti dekoro elementai."
+      }
+    ]
+  },
+  "thank_you": {
+    "title": "TAVO VIZIJA, MŪSŲ ĮGYVENDINIMAS.",
+    "text": "Esame pasiruošę įgyvendinti tavo idėjas su aukščiausios kokybės Luxury Concrete® mikrocementu. Susisiek su mumis ir pradėkime bendradarbiauti."
+  },
+  "story_quote": {
+    "text": "Paviršiai turėtų ne tik užpildyti erdvę — jie turi apibrėžti tylą joje.",
+    "author": "Kūrybos Direktorė, KUUS DESIGN"
+  },
+  "footer": {
+    "tagline": "Rankomis kuriami Luxury Concrete® mikrocemento paviršiai.",
+    "categories": {
+      "studio": "Studija",
+      "collections": "Kolekcijos",
+      "connect": "Susisiek"
+    },
+    "rights": "Visos teisės saugomos.",
+    "terms": "Sąlygos",
+    "privacy": "Privatumas"
+  },
+  "blog_ui": {
+    "featured": "Rekomenduojamas Žurnalo Įrašas",
+    "read_story": "Skaityti Istoriją",
+    "continue_reading": "Skaityti Toliau"
+  },
+  "contact_ui": {
+    "dialogue": "Projekto Dialogas",
+    "name": "Tavo Tapatybė",
+    "email_label": "Skaitmeninis Adresas",
+    "vision": "Projekto Vizija",
+    "inquiries": "Studijos Užklausos",
+    "direct_line": "Tiesioginė Linija",
+    "studio": "Studija",
+    "project_type": "Projekto tipas",
+    "select_placeholder": "Pasirink...",
+    "area": "Plotas (m²)",
+    "timeline": "Terminas",
+    "project_types": [
+      "Grindys",
+      "Vonios kambarys",
+      "Sienos",
+      "Virtuvė",
+      "Baldai",
+      "Dekoratyvinis",
+      "Baseinas",
+      "Kita"
+    ],
+    "timelines": [
+      "Skubu (< 1 mėn.)",
+      "1–3 mėn.",
+      "3–6 mėn.",
+      "Planuoju",
+      "Nesu tikras"
+    ]
+  },
+  "ai_assistant": {
+    "trigger": "Klausti Studijos AI",
+    "title": "Studijos Intelektas",
+    "subtitle": "Kaip galiu padėti su jūsų architektūrine vizija šiandien?",
+    "input_placeholder": "Klausk apie montavimą, spalvas ar technines specifikacijas...",
+    "searching": "Tikrinamos instrukcijos...",
+    "empty_state": "Esu apmokytas naudojant mūsų technines instrukcijas ir medžiagų žurnalus. Klausk manęs bet ko apie KUUS DESIGN.",
+    "error": "Įvyko nedidelė struktūrinė klaida. Bandykite dar kartą.",
+    "confirm_sent": "Jūsų duomenys išsiųsti. Mūsų komanda susisieks su jumis artimiausiu metu. ✦",
+    "common_questions": "Dažni klausimai",
+    "pricing_note": "Studijos AI · Kainos informacija per kontaktų formą"
+  },
+  "products_ui": {
+    "documentation": "Techniniai Dokumentai",
+    "manual": "Montavimo Vadovas",
+    "maintenance": "Priežiūros Vadovas",
+    "data_sheet": "Techninių Duomenų Lapas",
+    "order_sample": "Užsakyti Pavyzdį",
+    "get_quote": "Gauti Pasiūlymą",
+    "specs": "Techninės Specifikacijos",
+    "back_to_products": "Atgal į produktus",
+    "explore": "Tyrinėti Kolekciją",
+    "available_colours": "Galimos Spalvos",
+    "view_all_colours": "Peržiūrėti visas {count} spalvas",
+    "colours_coming_soon": "Spalvų katalogas netrukus",
+    "datasheet_description": "Oficialios techninės specifikacijos ir pagrindo paruošimo gairės.",
+    "download_pdf": "Atsisiųsti PDF"
+  },
+  "colors": {
+    "title": "Luxury Concrete® spalvų kolekcijos",
+    "subtitle": "Kiekviena Luxury Concrete® sistema turi savo kruopščiai parinktą spalvų paletę. Naršyk pagal kolekciją arba naudok spalvos kodą tiksliam atitikimui.",
+    "ui": {
+      "totalColours": "Iš viso spalvų",
+      "productPalettes": "Produktų paletės",
+      "viewColours": "Peržiūrėti {count} spalvas",
+      "light": "Šviesi",
+      "mid": "Vidutinė",
+      "dark": "Tamsi",
+      "all": "Visos",
+      "colours": "spalvos",
+      "viewAll": "Peržiūrėti visas",
+      "allPalettes": "Visos paletės",
+      "colourPalette": "Spalvų paletė",
+      "lightTones": "Šviesūs atspalviai",
+      "midTones": "Vidutiniai atspalviai",
+      "darkTones": "Tamsūs atspalviai",
+      "datasheet": "Duomenų lapas",
+      "viewProduct": "Peržiūrėti produktą",
+      "requestSample": "Užsakyti pavyzdį",
+      "comingSoon": "Netrukus"
+    },
+    "collections": {
+      "colorcrete": {
+        "title": "Colorcrete",
+        "description": "36 kruopščiai parinkti atspalviai — pagrindinė Luxury Concrete paletė Concrete, Monocrete ir Easycret sistemoms.",
+        "items": [
+          {
+            "code": "LC-C01",
+            "name": "Blanco",
+            "hex": "#EFEDE9"
+          },
+          {
+            "code": "LC-C02",
+            "name": "Blanco Roto",
+            "hex": "#EBE4D5"
+          },
+          {
+            "code": "LC-C03",
+            "name": "Bone",
+            "hex": "#DBCEBA"
+          },
+          {
+            "code": "LC-C04",
+            "name": "Shale Grey",
+            "hex": "#807B71"
+          },
+          {
+            "code": "LC-C05",
+            "name": "Spike",
+            "hex": "#BFB3A3"
+          },
+          {
+            "code": "LC-C06",
+            "name": "Liquen",
+            "hex": "#CBC5AF"
+          },
+          {
+            "code": "LC-C07",
+            "name": "Mojave",
+            "hex": "#D5B78C"
+          },
+          {
+            "code": "LC-C08",
+            "name": "Porcelain",
+            "hex": "#DFD7BE"
+          },
+          {
+            "code": "LC-C09",
+            "name": "Universe",
+            "hex": "#C2BEB7"
+          },
+          {
+            "code": "LC-C10",
+            "name": "Moss",
+            "hex": "#D4D8CB"
+          },
+          {
+            "code": "LC-C11",
+            "name": "Breeze",
+            "hex": "#AEBFC4"
+          },
+          {
+            "code": "LC-C12",
+            "name": "India",
+            "hex": "#E5CFA8"
+          },
+          {
+            "code": "LC-C13",
+            "name": "Blush",
+            "hex": "#DED1C9"
+          },
+          {
+            "code": "LC-C14",
+            "name": "Coral",
+            "hex": "#E7B7A5"
+          },
+          {
+            "code": "LC-C15",
+            "name": "Papyrus",
+            "hex": "#BAAE9E"
+          },
+          {
+            "code": "LC-C16",
+            "name": "Champagne",
+            "hex": "#E3D0B2"
+          },
+          {
+            "code": "LC-C17",
+            "name": "Wasabi",
+            "hex": "#D0C496"
+          },
+          {
+            "code": "LC-C18",
+            "name": "Khaki",
+            "hex": "#B5B08F"
+          },
+          {
+            "code": "LC-C19",
+            "name": "Salmón",
+            "hex": "#EABE95"
+          },
+          {
+            "code": "LC-C20",
+            "name": "Café",
+            "hex": "#CBB08F"
+          },
+          {
+            "code": "LC-C21",
+            "name": "Cemento",
+            "hex": "#C5C0AF"
+          },
+          {
+            "code": "LC-C22",
+            "name": "Pearl Grey",
+            "hex": "#CAC2B0"
+          },
+          {
+            "code": "LC-C23",
+            "name": "Himalaya",
+            "hex": "#706A5F"
+          },
+          {
+            "code": "LC-C24",
+            "name": "Jade",
+            "hex": "#93B8C2"
+          },
+          {
+            "code": "LC-C25",
+            "name": "Pink",
+            "hex": "#DFC5BF"
+          },
+          {
+            "code": "LC-C26",
+            "name": "Eucalyptus",
+            "hex": "#B5C4B5"
+          },
+          {
+            "code": "LC-C27",
+            "name": "Clay",
+            "hex": "#CDB8A2"
+          },
+          {
+            "code": "LC-C28",
+            "name": "Ginger",
+            "hex": "#E4BF77"
+          },
+          {
+            "code": "LC-C29",
+            "name": "Sáhara",
+            "hex": "#E1D2B6"
+          },
+          {
+            "code": "LC-C30",
+            "name": "Calabaza",
+            "hex": "#BD7039"
+          },
+          {
+            "code": "LC-C31",
+            "name": "Cobre",
+            "hex": "#7C594B"
+          },
+          {
+            "code": "LC-C32",
+            "name": "Raffia",
+            "hex": "#BBA990"
+          },
+          {
+            "code": "LC-C33",
+            "name": "Cairo",
+            "hex": "#CAB99E"
+          },
+          {
+            "code": "LC-C34",
+            "name": "Sand",
+            "hex": "#B3A488"
+          },
+          {
+            "code": "LC-C35",
+            "name": "Marrón",
+            "hex": "#8B7463"
+          },
+          {
+            "code": "LC-C36",
+            "name": "Pizarra",
+            "hex": "#6E6964"
+          }
+        ]
+      },
+      "true-metal": {
+        "title": "True Metal",
+        "description": "8 didelio metalo kiekio apdailos vario, bronzos, žalvario ir iridžio atspalviais su oksiduotais variantais.",
+        "items": [
+          {
+            "code": "LC-TM01",
+            "name": "True Metal Copper",
+            "hex": "#93644F"
+          },
+          {
+            "code": "LC-TM02",
+            "name": "True Metal Copper + Oxidant",
+            "hex": "#878586"
+          },
+          {
+            "code": "LC-TM03",
+            "name": "True Metal Bronze",
+            "hex": "#786357"
+          },
+          {
+            "code": "LC-TM04",
+            "name": "True Metal Bronze + Oxidant",
+            "hex": "#83827D"
+          },
+          {
+            "code": "LC-TM05",
+            "name": "True Metal Brass",
+            "hex": "#B3A068"
+          },
+          {
+            "code": "LC-TM06",
+            "name": "True Metal Brass + Oxidant",
+            "hex": "#8B9699"
+          },
+          {
+            "code": "LC-TM07",
+            "name": "True Metal Iridium",
+            "hex": "#464344"
+          },
+          {
+            "code": "LC-TM08",
+            "name": "True Metal Iridium + Oxidant",
+            "hex": "#6F4D44"
+          }
+        ]
+      },
+      "oxid-metal": {
+        "title": "Oxid Metal",
+        "description": "10 vandeniui reaguojančių metalinių apdailų, kurios oksiduojasi suteikdamos autentišką seno metalo išvaizdą.",
+        "items": [
+          {
+            "code": "LC-OM01",
+            "name": "Oxid Metal Copper",
+            "hex": "#54433E"
+          },
+          {
+            "code": "LC-OM02",
+            "name": "Oxid Metal Copper + Oxidant",
+            "hex": "#454E4F"
+          },
+          {
+            "code": "LC-OM03",
+            "name": "Oxid Metal Bronze",
+            "hex": "#64564A"
+          },
+          {
+            "code": "LC-OM04",
+            "name": "Oxid Metal Bronze + Oxidant",
+            "hex": "#6F807A"
+          },
+          {
+            "code": "LC-OM05",
+            "name": "Oxid Metal Light Iron",
+            "hex": "#424040"
+          },
+          {
+            "code": "LC-OM06",
+            "name": "Oxid Metal Light Iron + Oxidant",
+            "hex": "#5F4C3F"
+          },
+          {
+            "code": "LC-OM07",
+            "name": "Oxid Metal Heavy Iron",
+            "hex": "#4B4A4B"
+          },
+          {
+            "code": "LC-OM08",
+            "name": "Oxid Metal Heavy Iron + Oxidant",
+            "hex": "#625853"
+          },
+          {
+            "code": "LC-OM09",
+            "name": "Oxid Metal Brass",
+            "hex": "#5B573C"
+          },
+          {
+            "code": "LC-OM10",
+            "name": "Oxid Metal Brass + Oxidant",
+            "hex": "#5F685E"
+          }
+        ]
+      },
+      "gemstone": {
+        "title": "Gemstone",
+        "description": "5 metalinės apdailos, įkvėptos brangakmenių ir mineralų.",
+        "items": [
+          {
+            "code": "LC-G01",
+            "name": "Diamond",
+            "hex": "#B4B8AC"
+          },
+          {
+            "code": "LC-G02",
+            "name": "Amber",
+            "hex": "#B99F57"
+          },
+          {
+            "code": "LC-G03",
+            "name": "Carnelian",
+            "hex": "#B78F63"
+          },
+          {
+            "code": "LC-G04",
+            "name": "Ruby",
+            "hex": "#B27556"
+          },
+          {
+            "code": "LC-G05",
+            "name": "Platinum",
+            "hex": "#70798B"
+          }
+        ]
+      },
+      "glowing": {
+        "title": "Glowing",
+        "description": "4 švytinčios metalinės apdailos su šviesos ir atspindžio žaismu.",
+        "items": [
+          {
+            "code": "LC-G01",
+            "name": "Mars",
+            "hex": "#CEA884"
+          },
+          {
+            "code": "LC-G02",
+            "name": "Star",
+            "hex": "#BBC2BB"
+          },
+          {
+            "code": "LC-G03",
+            "name": "Sun",
+            "hex": "#785A35"
+          },
+          {
+            "code": "LC-G04",
+            "name": "Uranus",
+            "hex": "#5E5E60"
+          }
+        ]
+      },
+      "concrete-pox": {
+        "title": "Concrete Pox",
+        "description": "15 spalvų epoksidinio mikrocemento sistemai.",
+        "items": [
+          {
+            "code": "LC-CP01",
+            "name": "Brown Sugar",
+            "hex": "#736357"
+          },
+          {
+            "code": "LC-CP02",
+            "name": "Canella",
+            "hex": "#685550"
+          },
+          {
+            "code": "LC-CP03",
+            "name": "Cedar",
+            "hex": "#5C4F4A"
+          },
+          {
+            "code": "LC-CP04",
+            "name": "Clay",
+            "hex": "#A2998C"
+          },
+          {
+            "code": "LC-CP05",
+            "name": "Elephant",
+            "hex": "#9E9793"
+          },
+          {
+            "code": "LC-CP06",
+            "name": "Fossil",
+            "hex": "#545251"
+          },
+          {
+            "code": "LC-CP07",
+            "name": "Graphite",
+            "hex": "#534747"
+          },
+          {
+            "code": "LC-CP08",
+            "name": "Grey Stone",
+            "hex": "#6C665D"
+          },
+          {
+            "code": "LC-CP09",
+            "name": "Ink Black",
+            "hex": "#433F40"
+          },
+          {
+            "code": "LC-CP10",
+            "name": "Midnight Black",
+            "hex": "#484242"
+          },
+          {
+            "code": "LC-CP11",
+            "name": "Mink",
+            "hex": "#6C5E58"
+          },
+          {
+            "code": "LC-CP12",
+            "name": "Peanut",
+            "hex": "#A48A72"
+          },
+          {
+            "code": "LC-CP13",
+            "name": "Pecan Nut",
+            "hex": "#8C7C6B"
+          },
+          {
+            "code": "LC-CP14",
+            "name": "Sand",
+            "hex": "#B7B09E"
+          },
+          {
+            "code": "LC-CP15",
+            "name": "Silver Coin",
+            "hex": "#797474"
+          }
+        ]
+      },
+      "limecrete": {
+        "title": "Limecrete",
+        "description": "34 spalvos kalkiniam tadelakt sistemai — spalvų katalogas netrukus.",
+        "items": []
+      }
+    },
+    "popular": {
+      "title": "Popular Colours",
+      "subtitle": "The most requested shades by architects and designers."
+    }
+  },
+  "custom_interior": {
+    "title": "Interior Art & Decor",
+    "subtitle": "Mineral artistry beyond the surface. Each element is hand-molded by our studio.",
+    "items": [
+      {
+        "id": "fresco",
+        "name": "Fresco & Lime Wash",
+        "description": "Ancient mineral techniques creating organic, breathable wall surfaces with a soft, aged patina unique to every space.",
+        "image": "/assets/pages/deco-walls/wave-wall.png"
+      },
+      {
+        "id": "geometric",
+        "name": "Geometric Inlays",
+        "description": "Precision-cut mineral patterns — from Muuristiili grids to strict modernist lattices — embedded directly into the living surface.",
+        "image": "/assets/pages/deco-walls/charcoal-abstract.png"
+      },
+      {
+        "id": "sculptural",
+        "name": "Sculptural Relief Panels",
+        "description": "Three-dimensional decorative panels, hand-molded in microcement — for feature walls, headboards, and architectural niches.",
+        "image": "/assets/pages/deco-walls/red-white-relief.png"
+      },
+      {
+        "id": "ombre",
+        "name": "Ombré Mineral Gradients",
+        "description": "Seamless color transitions from floor to ceiling using raw clay pigments, without visible borders or seams.",
+        "image": "/assets/pages/deco-walls/hero.png"
+      },
+      {
+        "id": "mural",
+        "name": "Custom Mineral Murals",
+        "description": "Large-scale hand-painted murals in mineral pigment — permanent, UV-stable, and entirely unique to your space.",
+        "image": "/assets/pages/deco-walls/sculpture-painting.png"
+      },
+      {
+        "id": "accents",
+        "name": "Furniture Details",
+        "description": "Decorative columns, arches, console tables, and fireplaces finished in monolithic microcement.",
+        "image": "/assets/pages/deco-walls/backlit-mirror.png"
+      },
+      {
+        "id": "relief-walls",
+        "name": "Sculptural Relief Walls",
+        "description": "Deeply textured diagonal and organic reliefs that transform a standard wall into a dynamic architectural statement.",
+        "image": "/assets/pages/deco-walls/diagonal-relief.png"
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Guidelines for using Kuus Design studio services and website.",
+    "last_updated": "Last updated: April 28, 2026",
+    "sections": [
+      {
+        "title": "1. General Provisions",
+        "content": "These terms of service govern the use of the Kuus Design website and services. By using the website, you accept these terms in full."
+      },
+      {
+        "title": "2. Services",
+        "content": "Kuus Design offers premium microcement installation and decorative surface treatments. Each project is unique craftsmanship, and the final result may vary according to material properties."
+      },
+      {
+        "title": "3. Intellectual Property",
+        "content": "All content on the website, including photos, texts, and design elements, belongs to Kuus Design or is licensed to us. Copying content without permission is prohibited."
+      },
+      {
+        "title": "4. Limitation of Liability",
+        "content": "We do our best to ensure the accuracy of info, but we are not responsible for possible technical errors or consequences resulting from the interpretation of information."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your data security and privacy are our priority.",
+    "last_updated": "Last updated: April 28, 2026",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect personal data (name, email, phone) that you voluntarily provide to us via the inquiry form so that we can offer you a personalized service."
+      },
+      {
+        "title": "2. Data Use",
+        "content": "We use your data only to respond to inquiries, plan projects, and communicate with you. We do not sell or share your data with third parties for marketing purposes."
+      },
+      {
+        "title": "3. Cookies",
+        "content": "We use cookies on the website to analyze traffic and improve user experience. You have the right to opt-out of cookies in your browser settings."
+      },
+      {
+        "title": "4. Your Rights",
+        "content": "You have the right at any time to access your data, request its correction or deletion by contacting us via email."
+      }
+    ]
+  },
+  "visualize_cta": {
+    "badge": "Studijos Įrankis",
+    "title": "Pamatyk tai savo erdvėje",
+    "desc": "Įkelk savo kambario nuotrauką, palieski bet kurią sieną ir iškart peržiūrėk Luxury Concrete® atspalvius su realistiška tekstūra ir šviesa.",
+    "button": "Išbandyti Vizualizatorių"
+  },
+  "guide_luxury_concrete": {
+    "title": "Vadovas",
+    "subtitle": "Mineralinių paviršių techninis meistriškumas.",
+    "description": "Luxury Concrete® yra Ispanijos mikrocemento sistemų gamintojas. Kuusdisain yra oficialus LUXURY CONCRETE® platintojas Estijoje — mūsų mikrocemento sistemos suteikia besiūlę apdailą grindims, sienoms ir baldams be didelių statybos darbų.",
+    "what_is": {
+      "title": "Kas yra mikrocementas?",
+      "paragraphs": [
+        "Mikrocementas — dar žinomas kaip mikrobetonas, mikrodanga ar mineralinė danga — yra itin universali polimerais modifikuota cementinė danga, pakeitusi interjero ir eksterjero dizainą. Vos 1–3mm storio, jis sukimba tiesiogiai su esamomis plytelėmis, betonu, mediena ir dauguma standžių paviršių, sukurdamas besiūlį rezultatą be siūlių.",
+        "Luxury Concrete® yra Ispanijos gamintojas, kontroliuojantis visą procesą nuo laboratorijos iki gamyklos ir naudojimo. Kiekvienas produktas kruopščiai sukurtas ir išbandytas, siekiant nuoseklaus rezultato. Kuusdisain yra oficialus LUXURY CONCRETE® platintojas Estijoje, tiekiantis ir montuojantis jų sistemas vietoje.",
+        "Luxury Concrete® produktų asortimentas — Concrete, Monocrete, Easycret, Concrete Pox, Limecrete ir metalinės apdailos — kartu su septyniomis spalvų kolekcijomis suteikia dizaineriams, architektams ir namų savininkams didelę kūrybinę laisvę: nuo neapdoroto pramoninio betono iki rafinuotų metalinių apdailų.",
+        "Plonas mikrocemento sluoksnis sumažina poveikį esamoms konstrukcijoms renovacijos metu. Jokio griovimo, jokio pakylėto grindų lygio, jokio statybų triukšmo — mikrocementas klojamas tiesiai ant to, kas jau yra."
+      ]
+    },
+    "applications": {
+      "title": "Mikrocemento pritaikymas",
+      "items": [
+        {
+          "title": "Mikrocemento grindys",
+          "desc": "Concrete Floor, Monocrete Floor, Easycret Medium ir Concrete Pox sukurti naudoti grindims. Patvarūs, suderinami su grindiniu šildymu ir yra įvairių spalvų."
+        },
+        {
+          "title": "Mikrocemento vonios kambariai",
+          "desc": "Luxury Concrete® sistemos sukuria besiūlį vonios kambario paviršių, vandeniui atsparų po sandarinimo, be siūlių. Klojama tiesiai ant esamų plytelių — griauti nereikia."
+        },
+        {
+          "title": "Mikrocemento darbastaliai",
+          "desc": "Concrete Wall ir Concrete Floor tinka virtuvės darbastaliams. Atsparūs karščiui po sandarinimo ir yra įvairių atspalvių. Švarus, besiūlis paviršius, lengvai prižiūrimas."
+        },
+        {
+          "title": "Mikrocementas lauke",
+          "desc": "Concrete Stone ir Limecrete tinka terasoms, kiemams ir takams. Atsparios orams ir slydimui apdailos, skirtos naudoti lauke."
+        },
+        {
+          "title": "Mikrocemento sienos",
+          "desc": "Concrete Wall, Monocrete Wall, Limecrete ir mūsų metalinės apdailos tinka sienoms, kiekviena su savo charakteriu — nuo neapdoroto betono iki tadelakt ar metalinio švytėjimo."
+        },
+        {
+          "title": "Mikrocemento baseinai",
+          "desc": "Concrete Pool suteikia vandeniui atsparius, patvarius paviršius baseinui ir jo aplinkai. Klojama tiesiai ant esamų baseino plytelių."
+        }
+      ]
+    },
+    "advantages_title": "Pagrindiniai privalumai",
+    "advantages": {
+      "versatility": {
+        "title": "Universalumas",
+        "desc": "Tinka beveik bet kokiam paviršiui — grindims, sienoms, baldams, laiptams ir baseinams, įskaitant lenktus ar netaisyklingus pagrindus."
+      },
+      "durability": {
+        "title": "Patvarumas",
+        "desc": "Didelis atsparumas kasdieniam nusidėvėjimui, smūgiams, dėmėms ir įbrėžimams."
+      },
+      "customization": {
+        "title": "7 spalvų kolekcijos",
+        "desc": "Colorcrete, True Metal, Oxid Metal, Gemstone, Glowing, Concrete Pox ir Limecrete — kiekviena su savo charakteriu."
+      },
+      "waterproof": {
+        "title": "Vandeniui atsparus",
+        "desc": "Natūraliai vandeniui atsparus po sandarinimo — idealiai tinka vonios kambariams, dušams, baseinų aplinkai ir virtuvės darbastaliams."
+      },
+      "thickness": {
+        "title": "Minimalus storis",
+        "desc": "Bendras 1–3mm sluoksnis. Jokio reikšmingo grindų lygio pokyčio. Jokio konstrukcinio poveikio pastatui."
+      },
+      "flexibility": {
+        "title": "Sistemų pasirinkimas",
+        "desc": "Dviejų komponentų, vieno komponento ar paruošta naudoti — pasirink projektui tinkančią sistemą."
+      },
+      "eco": {
+        "title": "Tvari gamyba",
+        "desc": "Luxury Concrete® gamina kuo atsakingiau, mažindama ekologinį pėdsaką."
+      },
+      "maintenance": {
+        "title": "Paprasta priežiūra",
+        "desc": "Valyti pH neutraliomis priemonėmis. Atnaujinti dangą kas 3–5 metus."
+      }
+    },
+    "process_title": "Techninis procesas",
+    "process_steps": [
+      {
+        "title": "Paviršiaus paruošimas",
+        "desc": "Pagrindas turi būti švarus, sausas, tvirtas ir lygus. Įtrūkimai užpildomi, o deformacinės siūlės sutvarkomos. Deimantinis šlifavimas atveria paviršiaus poras optimaliam sukibimui. Tai svarbiausias žingsnis."
+      },
+      {
+        "title": "Gruntas — Primacrete",
+        "desc": "Tinkamas Primacrete produktas (ABS sugeriantiems paviršiams, Plus nesugeriantiems, Grip lygaus paviršiaus šiurkštinimui) tepamas vienu ar dviem plonais sluoksniais. Drėgniems pagrindams naudojama IMPOXY® drėgmės barjera."
+      },
+      {
+        "title": "Pagrindinis sluoksnis — sistemos paruošimo produktas",
+        "desc": "Pirmasis mikrocemento sluoksnis (pvz., Concrete Base, Monocrete Base ar Easycret Basic) tepamas nerūdijančio plieno gladiliu, tolygiai paskirstant po paviršių. Šis sluoksnis suteikia struktūrą ir gylį."
+      },
+      {
+        "title": "Apdailos sluoksnis",
+        "desc": "Antrasis ir paskutinis sluoksnis (pvz., Concrete Wall/Floor, Monocrete Wall/Floor ar Easycret Thin/Medium) tepamas ant sauso pagrindinio sluoksnio. Jis lemia galutinę spalvą, tekstūrą ir lygumą."
+      },
+      {
+        "title": "Pirminis sandariklis — Primacrete Finish",
+        "desc": "Poras užpildantis pirminis sandariklis sujungia mikrocementą su galutiniu lako sluoksniu, sustiprindamas kietumą ir tolygumą."
+      },
+      {
+        "title": "Sandarinimas — Concrete Finish",
+        "desc": "Tinkamas Concrete Finish lakas (WT, WT Max, One, DSV, WT Pool ar Extra) tepamas matiniu, pusiau blizgiu ar blizgiu sluoksniu. Suteikia vandeniui atsparumą ir ilgalaikį patvarumą. Paviršius tinkamas naudoti po 24–48 val. nuo sandariklio sukietėjimo."
+      }
+    ],
+    "finishes_title": "Paviršių apdailos",
+    "finishes_intro": "Luxury Concrete® galutinis sluoksnis (Concrete Finish serija) yra trijų blizgesio lygių. Apdailos pasirinkimas veikia galutinę paviršiaus išvaizdą, blizgesio lygį ir priežiūros poreikius.",
+    "finishes_list": [
+      {
+        "title": "Matinė",
+        "desc": "Populiariausia apdaila prabangiems interjerams. Plokščias, šviesą sugeriantis paviršius, pabrėžiantis tekstūrą ir spalvos gylį. Idealiai tinka sienoms ir gyvenamųjų patalpų grindims."
+      },
+      {
+        "title": "Pusiau blizgi",
+        "desc": "Švelni, vidutinio blizgesio apdaila, suteikianti šilumos ir subtilaus švytėjimo. Universaliausia apdaila — tinka tiek grindims, sienoms, tiek darbastaliams."
+      },
+      {
+        "title": "Blizgi",
+        "desc": "Didelis atspindys drąsiam, modernam akcentui. Geriausiai tinka akcentinėms sienoms ir priėmimo erdvėms, kur norima maksimalaus vizualinio poveikio."
+      }
+    ]
+  }
+}

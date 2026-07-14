@@ -20,20 +20,22 @@ interface StoryHeroProps {
 const STATS: Record<string, { value: number; suffix: string; label: string }[]> = {
   et: [
     { value: 100, suffix: "%", label: "Käsitöö" },
-    { value: 11,  suffix: "+", label: "Basebetoni süsteemi" },
-    { value: 366, suffix: "",  label: "Värvivalikut" },
+    { value: 11,  suffix: "+", label: "Luxury Concrete süsteemi" },
+    { value: 78,  suffix: "+", label: "Värvivalikut" },
   ],
   en: [
     { value: 100, suffix: "%", label: "Handcrafted" },
-    { value: 11,  suffix: "+", label: "Basebeton systems" },
-    { value: 366, suffix: "",  label: "Colours" },
+    { value: 11,  suffix: "+", label: "Luxury Concrete systems" },
+    { value: 78,  suffix: "+", label: "Colours" },
   ],
 };
 
-// Basebeton Originale colour strip — first 10 neutrals
+const COLOUR_COUNT_LABEL: Record<string, string> = { et: "78+ värvi", en: "78+ colours", lv: "78+ krāsas", lt: "78+ spalvos" };
+
+// Luxury Concrete Colorcrete colour strip — first 10 tones (card order)
 const COLOUR_STRIP = [
-  "#B2AFAC","#B1AFAA","#9F9D97","#8D8A85","#82837F",
-  "#797672","#63605C","#616161","#9C9088","#ACA098",
+  "#EFEDE9","#EBE4D5","#DBCEBA","#807B71","#BFB3A3",
+  "#CBC5AF","#D5B78C","#DFD7BE","#C2BEB7","#D4D8CB",
 ];
 
 function AnimatedStat({ value, suffix, label, delay }: {
@@ -196,7 +198,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
           ))}
         </motion.div>
 
-        {/* Basebeton colour strip */}
+        {/* Luxury Concrete colour strip */}
         <motion.div
           className="flex gap-0.5 mt-10"
           initial={{ opacity: 0 }}
@@ -220,7 +222,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
           animate={{ opacity: 1 }}
           transition={{ delay: 2.6 }}
         >
-          Basebeton Originale — {lang === "et" ? "75 värvi" : "75 colours"}
+          Luxury Concrete® — {COLOUR_COUNT_LABEL[lang] ?? COLOUR_COUNT_LABEL.en}
         </motion.p>
       </div>
 
@@ -242,8 +244,8 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
           style={{ rotate: "-4deg" }}
         >
           <Image
-            src="/assets/pages/products/beton-cire-2.png"
-            alt="Basebeton surface"
+            src="/assets/pages/products/luxury-concrete/monocrete/microcemento-monocomponente.webp"
+            alt="Luxury Concrete surface"
             fill
             className="object-cover"
           />
@@ -259,8 +261,8 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
           style={{ rotate: "3deg" }}
         >
           <Image
-            src="/assets/pages/products/basebeton-originale-2.png"
-            alt="Basebeton Originale"
+            src="/assets/pages/products/luxury-concrete/concrete/microcemento-bicomponente.webp"
+            alt="Luxury Concrete microcement"
             fill
             className="object-cover grayscale"
           />

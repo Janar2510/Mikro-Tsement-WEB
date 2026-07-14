@@ -14,12 +14,12 @@ const TITLES: Record<string, string> = {
 };
 
 const SUBTITLES: Record<string, string> = {
-  et: "Basebeton mikrotsement sinu ruumis",
-  en: "Basebeton microcement in your space",
-  de: "Basebeton Mikrocement in Ihrem Raum",
-  ru: "Basebeton микроцемент в вашем пространстве",
-  es: "Basebeton microcemento en tu espacio",
-  fr: "Basebeton microciment dans votre espace",
+  et: "Luxury Concrete® mikrotsement sinu ruumis",
+  en: "Luxury Concrete® microcement in your space",
+  de: "Luxury Concrete® Mikrozement in Ihrem Raum",
+  ru: "Luxury Concrete® микроцемент в вашем пространстве",
+  es: "Luxury Concrete® microcemento en tu espacio",
+  fr: "Luxury Concrete® microciment dans votre espace",
 };
 
 const LABELS: Record<string, string> = {

@@ -12,15 +12,23 @@ interface FinishPickerProps {
 const noiseSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="4" stitchTiles="stitch"/></filter><rect width="200" height="200" filter="url(#n)"/></svg>`;
 const NOISE_BG = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(noiseSvg)}`;
 
+const LABELS: Record<string, { select: string; popular: string }> = {
+  et: { select: "Vali toon", popular: "Populaarne" },
+  lv: { select: "Izvēlies toni", popular: "Populārs" },
+  lt: { select: "Pasirink atspalvį", popular: "Populiaru" },
+  en: { select: "Select Colour", popular: "Popular" },
+};
+
 export function FinishPicker({ selectedFinishId, onSelect, lang = "en" }: FinishPickerProps) {
-  const label = lang === "et" ? "Vali toon" : "Select Colour";
-  const popularLabel = lang === "et" ? "Populaarne" : "Popular";
+  const t = LABELS[lang] ?? LABELS.en;
+  const label = t.select;
+  const popularLabel = t.popular;
 
   return (
     <div className="w-full space-y-4">
       <div className="flex items-baseline justify-between">
         <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-foreground/40">{label}</p>
-        <p className="text-[9px] uppercase tracking-[0.2em] text-foreground/25">Basebeton Originale</p>
+        <p className="text-[9px] uppercase tracking-[0.2em] text-foreground/25">Luxury Concrete®</p>
       </div>
 
       <div className="grid grid-cols-4 gap-2">

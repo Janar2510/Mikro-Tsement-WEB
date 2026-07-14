@@ -18,8 +18,9 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const BASE_URL = "https://www.kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr"];
+const BASE_URL = "https://kuusdisain.ee";
+const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+const OG_LOCALES: Record<string, string> = { et: "et_EE", en: "en_US", de: "de_DE", ru: "ru_RU", es: "es_ES", fr: "fr_FR", lv: "lv_LV", lt: "lt_LT" };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
           alt: "KUUS DESIGN Premium Surfaces",
         },
       ],
-      locale: lang === 'et' ? 'et_EE' : 'en_US',
+      locale: OG_LOCALES[lang] ?? 'en_US',
       type: "website",
     },
     twitter: {
@@ -91,13 +92,36 @@ export default async function RootLayout({
 }) {
   const { lang } = await params;
 
+  const SCHEMA_I18N: Record<string, { description: string; catalog: string; services: string[] }> = {
+    et: {
+      description: "Premium mikrotsemendi stuudio Tartus. Kuusdisain on Luxury Concrete® ametlik edasimüüja Eestis. Vuugivabad põrandad, veekindlad vannitoad ja dekoratiivseinad.",
+      catalog: "Luxury Concrete® Mikrotsemendi Süsteemid",
+      services: ["Luxury Concrete® mikrotsemendi põrandad", "Luxury Concrete® mikrotsemendi vannitoad", "Luxury Concrete® mikrotsemendi seinad", "Metallilised viimistlused", "Limecrete tadelakt-mikrotsement", "Mikrotsemendi paigalduskoolitus"],
+    },
+    lv: {
+      description: "Prēmium mikrocementa studija Tartu, Igaunijā. Kuusdisain ir oficiālais Luxury Concrete® izplatītājs Igaunijā. Bezšuvju grīdas, ūdensnecaurlaidīgas vannasistabas un dekoratīvās sienas.",
+      catalog: "Luxury Concrete® Mikrocementa Sistēmas",
+      services: ["Luxury Concrete® mikrocementa grīdas", "Luxury Concrete® mikrocementa vannasistabas", "Luxury Concrete® mikrocementa sienas", "Metāliskās apdares", "Limecrete tadelakt mikrocements", "Mikrocementa uzstādīšanas apmācība"],
+    },
+    lt: {
+      description: "Aukščiausios kokybės mikrocemento studija Tartu, Estijoje. Kuusdisain yra oficialus Luxury Concrete® platintojas Estijoje. Besiūlės grindys, vandeniui atsparūs vonios kambariai ir dekoratyvinės sienos.",
+      catalog: "Luxury Concrete® Mikrocemento Sistemos",
+      services: ["Luxury Concrete® mikrocemento grindys", "Luxury Concrete® mikrocemento vonios kambariai", "Luxury Concrete® mikrocemento sienos", "Metalinės apdailos", "Limecrete tadelakt mikrocementas", "Mikrocemento montavimo mokymai"],
+    },
+    en: {
+      description: "Premium microcement studio in Tartu, Estonia. Kuusdisain is the official LUXURY CONCRETE® reseller in Estonia. Seamless floors, waterproof bathrooms and decorative walls.",
+      catalog: "Luxury Concrete® Microcement Systems",
+      services: ["Luxury Concrete® microcement floors", "Luxury Concrete® microcement bathrooms", "Luxury Concrete® microcement walls", "Metallic finishes", "Limecrete tadelakt microcement", "Microcement installation training"],
+    },
+  };
+  const s = SCHEMA_I18N[lang] ?? SCHEMA_I18N.en;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     "name": "KUUS DESIGN",
-    "description": lang === "et"
-      ? "Premium Basebeton mikrotsemendi stuudio Tartus. Vuugivabad põrandad, veekindlad vannitoad ja dekoratiivseinad. EC1 Plus sertifitseeritud."
-      : "Premium Basebeton microcement studio in Tartu, Estonia. Seamless floors, waterproof bathrooms and decorative walls. EC1 Plus certified.",
+    "description": s.description,
+    "brand": { "@type": "Brand", "name": "Luxury Concrete®" },
     "image": `${BASE_URL}/hero.png`,
     "@id": BASE_URL,
     "url": BASE_URL,
@@ -119,7 +143,11 @@ export default async function RootLayout({
     "areaServed": [
       { "@type": "City", "name": "Tartu" },
       { "@type": "City", "name": "Tallinn" },
-      { "@type": "Country", "name": "Estonia" }
+      { "@type": "City", "name": "Riga" },
+      { "@type": "City", "name": "Vilnius" },
+      { "@type": "Country", "name": "Estonia" },
+      { "@type": "Country", "name": "Latvia" },
+      { "@type": "Country", "name": "Lithuania" }
     ],
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -129,15 +157,8 @@ export default async function RootLayout({
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": lang === "et" ? "Basebeton Mikrotsemendi Süsteemid" : "Basebeton Microcement Systems",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Basebeton mikrotsemendi põrandad" : "Basebeton microcement floors" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Basebeton mikrotsemendi vannitoad" : "Basebeton microcement bathrooms" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Basebeton mikrotsemendi seinad" : "Basebeton microcement walls" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Oxidestuc metalliline viimistlus" : "Oxidestuc metallic finish" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Natureplast savikrohv" : "Natureplast clay plaster" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": lang === "et" ? "Mikrotsemendi paigalduskoolitus" : "Microcement installation training" } }
-      ]
+      "name": s.catalog,
+      "itemListElement": s.services.map((name) => ({ "@type": "Offer", "itemOffered": { "@type": "Service", "name": name } }))
     },
     "sameAs": [
       "https://instagram.com/kuusdesign",

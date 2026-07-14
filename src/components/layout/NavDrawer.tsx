@@ -37,9 +37,9 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
   };
 
   const categories = [
-    { id: "basebeton-originale", image: "/assets/surfaces/microcemento.png", href: "/products/basebeton-originale", label: "Basebeton Originale" },
-    { id: "oxidestuc",           image: "/assets/surfaces/real-metals.png",  href: "/products/oxidestuc",           label: "Oxidestuc" },
-    { id: "stuccopuro",          image: "/assets/surfaces/summery.png",       href: "/products/stuccopuro",          label: "Stuccopuro" },
+    { id: "concrete", image: "/assets/pages/products/luxury-concrete/concrete/acabado-microcemento.webp", href: "/products/concrete", label: "Concrete" },
+    { id: "metallic", image: "/assets/pages/products/luxury-concrete/metallic/colorcrete-metal-diamond.webp",  href: "/products/metallic", label: "Metallic finishes" },
+    { id: "limecrete", image: "/assets/pages/products/luxury-concrete/limecrete/microcemento-sala-estar.webp", href: "/products/limecrete", label: "Limecrete" },
   ];
 
   const mainLinks = [
@@ -48,7 +48,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
     { id: "blog", href: "/blog" },
     { id: "projects", href: "/projects", sub: ["Gallery", "Stories", "Map"] },
     { id: "colors", href: "/colors" },
-    { id: "guide", href: "/guide/basebeton" },
+    { id: "guide", href: "/guide/luxury-concrete" },
     { id: "faq", href: "/faq" },
     { id: "business", href: "/business" },
     { id: "events", href: "/events" },
