@@ -9,6 +9,7 @@ import {
 } from "@/lib/validation";
 
 const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "kuusk.janar@icloud.com";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mkodgvzo";
 
 // HTML-escape values that we interpolate into the email template to neutralize
 // any HTML/script injection via name / email / phone / question fields.
@@ -99,23 +100,51 @@ export async function POST(req: NextRequest) {
     `;
 
     const apiKey = process.env.RESEND_API_KEY;
-    if (!apiKey) {
-      console.error("Resend API Key is missing from environment variables.");
-      return NextResponse.json(
-        { error: "Email service is currently unavailable. Please try again later." },
-        { status: 503 }
-      );
+
+    const results = await Promise.allSettled([
+      apiKey
+        ? new Resend(apiKey).emails.send({
+            from: "Studio AI <onboarding@resend.dev>",
+            to: STUDIO_EMAIL,
+            replyTo: email,
+            subject,
+            html,
+          })
+        : Promise.reject(new Error("RESEND_API_KEY is not configured")),
+      fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name,
+          email,
+          phone: phone || undefined,
+          message: question,
+          _subject: subject,
+          lang,
+        }),
+      }).then(async (res) => {
+        if (!res.ok) {
+          const body = await res.text().catch(() => "");
+          throw new Error(`Formspree responded ${res.status}: ${body}`);
+        }
+        return res.json();
+      }),
+    ]);
+
+    const [resendResult, formspreeResult] = results;
+    if (resendResult.status === "rejected") {
+      console.error("[/api/contact] Resend failed:", resendResult.reason);
+    }
+    if (formspreeResult.status === "rejected") {
+      console.error("[/api/contact] Formspree failed:", formspreeResult.reason);
     }
 
-    const resend = new Resend(apiKey);
-
-    await resend.emails.send({
-      from: "Studio AI <onboarding@resend.dev>",
-      to: STUDIO_EMAIL,
-      replyTo: email,
-      subject,
-      html,
-    });
+    if (resendResult.status === "rejected" && formspreeResult.status === "rejected") {
+      return NextResponse.json(
+        { error: "Failed to send email" },
+        { status: 500 }
+      );
+    }
 
     return NextResponse.json({ success: true }, { headers: rateLimitHeaders(rl) });
   } catch (err) {

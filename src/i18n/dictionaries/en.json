@@ -32,7 +32,7 @@
       },
       "contact": {
         "title": "Contact | KUUS DESIGN Microcement Studio – Tartu",
-        "description": "Get in touch with KUUS DESIGN for microcement consultations, project quotes and Luxury Concrete® product enquiries. Studio in Tartu. studio@kuusdesign.ee"
+        "description": "Get in touch with KUUS DESIGN for microcement consultations, project quotes and Luxury Concrete® product enquiries. Studio in Tartu. Fill out the inquiry form."
       },
       "events": {
         "title": "Microcement Training Workshops | KUUS DESIGN Tartu",
@@ -105,9 +105,9 @@
   "contact": {
     "title": "Get in touch",
     "subtitle": "Tell us about the project — room type, size, what you're going for. We'll come back with honest advice.",
-    "email": "studio@ateliermicro.com",
+    "email": "Fill out the inquiry form",
     "address": "124 Mineral St, Tartu 51003",
-    "tel": "+372 55586956",
+    "tel": "+372 56103001",
     "cta": "Send message"
   },
   "blog": {

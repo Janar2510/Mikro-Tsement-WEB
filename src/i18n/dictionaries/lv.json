@@ -32,7 +32,7 @@
       },
       "contact": {
         "title": "Kontakti | KUUS DESIGN Mikrocementa Studija – Tartu",
-        "description": "Sazinies ar KUUS DESIGN par mikrocementa konsultācijām, projektu piedāvājumiem un Luxury Concrete® produktu jautājumiem. Studija Tartu. studio@kuusdesign.ee"
+        "description": "Sazinies ar KUUS DESIGN par mikrocementa konsultācijām, projektu piedāvājumiem un Luxury Concrete® produktu jautājumiem. Studija Tartu. Aizpildi pieprasījuma anketu."
       },
       "events": {
         "title": "Mikrocementa Apmācības Semināri | KUUS DESIGN Tartu",
@@ -105,9 +105,9 @@
   "contact": {
     "title": "Sazinies ar mums",
     "subtitle": "Pastāsti mums par projektu — telpas veids, izmērs, ko vēlies sasniegt. Mēs atbildēsim ar godīgu padomu.",
-    "email": "studio@kuusdesign.ee",
+    "email": "Aizpildi pieprasījuma anketu",
     "address": "Mineral tn 124, Tartu 51003",
-    "tel": "+372 55586956",
+    "tel": "+372 56103001",
     "cta": "Nosūtīt ziņu"
   },
   "blog": {
