@@ -92,7 +92,7 @@ export default async function StoryPage({
         </div>
       </section>
 
-      <ThankYou dict={dict.thank_you} />
+      <ThankYou dict={dict.thank_you} lang={lang} />
 
       <Footer lang={lang} navDict={dict.navigation} footerDict={dict.footer} />
     </main>

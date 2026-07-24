@@ -6,6 +6,7 @@ import Image from "next/image";
 import { X } from "lucide-react";
 
 import { usePathname } from "next/navigation";
+import { brandName } from "@/lib/brand";
 
 interface NavDrawerProps {
   isOpen: boolean;
@@ -82,7 +83,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
                 <Link href={`/${lang}`} className="block w-32 md:w-40" onClick={onClose}>
                   <Image 
                     src="/assets/brand/logos/Micro Logo.png"
-                    alt="KUUS DESIGN Logo"
+                    alt={`${brandName(lang)} Logo`}
                     width={160}
                     height={48}
                     style={{ width: "100%", height: "auto" }}
@@ -166,7 +167,7 @@ export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {
               {/* Footer */}
               <div className="mt-auto pt-8 border-t border-border flex justify-end">
                 <p className="text-[10px] uppercase tracking-widest text-foreground/30">
-                  EST 2024 • KUUS DESIGN
+                  EST 2024 • {brandName(lang)}
                 </p>
               </div>
             </div>

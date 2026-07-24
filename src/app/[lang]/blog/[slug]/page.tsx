@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { brandName } from "@/lib/brand";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { BlogDetailsUI } from "@/components/blog/BlogDetailsUI";
@@ -55,10 +56,10 @@ export default async function BlogPostPage({
     "image": `${BASE_URL}${post.image}`,
     "datePublished": post.date,
     "dateModified": post.date,
-    "author": { "@type": "Organization", "name": "KUUS DESIGN", "url": BASE_URL },
+    "author": { "@type": "Organization", "name": brandName(lang), "url": BASE_URL },
     "publisher": {
       "@type": "Organization",
-      "name": "KUUS DESIGN",
+      "name": brandName(lang),
       "logo": { "@type": "ImageObject", "url": `${BASE_URL}/assets/brand/logos/Micro Logo.png` },
     },
     "mainEntityOfPage": { "@type": "WebPage", "@id": `${BASE_URL}/${lang}/blog/${slug}` },

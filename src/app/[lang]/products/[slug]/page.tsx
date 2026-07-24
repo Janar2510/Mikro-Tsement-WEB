@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { brandName } from "@/lib/brand";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ProductDetailsUI } from "@/components/products/ProductDetailsUI";
@@ -52,7 +53,7 @@ export default async function ProductDetailPage({
     "@type": "Service",
     "name": product.name,
     "description": product.description,
-    "provider": { "@type": "LocalBusiness", "name": "KUUS DESIGN", "url": BASE_URL },
+    "provider": { "@type": "LocalBusiness", "name": brandName(lang), "url": BASE_URL },
     "url": `${BASE_URL}/${lang}/products/${slug}`,
     "image": product.gallery?.[0] ? `${BASE_URL}${product.gallery[0]}` : `${BASE_URL}/hero.png`,
   };

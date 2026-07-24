@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { brandName } from "@/lib/brand";
 
 interface FooterProps {
   lang: string;
@@ -49,7 +50,7 @@ export function Footer({ lang, navDict, footerDict }: FooterProps) {
           <Link href={`/${lang}`} className="block w-40">
             <Image
               src="/assets/brand/logos/Micro Logo.png"
-              alt="KUUS DESIGN Logo"
+              alt={`${brandName(lang)} Logo`}
               width={160}
               height={48}
               className="brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
@@ -129,7 +130,7 @@ export function Footer({ lang, navDict, footerDict }: FooterProps) {
       </div>
 
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-background/20 flex flex-col md:flex-row justify-between items-center text-xs font-sans text-background/50 uppercase tracking-widest">
-        <p>© {new Date().getFullYear()} KUUS DESIGN. {footerDict?.rights || "All Rights Reserved."}</p>
+        <p>© {new Date().getFullYear()} {brandName(lang)}. {footerDict?.rights || "All Rights Reserved."}</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <Link href={`/${lang}/terms`} className="hover:opacity-100 transition-opacity">
             {footerDict?.terms || "Terms"}

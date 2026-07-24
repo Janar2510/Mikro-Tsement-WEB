@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { brandName } from "@/lib/brand";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -26,18 +27,19 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   const dict = await getDictionary(lang);
   const seo = dict.seo.global;
+  const brand = brandName(lang);
 
   return {
     metadataBase: new URL(BASE_URL),
     title: {
       default: seo.title,
-      template: `%s | KUUS DESIGN`,
+      template: `%s | ${brand}`,
     },
     description: seo.description,
     keywords: seo.keywords.split(',').map((k: string) => k.trim()),
-    authors: [{ name: "KUUS DESIGN" }],
-    creator: "KUUS DESIGN",
-    publisher: "KUUS DESIGN",
+    authors: [{ name: brand }],
+    creator: brand,
+    publisher: brand,
     robots: {
       index: true,
       follow: true,
@@ -47,13 +49,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       title: seo.title,
       description: seo.description,
       url: `${BASE_URL}/${lang}`,
-      siteName: "KUUS DESIGN",
+      siteName: brand,
       images: [
         {
           url: `${BASE_URL}/hero.png`,
           width: 1200,
           height: 630,
-          alt: "KUUS DESIGN Premium Surfaces",
+          alt: `${brand} Premium Surfaces`,
         },
       ],
       locale: OG_LOCALES[lang] ?? 'en_US',
@@ -119,7 +121,7 @@ export default async function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
-    "name": "KUUS DESIGN",
+    "name": brandName(lang),
     "description": s.description,
     "brand": { "@type": "Brand", "name": "Luxury Concrete®" },
     "image": `${BASE_URL}/hero.png`,

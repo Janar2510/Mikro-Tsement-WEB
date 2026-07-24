@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
+import { brandName } from "@/lib/brand";
 import {
   motion,
   useMotionValue,
@@ -285,7 +286,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
           >
             <Image
               src="/assets/pages/story/about-us-picture.jpg"
-              alt="KUUS DESIGN Atelier"
+              alt={`${brandName(lang)} Atelier`}
               fill
               className="object-cover"
               priority
@@ -339,7 +340,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
             className="text-[7px] uppercase tracking-[0.4em] text-foreground/25 font-bold"
             style={{ writingMode: "vertical-rl" }}
           >
-            KUUS DESIGN
+            {brandName(lang)}
           </span>
           <div className="w-px h-14 bg-foreground/12" />
         </motion.div>
@@ -367,7 +368,7 @@ export function StoryHero({ title, subtitle, lang }: StoryHeroProps) {
         animate={{ clipPath: "inset(0 0% 0 0)" }}
         transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
       >
-        <Image src="/assets/pages/story/about-us-picture.jpg" alt="KUUS DESIGN" fill className="object-cover object-center" />
+        <Image src="/assets/pages/story/about-us-picture.jpg" alt={brandName(lang)} fill className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
       </motion.div>
     </section>

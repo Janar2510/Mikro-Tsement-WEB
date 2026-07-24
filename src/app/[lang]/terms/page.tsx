@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { brandName } from "@/lib/brand";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SectionHero } from "@/components/layout/SectionHero";
@@ -11,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   const dict = await getDictionary(lang);
   return {
-    title: `${dict.terms.title} | Kuus Design`,
+    title: `${dict.terms.title} | ${brandName(lang)}`,
     description: dict.terms.subtitle,
     alternates: {
       canonical: `${BASE_URL}/${lang}/terms`,

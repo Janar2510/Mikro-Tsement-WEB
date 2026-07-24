@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { brandName } from "@/lib/brand";
 
-export function ThankYou({ dict }: { dict: any }) {
+export function ThankYou({ dict, lang }: { dict: any; lang: string }) {
   return (
     <section className="py-32 md:py-56 bg-foreground text-background text-center overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative">
@@ -26,7 +27,7 @@ export function ThankYou({ dict }: { dict: any }) {
         
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10">
            <span className="text-[20vw] font-serif italic text-white/5 whitespace-nowrap select-none">
-             KUUS DESIGN
+             {brandName(lang)}
            </span>
         </div>
       </div>

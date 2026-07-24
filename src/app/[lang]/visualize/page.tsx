@@ -1,4 +1,5 @@
 import { getDictionary } from "@/i18n/get-dictionary";
+import { brandName } from "@/lib/brand";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import MicrocementPreview from "@/components/microcement-preview/MicrocementPreview";
@@ -34,7 +35,7 @@ const LABELS: Record<string, string> = {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   return {
-    title: `${TITLES[lang] ?? TITLES.en} | KUUS DESIGN`,
+    title: `${TITLES[lang] ?? TITLES.en} | ${brandName(lang)}`,
     description: SUBTITLES[lang] ?? SUBTITLES.en,
   };
 }

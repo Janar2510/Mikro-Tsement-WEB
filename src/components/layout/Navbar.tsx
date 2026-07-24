@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, Sparkles, Camera } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { brandName } from "@/lib/brand";
 import { NavDrawer } from "./NavDrawer";
 import { AIAssistant } from "@/components/search/AIAssistant";
 
@@ -42,7 +43,7 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
           <Link href={`/${lang}`} className="relative z-50 block w-40 md:w-48">
             <Image 
               src="/assets/brand/logos/Micro Logo.png"
-              alt="KUUS DESIGN Logo"
+              alt={`${brandName(lang)} Logo`}
               width={200}
               height={60}
               className={cn(
