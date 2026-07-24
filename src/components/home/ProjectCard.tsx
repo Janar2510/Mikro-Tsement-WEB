@@ -26,12 +26,13 @@ export function ProjectCard({ name, location, description, image, href, idx, lab
       viewport={{ once: true }}
       transition={{ duration: 0.8, delay: idx * 0.1 }}
     >
-      <Link href={href} className="relative aspect-[3/4] lg:aspect-[4/5] overflow-hidden bg-muted">
+      <Link href={href} className="relative aspect-[16/11] sm:aspect-[4/3] max-h-[520px] overflow-hidden bg-muted rounded-sm block">
         <Image
           src={image}
           alt={name || "Project image"}
           fill
-          className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-center transition-transform duration-[1.5s] ease-out group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-colors duration-700" />
         <div className="absolute top-6 left-6 flex flex-col">
