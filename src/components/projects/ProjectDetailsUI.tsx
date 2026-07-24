@@ -43,7 +43,7 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
 
   return (
     <>
-      <div className="relative h-[85vh] w-full bg-muted/30 overflow-hidden">
+      <div className="relative h-[55vh] md:h-[65vh] max-h-[650px] w-full bg-muted/30 overflow-hidden">
         <motion.div
           initial={{ scale: 1.05 }}
           animate={{ scale: 1 }}
@@ -54,7 +54,7 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
             src={coverImage} 
             alt={project.name} 
             fill 
-            className="object-cover"
+            className="object-cover object-center"
             priority
           />
         </motion.div>
@@ -145,7 +145,7 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
                      {galleryImages.map((img, idx) => (
                        <motion.div 
                          key={idx}
-                         className="relative bg-muted overflow-hidden rounded-md"
+                         className="relative bg-muted overflow-hidden rounded-md aspect-[4/3] max-h-[550px]"
                          initial={{ opacity: 0, y: 20 }}
                          whileInView={{ opacity: 1, y: 0 }}
                          viewport={{ once: true }}
@@ -153,9 +153,9 @@ export function ProjectDetailsUI({ project, lang, slug, labels }: ProjectDetails
                           <Image 
                             src={img} 
                             alt={`${project.name} - Detail ${idx + 1}`} 
-                            width={1200}
-                            height={1600}
-                            className="w-full h-auto object-cover"
+                            fill
+                            sizes="(max-width: 1024px) 100vw, 50vw"
+                            className="object-cover object-center"
                           />
                        </motion.div>
                      ))}

@@ -129,9 +129,9 @@ export default async function RootLayout({
     "priceRange": "€€€",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Mineral tn 124",
+      "streetAddress": "Sõpruse puiestee 5",
       "addressLocality": "Tartu",
-      "postalCode": "51003",
+      "postalCode": "50605",
       "addressCountry": "EE"
     },
     "geo": {
