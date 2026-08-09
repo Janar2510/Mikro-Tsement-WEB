@@ -88,9 +88,8 @@ export function Hero({ dict, lang }: HeroProps) {
           initial="hidden"
           animate="visible"
           variants={{
-            hidden: { opacity: 0 },
+            hidden: {},
             visible: {
-              opacity: 1,
               transition: { staggerChildren: 0.15, delayChildren: 0.2 },
             },
           }}
@@ -100,9 +99,8 @@ export function Hero({ dict, lang }: HeroProps) {
               key={i}
               className="inline-block"
               variants={{
-                hidden: { opacity: 0, y: 40, skewY: 5 },
+                hidden: { y: 40, skewY: 5 },
                 visible: {
-                  opacity: 1,
                   y: 0,
                   skewY: 0,
                   transition: { duration: 1, ease: [0.16, 1, 0.3, 1] },

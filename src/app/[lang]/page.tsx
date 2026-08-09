@@ -39,7 +39,7 @@ export default async function Home({
 
   return (
     <>
-    <link rel="preload" href="/assets/pages/home/home-hero.mp4?v=2" as="video" type="video/mp4" />
+    <link rel="preload" href="/assets/pages/home/hero-poster.jpg" as="image" fetchPriority="high" />
     <main>
       <Navbar 
         lang={lang} 
