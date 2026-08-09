@@ -5,8 +5,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ProductColorsUI } from "@/components/colors/ProductColorsUI";
 
-const BASE_URL = "https://kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+const BASE_URL = "https://www.kuusdisain.ee";
+const LOCALES = ["et", "en", "lv", "lt"];
 
 // Colour-collection slugs and product slugs are different taxonomies (one
 // collection can supply several products, e.g. "colorcrete" is used by

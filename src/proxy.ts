@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const locales = ["en", "et", "de", "ru", "es", "fr", "lv", "lt"];
+const locales = ["et", "en", "lv", "lt"];
+// Locales we used to build (as untranslated English duplicates). Permanently
+// redirect them to the default locale so they stop being crawled/indexed.
+const retiredLocales = ["de", "ru", "es", "fr"];
 const defaultLocale = "et";
 
 export function proxy(request: NextRequest) {
@@ -13,6 +16,15 @@ export function proxy(request: NextRequest) {
     pathname.startsWith("/api");
 
   if (isStaticFile) return NextResponse.next();
+
+  const firstSegment = pathname.split("/")[1];
+  if (retiredLocales.includes(firstSegment)) {
+    const rest = pathname.slice(firstSegment.length + 1); // "" or "/products/…"
+    return NextResponse.redirect(
+      new URL(`/${defaultLocale}${rest}`, request.url),
+      301
+    );
+  }
 
   const pathnameIsMissingLocale = locales.every(
     (locale) =>

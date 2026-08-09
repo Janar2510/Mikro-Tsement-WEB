@@ -6,8 +6,8 @@ import { Footer } from "@/components/layout/Footer";
 import { ProductDetailsUI } from "@/components/products/ProductDetailsUI";
 import { notFound } from "next/navigation";
 
-const BASE_URL = "https://kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+const BASE_URL = "https://www.kuusdisain.ee";
+const LOCALES = ["et", "en", "lv", "lt"];
 
 export async function generateMetadata({
   params,

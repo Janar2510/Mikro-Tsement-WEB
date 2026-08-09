@@ -15,15 +15,13 @@ interface NavDrawerProps {
   navDict?: any;
 }
 
-const LANGUAGES = ["EN", "ET", "DE", "RU", "ES", "FR"];
+const LANGUAGES = ["ET", "EN", "LV", "LT"];
 
 const LANGUAGE_FLAGS: Record<string, string> = {
-  EN: "🇬🇧",
   ET: "🇪🇪",
-  DE: "🇩🇪",
-  RU: "🇷🇺",
-  ES: "🇪🇸",
-  FR: "🇫🇷",
+  EN: "🇬🇧",
+  LV: "🇱🇻",
+  LT: "🇱🇹",
 };
 
 export function NavDrawer({ isOpen, onClose, lang, navDict }: NavDrawerProps) {

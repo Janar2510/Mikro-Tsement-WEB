@@ -6,8 +6,8 @@ import { SectionHero } from "@/components/layout/SectionHero";
 import { Accordion } from "@/components/ui/Accordion";
 import { AnimatedText } from "@/components/ui/animated-text";
 
-const BASE_URL = "https://kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+const BASE_URL = "https://www.kuusdisain.ee";
+const LOCALES = ["et", "en", "lv", "lt"];
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;

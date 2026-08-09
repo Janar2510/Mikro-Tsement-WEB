@@ -19,8 +19,8 @@ const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const BASE_URL = "https://kuusdisain.ee";
-const LOCALES = ["et", "en", "de", "ru", "es", "fr", "lv", "lt"];
+const BASE_URL = "https://www.kuusdisain.ee";
+const LOCALES = ["et", "en", "lv", "lt"];
 const OG_LOCALES: Record<string, string> = { et: "et_EE", en: "en_US", de: "de_DE", ru: "ru_RU", es: "es_ES", fr: "fr_FR", lv: "lv_LV", lt: "lt_LT" };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -84,6 +84,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export async function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
 }
+
+// Only the four translated locales exist — anything else 404s instead of
+// rendering duplicate English content that Google refuses to index.
+export const dynamicParams = false;
 
 export default async function RootLayout({
   children,
