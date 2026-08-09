@@ -90,7 +90,7 @@ export function TimelessCollection({ dict, lang }: { dict: any; lang: string }) 
                 loop
                 muted
                 playsinline
-                preload="auto"
+                preload="none"
                 src="${'/assets/pages/products/product-videos.mp4'}"
                 poster="/assets/pages/products/product-videos-poster.jpg"
                 class="w-full h-full object-cover"

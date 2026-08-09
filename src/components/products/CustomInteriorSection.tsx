@@ -93,7 +93,7 @@ export function CustomInteriorSection({ dict }: CustomInteriorSectionProps) {
                 loop
                 muted
                 playsinline
-                preload="auto"
+                preload="none"
                 src="${'/assets/pages/home/home-hero-2.mp4'}"
                 poster="/assets/pages/home/surfaces-poster.jpg"
                 class="w-full h-full object-cover"

@@ -71,7 +71,7 @@ export function Hero({ dict, lang }: HeroProps) {
                 loop
                 muted
                 playsinline
-                preload="auto"
+                preload="none"
                 src="${VIDEO_SRC}"
                 poster="/assets/pages/home/hero-poster.jpg"
                 class="w-full h-full object-cover"

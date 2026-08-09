@@ -85,7 +85,7 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
             <button
               onClick={() => setIsDrawerOpen(true)}
               className="group flex items-center gap-3 p-2 focus:outline-none"
-              aria-label="Open menu"
+              aria-label={navDict?.menu || (lang === 'et' ? "Menüü" : "Menu")}
             >
               <span className="hidden md:block text-[10px] uppercase font-bold tracking-[0.2em] group-hover:opacity-60 transition-opacity">
                 {navDict?.menu || (lang === 'et' ? "Menüü" : "Menu")}
@@ -97,7 +97,7 @@ export function Navbar({ lang, navDict, aiDict, isDark = false }: NavbarProps) {
             <button
                onClick={() => setIsAIOpen(true)}
                className="flex items-center gap-3 p-2 focus:outline-none group"
-               aria-label="Open AI Assistant"
+               aria-label={aiDict?.trigger || "AI"}
             >
                <span className="hidden md:block text-[10px] uppercase font-bold tracking-[0.2em] group-hover:opacity-60 transition-opacity">
                  {aiDict?.trigger || "AI"}

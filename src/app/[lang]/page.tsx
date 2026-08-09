@@ -51,7 +51,7 @@ export default async function Home({
       <Philosophy dict={dict.philosophy} />
       <Surfaces dict={dict.surfaces_collection} lang={lang} />
       <TimelessCollection dict={dict.timeless_collection} lang={lang} />
-      <DecoWalls dict={dict.deco_walls_collection} />
+      <DecoWalls dict={dict.deco_walls_collection} lang={lang} />
       <Methodology dict={dict.methodology} />
       <VisualizeCTA lang={lang} dict={dict.visualize_cta} />
       <CTA dict={dict.cta_section} lang={lang} />

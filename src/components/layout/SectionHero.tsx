@@ -69,7 +69,7 @@ export function SectionHero({ title, subtitle, backgroundImage, backgroundVideo,
                 loop
                 muted
                 playsinline
-                preload="auto"
+                preload="none"
                 src="${backgroundVideo}"
                 poster=""
                 class="w-full h-full object-cover"

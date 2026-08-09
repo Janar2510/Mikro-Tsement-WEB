@@ -11,7 +11,9 @@ interface DecoItem {
   tag: string;
 }
 
-export function DecoWalls({ dict }: { dict: any }) {
+export function DecoWalls({ dict, lang }: { dict: any; lang: string }) {
+  const prevLabel = lang === 'et' ? 'Eelmine' : lang === 'lv' ? 'Iepriekšējais' : lang === 'lt' ? 'Ankstesnis' : 'Previous';
+  const nextLabel = lang === 'et' ? 'Järgmine' : lang === 'lv' ? 'Nākamais' : lang === 'lt' ? 'Kitas' : 'Next';
   const heroRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -134,7 +136,7 @@ export function DecoWalls({ dict }: { dict: any }) {
                 loop
                 muted
                 playsinline
-                preload="auto"
+                preload="none"
                 src="${'/assets/pages/home/deco-hero.mp4'}"
                 poster="/assets/pages/home/deco-hero-poster.jpg"
                 class="w-full h-full object-cover"
@@ -173,7 +175,7 @@ export function DecoWalls({ dict }: { dict: any }) {
       <section className="py-24 md:py-40 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 mb-12 flex justify-between items-end">
           <div className="space-y-4">
-            <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/20 italic">
+            <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-foreground/70 italic">
               — {dict.collection_label}
             </span>
             <h3 className="font-serif text-3xl md:text-4xl uppercase italic tracking-tight">
@@ -185,6 +187,7 @@ export function DecoWalls({ dict }: { dict: any }) {
             <button 
               onClick={() => scroll("left")}
               disabled={!canScrollLeft}
+              aria-label={prevLabel}
               className={`p-4 border border-border rounded-full transition-all ${!canScrollLeft ? 'opacity-20 cursor-not-allowed' : 'hover:bg-foreground hover:text-white'}`}
             >
               <ChevronLeft className="w-5 h-5" />
@@ -192,6 +195,7 @@ export function DecoWalls({ dict }: { dict: any }) {
             <button 
               onClick={() => scroll("right")}
               disabled={!canScrollRight}
+              aria-label={nextLabel}
               className={`p-4 border border-border rounded-full transition-all ${!canScrollRight ? 'opacity-20 cursor-not-allowed' : 'hover:bg-foreground hover:text-white'}`}
             >
               <ChevronRight className="w-5 h-5" />
