@@ -1,58 +1,48 @@
-# KUUS DESIGN — llms.txt
-# Premium Luxury Concrete® Microcement Studio, Tartu, Estonia
-# https://kuusdisain.ee
+# KUUS DISAIN
 
-## About
-KUUS DESIGN is a premium microcement studio based in Tartu, Estonia. Kuusdisain is the official LUXURY CONCRETE® reseller in Estonia, supplying and installing handcrafted Luxury Concrete® mineral surfaces for luxury residential and commercial interiors.
+> KUUS DISAIN (English: KUUS DESIGN) is a premium microcement studio in Tartu, Estonia, and the official LUXURY CONCRETE® reseller in Estonia. We supply and install handcrafted Luxury Concrete® mineral surfaces for luxury residential and commercial interiors — seamless floors, waterproof bathrooms, and decorative walls.
 
-## What We Do
-- Luxury Concrete® microcement flooring (seamless, over existing tiles, underfloor heating compatible)
-- Luxury Concrete® microcement bathrooms (waterproof, zero-demolition renovation)
+## Key pages
+- [Homepage](https://www.kuusdisain.ee/et): studio overview and featured surfaces
+- [Products](https://www.kuusdisain.ee/et/products): full Luxury Concrete® microcement system catalogue
+- [Colours](https://www.kuusdisain.ee/et/colors): seven curated collections, 78+ colours
+- [Projects](https://www.kuusdisain.ee/et/projects): completed installations and case studies
+- [Journal / Blog](https://www.kuusdisain.ee/et/blog): articles on microcement, materials, and interiors
+- [Events & Workshops](https://www.kuusdisain.ee/et/events): installer training and certification
+- [Guide](https://www.kuusdisain.ee/et/guide/luxury-concrete): how Luxury Concrete® microcement works
+- [FAQ](https://www.kuusdisain.ee/et/faq): common questions about microcement
+- [Business & commercial](https://www.kuusdisain.ee/et/business): architect and developer projects
+- [Contact](https://www.kuusdisain.ee/et/contact): enquiry form and studio details
+
+## What we do
+- Luxury Concrete® microcement flooring — seamless, over existing tiles, underfloor-heating compatible
+- Luxury Concrete® microcement bathrooms — waterproof, zero-demolition renovation
 - Luxury Concrete® microcement walls and feature surfaces
-- Metallic wall finishes (Oxid Metal, True Metal, Colorcrete Metal)
-- Limecrete lime-based tadelakt surfaces (vapour-permeable, natural)
+- Metallic wall finishes — Oxid Metal, True Metal, Colorcrete Metal
+- Limecrete lime-based tadelakt surfaces — vapour-permeable, natural
 - Mineral furniture and custom objects
-- Professional microcement installation training and certification (Tartu studio)
+- Professional microcement installation training and certification
 
-## Product Range (Luxury Concrete®, Spanish manufacturer)
-- Concrete — two-component system (Base, Wall, Floor, Stone, Pool), floors/walls/outdoor/pools
-- Monocrete — one-component system (Base, Wall, Floor)
-- Easycret — ready-to-use paste (Thin, Basic, Medium)
-- Concrete Pox — epoxy system, 16 colours, high abrasion resistance
-- Limecrete — lime-based tadelakt system, 34-colour chart
-- Metallic finishes — Colorcrete Metal, Oxid Metal, True Metal
-- Primers — Primacrete family, IMPOXY®
-- Sealers — Concrete Finish family, Primacrete Finish
-- Pigments — Colorcrete BASE and MIX
-- Care — Concrete CLEAN, PRO CLEAN, WAX, PRO WAX
-- Tools — fibreglass mesh, trowels, texture rollers
+## Product range (Luxury Concrete®, Spanish manufacturer)
+- [Concrete](https://www.kuusdisain.ee/et/products/concrete): two-component system for floors, walls, outdoor, pools
+- [Monocrete](https://www.kuusdisain.ee/et/products/monocrete): one-component system (Base, Wall, Floor)
+- [Easycret](https://www.kuusdisain.ee/et/products/easycret): ready-to-use paste (Thin, Basic, Medium)
+- [Concrete Pox](https://www.kuusdisain.ee/et/products/concrete-pox): epoxy system, high abrasion resistance
+- [Limecrete](https://www.kuusdisain.ee/et/products/limecrete): lime-based tadelakt system
+- [Metallic](https://www.kuusdisain.ee/et/products/metallic): Colorcrete Metal, Oxid Metal, True Metal
+- [Primers](https://www.kuusdisain.ee/et/products/primers), [Sealers](https://www.kuusdisain.ee/et/products/sealers), [Pigments](https://www.kuusdisain.ee/et/products/pigments), [Care](https://www.kuusdisain.ee/et/products/care), [Tools](https://www.kuusdisain.ee/et/products/tools)
 
-## Colour Palette
-Seven curated collections, 78+ colours (Colorcrete, True Metal, Oxid Metal, Gemstone, Glowing, Concrete Pox, Limecrete).
-Full palette: https://kuusdisain.ee/et/colors
-
-## Service Area
-Tartu, Estonia. Serving all of Estonia and the wider Baltic region (Latvia, Lithuania), plus the EU.
-
-## Contact
-Contact form: https://kuusdisain.ee/et/contact
-Phone: +372 555 124 12
-Address: Mineral tn 124, Tartu 51003, Estonia
-Studio hours: Mon–Fri 09:00–18:00
-
-## Key Pages
-- Homepage: https://kuusdisain.ee/et
-- All Products: https://kuusdisain.ee/et/products
-- Colours: https://kuusdisain.ee/et/colors
-- Projects: https://kuusdisain.ee/et/projects
-- Blog / Journal: https://kuusdisain.ee/et/blog
-- Events / Workshops: https://kuusdisain.ee/et/events
-- FAQ: https://kuusdisain.ee/et/faq
-- Guide: https://kuusdisain.ee/et/guide/luxury-concrete
-- Contact: https://kuusdisain.ee/et/contact
+## Service area
+Tartu, Estonia — serving all of Estonia and the wider Baltic region (Latvia, Lithuania) and the EU.
 
 ## Languages
-Estonian (et) — primary, English (en), Latvian (lv), Lithuanian (lt), German (de), Russian (ru), Spanish (es), French (fr)
+Estonian (et, primary), English (en), Latvian (lv), Lithuanian (lt).
+
+## Contact
+- Enquiry form: [Contact](https://www.kuusdisain.ee/et/contact)
+- Phone: +372 56103001
+- Address: Sõpruse puiestee 5, 50605 Tartu, Estonia
+- Studio hours: Mon–Fri 09:00–18:00
 
 ## Brand
-Est. 2024. Studio philosophy: quiet luxury through material honesty. Every surface is hand-troweled by certified applicators, installed using professional Luxury Concrete® microcement systems. Kuusdisain is the official LUXURY CONCRETE® reseller in Estonia.
+Established 2024. Philosophy: quiet luxury through material honesty. Every surface is hand-troweled by certified applicators using professional Luxury Concrete® microcement systems. KUUS DISAIN is the official LUXURY CONCRETE® reseller in Estonia.
