@@ -174,7 +174,7 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
     e.preventDefault();
     setContact((c) => ({ ...c, submitting: true }));
     try {
-      await fetch("/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -185,6 +185,7 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
           lang,
         }),
       });
+      if (!res.ok) throw new Error(String(res.status));
       setContact((c) => ({ ...c, submitting: false, submitted: true }));
       // Add confirmation message to chat
       const confirmMsg = dict.confirm_sent ?? "Your details have been sent. Our team will be in touch shortly. ✦";
@@ -192,6 +193,15 @@ export function AIAssistant({ isOpen, onClose, lang, dict }: AIAssistantProps) {
       setTimeout(() => setContact((c) => ({ ...c, show: false })), 500);
     } catch {
       setContact((c) => ({ ...c, submitting: false }));
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "assistant",
+          content: lang === "et"
+            ? "Saatmine ebaõnnestus. Palun proovi uuesti."
+            : "Sending failed. Please try again.",
+        },
+      ]);
     }
   };
 

@@ -8,8 +8,7 @@ import {
   ValidationError,
 } from "@/lib/validation";
 
-const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "kuusk.janar@icloud.com";
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/mkodgvzo";
+const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "sales@kuusdisain.ee";
 
 // HTML-escape values that we interpolate into the email template to neutralize
 // any HTML/script injection via name / email / phone / question fields.
@@ -39,6 +38,14 @@ export async function POST(req: NextRequest) {
     const phone = optionalString(body?.phone, "phone", { max: 50 });
     const question = requireString(body?.question, "question", { min: 1, max: 5_000 });
     const lang = body?.lang === "et" ? "et" : "en";
+    const projectType = optionalString(body?.projectType, "projectType", { max: 100 });
+    const area = optionalString(body?.area, "area", { max: 20 });
+    const timeline = optionalString(body?.timeline, "timeline", { max: 100 });
+    const extras = [
+      projectType && `${lang === "et" ? "Projekti tüüp" : "Project type"}: ${projectType}`,
+      area && `${lang === "et" ? "Pind" : "Area"}: ${area} m²`,
+      timeline && `${lang === "et" ? "Ajakava" : "Timeline"}: ${timeline}`,
+    ].filter(Boolean) as string[];
 
     const subject =
       lang === "et"
@@ -87,6 +94,7 @@ export async function POST(req: NextRequest) {
             </td>
             <td style="padding: 12px 0; padding-top: 20px; font-size: 14px; color: #0F172A; font-style: italic; line-height: 1.6;">
               "${esc(question)}"
+              ${extras.length ? `<br/><br/><span style="font-style: normal; font-size: 13px;">${extras.map(esc).join("<br/>")}</span>` : ""}
             </td>
           </tr>
         </table>
@@ -101,49 +109,22 @@ export async function POST(req: NextRequest) {
 
     const apiKey = process.env.RESEND_API_KEY;
 
-    const results = await Promise.allSettled([
-      apiKey
-        ? new Resend(apiKey).emails.send({
-            from: "Studio AI <onboarding@resend.dev>",
-            to: STUDIO_EMAIL,
-            replyTo: email,
-            subject,
-            html,
-          })
-        : Promise.reject(new Error("RESEND_API_KEY is not configured")),
-      fetch(FORMSPREE_ENDPOINT, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          name,
-          email,
-          phone: phone || undefined,
-          message: question,
-          _subject: subject,
-          lang,
-        }),
-      }).then(async (res) => {
-        if (!res.ok) {
-          const body = await res.text().catch(() => "");
-          throw new Error(`Formspree responded ${res.status}: ${body}`);
-        }
-        return res.json();
-      }),
-    ]);
-
-    const [resendResult, formspreeResult] = results;
-    if (resendResult.status === "rejected") {
-      console.error("[/api/contact] Resend failed:", resendResult.reason);
-    }
-    if (formspreeResult.status === "rejected") {
-      console.error("[/api/contact] Formspree failed:", formspreeResult.reason);
+    if (!apiKey) {
+      console.error("[/api/contact] RESEND_API_KEY is not configured");
+      return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
     }
 
-    if (resendResult.status === "rejected" && formspreeResult.status === "rejected") {
-      return NextResponse.json(
-        { error: "Failed to send email" },
-        { status: 500 }
-      );
+    const { error: sendError } = await new Resend(apiKey).emails.send({
+      from: "Studio AI <sales@kuusdisain.ee>",
+      to: STUDIO_EMAIL,
+      replyTo: email,
+      subject,
+      html,
+    });
+
+    if (sendError) {
+      console.error("[/api/contact] Resend failed:", sendError);
+      return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
     }
 
     return NextResponse.json({ success: true }, { headers: rateLimitHeaders(rl) });
