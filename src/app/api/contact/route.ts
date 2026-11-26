@@ -8,7 +8,7 @@ import {
   ValidationError,
 } from "@/lib/validation";
 
-const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "kuusk.janar@icloud.com";
+const STUDIO_EMAIL = process.env.STUDIO_EMAIL ?? "sales@kuusdisain.ee";
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mkodgvzo";
 
 // HTML-escape values that we interpolate into the email template to neutralize
@@ -39,6 +39,14 @@ export async function POST(req: NextRequest) {
     const phone = optionalString(body?.phone, "phone", { max: 50 });
     const question = requireString(body?.question, "question", { min: 1, max: 5_000 });
     const lang = body?.lang === "et" ? "et" : "en";
+    const projectType = optionalString(body?.projectType, "projectType", { max: 100 });
+    const area = optionalString(body?.area, "area", { max: 20 });
+    const timeline = optionalString(body?.timeline, "timeline", { max: 100 });
+    const extras = [
+      projectType && `${lang === "et" ? "Projekti tüüp" : "Project type"}: ${projectType}`,
+      area && `${lang === "et" ? "Pind" : "Area"}: ${area} m²`,
+      timeline && `${lang === "et" ? "Ajakava" : "Timeline"}: ${timeline}`,
+    ].filter(Boolean) as string[];
 
     const subject =
       lang === "et"
@@ -87,6 +95,7 @@ export async function POST(req: NextRequest) {
             </td>
             <td style="padding: 12px 0; padding-top: 20px; font-size: 14px; color: #0F172A; font-style: italic; line-height: 1.6;">
               "${esc(question)}"
+              ${extras.length ? `<br/><br/><span style="font-style: normal; font-size: 13px;">${extras.map(esc).join("<br/>")}</span>` : ""}
             </td>
           </tr>
         </table>
@@ -104,7 +113,7 @@ export async function POST(req: NextRequest) {
     const results = await Promise.allSettled([
       apiKey
         ? new Resend(apiKey).emails.send({
-            from: "Studio AI <onboarding@resend.dev>",
+            from: "Studio AI <sales@kuusdisain.ee>",
             to: STUDIO_EMAIL,
             replyTo: email,
             subject,
@@ -118,7 +127,7 @@ export async function POST(req: NextRequest) {
           name,
           email,
           phone: phone || undefined,
-          message: question,
+          message: extras.length ? `${question}\n\n${extras.join("\n")}` : question,
           _subject: subject,
           lang,
         }),

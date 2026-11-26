@@ -132,6 +132,7 @@ export default async function RootLayout({
     "@id": BASE_URL,
     "url": BASE_URL,
     "telephone": "+372 56103001",
+    "email": "info@kuusdisain.ee",
     "priceRange": "€€€",
     "address": {
       "@type": "PostalAddress",
